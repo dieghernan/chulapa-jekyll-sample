@@ -30,5 +30,5 @@ A list of all the posts and pages found on the site. For you robots out there is
 {% endunless %}
 
 {% include_cached components/indexcards.html cacheddocs=collection.docs %}
-{% for post in collection.docs %}
+
 {% endfor %}

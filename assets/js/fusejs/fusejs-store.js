@@ -4,6 +4,16 @@ MIT License
 From minimal-mistakes: https://github.com/mmistakes/minimal-mistakes/
 */
 var store = [{
+        "title": "Archive",
+        "subtitle": "",
+        "excerpt": "",
+        "content": "",
+        "categories": null,
+        "date": null,
+        "tags": null,
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/archive",
+        "img": null
+      },{
         "title": "Edge Case: Nested and Mixed Lists",
         "subtitle": "",
         "excerpt": "Nested and mixed lists are an interesting beast. It’s a corner case to make sure that",

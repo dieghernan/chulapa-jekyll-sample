@@ -10,14 +10,13 @@ author_profile: false
 A list of all the posts and pages found on the site. For you robots out there is an [XML version]({{ base_path }}/sitemap.xml) available for digesting as well.
 
 <h2>Pages</h2>
-{% for post in site.pages %}
-  {% include archive-single.html %}
-{% endfor %}
+
+{% include_cached components/indexcards.html cacheddocs=site.pages %}
+
 
 <h2>Posts</h2>
-{% for post in site.posts %}
-  {% include archive-single.html %}
-{% endfor %}
+
+{% include_cached components/indexcards.html cacheddocs=site.posts %}
 
 {% capture written_label %}'None'{% endcapture %}
 
@@ -29,9 +28,7 @@ A list of all the posts and pages found on the site. For you robots out there is
   {% capture written_label %}{{ label }}{% endcapture %}
   {% endif %}
 {% endunless %}
+
+{% include_cached components/indexcards.html cacheddocs=collection.docs %}
 {% for post in collection.docs %}
-  {% unless collection.output == false or collection.label == "posts" %}
-  {% include archive-single.html %}
-  {% endunless %}
-{% endfor %}
 {% endfor %}

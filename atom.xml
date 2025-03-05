@@ -3,7 +3,7 @@
 	<generator uri="https://dieghernan.github.io/chulapa" version="1.0.0">Chulapa</generator>
 	<link href="https://dieghernan.github.io/chulapa-jekyll-sample/atom.xml" rel="self" type="application/atom+xml" />
 	<link href="https://dieghernan.github.io/chulapa-jekyll-sample" rel="alternate" type="text/html" />
-	<updated>2025-03-05T22:04:32+00:00</updated>
+	<updated>2025-03-05T22:12:24+00:00</updated>
 	<id>https://dieghernan.github.io/chulapa-jekyll-sample/atom.xml</id>
 	<title>Chulapa Jekyll Sample | A test</title>
 	<subtitle>A test</subtitle>
@@ -2237,30 +2237,30 @@ Stairs? Were we’re going we don’t need no stairs.
 		<category term="posts"/>
 		<category term="Post Formats"/><category term="quote"/>
 	</entry><entry>
-		<title>Post: Notice</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/post-formats/post-notice.html" rel="alternate" type="text/html" title="Post: Notice"/>
+		<title>Post: Alert</title>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/post-formats/post-alert.html" rel="alternate" type="text/html" title="Post: Alert"/>
 		<published>2010-02-05T00:00:00+00:00</published>
 		<updated>2010-02-05T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/post-formats/post-notice.html</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/post-formats/post-notice.html">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/post-formats/post-alert.html</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/post-formats/post-alert.html">
 		
   		
 	&lt;p&gt;1 min.&lt;/p&gt;
-			&lt;p&gt;A notice displays information that explains nearby content. Often used to call attention to a particular detail.&lt;/p&gt;
+			&lt;p&gt;An alert displays information that explains nearby content. Often used to call attention to a particular detail.&lt;/p&gt;
 
-&lt;p&gt;When using Kramdown &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{: .notice}&lt;/code&gt; can be added after a sentence to assign the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.notice&lt;/code&gt; to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;&lt;/code&gt; element.&lt;/p&gt;
+&lt;p&gt;When using Kramdown &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{: .alert}&lt;/code&gt; can be added after a sentence to assign the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.alert&lt;/code&gt; to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;&lt;/code&gt; element.&lt;/p&gt;
 
-&lt;p class=&quot;notice&quot;&gt;&lt;strong&gt;Changes in Service:&lt;/strong&gt; We just updated our &lt;a href=&quot;#&quot;&gt;privacy policy&lt;/a&gt; here to better service our customers. We recommend reviewing the changes.&lt;/p&gt;
+&lt;p class=&quot;alert&quot;&gt;&lt;strong&gt;Changes in Service:&lt;/strong&gt; We just updated our &lt;a href=&quot;#&quot;&gt;privacy policy&lt;/a&gt; here to better service our customers. We recommend reviewing the changes.&lt;/p&gt;
 
-&lt;p class=&quot;notice--primary&quot;&gt;&lt;strong&gt;Primary Notice:&lt;/strong&gt; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. &lt;a href=&quot;#&quot;&gt;Praesent libero&lt;/a&gt;. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.&lt;/p&gt;
+&lt;p class=&quot;alert alert-primary&quot;&gt;&lt;strong&gt;Primary Notice:&lt;/strong&gt; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. &lt;a href=&quot;#&quot;&gt;Praesent libero&lt;/a&gt;. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.&lt;/p&gt;
 
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;Info Notice:&lt;/strong&gt; Lorem ipsum dolor sit amet, &lt;a href=&quot;#&quot;&gt;consectetur adipiscing elit&lt;/a&gt;. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.&lt;/p&gt;
+&lt;p class=&quot;alert alert-info&quot;&gt;&lt;strong&gt;Info Notice:&lt;/strong&gt; Lorem ipsum dolor sit amet, &lt;a href=&quot;#&quot;&gt;consectetur adipiscing elit&lt;/a&gt;. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.&lt;/p&gt;
 
-&lt;p class=&quot;notice--warning&quot;&gt;&lt;strong&gt;Warning Notice:&lt;/strong&gt; Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&quot;#&quot;&gt;Integer nec odio&lt;/a&gt;. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.&lt;/p&gt;
+&lt;p class=&quot;alert alert-warning&quot;&gt;&lt;strong&gt;Warning Notice:&lt;/strong&gt; Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&quot;#&quot;&gt;Integer nec odio&lt;/a&gt;. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.&lt;/p&gt;
 
-&lt;p class=&quot;notice--danger&quot;&gt;&lt;strong&gt;Danger Notice:&lt;/strong&gt; Lorem ipsum dolor sit amet, &lt;a href=&quot;#&quot;&gt;consectetur adipiscing&lt;/a&gt; elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.&lt;/p&gt;
+&lt;p class=&quot;alert alert-danger&quot;&gt;&lt;strong&gt;Danger Notice:&lt;/strong&gt; Lorem ipsum dolor sit amet, &lt;a href=&quot;#&quot;&gt;consectetur adipiscing&lt;/a&gt; elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.&lt;/p&gt;
 
-&lt;p class=&quot;notice--success&quot;&gt;&lt;strong&gt;Success Notice:&lt;/strong&gt; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at &lt;a href=&quot;#&quot;&gt;nibh elementum&lt;/a&gt; imperdiet.&lt;/p&gt;
+&lt;p class=&quot;alert alert-success&quot;&gt;&lt;strong&gt;Success Notice:&lt;/strong&gt; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at &lt;a href=&quot;#&quot;&gt;nibh elementum&lt;/a&gt; imperdiet.&lt;/p&gt;
 
 &lt;p&gt;Want to wrap several paragraphs or other elements in a notice? Using Liquid to capture the content and then filter it with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;markdownify&lt;/code&gt; is a good way to go.&lt;/p&gt;
 
@@ -2274,7 +2274,7 @@ Stairs? Were we’re going we don’t need no stairs.
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;notice&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;{{ notice-2 | markdownify }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;div class=&quot;notice&quot;&gt;
+&lt;div class=&quot;alert&quot;&gt;
   
 &lt;h4 id=&quot;new-site-features&quot;&gt;New Site Features&lt;/h4&gt;
 
@@ -2287,13 +2287,13 @@ Stairs? Were we’re going we don’t need no stairs.
 
 &lt;p&gt;Or you could skip the capture and stick with straight HTML.&lt;/p&gt;
 
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;notice&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;alert&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;h4&amp;gt;&lt;/span&gt;Message&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h4&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;A basic message.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;div class=&quot;notice&quot;&gt;
+&lt;div class=&quot;alert&quot;&gt;
   &lt;h4&gt;Message&lt;/h4&gt;
   &lt;p&gt;A basic message.&lt;/p&gt;
 &lt;/div&gt;
@@ -2302,10 +2302,10 @@ Stairs? Were we’re going we don’t need no stairs.
 		
 		<author>
 			<name>Your Name</name></author>
-		<summary type="html">&lt;p&gt;A notice displays information that explains nearby content. Often used to call attention to a particular detail.&lt;/p&gt;
+		<summary type="html">&lt;p&gt;An alert displays information that explains nearby content. Often used to call attention to a particular detail.&lt;/p&gt;
 </summary>
 		<category term="posts"/>
-		<category term="Post Formats"/><category term="notice"/>
+		<category term="Post Formats"/><category term="alert"/>
 	</entry><entry>
 		<title>Post: Chat</title>
 		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/post-formats/post-chat.html" rel="alternate" type="text/html" title="Post: Chat"/>

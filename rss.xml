@@ -7,8 +7,8 @@
 		<description>Chulapa Jekyll Theme starter pack</description>
 		<language>en-US</language>
 		<copyright>(c) 2025, Your Name</copyright>	
-		<pubDate>Wed, 05 Mar 2025 22:04:32 +0000</pubDate>
-		<lastBuildDate>Wed, 05 Mar 2025 22:04:32 +0000</lastBuildDate>
+		<pubDate>Wed, 05 Mar 2025 22:12:24 +0000</pubDate>
+		<lastBuildDate>Wed, 05 Mar 2025 22:12:24 +0000</lastBuildDate>
 		<category>blog</category>
 		<ttl>60</ttl>
 		<atom:link href="https://dieghernan.github.io/chulapa-jekyll-sample/rss.xml" rel="self" type="application/rss+xml" />
@@ -1994,26 +1994,26 @@ Stairs? Were we’re going we don’t need no stairs.
 		    <category>Post Formats</category><category>quote</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/post-formats/post-quote.html</guid>
       <pubDate>Fri, 05 Feb 2010 00:00:00 +0000</pubDate>
 		</item><item>
-			<title>Post: Notice</title>
+			<title>Post: Alert</title>
 			<description>
 				<![CDATA[	
  				
     		<p>1 min.</p>
-				<div><p>A notice displays information that explains nearby content. Often used to call attention to a particular detail.</p>
+				<div><p>An alert displays information that explains nearby content. Often used to call attention to a particular detail.</p>
 
-<p>When using Kramdown <code class="language-plaintext highlighter-rouge">{: .notice}</code> can be added after a sentence to assign the <code class="language-plaintext highlighter-rouge">.notice</code> to the <code class="language-plaintext highlighter-rouge">&lt;p&gt;&lt;/p&gt;</code> element.</p>
+<p>When using Kramdown <code class="language-plaintext highlighter-rouge">{: .alert}</code> can be added after a sentence to assign the <code class="language-plaintext highlighter-rouge">.alert</code> to the <code class="language-plaintext highlighter-rouge">&lt;p&gt;&lt;/p&gt;</code> element.</p>
 
-<p class="notice"><strong>Changes in Service:</strong> We just updated our <a href="#">privacy policy</a> here to better service our customers. We recommend reviewing the changes.</p>
+<p class="alert"><strong>Changes in Service:</strong> We just updated our <a href="#">privacy policy</a> here to better service our customers. We recommend reviewing the changes.</p>
 
-<p class="notice--primary"><strong>Primary Notice:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. <a href="#">Praesent libero</a>. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
+<p class="alert alert-primary"><strong>Primary Notice:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. <a href="#">Praesent libero</a>. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
 
-<p class="notice--info"><strong>Info Notice:</strong> Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit</a>. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
+<p class="alert alert-info"><strong>Info Notice:</strong> Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit</a>. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
 
-<p class="notice--warning"><strong>Warning Notice:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href="#">Integer nec odio</a>. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
+<p class="alert alert-warning"><strong>Warning Notice:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href="#">Integer nec odio</a>. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
 
-<p class="notice--danger"><strong>Danger Notice:</strong> Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing</a> elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
+<p class="alert alert-danger"><strong>Danger Notice:</strong> Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing</a> elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
 
-<p class="notice--success"><strong>Success Notice:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at <a href="#">nibh elementum</a> imperdiet.</p>
+<p class="alert alert-success"><strong>Success Notice:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at <a href="#">nibh elementum</a> imperdiet.</p>
 
 <p>Want to wrap several paragraphs or other elements in a notice? Using Liquid to capture the content and then filter it with <code class="language-plaintext highlighter-rouge">markdownify</code> is a good way to go.</p>
 
@@ -2027,7 +2027,7 @@ Stairs? Were we’re going we don’t need no stairs.
 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"notice"</span><span class="nt">&gt;</span>{{ notice-2 | markdownify }}<span class="nt">&lt;/div&gt;</span>
 </code></pre></div></div>
 
-<div class="notice">
+<div class="alert">
   
 <h4 id="new-site-features">New Site Features</h4>
 
@@ -2040,22 +2040,22 @@ Stairs? Were we’re going we don’t need no stairs.
 
 <p>Or you could skip the capture and stick with straight HTML.</p>
 
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"notice"</span><span class="nt">&gt;</span>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"alert"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;h4&gt;</span>Message<span class="nt">&lt;/h4&gt;</span>
   <span class="nt">&lt;p&gt;</span>A basic message.<span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;/div&gt;</span>
 </code></pre></div></div>
 
-<div class="notice">
+<div class="alert">
   <h4>Message</h4>
   <p>A basic message.</p>
 </div>
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/post-formats/post-notice.html</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/post-formats/post-alert.html</link>
 			<category>posts</category>
-		    <category>Post Formats</category><category>notice</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/post-formats/post-notice.html</guid>
+		    <category>Post Formats</category><category>alert</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/post-formats/post-alert.html</guid>
       <pubDate>Fri, 05 Feb 2010 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Post: Chat</title>

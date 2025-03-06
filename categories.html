@@ -17,20 +17,28 @@
         "@id": "https://dieghernan.github.io/chulapa-jekyll-sample/categories"
       },
       "headline": "Categories",
-      "image": "",
-      "datePublished": "2025-03-06T07:59:54+00:00",
-      "dateModified": "2025-03-06T07:59:54+00:00",
+      "image": "https://github.com/octocat.png",
+      "datePublished": "2025-03-06T18:03:10+00:00",
+      "dateModified": "2025-03-06T18:03:10+00:00",
       "author": {
         "@type": "Person",
-        "name": "Your Name"
+        "name": "Octocat"
+        , "url": "https://github.com/github/"
+        ,  "sameAs" : [
+             "https://twitter.com/github"
+            ,
+             "https://github.com/facebook"
+            ,
+             "https://www.linkedin.com"
+            ]
       },
        "publisher": {
         "@type": "Organization",
-        "name": "Your Name",
+        "name": "Octocat",
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/",
         "logo": {
           "@type": "ImageObject",
-          "url": ""
+          "url": "https://github.com/octocat.png"
         }
       }
     }
@@ -63,13 +71,20 @@
 {
   "@context" : "https://schema.org",
   "@type" : "Person",
+  "image": "https://github.com/octocat.png",
   "homeLocation": {
     "@type": "Place",
-    "name": "Madrid, Spain"
+    "name": "San Francisco, CA 94107, United States"
     },
   "description": "Publisher",
-  "name" : "Your Name",
+  "name" : "Octocat",
   "url" : "https://dieghernan.github.io/chulapa-jekyll-sample/"
+  ,  "sameAs" : [
+  "https://github.com/github/",
+  "https://twitter.com/github",
+  "https://github.com/facebook",
+  "https://www.linkedin.com"
+  ]
 }
 </script>
    <title>Categories | Chulapa Jekyll Sample</title>
@@ -80,10 +95,10 @@
   <link href="https://dieghernan.github.io/chulapa-jekyll-sample/rss.xml" type="application/rss+xml" rel="alternate" title="RSS 2.0 feed Chulapa Jekyll Sample" >
     <!-- Meta tags -->
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-   <meta name="author" content="Your Name" >
-   <meta name="copyright" content="Your Name" >
+   <meta name="author" content="Octocat" >
+   <meta name="copyright" content="Octocat" >
    <meta name="description" content="">
-   <meta name="thumbnail" content="" >
+   <meta name="thumbnail" content="https://github.com/octocat.png" >
    <meta name="robots" content="index, follow"><meta name="keywords" content="">
     <!-- Chrome, Firefox OS and Opera -->
   <meta name="theme-color" content="lightskyblue">
@@ -94,9 +109,11 @@
    <meta property="og:type" content="website" >
    <meta property="og:description" content="" >
    <meta property="og:locale" content="en-US" >
-   <meta property="og:image" content="" >
+   <meta property="og:image" content="https://github.com/octocat.png" >
     <!-- Twitter/X Cards -->
-   <meta name="twitter:card" content="summary_large_image"><!-- start custom head snippets -->
+   <meta name="twitter:card" content="summary_large_image">
+   <meta name="twitter:creator" content="@github" >
+    <!-- start custom head snippets -->
 <!-- this script is inserted before the css stylesheet -->
 <!-- end custom head snippets -->
 <!-- CSS -->
@@ -128,8 +145,12 @@
 			<div class="collapse navbar-collapse" id="navbarToggler">
 				<ul class="navbar-nav ml-auto"><li class="nav-item">
 						<a class="nav-link " href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/">Blog</a>
+					</li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle " href="#" id="Collections" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Collections</a>
+						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="Collections"><a class="dropdown-item " href="https://dieghernan.github.io/chulapa-jekyll-sample/pets/">Pets</a><a class="dropdown-item " href="https://dieghernan.github.io/chulapa-jekyll-sample/recipes/">Recipes</a><a class="dropdown-item " href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/foo-bar-website">Portfolio</a></div>
 					</li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle  active font-weight-bold" href="#" id="Extras" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Extras</a>
 						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="Extras"><a class="dropdown-item " href="https://dieghernan.github.io/chulapa-jekyll-sample/tags">Tags</a><a class="dropdown-item  active font-weight-bold" href="https://dieghernan.github.io/chulapa-jekyll-sample/categories">Categories<span class="sr-only">(current)</span></a><a class="dropdown-item " href="https://dieghernan.github.io/chulapa-jekyll-sample/archive">Archive</a></div>
+					</li><li class="nav-item">
+						<a class="nav-link " href="https://dieghernan.github.io/chulapa-jekyll-sample/sitemap/">Sitemap</a>
 					</li><li class="nav-item">
 						<a class="nav-link " href="https://dieghernan.github.io/chulapa-jekyll-sample/search">
 							<span class="d-md-none p-0 pr-1">Search</span><i class="fa fa-search" aria-hidden="true"></i><span class="sr-only">Search</span>
@@ -164,9 +185,21 @@
 		<div class="row pt-2">
 			<aside class="col-lg-2 mt-lg-3 small"></aside>
 			<article id="maincontent" class="col-lg-8 mt-3 e-content">
+	<button class="btn btn-primary btn-sm rounded-right position-fixed chulapa-btn-sidebar bs-canvas-anim chulapa-btn-nofocus chulapa-fa-static" id='demo' onclick="openSideBar()" aria-label="Open Sidebar" aria-expanded="false" aria-controls="sideBar">
+		<i class="fa-solid fa-plus"></i><span class="sr-only">Open Sidebar</span>
+	</button>
+	<div class="bs-canvas bs-canvas-anim bs-canvas-left position-fixed navbar-chulapa h-100" id='sideBar'>
+		<p class="pt-2 pb-1 px-3">
+			<button type="button" class="navbar-text close chulapa-btn-nofocus chulapa-fa-static" aria-label="Close" onclick="closeSideBar()">
+				<i class="fa-solid fa-times"></i><span class="sr-only">Close Sidebar</span>
+			</button>
+		</p>
+		<nav class="navbar-nav px-3 my-auto">		  <p class="mb-2" ><a class="nav-link font-weight-bold lead" href="#">Categories</a></p>		
+		</nav>   
+	</div>
 <!-- Compatible with Jekyll v3 and v4, pure Jekyll group by -->
 <div class="row g-0 pt-5" id="categories">
-<div class="col"><a href="#Layout" class="btn btn-secondary m-1" role="button" style="font-size:  min(1.2rem , max(0.8rem , calc(1rem + 0.025*(16rem - 8rem))));"><i class="far fa-folder-open mr-2" aria-hidden="true"></i>Layout<span class="badge rounded-pill chulapa-pill-bg-secondary ml-2">16</span></a><a href="#Uncategorized" class="btn btn-secondary m-1" role="button" style="font-size:  min(1.2rem , max(0.8rem , calc(1rem + 0.025*(16rem - 8rem))));"><i class="far fa-folder-open mr-2" aria-hidden="true"></i>Uncategorized<span class="badge rounded-pill chulapa-pill-bg-secondary ml-2">16</span></a><a href="#Post-Formats" class="btn btn-secondary m-1" role="button" style="font-size:  min(1.2rem , max(0.8rem , calc(1rem + 0.025*(12rem - 8rem))));"><i class="far fa-folder-open mr-2" aria-hidden="true"></i>Post Formats<span class="badge rounded-pill chulapa-pill-bg-secondary ml-2">12</span></a><a href="#Edge-Case" class="btn btn-secondary m-1" role="button" style="font-size:  min(1.2rem , max(0.8rem , calc(1rem + 0.025*(6rem - 8rem))));"><i class="far fa-folder-open mr-2" aria-hidden="true"></i>Edge Case<span class="badge rounded-pill chulapa-pill-bg-secondary ml-2">6</span></a><a href="#Markup" class="btn btn-secondary m-1" role="button" style="font-size:  min(1.2rem , max(0.8rem , calc(1rem + 0.025*(4rem - 8rem))));"><i class="far fa-folder-open mr-2" aria-hidden="true"></i>Markup<span class="badge rounded-pill chulapa-pill-bg-secondary ml-2">4</span></a><a href="#Markdown" class="btn btn-secondary m-1" role="button" style="font-size:  min(1.2rem , max(0.8rem , calc(1rem + 0.025*(1rem - 8rem))));"><i class="far fa-folder-open mr-2" aria-hidden="true"></i>Markdown<span class="badge rounded-pill chulapa-pill-bg-secondary ml-2">1</span></a><a href="#Media" class="btn btn-secondary m-1" role="button" style="font-size:  min(1.2rem , max(0.8rem , calc(1rem + 0.025*(1rem - 8rem))));"><i class="far fa-folder-open mr-2" aria-hidden="true"></i>Media<span class="badge rounded-pill chulapa-pill-bg-secondary ml-2">1</span></a><a href="#aciform" class="btn btn-secondary m-1" role="button" style="font-size:  min(1.2rem , max(0.8rem , calc(1rem + 0.025*(1rem - 8rem))));"><i class="far fa-folder-open mr-2" aria-hidden="true"></i>aciform<span class="badge rounded-pill chulapa-pill-bg-secondary ml-2">1</span></a><a href="#antiquarianism" class="btn btn-secondary m-1" role="button" style="font-size:  min(1.2rem , max(0.8rem , calc(1rem + 0.025*(1rem - 8rem))));"><i class="far fa-folder-open mr-2" aria-hidden="true"></i>antiquarianism<span class="badge rounded-pill chulapa-pill-bg-secondary ml-2">1</span></a><a href="#arrangement" class="btn btn-secondary m-1" role="button" style="font-size:  min(1.2rem , max(0.8rem , calc(1rem + 0.025*(1rem - 8rem))));"><i class="far fa-folder-open mr-2" aria-hidden="true"></i>arrangement<span class="badge rounded-pill chulapa-pill-bg-secondary ml-2">1</span></a><a href="#asmodeus" class="btn btn-secondary m-1" role="button" style="font-size:  min(1.2rem , max(0.8rem , calc(1rem + 0.025*(1rem - 8rem))));"><i class="far fa-folder-open mr-2" aria-hidden="true"></i>asmodeus<span class="badge rounded-pill chulapa-pill-bg-secondary ml-2">1</span></a><a href="#broder" class="btn btn-secondary m-1" role="button" style="font-size:  min(1.2rem , max(0.8rem , calc(1rem + 0.025*(1rem - 8rem))));"><i class="far fa-folder-open mr-2" aria-hidden="true"></i>broder<span class="badge rounded-pill chulapa-pill-bg-secondary ml-2">1</span></a><a href="#buying" class="btn btn-secondary m-1" role="button" style="font-size:  min(1.2rem , max(0.8rem , calc(1rem + 0.025*(1rem - 8rem))));"><i class="far fa-folder-open mr-2" aria-hidden="true"></i>buying<span class="badge rounded-pill chulapa-pill-bg-secondary ml-2">1</span></a><a href="#championship" class="btn btn-secondary m-1" role="button" style="font-size:  min(1.2rem , max(0.8rem , calc(1rem + 0.025*(1rem - 8rem))));"><i class="far fa-folder-open mr-2" aria-hidden="true"></i>championship<span class="badge rounded-pill chulapa-pill-bg-secondary ml-2">1</span></a><a href="#chastening" class="btn btn-secondary m-1" role="button" style="font-size:  min(1.2rem , max(0.8rem , calc(1rem + 0.025*(1rem - 8rem))));"><i class="far fa-folder-open mr-2" aria-hidden="true"></i>chastening<span class="badge rounded-pill chulapa-pill-bg-secondary ml-2">1</span></a><a href="#disinclination" class="btn btn-secondary m-1" role="button" style="font-size:  min(1.2rem , max(0.8rem , calc(1rem + 0.025*(1rem - 8rem))));"><i class="far fa-folder-open mr-2" aria-hidden="true"></i>disinclination<span class="badge rounded-pill chulapa-pill-bg-secondary ml-2">1</span></a><a href="#disinfection" class="btn btn-secondary m-1" role="button" style="font-size:  min(1.2rem , max(0.8rem , calc(1rem + 0.025*(1rem - 8rem))));"><i class="far fa-folder-open mr-2" aria-hidden="true"></i>disinfection<span class="badge rounded-pill chulapa-pill-bg-secondary ml-2">1</span></a><a href="#dispatch" class="btn btn-secondary m-1" role="button" style="font-size:  min(1.2rem , max(0.8rem , calc(1rem + 0.025*(1rem - 8rem))));"><i class="far fa-folder-open mr-2" aria-hidden="true"></i>dispatch<span class="badge rounded-pill chulapa-pill-bg-secondary ml-2">1</span></a><a href="#echappee" class="btn btn-secondary m-1" role="button" style="font-size:  min(1.2rem , max(0.8rem , calc(1rem + 0.025*(1rem - 8rem))));"><i class="far fa-folder-open mr-2" aria-hidden="true"></i>echappee<span class="badge rounded-pill chulapa-pill-bg-secondary ml-2">1</span></a><a href="#enphagy" class="btn btn-secondary m-1" role="button" style="font-size:  min(1.2rem , max(0.8rem , calc(1rem + 0.025*(1rem - 8rem))));"><i class="far fa-folder-open mr-2" aria-hidden="true"></i>enphagy<span class="badge rounded-pill chulapa-pill-bg-secondary ml-2">1</span></a><a href="#equipollent" class="btn btn-secondary m-1" role="button" style="font-size:  min(1.2rem , max(0.8rem , calc(1rem + 0.025*(1rem - 8rem))));"><i class="far fa-folder-open mr-2" aria-hidden="true"></i>equipollent<span class="badge rounded-pill chulapa-pill-bg-secondary ml-2">1</span></a></div>
+<div class="col"><a href="#Layout" class="btn btn-secondary m-1" role="button" style="font-size:  min(1.2rem , max(0.8rem , calc(1rem + 0.025*(16rem - 8rem))));"><i class="far fa-folder-open mr-2" aria-hidden="true"></i>Layout<span class="badge rounded-pill chulapa-pill-bg-secondary ml-2">16</span></a><a href="#Uncategorized" class="btn btn-secondary m-1" role="button" style="font-size:  min(1.2rem , max(0.8rem , calc(1rem + 0.025*(16rem - 8rem))));"><i class="far fa-folder-open mr-2" aria-hidden="true"></i>Uncategorized<span class="badge rounded-pill chulapa-pill-bg-secondary ml-2">16</span></a><a href="#Post-Formats" class="btn btn-secondary m-1" role="button" style="font-size:  min(1.2rem , max(0.8rem , calc(1rem + 0.025*(12rem - 8rem))));"><i class="far fa-folder-open mr-2" aria-hidden="true"></i>Post Formats<span class="badge rounded-pill chulapa-pill-bg-secondary ml-2">12</span></a><a href="#Edge-Case" class="btn btn-secondary m-1" role="button" style="font-size:  min(1.2rem , max(0.8rem , calc(1rem + 0.025*(6rem - 8rem))));"><i class="far fa-folder-open mr-2" aria-hidden="true"></i>Edge Case<span class="badge rounded-pill chulapa-pill-bg-secondary ml-2">6</span></a><a href="#Markup" class="btn btn-secondary m-1" role="button" style="font-size:  min(1.2rem , max(0.8rem , calc(1rem + 0.025*(4rem - 8rem))));"><i class="far fa-folder-open mr-2" aria-hidden="true"></i>Markup<span class="badge rounded-pill chulapa-pill-bg-secondary ml-2">4</span></a><a href="#Post" class="btn btn-secondary m-1" role="button" style="font-size:  min(1.2rem , max(0.8rem , calc(1rem + 0.025*(1rem - 8rem))));"><i class="far fa-folder-open mr-2" aria-hidden="true"></i>Post<span class="badge rounded-pill chulapa-pill-bg-secondary ml-2">1</span></a><a href="#Jekyll" class="btn btn-secondary m-1" role="button" style="font-size:  min(1.2rem , max(0.8rem , calc(1rem + 0.025*(1rem - 8rem))));"><i class="far fa-folder-open mr-2" aria-hidden="true"></i>Jekyll<span class="badge rounded-pill chulapa-pill-bg-secondary ml-2">1</span></a><a href="#Markdown" class="btn btn-secondary m-1" role="button" style="font-size:  min(1.2rem , max(0.8rem , calc(1rem + 0.025*(1rem - 8rem))));"><i class="far fa-folder-open mr-2" aria-hidden="true"></i>Markdown<span class="badge rounded-pill chulapa-pill-bg-secondary ml-2">1</span></a><a href="#Media" class="btn btn-secondary m-1" role="button" style="font-size:  min(1.2rem , max(0.8rem , calc(1rem + 0.025*(1rem - 8rem))));"><i class="far fa-folder-open mr-2" aria-hidden="true"></i>Media<span class="badge rounded-pill chulapa-pill-bg-secondary ml-2">1</span></a><a href="#aciform" class="btn btn-secondary m-1" role="button" style="font-size:  min(1.2rem , max(0.8rem , calc(1rem + 0.025*(1rem - 8rem))));"><i class="far fa-folder-open mr-2" aria-hidden="true"></i>aciform<span class="badge rounded-pill chulapa-pill-bg-secondary ml-2">1</span></a><a href="#antiquarianism" class="btn btn-secondary m-1" role="button" style="font-size:  min(1.2rem , max(0.8rem , calc(1rem + 0.025*(1rem - 8rem))));"><i class="far fa-folder-open mr-2" aria-hidden="true"></i>antiquarianism<span class="badge rounded-pill chulapa-pill-bg-secondary ml-2">1</span></a><a href="#arrangement" class="btn btn-secondary m-1" role="button" style="font-size:  min(1.2rem , max(0.8rem , calc(1rem + 0.025*(1rem - 8rem))));"><i class="far fa-folder-open mr-2" aria-hidden="true"></i>arrangement<span class="badge rounded-pill chulapa-pill-bg-secondary ml-2">1</span></a><a href="#asmodeus" class="btn btn-secondary m-1" role="button" style="font-size:  min(1.2rem , max(0.8rem , calc(1rem + 0.025*(1rem - 8rem))));"><i class="far fa-folder-open mr-2" aria-hidden="true"></i>asmodeus<span class="badge rounded-pill chulapa-pill-bg-secondary ml-2">1</span></a><a href="#broder" class="btn btn-secondary m-1" role="button" style="font-size:  min(1.2rem , max(0.8rem , calc(1rem + 0.025*(1rem - 8rem))));"><i class="far fa-folder-open mr-2" aria-hidden="true"></i>broder<span class="badge rounded-pill chulapa-pill-bg-secondary ml-2">1</span></a><a href="#buying" class="btn btn-secondary m-1" role="button" style="font-size:  min(1.2rem , max(0.8rem , calc(1rem + 0.025*(1rem - 8rem))));"><i class="far fa-folder-open mr-2" aria-hidden="true"></i>buying<span class="badge rounded-pill chulapa-pill-bg-secondary ml-2">1</span></a><a href="#championship" class="btn btn-secondary m-1" role="button" style="font-size:  min(1.2rem , max(0.8rem , calc(1rem + 0.025*(1rem - 8rem))));"><i class="far fa-folder-open mr-2" aria-hidden="true"></i>championship<span class="badge rounded-pill chulapa-pill-bg-secondary ml-2">1</span></a><a href="#chastening" class="btn btn-secondary m-1" role="button" style="font-size:  min(1.2rem , max(0.8rem , calc(1rem + 0.025*(1rem - 8rem))));"><i class="far fa-folder-open mr-2" aria-hidden="true"></i>chastening<span class="badge rounded-pill chulapa-pill-bg-secondary ml-2">1</span></a><a href="#disinclination" class="btn btn-secondary m-1" role="button" style="font-size:  min(1.2rem , max(0.8rem , calc(1rem + 0.025*(1rem - 8rem))));"><i class="far fa-folder-open mr-2" aria-hidden="true"></i>disinclination<span class="badge rounded-pill chulapa-pill-bg-secondary ml-2">1</span></a><a href="#disinfection" class="btn btn-secondary m-1" role="button" style="font-size:  min(1.2rem , max(0.8rem , calc(1rem + 0.025*(1rem - 8rem))));"><i class="far fa-folder-open mr-2" aria-hidden="true"></i>disinfection<span class="badge rounded-pill chulapa-pill-bg-secondary ml-2">1</span></a><a href="#dispatch" class="btn btn-secondary m-1" role="button" style="font-size:  min(1.2rem , max(0.8rem , calc(1rem + 0.025*(1rem - 8rem))));"><i class="far fa-folder-open mr-2" aria-hidden="true"></i>dispatch<span class="badge rounded-pill chulapa-pill-bg-secondary ml-2">1</span></a><a href="#echappee" class="btn btn-secondary m-1" role="button" style="font-size:  min(1.2rem , max(0.8rem , calc(1rem + 0.025*(1rem - 8rem))));"><i class="far fa-folder-open mr-2" aria-hidden="true"></i>echappee<span class="badge rounded-pill chulapa-pill-bg-secondary ml-2">1</span></a><a href="#enphagy" class="btn btn-secondary m-1" role="button" style="font-size:  min(1.2rem , max(0.8rem , calc(1rem + 0.025*(1rem - 8rem))));"><i class="far fa-folder-open mr-2" aria-hidden="true"></i>enphagy<span class="badge rounded-pill chulapa-pill-bg-secondary ml-2">1</span></a><a href="#equipollent" class="btn btn-secondary m-1" role="button" style="font-size:  min(1.2rem , max(0.8rem , calc(1rem + 0.025*(1rem - 8rem))));"><i class="far fa-folder-open mr-2" aria-hidden="true"></i>equipollent<span class="badge rounded-pill chulapa-pill-bg-secondary ml-2">1</span></a></div>
 </div>
 <section id="Layout" class="py-3 chulapa-cloudcategory">
 <div class="d-flex  align-items-center border-bottom border-chulapa mt-5">
@@ -175,7 +208,7 @@
 </div>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/layout-more-tag/" class="p-name u-url">Layout: More Tag</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-more-tag" class="p-name u-url">Layout: More Tag</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2012-03-15T00:00:00+00:00">march 15, 2012</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -183,7 +216,17 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/layout-header-overlay-image/" class="p-name u-url">Layout: Header Image Overlay</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-overlay-image" class="p-name u-url">Layout: Header Splash</a></h6><div class="small">
+        <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2012-03-15T00:00:00+00:00">march 15, 2012</time>
+ | 
+        <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
+   </div>
+    <a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-overlay-image" class="col-2 btn chulapa-overlay-img chulapa-gradient" style="background-image: url('https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-image-1.jpg')">
+    </a>
+ </article>
+ <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
+   <div class="col">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-overlay-color" class="p-name u-url">Layout: Header Overlay with Background Fill</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2012-03-15T00:00:00+00:00">march 15, 2012</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -191,39 +234,37 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/layout-header-overlay-color/" class="p-name u-url">Layout: Header Overlay with Background Fill</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-image-vertical" class="p-name u-url">Layout: Header Image (Vertical)</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2012-03-15T00:00:00+00:00">march 15, 2012</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
    </div>
+    <a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-image-vertical" class="col-2 btn chulapa-overlay-img chulapa-gradient" style="background-image: url('https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-image-6.jpg')">
+    </a>
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/layout-header-image-vertical/" class="p-name u-url">Layout: Header Image (Vertical)</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-image-horizontal" class="p-name u-url">Layout: Hero</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2012-03-15T00:00:00+00:00">march 15, 2012</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
    </div>
+    <a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-image-horizontal" class="col-2 btn chulapa-overlay-img chulapa-gradient" style="background-image: url('https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-image-1.jpg')">
+    </a>
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/layout-header-image-horizontal/" class="p-name u-url">Layout: Header Image (Horizontal)</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-image-external" class="p-name u-url">Layout: Header Image (External URL)</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2012-03-15T00:00:00+00:00">march 15, 2012</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
    </div>
+    <a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-image-external" class="col-2 btn chulapa-overlay-img chulapa-gradient" style="background-image: url('https://picsum.photos/seed/70/700/500')">
+    </a>
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/layout-header-image-external/" class="p-name u-url">Layout: Header Image (External URL)</a></h6><div class="small">
-        <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2012-03-15T00:00:00+00:00">march 15, 2012</time>
- | 
-        <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
-   </div>
- </article>
- <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
-   <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/layout-excerpt-generated/" class="p-name u-url">Layout: Excerpt (Generated)</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-14-layout-excerpt-generated" class="p-name u-url">Layout: Excerpt (Generated)</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2012-03-14T00:00:00+00:00">march 14, 2012</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -231,7 +272,7 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/layout-excerpt-defined/" class="p-name u-url">Layout: Excerpt (Defined)</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-14-layout-excerpt-defined" class="p-name u-url">Layout: Excerpt (Defined)</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2012-03-14T00:00:00+00:00">march 14, 2012</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -239,7 +280,7 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/layout-code-excerpt-generated/" class="p-name u-url">Layout: Code Excerpt (Generated)</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-14-layout-code-excerpt-generated" class="p-name u-url">Layout: Code Excerpt (Generated)</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2012-03-14T00:00:00+00:00">march 14, 2012</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -247,7 +288,7 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/layout-read-time-comments-sharing-related-posts-disabled/" class="p-name u-url">Layout: Reading Time, Comments, Social Sharing Links, and Related Posts Disabled</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-03-layout-read-time-comments-sharing-related-posts-disabled" class="p-name u-url">Layout: Comments, Social Sharing Links, and Related Posts Disabled</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2012-01-03T00:00:00+00:00">january 03, 2012</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -255,7 +296,7 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/layout-sharing/" class="p-name u-url">Layout: Social Sharing Links Enabled</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-02-layout-sharing" class="p-name u-url">Layout: Social Sharing Links Enabled</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2012-01-02T00:00:00+00:00">january 02, 2012</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -263,7 +304,7 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/layout-sharing-disabled/" class="p-name u-url">Layout: Social Sharing Links Disabled</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-02-layout-sharing-disabled" class="p-name u-url">Layout: Social Sharing Links Disabled</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2012-01-02T00:00:00+00:00">january 02, 2012</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -271,7 +312,7 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/layout-related-posts/" class="p-name u-url">Layout: Related Posts Enabled</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-02-layout-related-posts" class="p-name u-url">Layout: Related Posts Enabled</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2012-01-02T00:00:00+00:00">january 02, 2012</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -279,7 +320,7 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/layout-related-posts-disabled/" class="p-name u-url">Layout: Related Posts Disabled</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-02-layout-related-posts-disabled" class="p-name u-url">Layout: Related Posts Disabled</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2012-01-02T00:00:00+00:00">january 02, 2012</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -287,7 +328,7 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/layout-comments/" class="p-name u-url">Layout: Comments Enabled</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-02-layout-comments" class="p-name u-url">Layout: Comments Enabled</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2012-01-02T00:00:00+00:00">january 02, 2012</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -295,7 +336,7 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/layout-comments-disabled/" class="p-name u-url">Layout: Comments Disabled</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-02-layout-comments-disabled" class="p-name u-url">Layout: Comments Disabled</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2012-01-02T00:00:00+00:00">january 02, 2012</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -312,7 +353,7 @@
 </div>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/layout-more-tag/" class="p-name u-url">Layout: More Tag</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-more-tag" class="p-name u-url">Layout: More Tag</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2012-03-15T00:00:00+00:00">march 15, 2012</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -320,7 +361,17 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/layout-header-overlay-image/" class="p-name u-url">Layout: Header Image Overlay</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-overlay-image" class="p-name u-url">Layout: Header Splash</a></h6><div class="small">
+        <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2012-03-15T00:00:00+00:00">march 15, 2012</time>
+ | 
+        <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
+   </div>
+    <a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-overlay-image" class="col-2 btn chulapa-overlay-img chulapa-gradient" style="background-image: url('https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-image-1.jpg')">
+    </a>
+ </article>
+ <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
+   <div class="col">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-overlay-color" class="p-name u-url">Layout: Header Overlay with Background Fill</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2012-03-15T00:00:00+00:00">march 15, 2012</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -328,39 +379,37 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/layout-header-overlay-color/" class="p-name u-url">Layout: Header Overlay with Background Fill</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-image-vertical" class="p-name u-url">Layout: Header Image (Vertical)</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2012-03-15T00:00:00+00:00">march 15, 2012</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
    </div>
+    <a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-image-vertical" class="col-2 btn chulapa-overlay-img chulapa-gradient" style="background-image: url('https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-image-6.jpg')">
+    </a>
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/layout-header-image-vertical/" class="p-name u-url">Layout: Header Image (Vertical)</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-image-horizontal" class="p-name u-url">Layout: Hero</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2012-03-15T00:00:00+00:00">march 15, 2012</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
    </div>
+    <a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-image-horizontal" class="col-2 btn chulapa-overlay-img chulapa-gradient" style="background-image: url('https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-image-1.jpg')">
+    </a>
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/layout-header-image-horizontal/" class="p-name u-url">Layout: Header Image (Horizontal)</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-image-external" class="p-name u-url">Layout: Header Image (External URL)</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2012-03-15T00:00:00+00:00">march 15, 2012</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
    </div>
+    <a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-image-external" class="col-2 btn chulapa-overlay-img chulapa-gradient" style="background-image: url('https://picsum.photos/seed/70/700/500')">
+    </a>
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/layout-header-image-external/" class="p-name u-url">Layout: Header Image (External URL)</a></h6><div class="small">
-        <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2012-03-15T00:00:00+00:00">march 15, 2012</time>
- | 
-        <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
-   </div>
- </article>
- <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
-   <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/layout-excerpt-generated/" class="p-name u-url">Layout: Excerpt (Generated)</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-14-layout-excerpt-generated" class="p-name u-url">Layout: Excerpt (Generated)</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2012-03-14T00:00:00+00:00">march 14, 2012</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -368,7 +417,7 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/layout-excerpt-defined/" class="p-name u-url">Layout: Excerpt (Defined)</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-14-layout-excerpt-defined" class="p-name u-url">Layout: Excerpt (Defined)</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2012-03-14T00:00:00+00:00">march 14, 2012</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -376,7 +425,7 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/layout-code-excerpt-generated/" class="p-name u-url">Layout: Code Excerpt (Generated)</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-14-layout-code-excerpt-generated" class="p-name u-url">Layout: Code Excerpt (Generated)</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2012-03-14T00:00:00+00:00">march 14, 2012</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -384,7 +433,7 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/layout-read-time-comments-sharing-related-posts-disabled/" class="p-name u-url">Layout: Reading Time, Comments, Social Sharing Links, and Related Posts Disabled</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-03-layout-read-time-comments-sharing-related-posts-disabled" class="p-name u-url">Layout: Comments, Social Sharing Links, and Related Posts Disabled</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2012-01-03T00:00:00+00:00">january 03, 2012</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -392,7 +441,7 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/layout-sharing/" class="p-name u-url">Layout: Social Sharing Links Enabled</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-02-layout-sharing" class="p-name u-url">Layout: Social Sharing Links Enabled</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2012-01-02T00:00:00+00:00">january 02, 2012</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -400,7 +449,7 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/layout-sharing-disabled/" class="p-name u-url">Layout: Social Sharing Links Disabled</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-02-layout-sharing-disabled" class="p-name u-url">Layout: Social Sharing Links Disabled</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2012-01-02T00:00:00+00:00">january 02, 2012</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -408,7 +457,7 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/layout-related-posts/" class="p-name u-url">Layout: Related Posts Enabled</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-02-layout-related-posts" class="p-name u-url">Layout: Related Posts Enabled</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2012-01-02T00:00:00+00:00">january 02, 2012</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -416,7 +465,7 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/layout-related-posts-disabled/" class="p-name u-url">Layout: Related Posts Disabled</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-02-layout-related-posts-disabled" class="p-name u-url">Layout: Related Posts Disabled</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2012-01-02T00:00:00+00:00">january 02, 2012</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -424,7 +473,7 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/layout-comments/" class="p-name u-url">Layout: Comments Enabled</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-02-layout-comments" class="p-name u-url">Layout: Comments Enabled</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2012-01-02T00:00:00+00:00">january 02, 2012</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -432,7 +481,7 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/layout-comments-disabled/" class="p-name u-url">Layout: Comments Disabled</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-02-layout-comments-disabled" class="p-name u-url">Layout: Comments Disabled</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2012-01-02T00:00:00+00:00">january 02, 2012</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -449,15 +498,15 @@
 </div>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/post-gallery/" class="p-name u-url">Post: Gallery</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-09-09-post-gallery" class="p-name u-url">Post: Gallery</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2010-09-09T00:00:00+00:00">september 09, 2010</time>
  | 
-        <i class="far fa-clock" aria-hidden="true"></i> 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
+        <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
    </div>
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/post-image-caption/" class="p-name u-url">Post: Image (Caption)</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-08-07-post-image-caption" class="p-name u-url">Post: Image (Caption)</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2010-08-07T00:00:00+00:00">august 07, 2010</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -465,7 +514,7 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/post-image-linked-caption/" class="p-name u-url">Post: Image (Linked with Caption)</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-08-06-post-image-linked-caption" class="p-name u-url">Post: Image (Linked with Caption)</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2010-08-06T00:00:00+00:00">august 06, 2010</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -473,7 +522,7 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/post-image-standard/" class="p-name u-url">Post: Image (Standard)</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-08-05-post-image-standard" class="p-name u-url">Post: Image (Standard)</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2010-08-05T00:00:00+00:00">august 05, 2010</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -481,7 +530,7 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/post-image-linked/" class="p-name u-url">Post: Image (with Link)</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-08-05-post-image-linked" class="p-name u-url">Post: Image (with Link)</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2010-08-05T00:00:00+00:00">august 05, 2010</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -489,7 +538,7 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/post-video-youtube/" class="p-name u-url">Post: Video (YouTube)</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-06-02-post-video-youtube" class="p-name u-url">Post: Video (YouTube)</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2010-06-02T00:00:00+00:00">june 02, 2010</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -497,7 +546,7 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/post-link/" class="p-name u-url">Post: Link</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-03-07-post-link" class="p-name u-url">Post: Link</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2010-03-07T00:00:00+00:00">march 07, 2010</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -505,7 +554,7 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/post-quote/" class="p-name u-url">Post: Quote</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-02-05-post-quote" class="p-name u-url">Post: Quote</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2010-02-05T00:00:00+00:00">february 05, 2010</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -513,7 +562,7 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/post-notice/" class="p-name u-url">Post: Notice</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-02-05-post-alert" class="p-name u-url">Post: Alert</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2010-02-05T00:00:00+00:00">february 05, 2010</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -521,7 +570,7 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/post-chat/" class="p-name u-url">Post: Chat</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-01-08-post-chat" class="p-name u-url">Post: Chat</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2010-01-08T00:00:00+00:00">january 08, 2010</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> 2’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -529,7 +578,7 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/post-standard/" class="p-name u-url">Post: Standard</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-01-07-post-standard" class="p-name u-url">Post: Standard</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2010-01-07T00:00:00+00:00">january 07, 2010</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> 4’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -537,9 +586,9 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/post-modified/" class="p-name u-url">Post: Modified Date</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-01-07-post-modified" class="p-name u-url">Post: Modified Date</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2010-01-07T00:00:00+00:00">january 07, 2010</time>
- | 
+ <i class="fa fa-redo" aria-hidden="true"></i> | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
    </div>
  </article>
@@ -554,7 +603,7 @@
 </div>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/edge-case-very-long-title/" class="p-name u-url">Suspicio? Bene ... tunc ibimus? Quis uh ... CONEXUS locus his diebus? Quisque semper aliquid videtur, in volutpat mauris. Nolo enim dicere. Vobis neque ab aliis. Ego feci memetipsum explicans. Gus mortuus est. Lorem opus habeo. Jackson Isai? Tu quoque ... A te quidem a ante. Vos scitis quod blinking res Ive 'been vocans super vos? Et conteram illud, et conteram hoc. Maledicant druggie excors. Iam hoc tu facere conatus sum ad te in omni tempore? Ludum mutavit. Verbum est ex. Et ... sunt occid</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-10-05-edge-case-very-long-title" class="p-name u-url">Suspicio? Bene ... tunc ibimus? Quis uh ... CONEXUS locus his diebus? Quisque semper aliquid videtur, in volutpat mauris. Nolo enim dicere. Vobis neque ab aliis. Ego feci memetipsum explicans. Gus mortuus est. Lorem opus habeo. Jackson Isai? Tu quoque ... A te quidem a ante. Vos scitis quod blinking res Ive 'been vocans super vos? Et conteram illud, et conteram hoc. Maledicant druggie excors. Iam hoc tu facere conatus sum ad te in omni tempore? Ludum mutavit. Verbum est ex. Et ... sunt occid</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2009-10-05T00:00:00+00:00">october 05, 2009</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -562,7 +611,7 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/edge-case-title-should-not-overflow-the-content-area/" class="p-name u-url">Antidisestablishmentarianism</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-10-05-edge-case-title-should-not-overflow-the-content-area" class="p-name u-url">Antidisestablishmentarianism</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2009-10-05T00:00:00+00:00">october 05, 2009</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -570,7 +619,7 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/edge-case-no-yaml-title/" class="p-name u-url">Edge Case No Yaml Title</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-09-05-edge-case-no-yaml-title" class="p-name u-url">Edge Case No Yaml Title</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2009-09-05T00:00:00+00:00">september 05, 2009</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -578,7 +627,7 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/edge-case-no-body-content/" class="p-name u-url">Edge Case: No Body Content</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-08-06-edge-case-no-body-content" class="p-name u-url">Edge Case: No Body Content</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2009-08-06T00:00:00+00:00">august 06, 2009</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -586,7 +635,7 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/edge-case-many-tags/" class="p-name u-url">Edge Case: Many Tags</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-06-01-edge-case-many-tags" class="p-name u-url">Edge Case: Many Tags</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2009-06-01T00:00:00+00:00">june 01, 2009</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -594,7 +643,7 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/edge-case-nested-and-mixed-lists/" class="p-name u-url">Edge Case: Nested and Mixed Lists</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-05-15-edge-case-nested-and-mixed-lists" class="p-name u-url">Edge Case: Nested and Mixed Lists</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2009-05-15T00:00:00+00:00">may 15, 2009</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -611,7 +660,7 @@
 </div>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/markup-html-tags-and-formatting/" class="p-name u-url">Markup: HTML Tags and Formatting</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2013-01-11-markup-html-tags-and-formatting" class="p-name u-url">Markup: HTML Tags and Formatting</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2013-01-11T00:00:00+00:00">january 11, 2013</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> 3’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -619,7 +668,7 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/markup-image-alignment/" class="p-name u-url">Markup: Image Alignment</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2013-01-10-markup-image-alignment" class="p-name u-url">Markup: Image Alignment</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2013-01-10T00:00:00+00:00">january 10, 2013</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> 3’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -627,7 +676,7 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/markup-text-alignment/" class="p-name u-url">Markup: Text Alignment</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2013-01-09-markup-text-alignment" class="p-name u-url">Markup: Text Alignment</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2013-01-09T00:00:00+00:00">january 09, 2013</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -635,10 +684,44 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/markup-title-with-special-characters/" class="p-name u-url">Markup: Title with Special&nbsp;---&nbsp;Characters</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2013-01-05-markup-title-with-special-characters" class="p-name u-url">Markup: Title with Special&nbsp;---&nbsp;Characters</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2013-01-05T00:00:00+00:00">january 05, 2013</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
+   </div>
+ </article>
+ <div class="text-right">
+      <a href="#categories" class="btn btn-lg border-0 chulapa-text-body-color"><i class="fa fa-chevron-up fa-lg" aria-hidden="true"></i><span class="sr-only">Top</span></a>
+ </div>
+</section>
+<section id="Post" class="py-3 chulapa-cloudcategory">
+<div class="d-flex  align-items-center border-bottom border-chulapa mt-5">
+ <h5 class="my-0"><i class="far fa-folder-open mr-1" aria-hidden="true"></i>Post</h5>
+ <div class="badge rounded-pill chulapa-pill-bg-secondary ml-2">1</div>
+</div>
+ <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
+   <div class="col">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-10-25-post-future-date" class="p-name u-url">Post: Future Date</a></h6><div class="small">
+        <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="9999-12-31T00:00:00+00:00">december 31, 9999</time>
+ | 
+        <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
+   </div>
+ </article>
+ <div class="text-right">
+      <a href="#categories" class="btn btn-lg border-0 chulapa-text-body-color"><i class="fa fa-chevron-up fa-lg" aria-hidden="true"></i><span class="sr-only">Top</span></a>
+ </div>
+</section>
+<section id="Jekyll" class="py-3 chulapa-cloudcategory">
+<div class="d-flex  align-items-center border-bottom border-chulapa mt-5">
+ <h5 class="my-0"><i class="far fa-folder-open mr-1" aria-hidden="true"></i>Jekyll</h5>
+ <div class="badge rounded-pill chulapa-pill-bg-secondary ml-2">1</div>
+</div>
+ <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
+   <div class="col">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/post-draft" class="p-name u-url">Draft Post</a></h6><div class="small">
+        <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2025-03-06T18:03:04+00:00">march 06, 2025</time>
+ | 
+        <i class="far fa-clock" aria-hidden="true"></i> 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
    </div>
  </article>
  <div class="text-right">
@@ -652,7 +735,7 @@
 </div>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/markup-title-with-markup/" class="p-name u-url">Markup: Title *with* **Markdown**</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2013-01-05-markup-title-with-markup" class="p-name u-url">Markup: Title <em>with</em> <strong>HTML</strong></a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2013-01-05T00:00:00+00:00">january 05, 2013</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -669,7 +752,7 @@
 </div>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/post-twitter-embeds/" class="p-name u-url">Post: Twitter Embed</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-09-10-post-twitter-embeds" class="p-name u-url">Post: Twitter Embed</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2010-09-10T00:00:00+00:00">september 10, 2010</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -686,7 +769,7 @@
 </div>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/edge-case-many-categories/" class="p-name u-url">Edge Case: Many Categories</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-07-02-edge-case-many-categories" class="p-name u-url">Edge Case: Many Categories</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2009-07-02T00:00:00+00:00">july 02, 2009</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -703,7 +786,7 @@
 </div>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/edge-case-many-categories/" class="p-name u-url">Edge Case: Many Categories</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-07-02-edge-case-many-categories" class="p-name u-url">Edge Case: Many Categories</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2009-07-02T00:00:00+00:00">july 02, 2009</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -720,7 +803,7 @@
 </div>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/edge-case-many-categories/" class="p-name u-url">Edge Case: Many Categories</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-07-02-edge-case-many-categories" class="p-name u-url">Edge Case: Many Categories</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2009-07-02T00:00:00+00:00">july 02, 2009</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -737,7 +820,7 @@
 </div>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/edge-case-many-categories/" class="p-name u-url">Edge Case: Many Categories</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-07-02-edge-case-many-categories" class="p-name u-url">Edge Case: Many Categories</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2009-07-02T00:00:00+00:00">july 02, 2009</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -754,7 +837,7 @@
 </div>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/edge-case-many-categories/" class="p-name u-url">Edge Case: Many Categories</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-07-02-edge-case-many-categories" class="p-name u-url">Edge Case: Many Categories</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2009-07-02T00:00:00+00:00">july 02, 2009</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -771,7 +854,7 @@
 </div>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/edge-case-many-categories/" class="p-name u-url">Edge Case: Many Categories</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-07-02-edge-case-many-categories" class="p-name u-url">Edge Case: Many Categories</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2009-07-02T00:00:00+00:00">july 02, 2009</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -788,7 +871,7 @@
 </div>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/edge-case-many-categories/" class="p-name u-url">Edge Case: Many Categories</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-07-02-edge-case-many-categories" class="p-name u-url">Edge Case: Many Categories</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2009-07-02T00:00:00+00:00">july 02, 2009</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -805,7 +888,7 @@
 </div>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/edge-case-many-categories/" class="p-name u-url">Edge Case: Many Categories</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-07-02-edge-case-many-categories" class="p-name u-url">Edge Case: Many Categories</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2009-07-02T00:00:00+00:00">july 02, 2009</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -822,7 +905,7 @@
 </div>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/edge-case-many-categories/" class="p-name u-url">Edge Case: Many Categories</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-07-02-edge-case-many-categories" class="p-name u-url">Edge Case: Many Categories</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2009-07-02T00:00:00+00:00">july 02, 2009</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -839,7 +922,7 @@
 </div>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/edge-case-many-categories/" class="p-name u-url">Edge Case: Many Categories</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-07-02-edge-case-many-categories" class="p-name u-url">Edge Case: Many Categories</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2009-07-02T00:00:00+00:00">july 02, 2009</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -856,7 +939,7 @@
 </div>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/edge-case-many-categories/" class="p-name u-url">Edge Case: Many Categories</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-07-02-edge-case-many-categories" class="p-name u-url">Edge Case: Many Categories</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2009-07-02T00:00:00+00:00">july 02, 2009</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -873,7 +956,7 @@
 </div>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/edge-case-many-categories/" class="p-name u-url">Edge Case: Many Categories</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-07-02-edge-case-many-categories" class="p-name u-url">Edge Case: Many Categories</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2009-07-02T00:00:00+00:00">july 02, 2009</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -890,7 +973,7 @@
 </div>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/edge-case-many-categories/" class="p-name u-url">Edge Case: Many Categories</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-07-02-edge-case-many-categories" class="p-name u-url">Edge Case: Many Categories</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2009-07-02T00:00:00+00:00">july 02, 2009</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -907,7 +990,7 @@
 </div>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/edge-case-many-categories/" class="p-name u-url">Edge Case: Many Categories</a></h6><div class="small">
+     <h6><a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-07-02-edge-case-many-categories" class="p-name u-url">Edge Case: Many Categories</a></h6><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2009-07-02T00:00:00+00:00">july 02, 2009</time>
  | 
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -931,7 +1014,7 @@
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
               </span><span class="sr-only">RSS</span>
-            </a></div><p class="mt-2 mb-3">&copy; 2025 Your Name</p>
+            </a></div><p class="mt-2 mb-3">&copy; 2025 Octocat</p>
           <!-- Do not remove this in order to give  attributions -->
          <p class="chulapa-footer-brand">Powered by <a href="https://dieghernan.github.io/chulapa"> <span class="chulapa">Chulapa</span> Jekyll Theme</a></p>
           <!-- End  attributions -->

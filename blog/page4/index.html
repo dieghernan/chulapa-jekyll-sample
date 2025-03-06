@@ -17,20 +17,28 @@
         "@id": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/page4/"
       },
       "headline": "Blog",
-      "image": "https://dieghernan.github.io/chulapa-jekyll-sample/assets/img/site/banner-blog.png",
-      "datePublished": "2025-03-06T07:59:54+00:00",
-      "dateModified": "2025-03-06T07:59:54+00:00",
+      "image": "https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-gallery-image-1-th.jpg",
+      "datePublished": "2025-03-06T18:03:10+00:00",
+      "dateModified": "2025-03-06T18:03:10+00:00",
       "author": {
         "@type": "Person",
-        "name": "Your Name"
+        "name": "Octocat"
+        , "url": "https://github.com/github/"
+        ,  "sameAs" : [
+             "https://twitter.com/github"
+            ,
+             "https://github.com/facebook"
+            ,
+             "https://www.linkedin.com"
+            ]
       },
        "publisher": {
         "@type": "Organization",
-        "name": "Your Name",
+        "name": "Octocat",
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/",
         "logo": {
           "@type": "ImageObject",
-          "url": ""
+          "url": "https://github.com/octocat.png"
         }
       }
     }
@@ -63,13 +71,20 @@
 {
   "@context" : "https://schema.org",
   "@type" : "Person",
+  "image": "https://github.com/octocat.png",
   "homeLocation": {
     "@type": "Place",
-    "name": "Madrid, Spain"
+    "name": "San Francisco, CA 94107, United States"
     },
   "description": "Publisher",
-  "name" : "Your Name",
+  "name" : "Octocat",
   "url" : "https://dieghernan.github.io/chulapa-jekyll-sample/"
+  ,  "sameAs" : [
+  "https://github.com/github/",
+  "https://twitter.com/github",
+  "https://github.com/facebook",
+  "https://www.linkedin.com"
+  ]
 }
 </script>
    <title>Blog | Chulapa Jekyll Sample</title>
@@ -80,10 +95,10 @@
   <link href="https://dieghernan.github.io/chulapa-jekyll-sample/rss.xml" type="application/rss+xml" rel="alternate" title="RSS 2.0 feed Chulapa Jekyll Sample" >
     <!-- Meta tags -->
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-   <meta name="author" content="Your Name" >
-   <meta name="copyright" content="Your Name" >
+   <meta name="author" content="Octocat" >
+   <meta name="copyright" content="Octocat" >
    <meta name="description" content="News and updates - Latest news">
-   <meta name="thumbnail" content="https://dieghernan.github.io/chulapa-jekyll-sample/assets/img/site/banner-blog.png" >
+   <meta name="thumbnail" content="https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-gallery-image-1-th.jpg" >
    <meta name="robots" content="index, follow"><meta name="keywords" content="">
     <!-- Chrome, Firefox OS and Opera -->
   <meta name="theme-color" content="lightskyblue">
@@ -94,9 +109,11 @@
    <meta property="og:type" content="website" >
    <meta property="og:description" content="News and updates - Latest news" >
    <meta property="og:locale" content="en-US" >
-   <meta property="og:image" content="https://dieghernan.github.io/chulapa-jekyll-sample/assets/img/site/banner-blog.png" >
+   <meta property="og:image" content="https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-gallery-image-1-th.jpg" >
     <!-- Twitter/X Cards -->
-   <meta name="twitter:card" content="summary_large_image"><!-- start custom head snippets -->
+   <meta name="twitter:card" content="summary_large_image">
+   <meta name="twitter:creator" content="@github" >
+    <!-- start custom head snippets -->
 <!-- this script is inserted before the css stylesheet -->
 <!-- end custom head snippets -->
 <!-- CSS -->
@@ -128,8 +145,12 @@
 			<div class="collapse navbar-collapse" id="navbarToggler">
 				<ul class="navbar-nav ml-auto"><li class="nav-item">
 						<a class="nav-link " href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/">Blog</a>
+					</li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle " href="#" id="Collections" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Collections</a>
+						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="Collections"><a class="dropdown-item " href="https://dieghernan.github.io/chulapa-jekyll-sample/pets/">Pets</a><a class="dropdown-item " href="https://dieghernan.github.io/chulapa-jekyll-sample/recipes/">Recipes</a><a class="dropdown-item " href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/foo-bar-website">Portfolio</a></div>
 					</li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle " href="#" id="Extras" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Extras</a>
 						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="Extras"><a class="dropdown-item " href="https://dieghernan.github.io/chulapa-jekyll-sample/tags">Tags</a><a class="dropdown-item " href="https://dieghernan.github.io/chulapa-jekyll-sample/categories">Categories</a><a class="dropdown-item " href="https://dieghernan.github.io/chulapa-jekyll-sample/archive">Archive</a></div>
+					</li><li class="nav-item">
+						<a class="nav-link " href="https://dieghernan.github.io/chulapa-jekyll-sample/sitemap/">Sitemap</a>
 					</li><li class="nav-item">
 						<a class="nav-link " href="https://dieghernan.github.io/chulapa-jekyll-sample/search">
 							<span class="d-md-none p-0 pr-1">Search</span><i class="fa fa-search" aria-hidden="true"></i><span class="sr-only">Search</span>
@@ -150,18 +171,18 @@
 <div class="col-12 mb-2">
 <div class="card chulapa-border-card-index">
 	<div class="row g-0">
-		<a href="https://dieghernan.github.io/chulapa-jekyll-sample/layout-header-image-vertical/" class="col-sm-1 chulapa-min-h-10 chulapa-card-img chulapa-overlay-img chulapa-gradient d-none d-sm-flex  "
+		<a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-09-10-post-twitter-embeds" class="col-sm-1 chulapa-min-h-10 chulapa-card-img chulapa-overlay-img chulapa-gradient d-none d-sm-flex  "
 >
 		</a>
 		<div class="col-sm">
 			<article class="card-body chulapa-links-hover-only">
-				<a href="https://dieghernan.github.io/chulapa-jekyll-sample/layout-header-image-vertical/"><h5 class="card-title">Layout: Header Image (Vertical)</h5></a>
-				<div class="card-text">This post should display a header image, if the theme supports it.
+				<a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-09-10-post-twitter-embeds"><h5 class="card-title">Post: Twitter Embed</h5></a>
+				<div class="card-text">🎨 Finally got around to adding all my @procreateapp creations with time lapse videos https://t.co/1nNbkefC3L pic.twitter.com/gcNLJoJ0Gn&mdash; Michael Rose (@mmistakes) November 6, 2015
 </div>
 			</article>
 			<div class="border-top-0 card-footer border-primary chulapa-bg-transparent">
 				<p class="small text-right font-italic mb-1">
-<time datetime="2012-03-15T00:00:00+00:00">15/03/2012</time></p><a href="https://dieghernan.github.io/chulapa-jekyll-sample/categories#Layout" class="badge chulapa-pill-bg-secondary mx-1">Layout</a><a href="https://dieghernan.github.io/chulapa-jekyll-sample/categories#Uncategorized" class="badge chulapa-pill-bg-secondary mx-1">Uncategorized</a><a href="https://dieghernan.github.io/chulapa-jekyll-sample/tags#edge-case" class="badge chulapa-pill-bg-primary mx-1">edge case</a><a href="https://dieghernan.github.io/chulapa-jekyll-sample/tags#featured-image" class="badge chulapa-pill-bg-primary mx-1">featured image</a><a href="https://dieghernan.github.io/chulapa-jekyll-sample/tags#image" class="badge chulapa-pill-bg-primary mx-1">image</a><a href="https://dieghernan.github.io/chulapa-jekyll-sample/tags#layout" class="badge chulapa-pill-bg-primary mx-1">layout</a></div>
+<time datetime="2010-09-10T00:00:00+00:00">10/09/2010</time></p><a href="https://dieghernan.github.io/chulapa-jekyll-sample/categories#Media" class="badge chulapa-pill-bg-secondary mx-1">Media</a><a href="https://dieghernan.github.io/chulapa-jekyll-sample/tags#content" class="badge chulapa-pill-bg-primary mx-1">content</a><a href="https://dieghernan.github.io/chulapa-jekyll-sample/tags#embeds" class="badge chulapa-pill-bg-primary mx-1">embeds</a><a href="https://dieghernan.github.io/chulapa-jekyll-sample/tags#media" class="badge chulapa-pill-bg-primary mx-1">media</a><a href="https://dieghernan.github.io/chulapa-jekyll-sample/tags#twitter" class="badge chulapa-pill-bg-primary mx-1">twitter</a></div>
 		</div>
 	</div>
 </div>
@@ -169,18 +190,18 @@
 <div class="col-12 mb-2">
 <div class="card chulapa-border-card-index">
 	<div class="row g-0">
-		<a href="https://dieghernan.github.io/chulapa-jekyll-sample/layout-header-image-text-readability/" class="col-sm-1 chulapa-min-h-10 chulapa-card-img chulapa-overlay-img chulapa-gradient d-none d-sm-flex  "
+		<a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-09-09-post-gallery" class="col-sm-1 chulapa-min-h-10 chulapa-card-img chulapa-overlay-img chulapa-gradient d-none d-sm-flex  "
 >
 		</a>
 		<div class="col-sm">
 			<article class="card-body chulapa-links-hover-only">
-				<a href="https://dieghernan.github.io/chulapa-jekyll-sample/layout-header-image-text-readability/"><h5 class="card-title">Layout: Header Image and Text Readability</h5></a>
-				<div class="card-text">This is a sample post with a large feature image up top and tons of text. Odio ad blue bottle vinyl, 90’s narwhal commodo bitters pour-over nostrud. Ugh est hashtag in, fingerstache adipisicing laboris esse Pinterest shabby chic Portland. Shoreditch bicycle rights anim, flexitarian laboris put a bird on it vinyl cupidatat narwhal. Hashtag artisan skateboard, flannel Bushwick nesciunt salvia aute fixie do plaid post-ironic dolor McSweeney’s. Cliche pour-over chambray nulla four loko skateboard sapiente hashtag.
+				<a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-09-09-post-gallery"><h5 class="card-title">Post: Gallery</h5></a>
+				<div class="card-text">These are gallery tests for image wrapped in &lt;figure&gt; elements.
 </div>
 			</article>
 			<div class="border-top-0 card-footer border-primary chulapa-bg-transparent">
 				<p class="small text-right font-italic mb-1">
-<time datetime="2012-03-15T00:00:00+00:00">15/03/2012</time></p><a href="https://dieghernan.github.io/chulapa-jekyll-sample/tags#sample-post" class="badge chulapa-pill-bg-primary mx-1">sample post</a><a href="https://dieghernan.github.io/chulapa-jekyll-sample/tags#readability" class="badge chulapa-pill-bg-primary mx-1">readability</a><a href="https://dieghernan.github.io/chulapa-jekyll-sample/tags#test" class="badge chulapa-pill-bg-primary mx-1">test</a></div>
+<time datetime="2010-09-09T00:00:00+00:00">09/09/2010</time></p><a href="https://dieghernan.github.io/chulapa-jekyll-sample/categories#Post-Formats" class="badge chulapa-pill-bg-secondary mx-1">Post Formats</a><a href="https://dieghernan.github.io/chulapa-jekyll-sample/tags#gallery" class="badge chulapa-pill-bg-primary mx-1">gallery</a><a href="https://dieghernan.github.io/chulapa-jekyll-sample/tags#Post-Formats" class="badge chulapa-pill-bg-primary mx-1">Post Formats</a><a href="https://dieghernan.github.io/chulapa-jekyll-sample/tags#tiled" class="badge chulapa-pill-bg-primary mx-1">tiled</a></div>
 		</div>
 	</div>
 </div>
@@ -188,18 +209,18 @@
 <div class="col-12 mb-2">
 <div class="card chulapa-border-card-index">
 	<div class="row g-0">
-		<a href="https://dieghernan.github.io/chulapa-jekyll-sample/layout-header-image-horizontal/" class="col-sm-1 chulapa-min-h-10 chulapa-card-img chulapa-overlay-img chulapa-gradient d-none d-sm-flex  "
+		<a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-08-07-post-image-caption" class="col-sm-1 chulapa-min-h-10 chulapa-card-img chulapa-overlay-img chulapa-gradient d-none d-sm-flex  "
 >
 		</a>
 		<div class="col-sm">
 			<article class="card-body chulapa-links-hover-only">
-				<a href="https://dieghernan.github.io/chulapa-jekyll-sample/layout-header-image-horizontal/"><h5 class="card-title">Layout: Header Image (Horizontal)</h5></a>
-				<div class="card-text">This post should display a header image, if the theme supports it.
+				<a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-08-07-post-image-caption"><h5 class="card-title">Post: Image (Caption)</h5></a>
+				<div class="card-text">
 </div>
 			</article>
 			<div class="border-top-0 card-footer border-primary chulapa-bg-transparent">
 				<p class="small text-right font-italic mb-1">
-<time datetime="2012-03-15T00:00:00+00:00">15/03/2012</time></p><a href="https://dieghernan.github.io/chulapa-jekyll-sample/categories#Layout" class="badge chulapa-pill-bg-secondary mx-1">Layout</a><a href="https://dieghernan.github.io/chulapa-jekyll-sample/categories#Uncategorized" class="badge chulapa-pill-bg-secondary mx-1">Uncategorized</a><a href="https://dieghernan.github.io/chulapa-jekyll-sample/tags#edge-case" class="badge chulapa-pill-bg-primary mx-1">edge case</a><a href="https://dieghernan.github.io/chulapa-jekyll-sample/tags#featured-image" class="badge chulapa-pill-bg-primary mx-1">featured image</a><a href="https://dieghernan.github.io/chulapa-jekyll-sample/tags#image" class="badge chulapa-pill-bg-primary mx-1">image</a><a href="https://dieghernan.github.io/chulapa-jekyll-sample/tags#layout" class="badge chulapa-pill-bg-primary mx-1">layout</a></div>
+<time datetime="2010-08-07T00:00:00+00:00">07/08/2010</time></p><a href="https://dieghernan.github.io/chulapa-jekyll-sample/categories#Post-Formats" class="badge chulapa-pill-bg-secondary mx-1">Post Formats</a><a href="https://dieghernan.github.io/chulapa-jekyll-sample/tags#image" class="badge chulapa-pill-bg-primary mx-1">image</a><a href="https://dieghernan.github.io/chulapa-jekyll-sample/tags#Post-Formats" class="badge chulapa-pill-bg-primary mx-1">Post Formats</a></div>
 		</div>
 	</div>
 </div>
@@ -207,18 +228,134 @@
 <div class="col-12 mb-2">
 <div class="card chulapa-border-card-index">
 	<div class="row g-0">
-		<a href="https://dieghernan.github.io/chulapa-jekyll-sample/layout-header-image-external/" class="col-sm-1 chulapa-min-h-10 chulapa-card-img chulapa-overlay-img chulapa-gradient d-none d-sm-flex  "
+		<a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-08-06-post-image-linked-caption" class="col-sm-1 chulapa-min-h-10 chulapa-card-img chulapa-overlay-img chulapa-gradient d-none d-sm-flex  "
 >
 		</a>
 		<div class="col-sm">
 			<article class="card-body chulapa-links-hover-only">
-				<a href="https://dieghernan.github.io/chulapa-jekyll-sample/layout-header-image-external/"><h5 class="card-title">Layout: Header Image (External URL)</h5></a>
-				<div class="card-text">This post should display a header image, if the theme supports it.
+				<a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-08-06-post-image-linked-caption"><h5 class="card-title">Post: Image (Linked with Caption)</h5></a>
+				<div class="card-text">
 </div>
 			</article>
 			<div class="border-top-0 card-footer border-primary chulapa-bg-transparent">
 				<p class="small text-right font-italic mb-1">
-<time datetime="2012-03-15T00:00:00+00:00">15/03/2012</time></p><a href="https://dieghernan.github.io/chulapa-jekyll-sample/categories#Layout" class="badge chulapa-pill-bg-secondary mx-1">Layout</a><a href="https://dieghernan.github.io/chulapa-jekyll-sample/categories#Uncategorized" class="badge chulapa-pill-bg-secondary mx-1">Uncategorized</a><a href="https://dieghernan.github.io/chulapa-jekyll-sample/tags#edge-case" class="badge chulapa-pill-bg-primary mx-1">edge case</a><a href="https://dieghernan.github.io/chulapa-jekyll-sample/tags#featured-image" class="badge chulapa-pill-bg-primary mx-1">featured image</a><a href="https://dieghernan.github.io/chulapa-jekyll-sample/tags#image" class="badge chulapa-pill-bg-primary mx-1">image</a><a href="https://dieghernan.github.io/chulapa-jekyll-sample/tags#layout" class="badge chulapa-pill-bg-primary mx-1">layout</a></div>
+<time datetime="2010-08-06T00:00:00+00:00">06/08/2010</time></p><a href="https://dieghernan.github.io/chulapa-jekyll-sample/categories#Post-Formats" class="badge chulapa-pill-bg-secondary mx-1">Post Formats</a><a href="https://dieghernan.github.io/chulapa-jekyll-sample/tags#image" class="badge chulapa-pill-bg-primary mx-1">image</a><a href="https://dieghernan.github.io/chulapa-jekyll-sample/tags#Post-Formats" class="badge chulapa-pill-bg-primary mx-1">Post Formats</a></div>
+		</div>
+	</div>
+</div>
+</div>
+<div class="col-12 mb-2">
+<div class="card chulapa-border-card-index">
+	<div class="row g-0">
+		<a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-08-05-post-image-standard" class="col-sm-1 chulapa-min-h-10 chulapa-card-img chulapa-overlay-img chulapa-gradient d-none d-sm-flex  "
+>
+		</a>
+		<div class="col-sm">
+			<article class="card-body chulapa-links-hover-only">
+				<a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-08-05-post-image-standard"><h5 class="card-title">Post: Image (Standard)</h5></a>
+				<div class="card-text">The preferred way of using images is placing them in the /images/ directory and referencing them with an absolute path. Prepending the filename with {{ site.url }}{{ site.baseurl }}/images/ will make sure your images display properly in feeds and such.
+</div>
+			</article>
+			<div class="border-top-0 card-footer border-primary chulapa-bg-transparent">
+				<p class="small text-right font-italic mb-1">
+<time datetime="2010-08-05T00:00:00+00:00">05/08/2010</time></p><a href="https://dieghernan.github.io/chulapa-jekyll-sample/categories#Post-Formats" class="badge chulapa-pill-bg-secondary mx-1">Post Formats</a><a href="https://dieghernan.github.io/chulapa-jekyll-sample/tags#image" class="badge chulapa-pill-bg-primary mx-1">image</a><a href="https://dieghernan.github.io/chulapa-jekyll-sample/tags#Post-Formats" class="badge chulapa-pill-bg-primary mx-1">Post Formats</a></div>
+		</div>
+	</div>
+</div>
+</div>
+<div class="col-12 mb-2">
+<div class="card chulapa-border-card-index">
+	<div class="row g-0">
+		<a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-08-05-post-image-linked" class="col-sm-1 chulapa-min-h-10 chulapa-card-img chulapa-overlay-img chulapa-gradient d-none d-sm-flex  "
+>
+		</a>
+		<div class="col-sm">
+			<article class="card-body chulapa-links-hover-only">
+				<a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-08-05-post-image-linked"><h5 class="card-title">Post: Image (with Link)</h5></a>
+				<div class="card-text">
+</div>
+			</article>
+			<div class="border-top-0 card-footer border-primary chulapa-bg-transparent">
+				<p class="small text-right font-italic mb-1">
+<time datetime="2010-08-05T00:00:00+00:00">05/08/2010</time></p><a href="https://dieghernan.github.io/chulapa-jekyll-sample/categories#Post-Formats" class="badge chulapa-pill-bg-secondary mx-1">Post Formats</a><a href="https://dieghernan.github.io/chulapa-jekyll-sample/tags#image" class="badge chulapa-pill-bg-primary mx-1">image</a><a href="https://dieghernan.github.io/chulapa-jekyll-sample/tags#Post-Formats" class="badge chulapa-pill-bg-primary mx-1">Post Formats</a></div>
+		</div>
+	</div>
+</div>
+</div>
+<div class="col-12 mb-2">
+<div class="card chulapa-border-card-index">
+	<div class="row g-0">
+		<a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-06-02-post-video-youtube" class="col-sm-1 chulapa-min-h-10 chulapa-card-img chulapa-overlay-img chulapa-gradient d-none d-sm-flex  "
+>
+		</a>
+		<div class="col-sm">
+			<article class="card-body chulapa-links-hover-only">
+				<a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-06-02-post-video-youtube"><h5 class="card-title">Post: Video (YouTube)</h5></a>
+				<div class="card-text">YouTube video embed below.
+</div>
+			</article>
+			<div class="border-top-0 card-footer border-primary chulapa-bg-transparent">
+				<p class="small text-right font-italic mb-1">
+<time datetime="2010-06-02T00:00:00+00:00">02/06/2010</time></p><a href="https://dieghernan.github.io/chulapa-jekyll-sample/categories#Post-Formats" class="badge chulapa-pill-bg-secondary mx-1">Post Formats</a><a href="https://dieghernan.github.io/chulapa-jekyll-sample/tags#Post-Formats" class="badge chulapa-pill-bg-primary mx-1">Post Formats</a></div>
+		</div>
+	</div>
+</div>
+</div>
+<div class="col-12 mb-2">
+<div class="card chulapa-border-card-index">
+	<div class="row g-0">
+		<a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-03-07-post-link" class="col-sm-1 chulapa-min-h-10 chulapa-card-img chulapa-overlay-img chulapa-gradient d-none d-sm-flex  "
+>
+		</a>
+		<div class="col-sm">
+			<article class="card-body chulapa-links-hover-only">
+				<a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-03-07-post-link"><h5 class="card-title">Post: Link</h5></a>
+				<div class="card-text">This theme supports link posts, made famous by John Gruber. To use, just add link: http://url-you-want-linked to the post’s YAML front matter and you’re done.
+</div>
+			</article>
+			<div class="border-top-0 card-footer border-primary chulapa-bg-transparent">
+				<p class="small text-right font-italic mb-1">
+<time datetime="2010-03-07T00:00:00+00:00">07/03/2010</time></p><a href="https://dieghernan.github.io/chulapa-jekyll-sample/categories#Post-Formats" class="badge chulapa-pill-bg-secondary mx-1">Post Formats</a><a href="https://dieghernan.github.io/chulapa-jekyll-sample/tags#link" class="badge chulapa-pill-bg-primary mx-1">link</a><a href="https://dieghernan.github.io/chulapa-jekyll-sample/tags#Post-Formats" class="badge chulapa-pill-bg-primary mx-1">Post Formats</a></div>
+		</div>
+	</div>
+</div>
+</div>
+<div class="col-12 mb-2">
+<div class="card chulapa-border-card-index">
+	<div class="row g-0">
+		<a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-02-05-post-quote" class="col-sm-1 chulapa-min-h-10 chulapa-card-img chulapa-overlay-img chulapa-gradient d-none d-sm-flex  "
+>
+		</a>
+		<div class="col-sm">
+			<article class="card-body chulapa-links-hover-only">
+				<a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-02-05-post-quote"><h5 class="card-title">Post: Quote</h5></a>
+				<div class="card-text">
+  Only one thing is impossible for God: To find any sense in any copyright law on the planet.
+  Mark Twain
+</div>
+			</article>
+			<div class="border-top-0 card-footer border-primary chulapa-bg-transparent">
+				<p class="small text-right font-italic mb-1">
+<time datetime="2010-02-05T00:00:00+00:00">05/02/2010</time></p><a href="https://dieghernan.github.io/chulapa-jekyll-sample/categories#Post-Formats" class="badge chulapa-pill-bg-secondary mx-1">Post Formats</a><a href="https://dieghernan.github.io/chulapa-jekyll-sample/tags#Post-Formats" class="badge chulapa-pill-bg-primary mx-1">Post Formats</a><a href="https://dieghernan.github.io/chulapa-jekyll-sample/tags#quote" class="badge chulapa-pill-bg-primary mx-1">quote</a></div>
+		</div>
+	</div>
+</div>
+</div>
+<div class="col-12 mb-2">
+<div class="card chulapa-border-card-index">
+	<div class="row g-0">
+		<a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-02-05-post-alert" class="col-sm-1 chulapa-min-h-10 chulapa-card-img chulapa-overlay-img chulapa-gradient d-none d-sm-flex  "
+>
+		</a>
+		<div class="col-sm">
+			<article class="card-body chulapa-links-hover-only">
+				<a href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-02-05-post-alert"><h5 class="card-title">Post: Alert</h5></a>
+				<div class="card-text">An alert displays information that explains nearby content. Often used to call attention to a particular detail.
+</div>
+			</article>
+			<div class="border-top-0 card-footer border-primary chulapa-bg-transparent">
+				<p class="small text-right font-italic mb-1">
+<time datetime="2010-02-05T00:00:00+00:00">05/02/2010</time></p><a href="https://dieghernan.github.io/chulapa-jekyll-sample/categories#Post-Formats" class="badge chulapa-pill-bg-secondary mx-1">Post Formats</a><a href="https://dieghernan.github.io/chulapa-jekyll-sample/tags#Post-Formats" class="badge chulapa-pill-bg-primary mx-1">Post Formats</a><a href="https://dieghernan.github.io/chulapa-jekyll-sample/tags#alert" class="badge chulapa-pill-bg-primary mx-1">alert</a></div>
 		</div>
 	</div>
 </div>
@@ -240,9 +377,12 @@
                    <li class="d-flex flex-grow-1">
                    <ul class="list-unstyled d-flex flex-grow-1 justify-content-center chulapa-pagination-inner">
                      <li class="page-item ">
+                          <a class="page-link border-0 rounded-0" href="/chulapa-jekyll-sample/blog">1</a></li><li class="page-item ">
+                          <a class="page-link border-0 rounded-0" href="/chulapa-jekyll-sample/blog/page2/">2</a></li><li class="page-item ">
                           <a class="page-link border-0 rounded-0" href="/chulapa-jekyll-sample/blog/page3/">3</a></li><li class="page-item  active">
                           <a class="page-link border-0 rounded-0" href="/chulapa-jekyll-sample/blog/page4/">4</a></li><li class="page-item ">
-                          <a class="page-link border-0 rounded-0" href="/chulapa-jekyll-sample/blog/page5/">5</a></li>
+                          <a class="page-link border-0 rounded-0" href="/chulapa-jekyll-sample/blog/page5/">5</a></li><li class="page-item ">
+                          <a class="page-link border-0 rounded-0" href="/chulapa-jekyll-sample/blog/page6/">6</a></li>
                    </ul>
                    </li>
                    <li class="page-item ">
@@ -250,7 +390,7 @@
                             <i class="fa fa-chevron-right" aria-hidden="true"></i><span class="sr-only">Next</span></a>
                    </li>
                    <li class="page-item ">
-                        <a class="page-link border-0 px-3 px-sm-4" href="/chulapa-jekyll-sample/blog/page13/">
+                        <a class="page-link border-0 px-3 px-sm-4" href="/chulapa-jekyll-sample/blog/page6/">
                             <i class="fa fa-step-forward" aria-hidden="true"></i><span class="sr-only">Last</span></a>
                    </li>
                </ul>
@@ -267,7 +407,7 @@
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
               </span><span class="sr-only">RSS</span>
-            </a></div><p class="mt-2 mb-3">&copy; 2025 Your Name</p>
+            </a></div><p class="mt-2 mb-3">&copy; 2025 Octocat</p>
           <!-- Do not remove this in order to give  attributions -->
          <p class="chulapa-footer-brand">Powered by <a href="https://dieghernan.github.io/chulapa"> <span class="chulapa">Chulapa</span> Jekyll Theme</a></p>
           <!-- End  attributions -->

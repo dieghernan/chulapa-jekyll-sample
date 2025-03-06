@@ -514,6 +514,16 @@ var store = [{
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-08-16-markup-syntax-highlighting",
         "img": null
       },{
+        "title": "External galleries",
+        "subtitle": "",
+        "excerpt": "A test creating masonry",
+        "content": "A test creating masonry                                               And a carousel          \t   \t  \t                    \t \t                Previous                Next",
+        "categories": [],
+        "date": "2013-10-04",
+        "tags": ["layout","images"],
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-10-04-external-gallery",
+        "img": null
+      },{
         "title": "Minimal",
         "subtitle": "",
         "excerpt": "A post with minimal layout",

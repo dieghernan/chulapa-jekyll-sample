@@ -3,7 +3,7 @@
 	<generator uri="https://dieghernan.github.io/chulapa" version="1.0.0">Chulapa</generator>
 	<link href="https://dieghernan.github.io/chulapa-jekyll-sample/atom.xml" rel="self" type="application/atom+xml" />
 	<link href="https://dieghernan.github.io/chulapa-jekyll-sample" rel="alternate" type="text/html" />
-	<updated>2025-03-06T21:09:03+00:00</updated>
+	<updated>2025-03-06T21:14:59+00:00</updated>
 	<id>https://dieghernan.github.io/chulapa-jekyll-sample/atom.xml</id>
 	<title>Chulapa Jekyll Sample | A test</title>
 	<subtitle>A test</subtitle>
@@ -36,8 +36,8 @@
 	</entry><entry>
 		<title>Tabby</title>
 		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/pets/tabby" rel="alternate" type="text/html" title="Tabby"/>
-		<published>2025-03-06T21:09:03+00:00</published>
-		<updated>2025-03-06T21:09:03+00:00</updated>
+		<published>2025-03-06T21:14:59+00:00</published>
+		<updated>2025-03-06T21:14:59+00:00</updated>
 		<id>https://dieghernan.github.io/chulapa-jekyll-sample/pets/tabby</id>
 		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/pets/tabby">
 		
@@ -61,8 +61,8 @@
 	</entry><entry>
 		<title>Lhasa Apso</title>
 		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/pets/lhasa-apso" rel="alternate" type="text/html" title="Lhasa Apso"/>
-		<published>2025-03-06T21:09:03+00:00</published>
-		<updated>2025-03-06T21:09:03+00:00</updated>
+		<published>2025-03-06T21:14:59+00:00</published>
+		<updated>2025-03-06T21:14:59+00:00</updated>
 		<id>https://dieghernan.github.io/chulapa-jekyll-sample/pets/lhasa-apso</id>
 		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/pets/lhasa-apso">
 		
@@ -86,8 +86,8 @@
 	</entry><entry>
 		<title>Draft Post</title>
 		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/post-draft" rel="alternate" type="text/html" title="Draft Post"/>
-		<published>2025-03-06T21:08:55+00:00</published>
-		<updated>2025-03-06T21:08:55+00:00</updated>
+		<published>2025-03-06T21:14:52+00:00</published>
+		<updated>2025-03-06T21:14:52+00:00</updated>
 		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/post-draft</id>
 		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/post-draft">
 		
@@ -252,6 +252,66 @@ comments, mathjax and a modified date.&lt;/p&gt;
 </summary>
 		<category term="posts"/>
 		<category term="layout"/>
+	</entry><entry>
+		<title>External galleries</title>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-10-04-external-gallery" rel="alternate" type="text/html" title="External galleries"/>
+		<published>2013-10-04T00:00:00+00:00</published>
+		<updated>2013-10-04T00:00:00+00:00</updated>
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-10-04-external-gallery</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-10-04-external-gallery">
+		
+  		
+	&lt;p&gt;1 min.&lt;/p&gt;
+			&lt;p&gt;A test creating masonry&lt;/p&gt;
+
+&lt;div class=&quot;chulapa-masonry mx-2 mt-2&quot;&gt;&lt;div itemscope=&quot;&quot; itemtype=&quot;https://schema.org/ImageObject&quot;&gt;
+  &lt;img loading=&quot;lazy&quot; class=&quot;chulapa-masonry-brick&quot; src=&quot;https://picsum.photos/seed/10/600/1200&quot; alt=&quot;Masonry Item #1&quot; itemprop=&quot;contentUrl&quot; /&gt;
+  &lt;/div&gt;&lt;div itemscope=&quot;&quot; itemtype=&quot;https://schema.org/ImageObject&quot;&gt;
+  &lt;img loading=&quot;lazy&quot; class=&quot;chulapa-masonry-brick&quot; src=&quot;https://picsum.photos/seed/20/800/500&quot; alt=&quot;Masonry Item #2&quot; itemprop=&quot;contentUrl&quot; /&gt;
+  &lt;/div&gt;&lt;div itemscope=&quot;&quot; itemtype=&quot;https://schema.org/ImageObject&quot;&gt;
+  &lt;img loading=&quot;lazy&quot; class=&quot;chulapa-masonry-brick&quot; src=&quot;https://picsum.photos/seed/30/900/1200&quot; alt=&quot;Masonry Item #3&quot; itemprop=&quot;contentUrl&quot; /&gt;
+  &lt;/div&gt;&lt;div itemscope=&quot;&quot; itemtype=&quot;https://schema.org/ImageObject&quot;&gt;
+  &lt;img loading=&quot;lazy&quot; class=&quot;chulapa-masonry-brick&quot; src=&quot;https://picsum.photos/seed/40/900/1300&quot; alt=&quot;Masonry Item #4&quot; itemprop=&quot;contentUrl&quot; /&gt;
+  &lt;/div&gt;&lt;div itemscope=&quot;&quot; itemtype=&quot;https://schema.org/ImageObject&quot;&gt;
+  &lt;img loading=&quot;lazy&quot; class=&quot;chulapa-masonry-brick&quot; src=&quot;https://picsum.photos/seed/50/750/325&quot; alt=&quot;Masonry Item #5&quot; itemprop=&quot;contentUrl&quot; /&gt;
+  &lt;/div&gt;&lt;div itemscope=&quot;&quot; itemtype=&quot;https://schema.org/ImageObject&quot;&gt;
+  &lt;img loading=&quot;lazy&quot; class=&quot;chulapa-masonry-brick&quot; src=&quot;https://picsum.photos/seed/60/600&quot; alt=&quot;Masonry Item #6&quot; itemprop=&quot;contentUrl&quot; /&gt;
+  &lt;/div&gt;&lt;div itemscope=&quot;&quot; itemtype=&quot;https://schema.org/ImageObject&quot;&gt;
+  &lt;img loading=&quot;lazy&quot; class=&quot;chulapa-masonry-brick&quot; src=&quot;https://picsum.photos/seed/70/700/500&quot; alt=&quot;Masonry Item #7&quot; itemprop=&quot;contentUrl&quot; /&gt;
+  &lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;And a carousel&lt;/p&gt;
+
+&lt;div id=&quot;Carousel315&quot; class=&quot;carousel slide&quot; data-ride=&quot;carousel&quot; data-interval=&quot;1000&quot;&gt;
+  
+  &lt;ol class=&quot;carousel-indicators&quot;&gt;
+	  &lt;li data-target=&quot;#Carousel315&quot; data-slide-to=&quot;0&quot; class=&quot;active&quot;&gt;&lt;/li&gt;
+	  &lt;/ol&gt;	
+ 
+  &lt;div class=&quot;carousel-inner&quot;&gt;
+        &lt;div class=&quot;carousel-item active&quot; itemscope=&quot;&quot; itemtype=&quot;https://schema.org/ImageObject&quot;&gt;
+    
+	&lt;img class=&quot;d-block mw-100 chulapa-carousel&quot; src=&quot;https://dieghernan.github.io/chulapa-jekyll-sample/externalgallery&quot; alt=&quot;Carousel Item #1&quot; itemprop=&quot;contentUrl&quot; /&gt;
+	&lt;/div&gt;&lt;/div&gt;
+  
+  &lt;a class=&quot;carousel-control-prev&quot; href=&quot;#Carousel315&quot; role=&quot;button&quot; data-slide=&quot;prev&quot;&gt;
+    &lt;span class=&quot;carousel-control-prev-icon&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+    &lt;span class=&quot;sr-only&quot;&gt;Previous&lt;/span&gt;
+  &lt;/a&gt;
+  &lt;a class=&quot;carousel-control-next&quot; href=&quot;#Carousel315&quot; role=&quot;button&quot; data-slide=&quot;next&quot;&gt;
+    &lt;span class=&quot;carousel-control-next-icon&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+    &lt;span class=&quot;sr-only&quot;&gt;Next&lt;/span&gt;
+  &lt;/a&gt;&lt;/div&gt;
+
+
+		</content>
+		
+		<author>
+			<name>Octocat</name><uri>https://github.com/github/</uri></author>
+		<summary type="html">&lt;p&gt;A test creating masonry&lt;/p&gt;
+</summary>
+		<category term="posts"/>
+		<category term="images"/><category term="layout"/>
 	</entry><entry>
 		<title>Markup: Syntax Highlighting</title>
 		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-08-16-markup-syntax-highlighting" rel="alternate" type="text/html" title="Markup: Syntax Highlighting"/>

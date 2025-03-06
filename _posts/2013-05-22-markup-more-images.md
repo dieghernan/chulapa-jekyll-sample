@@ -28,8 +28,8 @@ Apply the `half` class like so to display two images side by side that share the
 
 ```html
 <figure class="half">
-    <a href="/images/image-filename-1-large.jpg"><img src="/images/image-filename-1.jpg"></a>
-    <a href="/images/image-filename-2-large.jpg"><img src="/images/image-filename-2.jpg"></a>
+    <a href="/images/portfolio/image-filename-1-large.jpg"><img src="/images/image-filename-1.jpg"></a>
+    <a href="/images/portfolio/image-filename-2-large.jpg"><img src="/images/image-filename-2.jpg"></a>
     <figcaption>Caption describing these two images.</figcaption>
 </figure>
 ```
@@ -48,9 +48,9 @@ Apply the `third` class like so to display three images side by side that share 
 
 ```html
 <figure class="third">
-	<img src="/images/image-filename-1.jpg">
-	<img src="/images/image-filename-2.jpg">
-	<img src="/images/image-filename-3.jpg">
+	<img src="/images/portfolio/image-filename-1.jpg">
+	<img src="/images/portfolio/image-filename-2.jpg">
+	<img src="/images/portfolio/image-filename-3.jpg">
 	<figcaption>Caption describing these three images.</figcaption>
 </figure>
 ```

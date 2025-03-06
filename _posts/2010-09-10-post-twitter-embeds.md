@@ -1,5 +1,6 @@
 ---
 title: "Post: Twitter Embed"
+header_type: image
 categories:
   - Media
 tags:

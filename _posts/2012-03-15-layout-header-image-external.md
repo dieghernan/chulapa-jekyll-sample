@@ -1,5 +1,6 @@
 ---
 title: "Layout: Header Image (External URL)"
+header_type: image
 header_img: https://picsum.photos/seed/70/700/500
 categories:
   - Layout

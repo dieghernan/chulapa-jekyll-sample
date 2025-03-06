@@ -3,7 +3,7 @@
 	<generator uri="https://dieghernan.github.io/chulapa" version="1.0.0">Chulapa</generator>
 	<link href="https://dieghernan.github.io/chulapa-jekyll-sample/atom.xml" rel="self" type="application/atom+xml" />
 	<link href="https://dieghernan.github.io/chulapa-jekyll-sample" rel="alternate" type="text/html" />
-	<updated>2025-03-05T22:12:24+00:00</updated>
+	<updated>2025-03-06T05:55:06+00:00</updated>
 	<id>https://dieghernan.github.io/chulapa-jekyll-sample/atom.xml</id>
 	<title>Chulapa Jekyll Sample | A test</title>
 	<subtitle>A test</subtitle>
@@ -2146,13 +2146,13 @@ Stairs? Were we’re going we don’t need no stairs.
 		
   		
 	&lt;p&gt;1 min.&lt;/p&gt;
-			&lt;p&gt;&lt;a href=&quot;https://flic.kr/p/8ww3fZ&quot;&gt;&lt;img src=&quot;https://farm5.staticflickr.com/4073/4939853213_33ffc0290b_b.jpg&quot; alt=&quot;foo&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+			&lt;p&gt;&lt;a href=&quot;https://flic.kr/p/8ww3fZ&quot;&gt;&lt;img src=&quot;https://images.unsplash.com/photo-1690521976736-3d11207ed979?q=80&amp;amp;w=627&amp;amp;auto=format&amp;amp;fit=crop&amp;amp;ixlib=rb-4.0.3&amp;amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot; alt=&quot;foo&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 		</content>
 		
 		<author>
 			<name>Your Name</name></author>
-		<summary type="html">&lt;p&gt;&lt;a href=&quot;https://flic.kr/p/8ww3fZ&quot;&gt;&lt;img src=&quot;https://farm5.staticflickr.com/4073/4939853213_33ffc0290b_b.jpg&quot; alt=&quot;foo&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+		<summary type="html">&lt;p&gt;&lt;a href=&quot;https://flic.kr/p/8ww3fZ&quot;&gt;&lt;img src=&quot;https://images.unsplash.com/photo-1690521976736-3d11207ed979?q=80&amp;amp;w=627&amp;amp;auto=format&amp;amp;fit=crop&amp;amp;ixlib=rb-4.0.3&amp;amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot; alt=&quot;foo&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 </summary>
 		<category term="posts"/>
 		<category term="Post Formats"/><category term="image"/>
@@ -2168,7 +2168,19 @@ Stairs? Were we’re going we don’t need no stairs.
 	&lt;p&gt;1 min.&lt;/p&gt;
 			&lt;p&gt;YouTube video embed below.&lt;/p&gt;
 
-&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube-nocookie.com/embed/l2Of1-d5E5o?controls=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;!-- Thanks to alfurka,groupboard --&gt;
+&lt;!-- Based on https://github.com/alfurka/jekyll-embed-youtube-lazy-load --&gt;
+&lt;div itemscope=&quot;&quot; itemprop=&quot;VideoObject&quot; itemtype=&quot;https://schema.org/VideoObject&quot;&gt;
+&lt;div data-src=&quot;1hXYuWTWVww&quot; class=&quot;ch_ytdefer embed-responsive embed-responsive-16by9 my-2 chulapa-rounded-lg&quot; style=&quot;background-image: url(https://img.youtube.com/vi/1hXYuWTWVww/maxresdefault.jpg); background-position: center; background-size: cover;&quot; itemprop=&quot;thumbnailUrl&quot; content=&quot;https://img.youtube.com/vi/1hXYuWTWVww/maxresdefault.jpg&quot;&gt; 
+&lt;div class=&quot;d-none&quot; itemprop=&quot;embedUrl&quot; content=&quot;https://www.youtube-nocookie.com/embed/1hXYuWTWVww&quot;&gt;&lt;/div&gt;
+	&lt;button class=&quot;ch_ytdefer_btn&quot; aria-label=&quot;Play&quot; style=&quot;background-image: url(&amp;quot;data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjEwMCUiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMCAwIDY4IDQ4IiB3aWR0aD0iMTAwJSI+PHBhdGggY2xhc3M9Inl0cC1sYXJnZS1wbGF5LWJ1dHRvbi1iZyIgZD0iTTY2LjUyLDcuNzRjLTAuNzgtMi45My0yLjQ5LTUuNDEtNS40Mi02LjE5QzU1Ljc5LC4xMywzNCwwLDM0LDBTMTIuMjEsLjEzLDYuOSwxLjU1IEMzLjk3LDIuMzMsMi4yNyw0LjgxLDEuNDgsNy43NEMwLjA2LDEzLjA1LDAsMjQsMCwyNHMwLjA2LDEwLjk1LDEuNDgsMTYuMjZjMC43OCwyLjkzLDIuNDksNS40MSw1LjQyLDYuMTkgQzEyLjIxLDQ3Ljg3LDM0LDQ4LDM0LDQ4czIxLjc5LTAuMTMsMjcuMS0xLjU1YzIuOTMtMC43OCw0LjY0LTMuMjYsNS40Mi02LjE5QzY3Ljk0LDM0Ljk1LDY4LDI0LDY4LDI0UzY3Ljk0LDEzLjA1LDY2LjUyLDcuNzR6IiBmaWxsPSIjMjEyMTIxIiBmaWxsLW9wYWNpdHk9IjAuOCI+PC9wYXRoPjxwYXRoIGQ9Ik0gNDUsMjQgMjcsMTQgMjcsMzQiIGZpbGw9IiNmZmYiPjwvcGF0aD48L3N2Zz4=&amp;quot;); position: absolute; border: 0px; background-color: transparent; left: calc(50% - 73px/2); top: calc(50% - 52px/2); width: 73px; height: 52px; pointer-events: none;&quot;&gt;&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Load script only if needed --&gt;
+&lt;script&gt;
+if(null==(ch_defer_script=document.getElementById(&quot;ch_ytdeferScript&quot;))){var e=document,t=e.createElement(&quot;script&quot;);t.src=&quot;https://cdn.jsdelivr.net/gh/dieghernan/chulapa@master/assets/js/ch_ytdefer/ch_ytdefer.min.js&quot;,t.id=&quot;ch_ytdeferScript&quot;,e.body.appendChild(t)}else console.log(&quot;Chulapa YouTube Defer already loaded&quot;);
+&lt;/script&gt;
+
 
 		</content>
 		
@@ -2274,7 +2286,7 @@ Stairs? Were we’re going we don’t need no stairs.
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;notice&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;{{ notice-2 | markdownify }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;div class=&quot;alert&quot;&gt;
+&lt;div class=&quot;alert alert-info&quot;&gt;
   
 &lt;h4 id=&quot;new-site-features&quot;&gt;New Site Features&lt;/h4&gt;
 
@@ -2287,13 +2299,13 @@ Stairs? Were we’re going we don’t need no stairs.
 
 &lt;p&gt;Or you could skip the capture and stick with straight HTML.&lt;/p&gt;
 
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;alert&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;alert alert-info&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;h4&amp;gt;&lt;/span&gt;Message&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h4&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;A basic message.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;div class=&quot;alert&quot;&gt;
+&lt;div class=&quot;alert alert-info&quot;&gt;
   &lt;h4&gt;Message&lt;/h4&gt;
   &lt;p&gt;A basic message.&lt;/p&gt;
 &lt;/div&gt;

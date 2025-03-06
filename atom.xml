@@ -3,7 +3,7 @@
 	<generator uri="https://dieghernan.github.io/chulapa" version="1.0.0">Chulapa</generator>
 	<link href="https://dieghernan.github.io/chulapa-jekyll-sample/atom.xml" rel="self" type="application/atom+xml" />
 	<link href="https://dieghernan.github.io/chulapa-jekyll-sample" rel="alternate" type="text/html" />
-	<updated>2025-03-06T06:29:38+00:00</updated>
+	<updated>2025-03-06T06:32:31+00:00</updated>
 	<id>https://dieghernan.github.io/chulapa-jekyll-sample/atom.xml</id>
 	<title>Chulapa Jekyll Sample | A test</title>
 	<subtitle>A test</subtitle>
@@ -1894,6 +1894,8 @@
 	&lt;p&gt;1 min.&lt;/p&gt;
 			&lt;p&gt;These are gallery tests for image wrapped in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;figure&amp;gt;&lt;/code&gt; elements.&lt;/p&gt;
 
+&lt;p&gt;To place a gallery add the necessary YAML Front Matter:&lt;/p&gt;
+
 &lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;gallery&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
   &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;unsplash-gallery-image-1.jpg&lt;/span&gt;
     &lt;span class=&quot;na&quot;&gt;image_path&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;unsplash-gallery-image-1-th.jpg&lt;/span&gt;
@@ -1914,7 +1916,43 @@
 &lt;div class=&quot;language-liquid highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;gallery&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;caption&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;This is a sample gallery with **Markdown support**.&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;%}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;figure class=&quot; &quot;&gt;
+&lt;figure class=&quot;third &quot;&gt;
+  
+    
+      &lt;a href=&quot;https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-gallery-image-1.jpg&quot;&gt;
+        &lt;img src=&quot;https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-gallery-image-1-th.jpg&quot; alt=&quot;placeholder image 1&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-gallery-image-2.jpg&quot;&gt;
+        &lt;img src=&quot;https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-gallery-image-2-th.jpg&quot; alt=&quot;placeholder image 2&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-gallery-image-3.jpg&quot;&gt;
+        &lt;img src=&quot;https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-gallery-image-3-th.jpg&quot; alt=&quot;placeholder image 3&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-gallery-image-1.jpg&quot;&gt;
+        &lt;img src=&quot;https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-gallery-image-1-th.jpg&quot; alt=&quot;placeholder image 1&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-gallery-image-2.jpg&quot;&gt;
+        &lt;img src=&quot;https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-gallery-image-2-th.jpg&quot; alt=&quot;placeholder image 2&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-gallery-image-3.jpg&quot;&gt;
+        &lt;img src=&quot;https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-gallery-image-3-th.jpg&quot; alt=&quot;placeholder image 3&quot; /&gt;
+      &lt;/a&gt;
+    
   
   
     &lt;figcaption&gt;This is a sample gallery with &lt;strong&gt;Markdown support&lt;/strong&gt;.
@@ -1943,7 +1981,25 @@
 &lt;div class=&quot;language-liquid highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;gallery&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;gallery2&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;caption&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;This is a second gallery example with images hosted externally.&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;%}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;figure class=&quot; &quot;&gt;
+&lt;figure class=&quot;third &quot;&gt;
+  
+    
+      &lt;a href=&quot;https://flic.kr/p/8a6Ven&quot;&gt;
+        &lt;img src=&quot;https://farm2.staticflickr.com/1272/4697500467_8294dac099_q.jpg&quot; alt=&quot;Black and grays with a hint of green&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;https://flic.kr/p/8a738X&quot;&gt;
+        &lt;img src=&quot;https://farm5.staticflickr.com/4029/4697523701_249e93ba23_q.jpg&quot; alt=&quot;Made for open text placement&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;https://flic.kr/p/8a6VXP&quot;&gt;
+        &lt;img src=&quot;https://farm5.staticflickr.com/4046/4697502929_72c612c636_q.jpg&quot; alt=&quot;Fog in the trees&quot; /&gt;
+      &lt;/a&gt;
+    
   
   
     &lt;figcaption&gt;This is a second gallery example with images hosted externally.
@@ -1953,7 +2009,15 @@
 
 &lt;p&gt;And for giggles one more gallery just to make sure this works. To fill page content container add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;class=&quot;full&quot;&lt;/code&gt;.&lt;/p&gt;
 
-&lt;figure class=&quot; full&quot;&gt;
+&lt;figure class=&quot;half full&quot;&gt;
+  
+    
+      &lt;img src=&quot;https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-gallery-image-2-th.jpg&quot; alt=&quot;placeholder image 2&quot; /&gt;
+    
+  
+    
+      &lt;img src=&quot;https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-gallery-image-4-th.jpg&quot; alt=&quot;placeholder image 4&quot; /&gt;
+    
   
   
     &lt;figcaption&gt;This is a third gallery example with two images and fills the entire content container.
@@ -2049,20 +2113,20 @@ Stairs? Were we’re going we don’t need no stairs.
 
 &lt;p&gt;&lt;img src=&quot;https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-image-9.jpg&quot; alt=&quot;Unsplash image 9&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Round images by adding the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.rounded-circle&lt;/code&gt; class with:&lt;/p&gt;
+&lt;p&gt;Image that fills page content container by adding the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.full&lt;/code&gt; class with:&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;HTML:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ site.url }}{{ site.baseurl }}/images/filename.jpg&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;rounded-circle&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ site.url }}{{ site.baseurl }}/images/filename.jpg&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;full&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;strong&gt;or Kramdown:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;![&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;{{&lt;/span&gt; site.url }}{{ site.baseurl }}/images/filename.jpg)
-{: .rounded-circle}
+{: .full}
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p class=&quot;rounded-circle&quot;&gt;&lt;img src=&quot;https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-image-10.jpg&quot; alt=&quot;Unsplash image 10&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;full&quot;&gt;&lt;img src=&quot;https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-image-10.jpg&quot; alt=&quot;Unsplash image 10&quot; /&gt;&lt;/p&gt;
 
 		</content>
 		

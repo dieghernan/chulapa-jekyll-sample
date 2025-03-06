@@ -517,7 +517,7 @@ var store = [{
         "title": "External galleries",
         "subtitle": "",
         "excerpt": "A test creating masonry",
-        "content": "A test creating masonry                                               And a carousel          \t   \t  \t                    \t \t                Previous                Next",
+        "content": "A test creating masonry                                               And a carousel          \t   \t   \t   \t   \t   \t   \t   \t   \t   \t   \t   \t   \t   \t  \t                    \t \t               \t \t               \t \t               \t \t               \t \t               \t \t               \t \t                Previous                Next",
         "categories": [],
         "date": "2013-10-04",
         "tags": ["layout","images"],

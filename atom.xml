@@ -3,7 +3,7 @@
 	<generator uri="https://dieghernan.github.io/chulapa" version="1.0.0">Chulapa</generator>
 	<link href="https://dieghernan.github.io/chulapa-jekyll-sample/atom.xml" rel="self" type="application/atom+xml" />
 	<link href="https://dieghernan.github.io/chulapa-jekyll-sample" rel="alternate" type="text/html" />
-	<updated>2025-03-06T21:22:13+00:00</updated>
+	<updated>2025-03-06T21:37:15+00:00</updated>
 	<id>https://dieghernan.github.io/chulapa-jekyll-sample/atom.xml</id>
 	<title>Chulapa Jekyll Sample | A test</title>
 	<subtitle>A test</subtitle>
@@ -36,8 +36,8 @@
 	</entry><entry>
 		<title>Tabby</title>
 		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/pets/tabby" rel="alternate" type="text/html" title="Tabby"/>
-		<published>2025-03-06T21:22:13+00:00</published>
-		<updated>2025-03-06T21:22:13+00:00</updated>
+		<published>2025-03-06T21:37:15+00:00</published>
+		<updated>2025-03-06T21:37:15+00:00</updated>
 		<id>https://dieghernan.github.io/chulapa-jekyll-sample/pets/tabby</id>
 		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/pets/tabby">
 		
@@ -61,8 +61,8 @@
 	</entry><entry>
 		<title>Lhasa Apso</title>
 		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/pets/lhasa-apso" rel="alternate" type="text/html" title="Lhasa Apso"/>
-		<published>2025-03-06T21:22:13+00:00</published>
-		<updated>2025-03-06T21:22:13+00:00</updated>
+		<published>2025-03-06T21:37:15+00:00</published>
+		<updated>2025-03-06T21:37:15+00:00</updated>
 		<id>https://dieghernan.github.io/chulapa-jekyll-sample/pets/lhasa-apso</id>
 		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/pets/lhasa-apso">
 		
@@ -86,8 +86,8 @@
 	</entry><entry>
 		<title>Draft Post</title>
 		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/post-draft" rel="alternate" type="text/html" title="Draft Post"/>
-		<published>2025-03-06T21:22:07+00:00</published>
-		<updated>2025-03-06T21:22:07+00:00</updated>
+		<published>2025-03-06T21:37:09+00:00</published>
+		<updated>2025-03-06T21:37:09+00:00</updated>
 		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/post-draft</id>
 		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/post-draft">
 		
@@ -303,7 +303,7 @@ comments, mathjax and a modified date.&lt;/p&gt;
   &lt;div class=&quot;carousel-inner&quot;&gt;
         &lt;div class=&quot;carousel-item active&quot; itemscope=&quot;&quot; itemtype=&quot;https://schema.org/ImageObject&quot;&gt;
     
-	&lt;img class=&quot;d-block mw-100 chulapa-carousel&quot; src=&quot;https://picsum.photos/seed/50/750/325&quot; alt=&quot;Carousel Item #1&quot; itemprop=&quot;contentUrl&quot; /&gt;
+	&lt;img class=&quot;d-block mw-100 chulapa-carousel&quot; src=&quot;https://picsum.photos/seed/40/900/1300&quot; alt=&quot;Carousel Item #1&quot; itemprop=&quot;contentUrl&quot; /&gt;
 	&lt;/div&gt;
         &lt;div class=&quot;carousel-item&quot; itemscope=&quot;&quot; itemtype=&quot;https://schema.org/ImageObject&quot;&gt;
     
@@ -315,19 +315,19 @@ comments, mathjax and a modified date.&lt;/p&gt;
 	&lt;/div&gt;
         &lt;div class=&quot;carousel-item&quot; itemscope=&quot;&quot; itemtype=&quot;https://schema.org/ImageObject&quot;&gt;
     
-	&lt;img class=&quot;d-block mw-100 chulapa-carousel&quot; src=&quot;https://picsum.photos/seed/40/900/1300&quot; alt=&quot;Carousel Item #4&quot; itemprop=&quot;contentUrl&quot; /&gt;
+	&lt;img class=&quot;d-block mw-100 chulapa-carousel&quot; src=&quot;https://picsum.photos/seed/50/750/325&quot; alt=&quot;Carousel Item #4&quot; itemprop=&quot;contentUrl&quot; /&gt;
 	&lt;/div&gt;
         &lt;div class=&quot;carousel-item&quot; itemscope=&quot;&quot; itemtype=&quot;https://schema.org/ImageObject&quot;&gt;
     
-	&lt;img class=&quot;d-block mw-100 chulapa-carousel&quot; src=&quot;https://picsum.photos/seed/60/600&quot; alt=&quot;Carousel Item #5&quot; itemprop=&quot;contentUrl&quot; /&gt;
+	&lt;img class=&quot;d-block mw-100 chulapa-carousel&quot; src=&quot;https://picsum.photos/seed/30/900/1200&quot; alt=&quot;Carousel Item #5&quot; itemprop=&quot;contentUrl&quot; /&gt;
 	&lt;/div&gt;
         &lt;div class=&quot;carousel-item&quot; itemscope=&quot;&quot; itemtype=&quot;https://schema.org/ImageObject&quot;&gt;
     
-	&lt;img class=&quot;d-block mw-100 chulapa-carousel&quot; src=&quot;https://picsum.photos/seed/30/900/1200&quot; alt=&quot;Carousel Item #6&quot; itemprop=&quot;contentUrl&quot; /&gt;
+	&lt;img class=&quot;d-block mw-100 chulapa-carousel&quot; src=&quot;https://picsum.photos/seed/10/600/1200&quot; alt=&quot;Carousel Item #6&quot; itemprop=&quot;contentUrl&quot; /&gt;
 	&lt;/div&gt;
         &lt;div class=&quot;carousel-item&quot; itemscope=&quot;&quot; itemtype=&quot;https://schema.org/ImageObject&quot;&gt;
     
-	&lt;img class=&quot;d-block mw-100 chulapa-carousel&quot; src=&quot;https://picsum.photos/seed/10/600/1200&quot; alt=&quot;Carousel Item #7&quot; itemprop=&quot;contentUrl&quot; /&gt;
+	&lt;img class=&quot;d-block mw-100 chulapa-carousel&quot; src=&quot;https://picsum.photos/seed/60/600&quot; alt=&quot;Carousel Item #7&quot; itemprop=&quot;contentUrl&quot; /&gt;
 	&lt;/div&gt;&lt;/div&gt;
   
   &lt;a class=&quot;carousel-control-prev&quot; href=&quot;#Carousel5418&quot; role=&quot;button&quot; data-slide=&quot;prev&quot;&gt;
@@ -693,7 +693,7 @@ comments, mathjax and a modified date.&lt;/p&gt;
 &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;#&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;btn--success&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Success Button&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;a href=&quot;#&quot; class=&quot;btn&quot;&gt;Primary Button&lt;/a&gt;
+&lt;p&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-primary&quot;&gt;Primary Button&lt;/a&gt;
 &lt;a href=&quot;#&quot; class=&quot;btn btn-success&quot;&gt;Success Button&lt;/a&gt;
 &lt;a href=&quot;#&quot; class=&quot;btn btn-warning&quot;&gt;Warning Button&lt;/a&gt;
 &lt;a href=&quot;#&quot; class=&quot;btn btn-danger&quot;&gt;Danger Button&lt;/a&gt;
@@ -701,7 +701,7 @@ comments, mathjax and a modified date.&lt;/p&gt;
 &lt;a href=&quot;#&quot; class=&quot;btn btn-outline-dark&quot;&gt;Inverse Button&lt;/a&gt;
 &lt;a href=&quot;#&quot; class=&quot;btn btn-outline-light&quot;&gt;Light Outline Button&lt;/a&gt;&lt;/p&gt;
 
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Primary Button Text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn}
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Primary Button Text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn .btn-primary}
 &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Success Button Text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn .btn-success}
 &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Warning Button Text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn .btn-warning}
 &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Danger Button Text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn .btn-danger}
@@ -1931,11 +1931,16 @@ use this post yaml:&lt;/p&gt;
 &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;#&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;btn btn-success&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Success Button&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;div&gt;&lt;a href=&quot;#&quot; class=&quot;btn&quot;&gt;Primary Button&lt;/a&gt;&lt;/div&gt;
-&lt;div&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-success&quot;&gt;Success Button&lt;/a&gt;&lt;/div&gt;
-&lt;div&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-warning&quot;&gt;Warning Button&lt;/a&gt;&lt;/div&gt;
-&lt;div&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-danger&quot;&gt;Danger Button&lt;/a&gt;&lt;/div&gt;
-&lt;div&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-info&quot;&gt;Info Button&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;&lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;Primary&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-secondary&quot;&gt;Secondary&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-success&quot;&gt;Success&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-danger&quot;&gt;Danger&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-warning&quot;&gt;Warning&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-info&quot;&gt;Info&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-light&quot;&gt;Light&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-dark&quot;&gt;Dark&lt;/button&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;button type=&quot;button&quot; class=&quot;btn btn-link&quot;&gt;Link&lt;/button&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;alerts&quot;&gt;Alerts&lt;/h2&gt;
 

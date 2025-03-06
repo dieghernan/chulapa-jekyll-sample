@@ -116,9 +116,9 @@ navbar:
   - title   : Collections
     child:
       - title : Pets
-        url     : /pets/ # url	
+        url     : /pets # url	
       - title: Recipes
-        url     : /recipes/ # url
+        url     : /recipes # url
       - title: Portfolio
         url     : /portfolio/foo-bar-website
   - title   : Extras

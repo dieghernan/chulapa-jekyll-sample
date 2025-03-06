@@ -3,7 +3,7 @@
 	<generator uri="https://dieghernan.github.io/chulapa" version="1.0.0">Chulapa</generator>
 	<link href="https://dieghernan.github.io/chulapa-jekyll-sample/atom.xml" rel="self" type="application/atom+xml" />
 	<link href="https://dieghernan.github.io/chulapa-jekyll-sample" rel="alternate" type="text/html" />
-	<updated>2025-03-06T20:51:32+00:00</updated>
+	<updated>2025-03-06T21:03:54+00:00</updated>
 	<id>https://dieghernan.github.io/chulapa-jekyll-sample/atom.xml</id>
 	<title>Chulapa Jekyll Sample | A test</title>
 	<subtitle>A test</subtitle>
@@ -36,8 +36,8 @@
 	</entry><entry>
 		<title>Tabby</title>
 		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/pets/tabby" rel="alternate" type="text/html" title="Tabby"/>
-		<published>2025-03-06T20:51:32+00:00</published>
-		<updated>2025-03-06T20:51:32+00:00</updated>
+		<published>2025-03-06T21:03:54+00:00</published>
+		<updated>2025-03-06T21:03:54+00:00</updated>
 		<id>https://dieghernan.github.io/chulapa-jekyll-sample/pets/tabby</id>
 		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/pets/tabby">
 		
@@ -61,8 +61,8 @@
 	</entry><entry>
 		<title>Lhasa Apso</title>
 		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/pets/lhasa-apso" rel="alternate" type="text/html" title="Lhasa Apso"/>
-		<published>2025-03-06T20:51:32+00:00</published>
-		<updated>2025-03-06T20:51:32+00:00</updated>
+		<published>2025-03-06T21:03:54+00:00</published>
+		<updated>2025-03-06T21:03:54+00:00</updated>
 		<id>https://dieghernan.github.io/chulapa-jekyll-sample/pets/lhasa-apso</id>
 		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/pets/lhasa-apso">
 		
@@ -86,8 +86,8 @@
 	</entry><entry>
 		<title>Draft Post</title>
 		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/post-draft" rel="alternate" type="text/html" title="Draft Post"/>
-		<published>2025-03-06T20:51:26+00:00</published>
-		<updated>2025-03-06T20:51:26+00:00</updated>
+		<published>2025-03-06T21:03:49+00:00</published>
+		<updated>2025-03-06T21:03:49+00:00</updated>
 		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/post-draft</id>
 		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/post-draft">
 		
@@ -111,6 +111,147 @@
 </summary>
 		<category term="posts"/>
 		<category term="edge case"/>
+	</entry><entry>
+		<title>No MathJax</title>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2015-01-15-nomathjax" rel="alternate" type="text/html" title="No MathJax"/>
+		<published>2015-01-15T00:00:00+00:00</published>
+		<updated>2015-01-15T00:00:00+00:00</updated>
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2015-01-15-nomathjax</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2015-01-15-nomathjax">
+		
+		&lt;h3&gt;Project page with a hero header&lt;/h3&gt;
+		
+		
+  		
+	&lt;p&gt;1 min.&lt;/p&gt;
+			&lt;p&gt;This shouldn’t appear as a formula&lt;/p&gt;
+
+&lt;p&gt;[\int_D ({\nabla\cdot} F)dV=\int_{\partial D} F\cdot ndS]&lt;/p&gt;
+
+		</content>
+		
+		<author>
+			<name>Octocat</name><uri>https://github.com/github/</uri></author>
+		<summary type="html">&lt;p&gt;This shouldn’t appear as a formula&lt;/p&gt;
+</summary>
+		<category term="posts"/>
+		
+	</entry><entry>
+		<title>Use MathJax</title>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2015-01-14-heroproject" rel="alternate" type="text/html" title="Use MathJax"/>
+		<published>2015-01-14T00:00:00+00:00</published>
+		<updated>2020-02-19T00:00:00+00:00</updated>
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2015-01-14-heroproject</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2015-01-14-heroproject">
+		
+		&lt;h3&gt;Project page with a hero header&lt;/h3&gt;
+		
+		
+  		
+	&lt;p&gt;1 min.&lt;/p&gt;
+			&lt;p&gt;This page shows the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;hero&lt;/code&gt; header with a project button. It also has enabled 
+comments, mathjax and a modified date.&lt;/p&gt;
+
+&lt;p&gt;Example of MathJax:&lt;/p&gt;
+
+&lt;p&gt;[\int_D ({\nabla\cdot} F)dV=\int_{\partial D} F\cdot ndS]&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Use MathJax&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;subtitle&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Project page with a hero header&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;categories&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pi&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;demo&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;header_type&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;hero&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;tags&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pi&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;layout-default&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;header-hero&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;mathjax&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;social-links&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;tags&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;categories&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;bottom-navs&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;project-links&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;comments&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;2020-02-03&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;last_modified_at&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;2020-02-19&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;show_date         &lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;show_sociallinks  &lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;show_tags         &lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;show_categories   &lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;show_bottomnavs   &lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;show_comments     &lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;mathjax&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;project_links&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;https://www.mathjax.org/&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;icon&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;fas fa-superscript&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;label&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Go to MathJax.org&lt;/span&gt;
+    &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;https://www.example.com&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;icon&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;fab fa-github&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;label&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Example&lt;/span&gt;
+&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+		</content>
+		
+		<author>
+			<name>Octocat</name><uri>https://github.com/github/</uri></author>
+		<summary type="html">&lt;p&gt;This page shows the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;hero&lt;/code&gt; header with a project button. It also has enabled 
+comments, mathjax and a modified date.&lt;/p&gt;
+</summary>
+		<category term="posts"/>
+		<category term="bottom-navs"/><category term="categories"/><category term="comments"/><category term="date"/><category term="header-hero"/><category term="layout-default"/><category term="mathjax"/><category term="project-links"/><category term="social-links"/><category term="tags"/>
+	</entry><entry>
+		<title>Base header with image</title>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-11-03-base-img" rel="alternate" type="text/html" title="Base header with image"/>
+		<published>2013-11-03T00:00:00+00:00</published>
+		<updated>2013-11-03T00:00:00+00:00</updated>
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-11-03-base-img</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-11-03-base-img">
+		
+  		
+			&lt;img src=&#39;https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-image-6.jpg&#39; &gt;
+			
+	&lt;p&gt;1 min.&lt;/p&gt;
+			&lt;p&gt;A post with base header and image&lt;/p&gt;
+
+		</content>
+		
+		<author>
+			<name>Octocat</name><uri>https://github.com/github/</uri></author>
+		<summary type="html">&lt;p&gt;A post with base header and image&lt;/p&gt;
+</summary>
+		<category term="posts"/>
+		<category term="header"/><category term="layout"/>
+	</entry><entry>
+		<title>Base header</title>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-10-30-base" rel="alternate" type="text/html" title="Base header"/>
+		<published>2013-10-30T00:00:00+00:00</published>
+		<updated>2013-10-30T00:00:00+00:00</updated>
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-10-30-base</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-10-30-base">
+		
+  		
+	&lt;p&gt;1 min.&lt;/p&gt;
+			&lt;p&gt;A post with base header&lt;/p&gt;
+
+		</content>
+		
+		<author>
+			<name>Octocat</name><uri>https://github.com/github/</uri></author>
+		<summary type="html">&lt;p&gt;A post with base header&lt;/p&gt;
+</summary>
+		<category term="posts"/>
+		<category term="header"/><category term="layout"/>
+	</entry><entry>
+		<title>Minimal</title>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-10-23-minimal" rel="alternate" type="text/html" title="Minimal"/>
+		<published>2013-10-23T00:00:00+00:00</published>
+		<updated>2013-10-23T00:00:00+00:00</updated>
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-10-23-minimal</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-10-23-minimal">
+		
+  		
+	&lt;p&gt;1 min.&lt;/p&gt;
+			&lt;p&gt;A post with minimal layout&lt;/p&gt;
+
+		</content>
+		
+		<author>
+			<name>Octocat</name><uri>https://github.com/github/</uri></author>
+		<summary type="html">&lt;p&gt;A post with minimal layout&lt;/p&gt;
+</summary>
+		<category term="posts"/>
+		<category term="layout"/>
 	</entry><entry>
 		<title>Markup: Syntax Highlighting</title>
 		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-08-16-markup-syntax-highlighting" rel="alternate" type="text/html" title="Markup: Syntax Highlighting"/>

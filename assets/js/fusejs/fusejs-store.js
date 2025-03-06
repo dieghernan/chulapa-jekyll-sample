@@ -514,6 +514,56 @@ var store = [{
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-08-16-markup-syntax-highlighting",
         "img": null
       },{
+        "title": "Minimal",
+        "subtitle": "",
+        "excerpt": "A post with minimal layout",
+        "content": "A post with minimal layout",
+        "categories": [],
+        "date": "2013-10-23",
+        "tags": ["layout"],
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-10-23-minimal",
+        "img": null
+      },{
+        "title": "Base header",
+        "subtitle": "",
+        "excerpt": "A post with base header",
+        "content": "A post with base header",
+        "categories": [],
+        "date": "2013-10-30",
+        "tags": ["layout","header"],
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-10-30-base",
+        "img": null
+      },{
+        "title": "Base header with image",
+        "subtitle": "",
+        "excerpt": "A post with base header and image",
+        "content": "A post with base header and image",
+        "categories": [],
+        "date": "2013-11-03",
+        "tags": ["layout","header"],
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-11-03-base-img",
+        "img": "https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-image-6.jpg"
+      },{
+        "title": "Use MathJax",
+        "subtitle": "Project page with a hero header",
+        "excerpt": "This page shows the hero header with a project button. It also has enabled comments, mathjax and a modified date.",
+        "content": "This page shows the hero header with a project button. It also has enabled  comments, mathjax and a modified date.   Example of MathJax:   \\[\\int_D ({\\nabla\\cdot} F)dV=\\int_{\\partial D} F\\cdot ndS\\]  --- title: Use MathJax subtitle: Project page with a hero header categories: [demo] header_type: hero tags: [layout-default,header-hero, mathjax, social-links, tags, categories, bottom-navs, date, project-links, comments] date: 2020-02-03 last_modified_at: 2020-02-19 show_date         : true show_sociallinks  : true show_tags         : true show_categories   : true show_bottomnavs   : true show_comments     : true mathjax: true project_links:     - url: https://www.mathjax.org/       icon: fas fa-superscript       label: Go to MathJax.org     - url: https://www.example.com       icon: fab fa-github       label: Example ---",
+        "categories": ["demo","MathJax"],
+        "date": "2015-01-14",
+        "tags": ["layout-default","header-hero","mathjax","social-links","tags","categories","bottom-navs","date","project-links","comments"],
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2015-01-14-heroproject",
+        "img": null
+      },{
+        "title": "No MathJax",
+        "subtitle": "Project page with a hero header",
+        "excerpt": "This shouldn’t appear as a formula",
+        "content": "This shouldn’t appear as a formula   \\[\\int_D ({\\nabla\\cdot} F)dV=\\int_{\\partial D} F\\cdot ndS\\]",
+        "categories": ["demo","MathJax"],
+        "date": "2015-01-15",
+        "tags": [],
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2015-01-15-nomathjax",
+        "img": null
+      },{
         "title": "Post: Future Date",
         "subtitle": "",
         "excerpt": "This post lives in the future and is dated Fri Dec 31 00:00:00 9999. When building Jekyll with the --future flag it should appear.",

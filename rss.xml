@@ -7,8 +7,8 @@
 		<description>Chulapa Jekyll Theme starter pack</description>
 		<language>en-US</language>
 		<copyright>(c) 2025, Octocat</copyright>	
-		<pubDate>Thu, 06 Mar 2025 20:51:32 +0000</pubDate>
-		<lastBuildDate>Thu, 06 Mar 2025 20:51:32 +0000</lastBuildDate>
+		<pubDate>Thu, 06 Mar 2025 21:03:54 +0000</pubDate>
+		<lastBuildDate>Thu, 06 Mar 2025 21:03:54 +0000</lastBuildDate>
 		<category>blog</category>
 		<ttl>60</ttl>
 		<atom:link href="https://dieghernan.github.io/chulapa-jekyll-sample/rss.xml" rel="self" type="application/rss+xml" />
@@ -50,7 +50,7 @@
 			<link>https://dieghernan.github.io/chulapa-jekyll-sample/pets/tabby</link>
 			<category>pets</category>
 		    <guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/pets/tabby</guid>
-      <pubDate>Thu, 06 Mar 2025 20:51:32 +0000</pubDate>
+      <pubDate>Thu, 06 Mar 2025 21:03:54 +0000</pubDate>
 		</item><item>
 			<title>Lhasa Apso</title>
 			<description>
@@ -70,7 +70,7 @@
 			<link>https://dieghernan.github.io/chulapa-jekyll-sample/pets/lhasa-apso</link>
 			<category>pets</category>
 		    <guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/pets/lhasa-apso</guid>
-      <pubDate>Thu, 06 Mar 2025 20:51:32 +0000</pubDate>
+      <pubDate>Thu, 06 Mar 2025 21:03:54 +0000</pubDate>
 		</item><item>
 			<title>Draft Post</title>
 			<description>
@@ -92,7 +92,113 @@
 			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/post-draft</link>
 			<category>posts</category>
 		    <category>edge case</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/post-draft</guid>
-      <pubDate>Thu, 06 Mar 2025 20:51:26 +0000</pubDate>
+      <pubDate>Thu, 06 Mar 2025 21:03:49 +0000</pubDate>
+		</item><item>
+			<title>No MathJax</title>
+			<description>
+				<![CDATA[	
+ 				<h3><p>Project page with a hero header</p>
+</h3>
+    		<p>1 min.</p>
+				<div><p>This shouldn’t appear as a formula</p>
+
+<p>[\int_D ({\nabla\cdot} F)dV=\int_{\partial D} F\cdot ndS]</p>
+</div>
+				]]>
+			</description>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2015-01-15-nomathjax</link>
+			<category>posts</category>
+		    <guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2015-01-15-nomathjax</guid>
+      <pubDate>Thu, 15 Jan 2015 00:00:00 +0000</pubDate>
+		</item><item>
+			<title>Use MathJax</title>
+			<description>
+				<![CDATA[	
+ 				<h3><p>Project page with a hero header</p>
+</h3>
+    		<p>1 min.</p>
+				<div><p>This page shows the <code class="language-plaintext highlighter-rouge">hero</code> header with a project button. It also has enabled 
+comments, mathjax and a modified date.</p>
+
+<p>Example of MathJax:</p>
+
+<p>[\int_D ({\nabla\cdot} F)dV=\int_{\partial D} F\cdot ndS]</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s">Use MathJax</span>
+<span class="na">subtitle</span><span class="pi">:</span> <span class="s">Project page with a hero header</span>
+<span class="na">categories</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">demo</span><span class="pi">]</span>
+<span class="na">header_type</span><span class="pi">:</span> <span class="s">hero</span>
+<span class="na">tags</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">layout-default</span><span class="pi">,</span><span class="nv">header-hero</span><span class="pi">,</span> <span class="nv">mathjax</span><span class="pi">,</span> <span class="nv">social-links</span><span class="pi">,</span> <span class="nv">tags</span><span class="pi">,</span> <span class="nv">categories</span><span class="pi">,</span> <span class="nv">bottom-navs</span><span class="pi">,</span> <span class="nv">date</span><span class="pi">,</span> <span class="nv">project-links</span><span class="pi">,</span> <span class="nv">comments</span><span class="pi">]</span>
+<span class="na">date</span><span class="pi">:</span> <span class="s">2020-02-03</span>
+<span class="na">last_modified_at</span><span class="pi">:</span> <span class="s">2020-02-19</span>
+<span class="na">show_date         </span><span class="pi">:</span> <span class="kc">true</span>
+<span class="na">show_sociallinks  </span><span class="pi">:</span> <span class="kc">true</span>
+<span class="na">show_tags         </span><span class="pi">:</span> <span class="kc">true</span>
+<span class="na">show_categories   </span><span class="pi">:</span> <span class="kc">true</span>
+<span class="na">show_bottomnavs   </span><span class="pi">:</span> <span class="kc">true</span>
+<span class="na">show_comments     </span><span class="pi">:</span> <span class="kc">true</span>
+<span class="na">mathjax</span><span class="pi">:</span> <span class="kc">true</span>
+<span class="na">project_links</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">url</span><span class="pi">:</span> <span class="s">https://www.mathjax.org/</span>
+      <span class="na">icon</span><span class="pi">:</span> <span class="s">fas fa-superscript</span>
+      <span class="na">label</span><span class="pi">:</span> <span class="s">Go to MathJax.org</span>
+    <span class="pi">-</span> <span class="na">url</span><span class="pi">:</span> <span class="s">https://www.example.com</span>
+      <span class="na">icon</span><span class="pi">:</span> <span class="s">fab fa-github</span>
+      <span class="na">label</span><span class="pi">:</span> <span class="s">Example</span>
+<span class="nn">---</span>
+</code></pre></div></div>
+</div>
+				]]>
+			</description>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2015-01-14-heroproject</link>
+			<category>posts</category>
+		    <category>bottom-navs</category><category>categories</category><category>comments</category><category>date</category><category>header-hero</category><category>layout-default</category><category>mathjax</category><category>project-links</category><category>social-links</category><category>tags</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2015-01-14-heroproject</guid>
+      <pubDate>Wed, 14 Jan 2015 00:00:00 +0000</pubDate>
+		</item><item>
+			<title>Base header with image</title>
+			<description>
+				<![CDATA[	
+ 				
+    		<p>1 min.</p>
+				<div><p>A post with base header and image</p>
+</div>
+				]]>
+			</description>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-11-03-base-img</link>
+			<category>posts</category>
+		    <category>header</category><category>layout</category><media:title type="html"><![CDATA[Base header with image ]]></media:title>
+      <media:content url="https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-image-6.jpg" medium="image"/>
+      <media:thumbnail url="https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-image-6.jpg" /><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-11-03-base-img</guid>
+      <pubDate>Sun, 03 Nov 2013 00:00:00 +0000</pubDate>
+		</item><item>
+			<title>Base header</title>
+			<description>
+				<![CDATA[	
+ 				
+    		<p>1 min.</p>
+				<div><p>A post with base header</p>
+</div>
+				]]>
+			</description>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-10-30-base</link>
+			<category>posts</category>
+		    <category>header</category><category>layout</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-10-30-base</guid>
+      <pubDate>Wed, 30 Oct 2013 00:00:00 +0000</pubDate>
+		</item><item>
+			<title>Minimal</title>
+			<description>
+				<![CDATA[	
+ 				
+    		<p>1 min.</p>
+				<div><p>A post with minimal layout</p>
+</div>
+				]]>
+			</description>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-10-23-minimal</link>
+			<category>posts</category>
+		    <category>layout</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-10-23-minimal</guid>
+      <pubDate>Wed, 23 Oct 2013 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Markup: Syntax Highlighting</title>
 			<description>

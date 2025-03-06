@@ -7,8 +7,8 @@
 		<description>Chulapa Jekyll Theme starter pack</description>
 		<language>en-US</language>
 		<copyright>(c) 2025, Your Name</copyright>	
-		<pubDate>Thu, 06 Mar 2025 05:55:06 +0000</pubDate>
-		<lastBuildDate>Thu, 06 Mar 2025 05:55:06 +0000</lastBuildDate>
+		<pubDate>Thu, 06 Mar 2025 06:24:26 +0000</pubDate>
+		<lastBuildDate>Thu, 06 Mar 2025 06:24:26 +0000</lastBuildDate>
 		<category>blog</category>
 		<ttl>60</ttl>
 		<atom:link href="https://dieghernan.github.io/chulapa-jekyll-sample/rss.xml" rel="self" type="application/rss+xml" />
@@ -1701,8 +1701,6 @@
     		<p>1 min.</p>
 				<div><p>These are gallery tests for image wrapped in <code class="language-plaintext highlighter-rouge">&lt;figure&gt;</code> elements.</p>
 
-<p>To place a gallery add the necessary YAML Front Matter:</p>
-
 <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">gallery</span><span class="pi">:</span>
   <span class="pi">-</span> <span class="na">url</span><span class="pi">:</span> <span class="s">unsplash-gallery-image-1.jpg</span>
     <span class="na">image_path</span><span class="pi">:</span> <span class="s">unsplash-gallery-image-1-th.jpg</span>
@@ -1723,43 +1721,7 @@
 <div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span><span class="nv">gallery</span><span class="w"> </span><span class="na">caption</span><span class="o">=</span><span class="s2">"This is a sample gallery with **Markdown support**."</span><span class="w"> </span><span class="cp">%}</span>
 </code></pre></div></div>
 
-<figure class="third ">
-  
-    
-      <a href="https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-gallery-image-1.jpg">
-        <img src="https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-gallery-image-1-th.jpg" alt="placeholder image 1" />
-      </a>
-    
-  
-    
-      <a href="https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-gallery-image-2.jpg">
-        <img src="https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-gallery-image-2-th.jpg" alt="placeholder image 2" />
-      </a>
-    
-  
-    
-      <a href="https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-gallery-image-3.jpg">
-        <img src="https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-gallery-image-3-th.jpg" alt="placeholder image 3" />
-      </a>
-    
-  
-    
-      <a href="https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-gallery-image-1.jpg">
-        <img src="https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-gallery-image-1-th.jpg" alt="placeholder image 1" />
-      </a>
-    
-  
-    
-      <a href="https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-gallery-image-2.jpg">
-        <img src="https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-gallery-image-2-th.jpg" alt="placeholder image 2" />
-      </a>
-    
-  
-    
-      <a href="https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-gallery-image-3.jpg">
-        <img src="https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-gallery-image-3-th.jpg" alt="placeholder image 3" />
-      </a>
-    
+<figure class=" ">
   
   
     <figcaption>This is a sample gallery with <strong>Markdown support</strong>.
@@ -1788,25 +1750,7 @@
 <div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span><span class="nv">gallery</span><span class="w"> </span><span class="na">id</span><span class="o">=</span><span class="s2">"gallery2"</span><span class="w"> </span><span class="na">caption</span><span class="o">=</span><span class="s2">"This is a second gallery example with images hosted externally."</span><span class="w"> </span><span class="cp">%}</span>
 </code></pre></div></div>
 
-<figure class="third ">
-  
-    
-      <a href="https://flic.kr/p/8a6Ven">
-        <img src="https://farm2.staticflickr.com/1272/4697500467_8294dac099_q.jpg" alt="Black and grays with a hint of green" />
-      </a>
-    
-  
-    
-      <a href="https://flic.kr/p/8a738X">
-        <img src="https://farm5.staticflickr.com/4029/4697523701_249e93ba23_q.jpg" alt="Made for open text placement" />
-      </a>
-    
-  
-    
-      <a href="https://flic.kr/p/8a6VXP">
-        <img src="https://farm5.staticflickr.com/4046/4697502929_72c612c636_q.jpg" alt="Fog in the trees" />
-      </a>
-    
+<figure class=" ">
   
   
     <figcaption>This is a second gallery example with images hosted externally.
@@ -1816,15 +1760,7 @@
 
 <p>And for giggles one more gallery just to make sure this works. To fill page content container add <code class="language-plaintext highlighter-rouge">class="full"</code>.</p>
 
-<figure class="half full">
-  
-    
-      <img src="https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-gallery-image-2-th.jpg" alt="placeholder image 2" />
-    
-  
-    
-      <img src="https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-gallery-image-4-th.jpg" alt="placeholder image 4" />
-    
+<figure class=" full">
   
   
     <figcaption>This is a third gallery example with two images and fills the entire content container.
@@ -1902,20 +1838,20 @@ Stairs? Were we’re going we don’t need no stairs.
 
 <p><img src="https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-image-9.jpg" alt="Unsplash image 9" /></p>
 
-<p>Image that fills page content container by adding the <code class="language-plaintext highlighter-rouge">.full</code> class with:</p>
+<p>Round images by adding the <code class="language-plaintext highlighter-rouge">.rounded-circle</code> class with:</p>
 
 <p><strong>HTML:</strong></p>
 
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"{{ site.url }}{{ site.baseurl }}/images/filename.jpg"</span> <span class="na">alt=</span><span class="s">""</span> <span class="na">class=</span><span class="s">"full"</span><span class="nt">&gt;</span>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"{{ site.url }}{{ site.baseurl }}/images/filename.jpg"</span> <span class="na">alt=</span><span class="s">""</span> <span class="na">class=</span><span class="s">"rounded-circle"</span><span class="nt">&gt;</span>
 </code></pre></div></div>
 
 <p><strong>or Kramdown:</strong></p>
 
 <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">![</span><span class="nv">alt</span><span class="p">](</span><span class="sx">{{</span> site.url }}{{ site.baseurl }}/images/filename.jpg)
-{: .full}
+{: .rounded-circle}
 </code></pre></div></div>
 
-<p class="full"><img src="https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-image-10.jpg" alt="Unsplash image 10" /></p>
+<p class="rounded-circle"><img src="https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-image-10.jpg" alt="Unsplash image 10" /></p>
 </div>
 				]]>
 			</description>

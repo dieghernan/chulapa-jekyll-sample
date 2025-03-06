@@ -7,8 +7,8 @@
 		<description>Chulapa Jekyll Theme starter pack</description>
 		<language>en-US</language>
 		<copyright>(c) 2025, Octocat</copyright>	
-		<pubDate>Thu, 06 Mar 2025 19:08:53 +0000</pubDate>
-		<lastBuildDate>Thu, 06 Mar 2025 19:08:53 +0000</lastBuildDate>
+		<pubDate>Thu, 06 Mar 2025 20:38:04 +0000</pubDate>
+		<lastBuildDate>Thu, 06 Mar 2025 20:38:04 +0000</lastBuildDate>
 		<category>blog</category>
 		<ttl>60</ttl>
 		<atom:link href="https://dieghernan.github.io/chulapa-jekyll-sample/rss.xml" rel="self" type="application/rss+xml" />
@@ -27,9 +27,9 @@
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-10-25-post-future-date</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-10-25-post-future-date</link>
 			<category>posts</category>
-		    <guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-10-25-post-future-date</guid>
+		    <guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-10-25-post-future-date</guid>
       <pubDate>Fri, 31 Dec 9999 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Tabby</title>
@@ -50,7 +50,7 @@
 			<link>https://dieghernan.github.io/chulapa-jekyll-sample/pets/tabby</link>
 			<category>pets</category>
 		    <guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/pets/tabby</guid>
-      <pubDate>Thu, 06 Mar 2025 19:08:53 +0000</pubDate>
+      <pubDate>Thu, 06 Mar 2025 20:38:04 +0000</pubDate>
 		</item><item>
 			<title>Lhasa Apso</title>
 			<description>
@@ -70,7 +70,7 @@
 			<link>https://dieghernan.github.io/chulapa-jekyll-sample/pets/lhasa-apso</link>
 			<category>pets</category>
 		    <guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/pets/lhasa-apso</guid>
-      <pubDate>Thu, 06 Mar 2025 19:08:53 +0000</pubDate>
+      <pubDate>Thu, 06 Mar 2025 20:38:04 +0000</pubDate>
 		</item><item>
 			<title>Draft Post</title>
 			<description>
@@ -89,10 +89,10 @@
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/post-draft</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/post-draft</link>
 			<category>posts</category>
-		    <category>edge case</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/post-draft</guid>
-      <pubDate>Thu, 06 Mar 2025 19:08:47 +0000</pubDate>
+		    <category>edge case</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/post-draft</guid>
+      <pubDate>Thu, 06 Mar 2025 20:37:55 +0000</pubDate>
 		</item><item>
 			<title>Markup: Syntax Highlighting</title>
 			<description>
@@ -164,7 +164,7 @@
 
 <p>An example of a Gist embed below.</p>
 
-<script src="https://gist.github.com/mmistakes/6589546.js"></script>
+<script src="https://gist.github.com/dieghernan/2ea67063a08a674514bc55e74fb30bf8.js"></script>
 
 <div class="footnotes" role="doc-endnotes">
   <ol>
@@ -176,9 +176,9 @@
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2013-08-16-markup-syntax-highlighting</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-08-16-markup-syntax-highlighting</link>
 			<category>posts</category>
-		    <category>code</category><category>syntax highlighting</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2013-08-16-markup-syntax-highlighting</guid>
+		    <category>code</category><category>syntax highlighting</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-08-16-markup-syntax-highlighting</guid>
       <pubDate>Fri, 16 Aug 2013 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Markup: Another Post with Images</title>
@@ -204,8 +204,8 @@
 <p>Apply the <code class="language-plaintext highlighter-rouge">half</code> class like so to display two images side by side that share the same caption.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;figure</span> <span class="na">class=</span><span class="s">"half"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/images/portfolio/image-filename-1-large.jpg"</span><span class="nt">&gt;&lt;img</span> <span class="na">src=</span><span class="s">"/images/image-filename-1.jpg"</span><span class="nt">&gt;&lt;/a&gt;</span>
-    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/images/portfolio/image-filename-2-large.jpg"</span><span class="nt">&gt;&lt;img</span> <span class="na">src=</span><span class="s">"/images/image-filename-2.jpg"</span><span class="nt">&gt;&lt;/a&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/images/portfolio/image-filename-1-large.jpg"</span><span class="nt">&gt;&lt;img</span> <span class="na">src=</span><span class="s">"/images/portfolio/image-filename-1.jpg"</span><span class="nt">&gt;&lt;/a&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/images/portfolio/image-filename-2-large.jpg"</span><span class="nt">&gt;&lt;img</span> <span class="na">src=</span><span class="s">"/images/portfolio/image-filename-2.jpg"</span><span class="nt">&gt;&lt;/a&gt;</span>
     <span class="nt">&lt;figcaption&gt;</span>Caption describing these two images.<span class="nt">&lt;/figcaption&gt;</span>
 <span class="nt">&lt;/figure&gt;</span>
 </code></pre></div></div>
@@ -213,8 +213,8 @@
 <p>And you’ll get something that looks like this:</p>
 
 <figure class="half">
-	<a href="http://placehold.it/1200x600.JPG"><img src="http://placehold.it/600x300.jpg" /></a>
-	<a href="http://placehold.it/1200x600.jpeg"><img src="http://placehold.it/600x300.jpg" /></a>
+	<a href="http://placehold.co/1200x600.JPG"><img src="http://placehold.co/600x300.jpg" /></a>
+	<a href="http://placehold.co/1200x600.jpeg"><img src="http://placehold.co/600x300.jpg" /></a>
 	<figcaption>Two images.</figcaption>
 </figure>
 
@@ -233,17 +233,19 @@
 <p>And you’ll get something that looks like this:</p>
 
 <figure class="third">
-	<img src="http://placehold.it/600x300.jpg" />
-	<img src="http://placehold.it/600x300.jpg" />
-	<img src="http://placehold.it/600x300.jpg" />
+	<img src="http://placehold.co/600x300.jpg" />
+	<img src="http://placehold.co/600x300.jpg" />
+	<img src="http://placehold.co/600x300.jpg" />
 	<figcaption>Three images.</figcaption>
 </figure>
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2013-05-22-markup-more-images</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-05-22-markup-more-images</link>
 			<category>posts</category>
-		    <category>images</category><category>sample post</category><category>test</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2013-05-22-markup-more-images</guid>
+		    <category>images</category><category>sample post</category><category>test</category><media:title type="html"><![CDATA[Markup: Another Post with Images ]]></media:title>
+      <media:content url="http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_b.jpg" medium="image"/>
+      <media:thumbnail url="http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_b.jpg" /><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-05-22-markup-more-images</guid>
       <pubDate>Wed, 22 May 2013 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Markup: HTML Tags and Formatting</title>
@@ -423,36 +425,34 @@
 </code></pre></div></div>
 
 <p><a href="#" class="btn">Primary Button</a>
-<a href="#" class="btn btn--success">Success Button</a>
-<a href="#" class="btn btn--warning">Warning Button</a>
-<a href="#" class="btn btn--danger">Danger Button</a>
-<a href="#" class="btn btn--info">Info Button</a>
-<a href="#" class="btn btn--inverse">Inverse Button</a>
-<a href="#" class="btn btn--light-outline">Light Outline Button</a></p>
+<a href="#" class="btn btn-success">Success Button</a>
+<a href="#" class="btn btn-warning">Warning Button</a>
+<a href="#" class="btn btn-danger">Danger Button</a>
+<a href="#" class="btn btn-info">Info Button</a>
+<a href="#" class="btn btn-outline-dark">Inverse Button</a>
+<a href="#" class="btn btn-outline-light">Light Outline Button</a></p>
 
 <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="nv">Primary Button Text</span><span class="p">](</span><span class="sx">#link</span><span class="p">)</span>{: .btn}
-<span class="p">[</span><span class="nv">Success Button Text</span><span class="p">](</span><span class="sx">#link</span><span class="p">)</span>{: .btn .btn--success}
-<span class="p">[</span><span class="nv">Warning Button Text</span><span class="p">](</span><span class="sx">#link</span><span class="p">)</span>{: .btn .btn--warning}
-<span class="p">[</span><span class="nv">Danger Button Text</span><span class="p">](</span><span class="sx">#link</span><span class="p">)</span>{: .btn .btn--danger}
-<span class="p">[</span><span class="nv">Info Button Text</span><span class="p">](</span><span class="sx">#link</span><span class="p">)</span>{: .btn .btn--info}
-<span class="p">[</span><span class="nv">Inverse Button</span><span class="p">](</span><span class="sx">#link</span><span class="p">)</span>{: .btn .btn--inverse}
-<span class="p">[</span><span class="nv">Light Outline Button</span><span class="p">](</span><span class="sx">#link</span><span class="p">)</span>{: .btn .btn--light-outline}
+<span class="p">[</span><span class="nv">Success Button Text</span><span class="p">](</span><span class="sx">#link</span><span class="p">)</span>{: .btn .btn-success}
+<span class="p">[</span><span class="nv">Warning Button Text</span><span class="p">](</span><span class="sx">#link</span><span class="p">)</span>{: .btn .btn-warning}
+<span class="p">[</span><span class="nv">Danger Button Text</span><span class="p">](</span><span class="sx">#link</span><span class="p">)</span>{: .btn .btn-danger}
+<span class="p">[</span><span class="nv">Info Button Text</span><span class="p">](</span><span class="sx">#link</span><span class="p">)</span>{: .btn .btn-info}
+<span class="p">[</span><span class="nv">Inverse Button</span><span class="p">](</span><span class="sx">#link</span><span class="p">)</span>{: .btn .btn-outline-dark}
+<span class="p">[</span><span class="nv">Light Outline Button</span><span class="p">](</span><span class="sx">#link</span><span class="p">)</span>{: .btn .btn-outline-light}
 </code></pre></div></div>
 
-<p><a href="#" class="btn btn--x-large">X-Large Button</a>
-<a href="#" class="btn btn--large">Large Button</a>
-<a href="#" class="btn">Default Button</a>
-<a href="#" class="btn btn--small">Small Button</a></p>
+<p><a href="#" class="btn btn-lg btn-outline-info">Large Button</a>
+<a href="#" class="btn btn-outline-info">Default Button</a>
+<a href="#" class="btn btn-sm btn-outline-info">Small Button</a></p>
 
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="nv">X-Large Button</span><span class="p">](</span><span class="sx">#link</span><span class="p">)</span>{: .btn .btn--x-large}
-<span class="p">[</span><span class="nv">Large Button</span><span class="p">](</span><span class="sx">#link</span><span class="p">)</span>{: .btn .btn--large}
-<span class="p">[</span><span class="nv">Default Button</span><span class="p">](</span><span class="sx">#link</span><span class="p">)</span>{: .btn}
-<span class="p">[</span><span class="nv">Small Button</span><span class="p">](</span><span class="sx">#link</span><span class="p">)</span>{: .btn .btn--small}
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="nv">Large Button</span><span class="p">](</span><span class="sx">#link</span><span class="p">)</span>{: .btn .btn-lg .btn-outline-info}
+<span class="p">[</span><span class="nv">Default Button</span><span class="p">](</span><span class="sx">#link</span><span class="p">)</span>{: .btn .btn-outline-info}
+<span class="p">[</span><span class="nv">Small Button</span><span class="p">](</span><span class="sx">#link</span><span class="p">)</span>{: .btn .btn-sm .btn-outline-info}
 </code></pre></div></div>
 
-<h2 id="notices">Notices</h2>
+<h2 id="alerts">Alerts</h2>
 
-<p class="notice"><strong>Watch out!</strong> You can also add notices by appending <code class="language-plaintext highlighter-rouge">{: .notice}</code> to a paragraph.</p>
+<p class="alert alert-info"><strong>Watch out!</strong> You can also add notices by appending <code class="language-plaintext highlighter-rouge">{: .alert}</code> to a paragraph.</p>
 
 <h2 id="html-tags">HTML Tags</h2>
 
@@ -530,9 +530,9 @@
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2013-01-11-markup-html-tags-and-formatting</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-11-markup-html-tags-and-formatting</link>
 			<category>posts</category>
-		    <category>content</category><category>css</category><category>formatting</category><category>html</category><category>markup</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2013-01-11-markup-html-tags-and-formatting</guid>
+		    <category>content</category><category>css</category><category>formatting</category><category>html</category><category>markup</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-11-markup-html-tags-and-formatting</guid>
       <pubDate>Fri, 11 Jan 2013 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Markup: Image Alignment</title>
@@ -602,9 +602,9 @@
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2013-01-10-markup-image-alignment</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-10-markup-image-alignment</link>
 			<category>posts</category>
-		    <category>alignment</category><category>captions</category><category>content</category><category>css</category><category>image</category><category>markup</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2013-01-10-markup-image-alignment</guid>
+		    <category>alignment</category><category>captions</category><category>content</category><category>css</category><category>image</category><category>markup</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-10-markup-image-alignment</guid>
       <pubDate>Thu, 10 Jan 2013 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Markup: Text Alignment</title>
@@ -634,9 +634,9 @@
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2013-01-09-markup-text-alignment</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-09-markup-text-alignment</link>
 			<category>posts</category>
-		    <category>alignment</category><category>content</category><category>css</category><category>markup</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2013-01-09-markup-text-alignment</guid>
+		    <category>alignment</category><category>content</category><category>css</category><category>markup</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-09-markup-text-alignment</guid>
       <pubDate>Wed, 09 Jan 2013 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Markup: Title with Special&amp;nbsp;---&amp;nbsp;Characters</title>
@@ -1068,9 +1068,9 @@
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2013-01-05-markup-title-with-special-characters</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-05-markup-title-with-special-characters</link>
 			<category>posts</category>
-		    <category>html</category><category>markup</category><category>post</category><category>title</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2013-01-05-markup-title-with-special-characters</guid>
+		    <category>html</category><category>markup</category><category>post</category><category>title</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-05-markup-title-with-special-characters</guid>
       <pubDate>Sat, 05 Jan 2013 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Markup: Title with HTML</title>
@@ -1087,9 +1087,9 @@
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2013-01-05-markup-title-with-markup</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-05-markup-title-with-markup</link>
 			<category>posts</category>
-		    <category>css</category><category>html</category><category>title</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2013-01-05-markup-title-with-markup</guid>
+		    <category>css</category><category>html</category><category>title</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-05-markup-title-with-markup</guid>
       <pubDate>Sat, 05 Jan 2013 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Markup: Text Readability Test</title>
@@ -1140,9 +1140,9 @@
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-05-22-markup-text-readability</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-05-22-markup-text-readability</link>
 			<category>posts</category>
-		    <category>readability</category><category>sample post</category><category>test</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-05-22-markup-text-readability</guid>
+		    <category>readability</category><category>sample post</category><category>test</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-05-22-markup-text-readability</guid>
       <pubDate>Tue, 22 May 2012 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Layout: Sidebar Custom</title>
@@ -1165,9 +1165,9 @@
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-sidebar-custom</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-sidebar-custom</link>
 			<category>posts</category>
-		    <guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-sidebar-custom</guid>
+		    <guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-sidebar-custom</guid>
       <pubDate>Thu, 15 Mar 2012 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Layout: More Tag</title>
@@ -1185,9 +1185,9 @@
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-more-tag</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-more-tag</link>
 			<category>posts</category>
-		    <category>content</category><category>layout</category><category>read more</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-more-tag</guid>
+		    <category>content</category><category>layout</category><category>read more</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-more-tag</guid>
       <pubDate>Thu, 15 Mar 2012 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Layout: Header Splash</title>
@@ -1203,11 +1203,11 @@
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-overlay-image</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-header-overlay-image</link>
 			<category>posts</category>
 		    <category>edge case</category><category>image</category><category>layout</category><media:title type="html"><![CDATA[Layout: Header Splash ]]></media:title>
       <media:content url="https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-image-1.jpg" medium="image"/>
-      <media:thumbnail url="https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-image-1.jpg" /><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-overlay-image</guid>
+      <media:thumbnail url="https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-image-1.jpg" /><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-header-overlay-image</guid>
       <pubDate>Thu, 15 Mar 2012 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Layout: Header Overlay with Background Fill</title>
@@ -1223,9 +1223,9 @@
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-overlay-color</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-header-overlay-color</link>
 			<category>posts</category>
-		    <category>edge case</category><category>image</category><category>layout</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-overlay-color</guid>
+		    <category>edge case</category><category>image</category><category>layout</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-header-overlay-color</guid>
       <pubDate>Thu, 15 Mar 2012 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Layout: Header Image (Vertical)</title>
@@ -1241,11 +1241,11 @@
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-image-vertical</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-header-image-vertical</link>
 			<category>posts</category>
 		    <category>edge case</category><category>featured image</category><category>image</category><category>layout</category><media:title type="html"><![CDATA[Layout: Header Image (Vertical) ]]></media:title>
       <media:content url="https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-image-6.jpg" medium="image"/>
-      <media:thumbnail url="https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-image-6.jpg" /><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-image-vertical</guid>
+      <media:thumbnail url="https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-image-6.jpg" /><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-header-image-vertical</guid>
       <pubDate>Thu, 15 Mar 2012 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Layout: Header Image and Text Readability</title>
@@ -1296,11 +1296,11 @@
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-image-text-readability</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-header-image-text-readability</link>
 			<category>posts</category>
 		    <category>readability</category><category>sample post</category><category>test</category><media:title type="html"><![CDATA[Layout: Header Image and Text Readability ]]></media:title>
       <media:content url="https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-image-4.jpg" medium="image"/>
-      <media:thumbnail url="https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-image-4.jpg" /><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-image-text-readability</guid>
+      <media:thumbnail url="https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-image-4.jpg" /><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-header-image-text-readability</guid>
       <pubDate>Thu, 15 Mar 2012 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Layout: Hero</title>
@@ -1316,11 +1316,11 @@
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-image-horizontal</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-header-image-horizontal</link>
 			<category>posts</category>
 		    <category>edge case</category><category>featured image</category><category>image</category><category>layout</category><media:title type="html"><![CDATA[Layout: Hero ]]></media:title>
       <media:content url="https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-image-1.jpg" medium="image"/>
-      <media:thumbnail url="https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-image-1.jpg" /><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-image-horizontal</guid>
+      <media:thumbnail url="https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-image-1.jpg" /><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-header-image-horizontal</guid>
       <pubDate>Thu, 15 Mar 2012 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Layout: Header Image (External URL)</title>
@@ -1334,11 +1334,11 @@
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-image-external</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-header-image-external</link>
 			<category>posts</category>
 		    <category>edge case</category><category>featured image</category><category>image</category><category>layout</category><media:title type="html"><![CDATA[Layout: Header Image (External URL) ]]></media:title>
       <media:content url="https://picsum.photos/seed/70/700/500" medium="image"/>
-      <media:thumbnail url="https://picsum.photos/seed/70/700/500" /><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-image-external</guid>
+      <media:thumbnail url="https://picsum.photos/seed/70/700/500" /><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-header-image-external</guid>
       <pubDate>Thu, 15 Mar 2012 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Layout: Author Sidebar Disabled</title>
@@ -1352,9 +1352,9 @@
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-author-sidebar-disabled</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-author-sidebar-disabled</link>
 			<category>posts</category>
-		    <guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-author-sidebar-disabled</guid>
+		    <guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-author-sidebar-disabled</guid>
       <pubDate>Thu, 15 Mar 2012 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Layout: Author Override</title>
@@ -1381,9 +1381,9 @@ use this post yaml:</p>
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-author-override</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-author-override</link>
 			<category>posts</category>
-		    <guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-author-override</guid>
+		    <guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-author-override</guid>
       <pubDate>Thu, 15 Mar 2012 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Layout: Excerpt (Generated)</title>
@@ -1399,9 +1399,9 @@ use this post yaml:</p>
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-14-layout-excerpt-generated</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-14-layout-excerpt-generated</link>
 			<category>posts</category>
-		    <category>content</category><category>excerpt</category><category>layout</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-14-layout-excerpt-generated</guid>
+		    <category>content</category><category>excerpt</category><category>layout</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-14-layout-excerpt-generated</guid>
       <pubDate>Wed, 14 Mar 2012 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Layout: Excerpt (Defined)</title>
@@ -1415,9 +1415,9 @@ use this post yaml:</p>
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-14-layout-excerpt-defined</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-14-layout-excerpt-defined</link>
 			<category>posts</category>
-		    <category>content</category><category>excerpt</category><category>layout</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-14-layout-excerpt-defined</guid>
+		    <category>content</category><category>excerpt</category><category>layout</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-14-layout-excerpt-defined</guid>
       <pubDate>Wed, 14 Mar 2012 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Layout: Code Excerpt (Generated)</title>
@@ -1431,9 +1431,9 @@ use this post yaml:</p>
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-14-layout-code-excerpt-generated</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-14-layout-code-excerpt-generated</link>
 			<category>posts</category>
-		    <category>content</category><category>excerpt</category><category>layout</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-14-layout-code-excerpt-generated</guid>
+		    <category>content</category><category>excerpt</category><category>layout</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-14-layout-code-excerpt-generated</guid>
       <pubDate>Wed, 14 Mar 2012 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Layout: Post with Table Of Contents</title>
@@ -1564,9 +1564,9 @@ use this post yaml:</p>
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-03-layout-table-of-contents-post</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-01-03-layout-table-of-contents-post</link>
 			<category>posts</category>
-		    <category>table of contents</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-03-layout-table-of-contents-post</guid>
+		    <category>table of contents</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-01-03-layout-table-of-contents-post</guid>
       <pubDate>Tue, 03 Jan 2012 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Layout: Comments, Social Sharing Links, and Related Posts Disabled</title>
@@ -1580,9 +1580,9 @@ use this post yaml:</p>
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-03-layout-read-time-comments-sharing-related-posts-disabled</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-01-03-layout-read-time-comments-sharing-related-posts-disabled</link>
 			<category>posts</category>
-		    <category>comments</category><category>layout</category><category>related posts</category><category>social</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-03-layout-read-time-comments-sharing-related-posts-disabled</guid>
+		    <category>comments</category><category>layout</category><category>related posts</category><category>social</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-01-03-layout-read-time-comments-sharing-related-posts-disabled</guid>
       <pubDate>Tue, 03 Jan 2012 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Layout: Social Sharing Links Enabled</title>
@@ -1594,9 +1594,9 @@ use this post yaml:</p>
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-02-layout-sharing</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-01-02-layout-sharing</link>
 			<category>posts</category>
-		    <category>layout</category><category>social</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-02-layout-sharing</guid>
+		    <category>layout</category><category>social</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-01-02-layout-sharing</guid>
       <pubDate>Mon, 02 Jan 2012 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Layout: Social Sharing Links Disabled</title>
@@ -1610,9 +1610,9 @@ use this post yaml:</p>
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-02-layout-sharing-disabled</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-01-02-layout-sharing-disabled</link>
 			<category>posts</category>
-		    <category>layout</category><category>social</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-02-layout-sharing-disabled</guid>
+		    <category>layout</category><category>social</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-01-02-layout-sharing-disabled</guid>
       <pubDate>Mon, 02 Jan 2012 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Layout: Related Posts Enabled</title>
@@ -1624,9 +1624,9 @@ use this post yaml:</p>
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-02-layout-related-posts</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-01-02-layout-related-posts</link>
 			<category>posts</category>
-		    <category>layout</category><category>related posts</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-02-layout-related-posts</guid>
+		    <category>layout</category><category>related posts</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-01-02-layout-related-posts</guid>
       <pubDate>Mon, 02 Jan 2012 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Layout: Related Posts Disabled</title>
@@ -1640,9 +1640,9 @@ use this post yaml:</p>
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-02-layout-related-posts-disabled</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-01-02-layout-related-posts-disabled</link>
 			<category>posts</category>
-		    <category>layout</category><category>related posts</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-02-layout-related-posts-disabled</guid>
+		    <category>layout</category><category>related posts</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-01-02-layout-related-posts-disabled</guid>
       <pubDate>Mon, 02 Jan 2012 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Layout: Comments Enabled</title>
@@ -1654,9 +1654,9 @@ use this post yaml:</p>
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-02-layout-comments</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-01-02-layout-comments</link>
 			<category>posts</category>
-		    <category>comments</category><category>layout</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-02-layout-comments</guid>
+		    <category>comments</category><category>layout</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-01-02-layout-comments</guid>
       <pubDate>Mon, 02 Jan 2012 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Layout: Comments Disabled</title>
@@ -1670,9 +1670,9 @@ use this post yaml:</p>
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-02-layout-comments-disabled</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-01-02-layout-comments-disabled</link>
 			<category>posts</category>
-		    <category>comments</category><category>layout</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-02-layout-comments-disabled</guid>
+		    <category>comments</category><category>layout</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-01-02-layout-comments-disabled</guid>
       <pubDate>Mon, 02 Jan 2012 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Post: Twitter Embed</title>
@@ -1687,9 +1687,9 @@ use this post yaml:</p>
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-09-10-post-twitter-embeds</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-09-10-post-twitter-embeds</link>
 			<category>posts</category>
-		    <category>content</category><category>embeds</category><category>media</category><category>twitter</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-09-10-post-twitter-embeds</guid>
+		    <category>content</category><category>embeds</category><category>media</category><category>twitter</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-09-10-post-twitter-embeds</guid>
       <pubDate>Fri, 10 Sep 2010 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Post: Gallery</title>
@@ -1949,9 +1949,9 @@ https://picsum.photos/seed/70/700/500"</span><span class="w"> </span><span class
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-09-09-post-gallery</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-09-09-post-gallery</link>
 			<category>posts</category>
-		    <category>Post Formats</category><category>gallery</category><category>tiled</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-09-09-post-gallery</guid>
+		    <category>Post Formats</category><category>gallery</category><category>tiled</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-09-09-post-gallery</guid>
       <pubDate>Thu, 09 Sep 2010 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Post: Image (Caption)</title>
@@ -1969,9 +1969,9 @@ https://picsum.photos/seed/70/700/500"</span><span class="w"> </span><span class
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-08-07-post-image-caption</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-08-07-post-image-caption</link>
 			<category>posts</category>
-		    <category>Post Formats</category><category>image</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-08-07-post-image-caption</guid>
+		    <category>Post Formats</category><category>image</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-08-07-post-image-caption</guid>
       <pubDate>Sat, 07 Aug 2010 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Post: Image (Linked with Caption)</title>
@@ -1991,9 +1991,9 @@ Stairs? Were we’re going we don’t need no stairs.
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-08-06-post-image-linked-caption</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-08-06-post-image-linked-caption</link>
 			<category>posts</category>
-		    <category>Post Formats</category><category>image</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-08-06-post-image-linked-caption</guid>
+		    <category>Post Formats</category><category>image</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-08-06-post-image-linked-caption</guid>
       <pubDate>Fri, 06 Aug 2010 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Post: Image (Standard)</title>
@@ -2020,9 +2020,9 @@ Stairs? Were we’re going we don’t need no stairs.
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-08-05-post-image-standard</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-08-05-post-image-standard</link>
 			<category>posts</category>
-		    <category>Post Formats</category><category>image</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-08-05-post-image-standard</guid>
+		    <category>Post Formats</category><category>image</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-08-05-post-image-standard</guid>
       <pubDate>Thu, 05 Aug 2010 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Post: Image (with Link)</title>
@@ -2034,9 +2034,9 @@ Stairs? Were we’re going we don’t need no stairs.
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-08-05-post-image-linked</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-08-05-post-image-linked</link>
 			<category>posts</category>
-		    <category>Post Formats</category><category>image</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-08-05-post-image-linked</guid>
+		    <category>Post Formats</category><category>image</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-08-05-post-image-linked</guid>
       <pubDate>Thu, 05 Aug 2010 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Post: Video (YouTube)</title>
@@ -2056,9 +2056,9 @@ Stairs? Were we’re going we don’t need no stairs.
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-06-02-post-video-youtube</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-06-02-post-video-youtube</link>
 			<category>posts</category>
-		    <category>Post Formats</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-06-02-post-video-youtube</guid>
+		    <category>Post Formats</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-06-02-post-video-youtube</guid>
       <pubDate>Wed, 02 Jun 2010 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Post: Link</title>
@@ -2076,9 +2076,9 @@ Stairs? Were we’re going we don’t need no stairs.
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-03-07-post-link</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-03-07-post-link</link>
 			<category>posts</category>
-		    <category>Post Formats</category><category>link</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-03-07-post-link</guid>
+		    <category>Post Formats</category><category>link</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-03-07-post-link</guid>
       <pubDate>Sun, 07 Mar 2010 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Post: Quote</title>
@@ -2094,9 +2094,9 @@ Stairs? Were we’re going we don’t need no stairs.
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-02-05-post-quote</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-02-05-post-quote</link>
 			<category>posts</category>
-		    <category>Post Formats</category><category>quote</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-02-05-post-quote</guid>
+		    <category>Post Formats</category><category>quote</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-02-05-post-quote</guid>
       <pubDate>Fri, 05 Feb 2010 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Post: Alert</title>
@@ -2158,9 +2158,9 @@ Stairs? Were we’re going we don’t need no stairs.
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-02-05-post-alert</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-02-05-post-alert</link>
 			<category>posts</category>
-		    <category>Post Formats</category><category>alert</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-02-05-post-alert</guid>
+		    <category>Post Formats</category><category>alert</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-02-05-post-alert</guid>
       <pubDate>Fri, 05 Feb 2010 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Post: Chat</title>
@@ -2296,9 +2296,9 @@ Stairs? Were we’re going we don’t need no stairs.
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-01-08-post-chat</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-01-08-post-chat</link>
 			<category>posts</category>
-		    <category>Post Formats</category><category>chat</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-01-08-post-chat</guid>
+		    <category>Post Formats</category><category>chat</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-01-08-post-chat</guid>
       <pubDate>Fri, 08 Jan 2010 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Post: Standard</title>
@@ -2329,9 +2329,9 @@ Stairs? Were we’re going we don’t need no stairs.
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-01-07-post-standard</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-01-07-post-standard</link>
 			<category>posts</category>
-		    <category>Post Formats</category><category>readability</category><category>standard</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-01-07-post-standard</guid>
+		    <category>Post Formats</category><category>readability</category><category>standard</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-01-07-post-standard</guid>
       <pubDate>Thu, 07 Jan 2010 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Post: Modified Date</title>
@@ -2345,9 +2345,9 @@ Stairs? Were we’re going we don’t need no stairs.
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-01-07-post-modified</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-01-07-post-modified</link>
 			<category>posts</category>
-		    <category>Post Formats</category><category>readability</category><category>standard</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-01-07-post-modified</guid>
+		    <category>Post Formats</category><category>readability</category><category>standard</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-01-07-post-modified</guid>
       <pubDate>Thu, 07 Jan 2010 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Suspicio? Bene ... tunc ibimus? Quis uh ... CONEXUS locus his diebus? Quisque semper aliquid videtur, in volutpat mauris. Nolo enim dicere. Vobis neque ab aliis. Ego feci memetipsum explicans. Gus mortuus est. Lorem opus habeo. Jackson Isai? Tu quoque ... A te quidem a ante. Vos scitis quod blinking res Ive &#39;been vocans super vos? Et conteram illud, et conteram hoc. Maledicant druggie excors. Iam hoc tu facere conatus sum ad te in omni tempore? Ludum mutavit. Verbum est ex. Et ... sunt occid</title>
@@ -2359,9 +2359,9 @@ Stairs? Were we’re going we don’t need no stairs.
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-10-05-edge-case-very-long-title</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2009-10-05-edge-case-very-long-title</link>
 			<category>posts</category>
-		    <category>content</category><category>css</category><category>edge case</category><category>html</category><category>layout</category><category>title</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-10-05-edge-case-very-long-title</guid>
+		    <category>content</category><category>css</category><category>edge case</category><category>html</category><category>layout</category><category>title</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2009-10-05-edge-case-very-long-title</guid>
       <pubDate>Mon, 05 Oct 2009 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Antidisestablishmentarianism</title>
@@ -2387,9 +2387,9 @@ Stairs? Were we’re going we don’t need no stairs.
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-10-05-edge-case-title-should-not-overflow-the-content-area</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2009-10-05-edge-case-title-should-not-overflow-the-content-area</link>
 			<category>posts</category>
-		    <category>content</category><category>css</category><category>edge case</category><category>html</category><category>layout</category><category>title</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-10-05-edge-case-title-should-not-overflow-the-content-area</guid>
+		    <category>content</category><category>css</category><category>edge case</category><category>html</category><category>layout</category><category>title</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2009-10-05-edge-case-title-should-not-overflow-the-content-area</guid>
       <pubDate>Mon, 05 Oct 2009 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Edge Case No Yaml Title</title>
@@ -2401,9 +2401,9 @@ Stairs? Were we’re going we don’t need no stairs.
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-09-05-edge-case-no-yaml-title</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2009-09-05-edge-case-no-yaml-title</link>
 			<category>posts</category>
-		    <category>edge case</category><category>layout</category><category>title</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-09-05-edge-case-no-yaml-title</guid>
+		    <category>edge case</category><category>layout</category><category>title</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2009-09-05-edge-case-no-yaml-title</guid>
       <pubDate>Sat, 05 Sep 2009 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Edge Case: No Body Content</title>
@@ -2415,9 +2415,9 @@ Stairs? Were we’re going we don’t need no stairs.
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-08-06-edge-case-no-body-content</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2009-08-06-edge-case-no-body-content</link>
 			<category>posts</category>
-		    <category>content</category><category>edge case</category><category>layout</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-08-06-edge-case-no-body-content</guid>
+		    <category>content</category><category>edge case</category><category>layout</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2009-08-06-edge-case-no-body-content</guid>
       <pubDate>Thu, 06 Aug 2009 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Edge Case: Many Categories</title>
@@ -2429,9 +2429,9 @@ Stairs? Were we’re going we don’t need no stairs.
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-07-02-edge-case-many-categories</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2009-07-02-edge-case-many-categories</link>
 			<category>posts</category>
-		    <category>categories</category><category>edge case</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-07-02-edge-case-many-categories</guid>
+		    <category>categories</category><category>edge case</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2009-07-02-edge-case-many-categories</guid>
       <pubDate>Thu, 02 Jul 2009 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Edge Case: Many Tags</title>
@@ -2443,9 +2443,9 @@ Stairs? Were we’re going we don’t need no stairs.
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-06-01-edge-case-many-tags</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2009-06-01-edge-case-many-tags</link>
 			<category>posts</category>
-		    <category>8BIT</category><category>Articles</category><category>FTW</category><category>Fail</category><category>Fun</category><category>Jekyll</category><category>Love</category><category>Mothership</category><category>Must Read</category><category>Nailed It</category><category>Pictures</category><category>Post Formats</category><category>Success</category><category>Swagger</category><category>Tags</category><category>Unseen</category><category>YouTube</category><category>alignment</category><category>captions</category><category>categories</category><category>chat</category><category>comments</category><category>content</category><category>css</category><category>dowork</category><category>edge case</category><category>embeds</category><category>excerpt</category><category>featured image</category><category>gallery</category><category>html</category><category>image</category><category>layout</category><category>link</category><category>markup</category><category>quote</category><category>standard</category><category>template</category><category>title</category><category>twitter</category><category>video</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-06-01-edge-case-many-tags</guid>
+		    <category>8BIT</category><category>Articles</category><category>FTW</category><category>Fail</category><category>Fun</category><category>Jekyll</category><category>Love</category><category>Mothership</category><category>Must Read</category><category>Nailed It</category><category>Pictures</category><category>Post Formats</category><category>Success</category><category>Swagger</category><category>Tags</category><category>Unseen</category><category>YouTube</category><category>alignment</category><category>captions</category><category>categories</category><category>chat</category><category>comments</category><category>content</category><category>css</category><category>dowork</category><category>edge case</category><category>embeds</category><category>excerpt</category><category>featured image</category><category>gallery</category><category>html</category><category>image</category><category>layout</category><category>link</category><category>markup</category><category>quote</category><category>standard</category><category>template</category><category>title</category><category>twitter</category><category>video</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2009-06-01-edge-case-many-tags</guid>
       <pubDate>Mon, 01 Jun 2009 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Edge Case: Nested and Mixed Lists</title>
@@ -2536,9 +2536,9 @@ Stairs? Were we’re going we don’t need no stairs.
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-05-15-edge-case-nested-and-mixed-lists</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2009-05-15-edge-case-nested-and-mixed-lists</link>
 			<category>posts</category>
-		    <category>content</category><category>css</category><category>edge case</category><category>lists</category><category>markup</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-05-15-edge-case-nested-and-mixed-lists</guid>
+		    <category>content</category><category>css</category><category>edge case</category><category>lists</category><category>markup</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2009-05-15-edge-case-nested-and-mixed-lists</guid>
       <pubDate>Fri, 15 May 2009 00:00:00 +0000</pubDate>
 		</item></channel>
 </rss>

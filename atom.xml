@@ -3,7 +3,7 @@
 	<generator uri="https://dieghernan.github.io/chulapa" version="1.0.0">Chulapa</generator>
 	<link href="https://dieghernan.github.io/chulapa-jekyll-sample/atom.xml" rel="self" type="application/atom+xml" />
 	<link href="https://dieghernan.github.io/chulapa-jekyll-sample" rel="alternate" type="text/html" />
-	<updated>2025-03-06T19:08:53+00:00</updated>
+	<updated>2025-03-06T20:38:04+00:00</updated>
 	<id>https://dieghernan.github.io/chulapa-jekyll-sample/atom.xml</id>
 	<title>Chulapa Jekyll Sample | A test</title>
 	<subtitle>A test</subtitle>
@@ -15,11 +15,11 @@
 	
 	<logo>https://github.com/octocat.png</logo><entry>
 		<title>Post: Future Date</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-10-25-post-future-date" rel="alternate" type="text/html" title="Post: Future Date"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-10-25-post-future-date" rel="alternate" type="text/html" title="Post: Future Date"/>
 		<published>9999-12-31T00:00:00+00:00</published>
 		<updated>9999-12-31T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-10-25-post-future-date</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-10-25-post-future-date">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-10-25-post-future-date</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-10-25-post-future-date">
 		
   		
 	&lt;p&gt;1 min.&lt;/p&gt;
@@ -36,8 +36,8 @@
 	</entry><entry>
 		<title>Tabby</title>
 		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/pets/tabby" rel="alternate" type="text/html" title="Tabby"/>
-		<published>2025-03-06T19:08:53+00:00</published>
-		<updated>2025-03-06T19:08:53+00:00</updated>
+		<published>2025-03-06T20:38:04+00:00</published>
+		<updated>2025-03-06T20:38:04+00:00</updated>
 		<id>https://dieghernan.github.io/chulapa-jekyll-sample/pets/tabby</id>
 		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/pets/tabby">
 		
@@ -61,8 +61,8 @@
 	</entry><entry>
 		<title>Lhasa Apso</title>
 		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/pets/lhasa-apso" rel="alternate" type="text/html" title="Lhasa Apso"/>
-		<published>2025-03-06T19:08:53+00:00</published>
-		<updated>2025-03-06T19:08:53+00:00</updated>
+		<published>2025-03-06T20:38:04+00:00</published>
+		<updated>2025-03-06T20:38:04+00:00</updated>
 		<id>https://dieghernan.github.io/chulapa-jekyll-sample/pets/lhasa-apso</id>
 		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/pets/lhasa-apso">
 		
@@ -85,11 +85,11 @@
 		
 	</entry><entry>
 		<title>Draft Post</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/post-draft" rel="alternate" type="text/html" title="Draft Post"/>
-		<published>2025-03-06T19:08:47+00:00</published>
-		<updated>2025-03-06T19:08:47+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/post-draft</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/post-draft">
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/post-draft" rel="alternate" type="text/html" title="Draft Post"/>
+		<published>2025-03-06T20:37:55+00:00</published>
+		<updated>2025-03-06T20:37:55+00:00</updated>
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/post-draft</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/post-draft">
 		
   		
 	&lt;p&gt;1 min.&lt;/p&gt;
@@ -113,11 +113,11 @@
 		<category term="edge case"/>
 	</entry><entry>
 		<title>Markup: Syntax Highlighting</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2013-08-16-markup-syntax-highlighting" rel="alternate" type="text/html" title="Markup: Syntax Highlighting"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-08-16-markup-syntax-highlighting" rel="alternate" type="text/html" title="Markup: Syntax Highlighting"/>
 		<published>2013-08-16T00:00:00+00:00</published>
 		<updated>2013-08-16T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2013-08-16-markup-syntax-highlighting</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2013-08-16-markup-syntax-highlighting">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-08-16-markup-syntax-highlighting</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-08-16-markup-syntax-highlighting">
 		
   		
 	&lt;p&gt;1 min.&lt;/p&gt;
@@ -186,7 +186,7 @@
 
 &lt;p&gt;An example of a Gist embed below.&lt;/p&gt;
 
-&lt;script src=&quot;https://gist.github.com/mmistakes/6589546.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://gist.github.com/dieghernan/2ea67063a08a674514bc55e74fb30bf8.js&quot;&gt;&lt;/script&gt;
 
 &lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
   &lt;ol&gt;
@@ -205,13 +205,15 @@
 		<category term="code"/><category term="syntax highlighting"/>
 	</entry><entry>
 		<title>Markup: Another Post with Images</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2013-05-22-markup-more-images" rel="alternate" type="text/html" title="Markup: Another Post with Images"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-05-22-markup-more-images" rel="alternate" type="text/html" title="Markup: Another Post with Images"/>
 		<published>2013-05-22T00:00:00+00:00</published>
 		<updated>2013-05-22T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2013-05-22-markup-more-images</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2013-05-22-markup-more-images">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-05-22-markup-more-images</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-05-22-markup-more-images">
 		
   		
+			&lt;img src=&#39;http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_b.jpg&#39; &gt;
+			
 	&lt;p&gt;1 min.&lt;/p&gt;
 			&lt;p&gt;Here are some examples of what a post with images might look like. If you want to display two or three images next to each other responsively use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;figure&lt;/code&gt; with the appropriate &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;class&lt;/code&gt;. Each instance of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;figure&lt;/code&gt; is auto-numbered and displayed in the caption.&lt;/p&gt;
 
@@ -231,8 +233,8 @@
 &lt;p&gt;Apply the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;half&lt;/code&gt; class like so to display two images side by side that share the same caption.&lt;/p&gt;
 
 &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;figure&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;half&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/images/portfolio/image-filename-1-large.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/images/image-filename-1.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/images/portfolio/image-filename-2-large.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/images/image-filename-2.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/images/portfolio/image-filename-1-large.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/images/portfolio/image-filename-1.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/images/portfolio/image-filename-2-large.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/images/portfolio/image-filename-2.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
     &lt;span class=&quot;nt&quot;&gt;&amp;lt;figcaption&amp;gt;&lt;/span&gt;Caption describing these two images.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figcaption&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/figure&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -240,8 +242,8 @@
 &lt;p&gt;And you’ll get something that looks like this:&lt;/p&gt;
 
 &lt;figure class=&quot;half&quot;&gt;
-	&lt;a href=&quot;http://placehold.it/1200x600.JPG&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;http://placehold.it/1200x600.jpeg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; /&gt;&lt;/a&gt;
+	&lt;a href=&quot;http://placehold.co/1200x600.JPG&quot;&gt;&lt;img src=&quot;http://placehold.co/600x300.jpg&quot; /&gt;&lt;/a&gt;
+	&lt;a href=&quot;http://placehold.co/1200x600.jpeg&quot;&gt;&lt;img src=&quot;http://placehold.co/600x300.jpg&quot; /&gt;&lt;/a&gt;
 	&lt;figcaption&gt;Two images.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -260,9 +262,9 @@
 &lt;p&gt;And you’ll get something that looks like this:&lt;/p&gt;
 
 &lt;figure class=&quot;third&quot;&gt;
-	&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; /&gt;
-	&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; /&gt;
-	&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; /&gt;
+	&lt;img src=&quot;http://placehold.co/600x300.jpg&quot; /&gt;
+	&lt;img src=&quot;http://placehold.co/600x300.jpg&quot; /&gt;
+	&lt;img src=&quot;http://placehold.co/600x300.jpg&quot; /&gt;
 	&lt;figcaption&gt;Three images.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -275,11 +277,11 @@
 		<category term="images"/><category term="sample post"/><category term="test"/>
 	</entry><entry>
 		<title>Markup: HTML Tags and Formatting</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2013-01-11-markup-html-tags-and-formatting" rel="alternate" type="text/html" title="Markup: HTML Tags and Formatting"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-11-markup-html-tags-and-formatting" rel="alternate" type="text/html" title="Markup: HTML Tags and Formatting"/>
 		<published>2013-01-11T00:00:00+00:00</published>
 		<updated>2013-01-11T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2013-01-11-markup-html-tags-and-formatting</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2013-01-11-markup-html-tags-and-formatting">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-11-markup-html-tags-and-formatting</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-11-markup-html-tags-and-formatting">
 		
   		
 	&lt;p&gt;3 min.&lt;/p&gt;
@@ -455,36 +457,34 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;a href=&quot;#&quot; class=&quot;btn&quot;&gt;Primary Button&lt;/a&gt;
-&lt;a href=&quot;#&quot; class=&quot;btn btn--success&quot;&gt;Success Button&lt;/a&gt;
-&lt;a href=&quot;#&quot; class=&quot;btn btn--warning&quot;&gt;Warning Button&lt;/a&gt;
-&lt;a href=&quot;#&quot; class=&quot;btn btn--danger&quot;&gt;Danger Button&lt;/a&gt;
-&lt;a href=&quot;#&quot; class=&quot;btn btn--info&quot;&gt;Info Button&lt;/a&gt;
-&lt;a href=&quot;#&quot; class=&quot;btn btn--inverse&quot;&gt;Inverse Button&lt;/a&gt;
-&lt;a href=&quot;#&quot; class=&quot;btn btn--light-outline&quot;&gt;Light Outline Button&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-success&quot;&gt;Success Button&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-warning&quot;&gt;Warning Button&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-danger&quot;&gt;Danger Button&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-info&quot;&gt;Info Button&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-outline-dark&quot;&gt;Inverse Button&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-outline-light&quot;&gt;Light Outline Button&lt;/a&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Primary Button Text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn}
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Success Button Text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn .btn--success}
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Warning Button Text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn .btn--warning}
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Danger Button Text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn .btn--danger}
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Info Button Text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn .btn--info}
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Inverse Button&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn .btn--inverse}
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Light Outline Button&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn .btn--light-outline}
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Success Button Text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn .btn-success}
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Warning Button Text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn .btn-warning}
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Danger Button Text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn .btn-danger}
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Info Button Text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn .btn-info}
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Inverse Button&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn .btn-outline-dark}
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Light Outline Button&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn .btn-outline-light}
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn--x-large&quot;&gt;X-Large Button&lt;/a&gt;
-&lt;a href=&quot;#&quot; class=&quot;btn btn--large&quot;&gt;Large Button&lt;/a&gt;
-&lt;a href=&quot;#&quot; class=&quot;btn&quot;&gt;Default Button&lt;/a&gt;
-&lt;a href=&quot;#&quot; class=&quot;btn btn--small&quot;&gt;Small Button&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-lg btn-outline-info&quot;&gt;Large Button&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-outline-info&quot;&gt;Default Button&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-sm btn-outline-info&quot;&gt;Small Button&lt;/a&gt;&lt;/p&gt;
 
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;X-Large Button&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn .btn--x-large}
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Large Button&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn .btn--large}
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Default Button&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn}
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Small Button&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn .btn--small}
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Large Button&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn .btn-lg .btn-outline-info}
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Default Button&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn .btn-outline-info}
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Small Button&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn .btn-sm .btn-outline-info}
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;h2 id=&quot;notices&quot;&gt;Notices&lt;/h2&gt;
+&lt;h2 id=&quot;alerts&quot;&gt;Alerts&lt;/h2&gt;
 
-&lt;p class=&quot;notice&quot;&gt;&lt;strong&gt;Watch out!&lt;/strong&gt; You can also add notices by appending &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{: .notice}&lt;/code&gt; to a paragraph.&lt;/p&gt;
+&lt;p class=&quot;alert alert-info&quot;&gt;&lt;strong&gt;Watch out!&lt;/strong&gt; You can also add notices by appending &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{: .alert}&lt;/code&gt; to a paragraph.&lt;/p&gt;
 
 &lt;h2 id=&quot;html-tags&quot;&gt;HTML Tags&lt;/h2&gt;
 
@@ -570,11 +570,11 @@
 		<category term="content"/><category term="css"/><category term="formatting"/><category term="html"/><category term="markup"/>
 	</entry><entry>
 		<title>Markup: Image Alignment</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2013-01-10-markup-image-alignment" rel="alternate" type="text/html" title="Markup: Image Alignment"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-10-markup-image-alignment" rel="alternate" type="text/html" title="Markup: Image Alignment"/>
 		<published>2013-01-10T00:00:00+00:00</published>
 		<updated>2013-01-10T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2013-01-10-markup-image-alignment</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2013-01-10-markup-image-alignment">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-10-markup-image-alignment</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-10-markup-image-alignment">
 		
   		
 	&lt;p&gt;3 min.&lt;/p&gt;
@@ -648,11 +648,11 @@
 		<category term="alignment"/><category term="captions"/><category term="content"/><category term="css"/><category term="image"/><category term="markup"/>
 	</entry><entry>
 		<title>Markup: Text Alignment</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2013-01-09-markup-text-alignment" rel="alternate" type="text/html" title="Markup: Text Alignment"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-09-markup-text-alignment" rel="alternate" type="text/html" title="Markup: Text Alignment"/>
 		<published>2013-01-09T00:00:00+00:00</published>
 		<updated>2013-01-09T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2013-01-09-markup-text-alignment</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2013-01-09-markup-text-alignment">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-09-markup-text-alignment</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-09-markup-text-alignment">
 		
   		
 	&lt;p&gt;1 min.&lt;/p&gt;
@@ -686,11 +686,11 @@
 		<category term="alignment"/><category term="content"/><category term="css"/><category term="markup"/>
 	</entry><entry>
 		<title>Markup: Title with Special&amp;nbsp;---&amp;nbsp;Characters</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2013-01-05-markup-title-with-special-characters" rel="alternate" type="text/html" title="Markup: Title with Special&amp;nbsp;---&amp;nbsp;Characters"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-05-markup-title-with-special-characters" rel="alternate" type="text/html" title="Markup: Title with Special&amp;nbsp;---&amp;nbsp;Characters"/>
 		<published>2013-01-05T00:00:00+00:00</published>
 		<updated>2013-01-05T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2013-01-05-markup-title-with-special-characters</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2013-01-05-markup-title-with-special-characters">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-05-markup-title-with-special-characters</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-05-markup-title-with-special-characters">
 		
   		
 	&lt;p&gt;1 min.&lt;/p&gt;
@@ -1126,11 +1126,11 @@
 		<category term="html"/><category term="markup"/><category term="post"/><category term="title"/>
 	</entry><entry>
 		<title>Markup: Title with HTML</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2013-01-05-markup-title-with-markup" rel="alternate" type="text/html" title="Markup: Title with HTML"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-05-markup-title-with-markup" rel="alternate" type="text/html" title="Markup: Title with HTML"/>
 		<published>2013-01-05T00:00:00+00:00</published>
 		<updated>2013-01-05T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2013-01-05-markup-title-with-markup</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2013-01-05-markup-title-with-markup">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-05-markup-title-with-markup</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-05-markup-title-with-markup">
 		
   		
 	&lt;p&gt;1 min.&lt;/p&gt;
@@ -1151,11 +1151,11 @@
 		<category term="css"/><category term="html"/><category term="title"/>
 	</entry><entry>
 		<title>Markup: Text Readability Test</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-05-22-markup-text-readability" rel="alternate" type="text/html" title="Markup: Text Readability Test"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-05-22-markup-text-readability" rel="alternate" type="text/html" title="Markup: Text Readability Test"/>
 		<published>2012-05-22T00:00:00+00:00</published>
 		<updated>2012-05-22T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-05-22-markup-text-readability</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-05-22-markup-text-readability">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-05-22-markup-text-readability</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-05-22-markup-text-readability">
 		
   		
 	&lt;p&gt;3 min.&lt;/p&gt;
@@ -1209,11 +1209,11 @@
 		<category term="readability"/><category term="sample post"/><category term="test"/>
 	</entry><entry>
 		<title>Layout: Sidebar Custom</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-sidebar-custom" rel="alternate" type="text/html" title="Layout: Sidebar Custom"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-sidebar-custom" rel="alternate" type="text/html" title="Layout: Sidebar Custom"/>
 		<published>2012-03-15T00:00:00+00:00</published>
 		<updated>2012-03-15T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-sidebar-custom</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-sidebar-custom">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-sidebar-custom</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-sidebar-custom">
 		
   		
 	&lt;p&gt;1 min.&lt;/p&gt;
@@ -1239,11 +1239,11 @@
 		
 	</entry><entry>
 		<title>Layout: More Tag</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-more-tag" rel="alternate" type="text/html" title="Layout: More Tag"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-more-tag" rel="alternate" type="text/html" title="Layout: More Tag"/>
 		<published>2012-03-15T00:00:00+00:00</published>
 		<updated>2012-03-15T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-more-tag</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-more-tag">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-more-tag</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-more-tag">
 		
   		
 	&lt;p&gt;1 min.&lt;/p&gt;
@@ -1265,11 +1265,11 @@
 		<category term="content"/><category term="layout"/><category term="read more"/>
 	</entry><entry>
 		<title>Layout: Header Splash</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-overlay-image" rel="alternate" type="text/html" title="Layout: Header Splash"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-header-overlay-image" rel="alternate" type="text/html" title="Layout: Header Splash"/>
 		<published>2012-03-15T00:00:00+00:00</published>
 		<updated>2012-03-15T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-overlay-image</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-overlay-image">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-header-overlay-image</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-header-overlay-image">
 		
   		
 			&lt;img src=&#39;https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-image-1.jpg&#39; &gt;
@@ -1291,11 +1291,11 @@
 		<category term="edge case"/><category term="image"/><category term="layout"/>
 	</entry><entry>
 		<title>Layout: Header Overlay with Background Fill</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-overlay-color" rel="alternate" type="text/html" title="Layout: Header Overlay with Background Fill"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-header-overlay-color" rel="alternate" type="text/html" title="Layout: Header Overlay with Background Fill"/>
 		<published>2012-03-15T00:00:00+00:00</published>
 		<updated>2012-03-15T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-overlay-color</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-overlay-color">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-header-overlay-color</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-header-overlay-color">
 		
   		
 	&lt;p&gt;1 min.&lt;/p&gt;
@@ -1315,11 +1315,11 @@
 		<category term="edge case"/><category term="image"/><category term="layout"/>
 	</entry><entry>
 		<title>Layout: Header Image (Vertical)</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-image-vertical" rel="alternate" type="text/html" title="Layout: Header Image (Vertical)"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-header-image-vertical" rel="alternate" type="text/html" title="Layout: Header Image (Vertical)"/>
 		<published>2012-03-15T00:00:00+00:00</published>
 		<updated>2012-03-15T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-image-vertical</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-image-vertical">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-header-image-vertical</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-header-image-vertical">
 		
   		
 			&lt;img src=&#39;https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-image-6.jpg&#39; &gt;
@@ -1341,11 +1341,11 @@
 		<category term="edge case"/><category term="featured image"/><category term="image"/><category term="layout"/>
 	</entry><entry>
 		<title>Layout: Header Image and Text Readability</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-image-text-readability" rel="alternate" type="text/html" title="Layout: Header Image and Text Readability"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-header-image-text-readability" rel="alternate" type="text/html" title="Layout: Header Image and Text Readability"/>
 		<published>2012-03-15T00:00:00+00:00</published>
 		<updated>2012-03-15T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-image-text-readability</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-image-text-readability">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-header-image-text-readability</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-header-image-text-readability">
 		
   		
 			&lt;img src=&#39;https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-image-4.jpg&#39; &gt;
@@ -1402,11 +1402,11 @@
 		<category term="readability"/><category term="sample post"/><category term="test"/>
 	</entry><entry>
 		<title>Layout: Hero</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-image-horizontal" rel="alternate" type="text/html" title="Layout: Hero"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-header-image-horizontal" rel="alternate" type="text/html" title="Layout: Hero"/>
 		<published>2012-03-15T00:00:00+00:00</published>
 		<updated>2012-03-15T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-image-horizontal</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-image-horizontal">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-header-image-horizontal</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-header-image-horizontal">
 		
   		
 			&lt;img src=&#39;https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-image-1.jpg&#39; &gt;
@@ -1428,11 +1428,11 @@
 		<category term="edge case"/><category term="featured image"/><category term="image"/><category term="layout"/>
 	</entry><entry>
 		<title>Layout: Header Image (External URL)</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-image-external" rel="alternate" type="text/html" title="Layout: Header Image (External URL)"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-header-image-external" rel="alternate" type="text/html" title="Layout: Header Image (External URL)"/>
 		<published>2012-03-15T00:00:00+00:00</published>
 		<updated>2012-03-15T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-image-external</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-image-external">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-header-image-external</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-header-image-external">
 		
   		
 			&lt;img src=&#39;https://picsum.photos/seed/70/700/500&#39; &gt;
@@ -1452,11 +1452,11 @@
 		<category term="edge case"/><category term="featured image"/><category term="image"/><category term="layout"/>
 	</entry><entry>
 		<title>Layout: Author Sidebar Disabled</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-author-sidebar-disabled" rel="alternate" type="text/html" title="Layout: Author Sidebar Disabled"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-author-sidebar-disabled" rel="alternate" type="text/html" title="Layout: Author Sidebar Disabled"/>
 		<published>2012-03-15T00:00:00+00:00</published>
 		<updated>2012-03-15T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-author-sidebar-disabled</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-author-sidebar-disabled">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-author-sidebar-disabled</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-author-sidebar-disabled">
 		
   		
 	&lt;p&gt;1 min.&lt;/p&gt;
@@ -1473,11 +1473,11 @@
 		
 	</entry><entry>
 		<title>Layout: Author Override</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-author-override" rel="alternate" type="text/html" title="Layout: Author Override"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-author-override" rel="alternate" type="text/html" title="Layout: Author Override"/>
 		<published>2012-03-15T00:00:00+00:00</published>
 		<updated>2012-03-15T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-author-override</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-author-override">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-author-override</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-author-override">
 		
   		
 	&lt;p&gt;1 min.&lt;/p&gt;
@@ -1507,11 +1507,11 @@ use this post yaml:&lt;/p&gt;
 		
 	</entry><entry>
 		<title>Layout: Excerpt (Generated)</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-14-layout-excerpt-generated" rel="alternate" type="text/html" title="Layout: Excerpt (Generated)"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-14-layout-excerpt-generated" rel="alternate" type="text/html" title="Layout: Excerpt (Generated)"/>
 		<published>2012-03-14T00:00:00+00:00</published>
 		<updated>2012-03-14T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-14-layout-excerpt-generated</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-14-layout-excerpt-generated">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-14-layout-excerpt-generated</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-14-layout-excerpt-generated">
 		
   		
 	&lt;p&gt;1 min.&lt;/p&gt;
@@ -1532,11 +1532,11 @@ use this post yaml:&lt;/p&gt;
 		<category term="content"/><category term="excerpt"/><category term="layout"/>
 	</entry><entry>
 		<title>Layout: Excerpt (Defined)</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-14-layout-excerpt-defined" rel="alternate" type="text/html" title="Layout: Excerpt (Defined)"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-14-layout-excerpt-defined" rel="alternate" type="text/html" title="Layout: Excerpt (Defined)"/>
 		<published>2012-03-14T00:00:00+00:00</published>
 		<updated>2012-03-14T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-14-layout-excerpt-defined</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-14-layout-excerpt-defined">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-14-layout-excerpt-defined</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-14-layout-excerpt-defined">
 		
   		
 	&lt;p&gt;1 min.&lt;/p&gt;
@@ -1553,11 +1553,11 @@ use this post yaml:&lt;/p&gt;
 		<category term="content"/><category term="excerpt"/><category term="layout"/>
 	</entry><entry>
 		<title>Layout: Code Excerpt (Generated)</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-14-layout-code-excerpt-generated" rel="alternate" type="text/html" title="Layout: Code Excerpt (Generated)"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-14-layout-code-excerpt-generated" rel="alternate" type="text/html" title="Layout: Code Excerpt (Generated)"/>
 		<published>2012-03-14T00:00:00+00:00</published>
 		<updated>2012-03-14T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-14-layout-code-excerpt-generated</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-14-layout-code-excerpt-generated">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-14-layout-code-excerpt-generated</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-14-layout-code-excerpt-generated">
 		
   		
 	&lt;p&gt;1 min.&lt;/p&gt;
@@ -1575,11 +1575,11 @@ use this post yaml:&lt;/p&gt;
 		<category term="content"/><category term="excerpt"/><category term="layout"/>
 	</entry><entry>
 		<title>Layout: Post with Table Of Contents</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-03-layout-table-of-contents-post" rel="alternate" type="text/html" title="Layout: Post with Table Of Contents"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-01-03-layout-table-of-contents-post" rel="alternate" type="text/html" title="Layout: Post with Table Of Contents"/>
 		<published>2012-01-03T00:00:00+00:00</published>
 		<updated>2012-01-03T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-03-layout-table-of-contents-post</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-03-layout-table-of-contents-post">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-01-03-layout-table-of-contents-post</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-01-03-layout-table-of-contents-post">
 		
   		
 	&lt;p&gt;1 min.&lt;/p&gt;
@@ -1714,11 +1714,11 @@ use this post yaml:&lt;/p&gt;
 		<category term="table of contents"/>
 	</entry><entry>
 		<title>Layout: Comments, Social Sharing Links, and Related Posts Disabled</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-03-layout-read-time-comments-sharing-related-posts-disabled" rel="alternate" type="text/html" title="Layout: Comments, Social Sharing Links, and Related Posts Disabled"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-01-03-layout-read-time-comments-sharing-related-posts-disabled" rel="alternate" type="text/html" title="Layout: Comments, Social Sharing Links, and Related Posts Disabled"/>
 		<published>2012-01-03T00:00:00+00:00</published>
 		<updated>2012-01-03T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-03-layout-read-time-comments-sharing-related-posts-disabled</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-03-layout-read-time-comments-sharing-related-posts-disabled">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-01-03-layout-read-time-comments-sharing-related-posts-disabled</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-01-03-layout-read-time-comments-sharing-related-posts-disabled">
 		
   		
 	&lt;p&gt;1 min.&lt;/p&gt;
@@ -1736,11 +1736,11 @@ use this post yaml:&lt;/p&gt;
 		<category term="comments"/><category term="layout"/><category term="related posts"/><category term="social"/>
 	</entry><entry>
 		<title>Layout: Social Sharing Links Enabled</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-02-layout-sharing" rel="alternate" type="text/html" title="Layout: Social Sharing Links Enabled"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-01-02-layout-sharing" rel="alternate" type="text/html" title="Layout: Social Sharing Links Enabled"/>
 		<published>2012-01-02T00:00:00+00:00</published>
 		<updated>2012-01-02T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-02-layout-sharing</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-02-layout-sharing">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-01-02-layout-sharing</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-01-02-layout-sharing">
 		
   		
 	&lt;p&gt;1 min.&lt;/p&gt;
@@ -1756,11 +1756,11 @@ use this post yaml:&lt;/p&gt;
 		<category term="layout"/><category term="social"/>
 	</entry><entry>
 		<title>Layout: Social Sharing Links Disabled</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-02-layout-sharing-disabled" rel="alternate" type="text/html" title="Layout: Social Sharing Links Disabled"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-01-02-layout-sharing-disabled" rel="alternate" type="text/html" title="Layout: Social Sharing Links Disabled"/>
 		<published>2012-01-02T00:00:00+00:00</published>
 		<updated>2012-01-02T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-02-layout-sharing-disabled</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-02-layout-sharing-disabled">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-01-02-layout-sharing-disabled</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-01-02-layout-sharing-disabled">
 		
   		
 	&lt;p&gt;1 min.&lt;/p&gt;
@@ -1778,11 +1778,11 @@ use this post yaml:&lt;/p&gt;
 		<category term="layout"/><category term="social"/>
 	</entry><entry>
 		<title>Layout: Related Posts Enabled</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-02-layout-related-posts" rel="alternate" type="text/html" title="Layout: Related Posts Enabled"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-01-02-layout-related-posts" rel="alternate" type="text/html" title="Layout: Related Posts Enabled"/>
 		<published>2012-01-02T00:00:00+00:00</published>
 		<updated>2012-01-02T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-02-layout-related-posts</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-02-layout-related-posts">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-01-02-layout-related-posts</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-01-02-layout-related-posts">
 		
   		
 	&lt;p&gt;1 min.&lt;/p&gt;
@@ -1798,11 +1798,11 @@ use this post yaml:&lt;/p&gt;
 		<category term="layout"/><category term="related posts"/>
 	</entry><entry>
 		<title>Layout: Related Posts Disabled</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-02-layout-related-posts-disabled" rel="alternate" type="text/html" title="Layout: Related Posts Disabled"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-01-02-layout-related-posts-disabled" rel="alternate" type="text/html" title="Layout: Related Posts Disabled"/>
 		<published>2012-01-02T00:00:00+00:00</published>
 		<updated>2012-01-02T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-02-layout-related-posts-disabled</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-02-layout-related-posts-disabled">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-01-02-layout-related-posts-disabled</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-01-02-layout-related-posts-disabled">
 		
   		
 	&lt;p&gt;1 min.&lt;/p&gt;
@@ -1820,11 +1820,11 @@ use this post yaml:&lt;/p&gt;
 		<category term="layout"/><category term="related posts"/>
 	</entry><entry>
 		<title>Layout: Comments Enabled</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-02-layout-comments" rel="alternate" type="text/html" title="Layout: Comments Enabled"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-01-02-layout-comments" rel="alternate" type="text/html" title="Layout: Comments Enabled"/>
 		<published>2012-01-02T00:00:00+00:00</published>
 		<updated>2012-01-02T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-02-layout-comments</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-02-layout-comments">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-01-02-layout-comments</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-01-02-layout-comments">
 		
   		
 	&lt;p&gt;1 min.&lt;/p&gt;
@@ -1840,11 +1840,11 @@ use this post yaml:&lt;/p&gt;
 		<category term="comments"/><category term="layout"/>
 	</entry><entry>
 		<title>Layout: Comments Disabled</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-02-layout-comments-disabled" rel="alternate" type="text/html" title="Layout: Comments Disabled"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-01-02-layout-comments-disabled" rel="alternate" type="text/html" title="Layout: Comments Disabled"/>
 		<published>2012-01-02T00:00:00+00:00</published>
 		<updated>2012-01-02T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-02-layout-comments-disabled</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-02-layout-comments-disabled">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-01-02-layout-comments-disabled</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-01-02-layout-comments-disabled">
 		
   		
 	&lt;p&gt;1 min.&lt;/p&gt;
@@ -1862,11 +1862,11 @@ use this post yaml:&lt;/p&gt;
 		<category term="comments"/><category term="layout"/>
 	</entry><entry>
 		<title>Post: Twitter Embed</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-09-10-post-twitter-embeds" rel="alternate" type="text/html" title="Post: Twitter Embed"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-09-10-post-twitter-embeds" rel="alternate" type="text/html" title="Post: Twitter Embed"/>
 		<published>2010-09-10T00:00:00+00:00</published>
 		<updated>2010-09-10T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-09-10-post-twitter-embeds</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-09-10-post-twitter-embeds">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-09-10-post-twitter-embeds</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-09-10-post-twitter-embeds">
 		
   		
 	&lt;p&gt;1 min.&lt;/p&gt;
@@ -1887,11 +1887,11 @@ use this post yaml:&lt;/p&gt;
 		<category term="content"/><category term="embeds"/><category term="media"/><category term="twitter"/>
 	</entry><entry>
 		<title>Post: Gallery</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-09-09-post-gallery" rel="alternate" type="text/html" title="Post: Gallery"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-09-09-post-gallery" rel="alternate" type="text/html" title="Post: Gallery"/>
 		<published>2010-09-09T00:00:00+00:00</published>
 		<updated>2010-09-09T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-09-09-post-gallery</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-09-09-post-gallery">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-09-09-post-gallery</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-09-09-post-gallery">
 		
   		
 	&lt;p&gt;1 min.&lt;/p&gt;
@@ -2155,11 +2155,11 @@ https://picsum.photos/seed/70/700/500&quot;&lt;/span&gt;&lt;span class=&quot;w&q
 		<category term="Post Formats"/><category term="gallery"/><category term="tiled"/>
 	</entry><entry>
 		<title>Post: Image (Caption)</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-08-07-post-image-caption" rel="alternate" type="text/html" title="Post: Image (Caption)"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-08-07-post-image-caption" rel="alternate" type="text/html" title="Post: Image (Caption)"/>
 		<published>2010-08-07T00:00:00+00:00</published>
 		<updated>2010-08-07T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-08-07-post-image-caption</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-08-07-post-image-caption">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-08-07-post-image-caption</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-08-07-post-image-caption">
 		
   		
 	&lt;p&gt;1 min.&lt;/p&gt;
@@ -2181,11 +2181,11 @@ https://picsum.photos/seed/70/700/500&quot;&lt;/span&gt;&lt;span class=&quot;w&q
 		<category term="Post Formats"/><category term="image"/>
 	</entry><entry>
 		<title>Post: Image (Linked with Caption)</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-08-06-post-image-linked-caption" rel="alternate" type="text/html" title="Post: Image (Linked with Caption)"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-08-06-post-image-linked-caption" rel="alternate" type="text/html" title="Post: Image (Linked with Caption)"/>
 		<published>2010-08-06T00:00:00+00:00</published>
 		<updated>2010-08-06T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-08-06-post-image-linked-caption</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-08-06-post-image-linked-caption">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-08-06-post-image-linked-caption</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-08-06-post-image-linked-caption">
 		
   		
 	&lt;p&gt;1 min.&lt;/p&gt;
@@ -2209,11 +2209,11 @@ Stairs? Were we’re going we don’t need no stairs.
 		<category term="Post Formats"/><category term="image"/>
 	</entry><entry>
 		<title>Post: Image (Standard)</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-08-05-post-image-standard" rel="alternate" type="text/html" title="Post: Image (Standard)"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-08-05-post-image-standard" rel="alternate" type="text/html" title="Post: Image (Standard)"/>
 		<published>2010-08-05T00:00:00+00:00</published>
 		<updated>2010-08-05T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-08-05-post-image-standard</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-08-05-post-image-standard">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-08-05-post-image-standard</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-08-05-post-image-standard">
 		
   		
 	&lt;p&gt;1 min.&lt;/p&gt;
@@ -2244,11 +2244,11 @@ Stairs? Were we’re going we don’t need no stairs.
 		<category term="Post Formats"/><category term="image"/>
 	</entry><entry>
 		<title>Post: Image (with Link)</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-08-05-post-image-linked" rel="alternate" type="text/html" title="Post: Image (with Link)"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-08-05-post-image-linked" rel="alternate" type="text/html" title="Post: Image (with Link)"/>
 		<published>2010-08-05T00:00:00+00:00</published>
 		<updated>2010-08-05T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-08-05-post-image-linked</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-08-05-post-image-linked">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-08-05-post-image-linked</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-08-05-post-image-linked">
 		
   		
 	&lt;p&gt;1 min.&lt;/p&gt;
@@ -2264,11 +2264,11 @@ Stairs? Were we’re going we don’t need no stairs.
 		<category term="Post Formats"/><category term="image"/>
 	</entry><entry>
 		<title>Post: Video (YouTube)</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-06-02-post-video-youtube" rel="alternate" type="text/html" title="Post: Video (YouTube)"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-06-02-post-video-youtube" rel="alternate" type="text/html" title="Post: Video (YouTube)"/>
 		<published>2010-06-02T00:00:00+00:00</published>
 		<updated>2010-06-02T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-06-02-post-video-youtube</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-06-02-post-video-youtube">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-06-02-post-video-youtube</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-06-02-post-video-youtube">
 		
   		
 	&lt;p&gt;1 min.&lt;/p&gt;
@@ -2292,11 +2292,11 @@ Stairs? Were we’re going we don’t need no stairs.
 		<category term="Post Formats"/>
 	</entry><entry>
 		<title>Post: Link</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-03-07-post-link" rel="alternate" type="text/html" title="Post: Link"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-03-07-post-link" rel="alternate" type="text/html" title="Post: Link"/>
 		<published>2010-03-07T00:00:00+00:00</published>
 		<updated>2010-03-07T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-03-07-post-link</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-03-07-post-link">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-03-07-post-link</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-03-07-post-link">
 		
   		
 	&lt;p&gt;1 min.&lt;/p&gt;
@@ -2318,11 +2318,11 @@ Stairs? Were we’re going we don’t need no stairs.
 		<category term="Post Formats"/><category term="link"/>
 	</entry><entry>
 		<title>Post: Quote</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-02-05-post-quote" rel="alternate" type="text/html" title="Post: Quote"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-02-05-post-quote" rel="alternate" type="text/html" title="Post: Quote"/>
 		<published>2010-02-05T00:00:00+00:00</published>
 		<updated>2010-02-05T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-02-05-post-quote</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-02-05-post-quote">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-02-05-post-quote</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-02-05-post-quote">
 		
   		
 	&lt;p&gt;1 min.&lt;/p&gt;
@@ -2346,11 +2346,11 @@ Stairs? Were we’re going we don’t need no stairs.
 		<category term="Post Formats"/><category term="quote"/>
 	</entry><entry>
 		<title>Post: Alert</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-02-05-post-alert" rel="alternate" type="text/html" title="Post: Alert"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-02-05-post-alert" rel="alternate" type="text/html" title="Post: Alert"/>
 		<published>2010-02-05T00:00:00+00:00</published>
 		<updated>2010-02-05T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-02-05-post-alert</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-02-05-post-alert">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-02-05-post-alert</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-02-05-post-alert">
 		
   		
 	&lt;p&gt;1 min.&lt;/p&gt;
@@ -2416,11 +2416,11 @@ Stairs? Were we’re going we don’t need no stairs.
 		<category term="Post Formats"/><category term="alert"/>
 	</entry><entry>
 		<title>Post: Chat</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-01-08-post-chat" rel="alternate" type="text/html" title="Post: Chat"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-01-08-post-chat" rel="alternate" type="text/html" title="Post: Chat"/>
 		<published>2010-01-08T00:00:00+00:00</published>
 		<updated>2010-01-08T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-01-08-post-chat</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-01-08-post-chat">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-01-08-post-chat</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-01-08-post-chat">
 		
   		
 	&lt;p&gt;2 min.&lt;/p&gt;
@@ -2560,11 +2560,11 @@ Stairs? Were we’re going we don’t need no stairs.
 		<category term="Post Formats"/><category term="chat"/>
 	</entry><entry>
 		<title>Post: Standard</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-01-07-post-standard" rel="alternate" type="text/html" title="Post: Standard"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-01-07-post-standard" rel="alternate" type="text/html" title="Post: Standard"/>
 		<published>2010-01-07T00:00:00+00:00</published>
 		<updated>2010-01-07T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-01-07-post-standard</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-01-07-post-standard">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-01-07-post-standard</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-01-07-post-standard">
 		
   		
 	&lt;p&gt;4 min.&lt;/p&gt;
@@ -2602,11 +2602,11 @@ Stairs? Were we’re going we don’t need no stairs.
 		<category term="Post Formats"/><category term="readability"/><category term="standard"/>
 	</entry><entry>
 		<title>Post: Modified Date</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-01-07-post-modified" rel="alternate" type="text/html" title="Post: Modified Date"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-01-07-post-modified" rel="alternate" type="text/html" title="Post: Modified Date"/>
 		<published>2010-01-07T00:00:00+00:00</published>
 		<updated>2016-03-09T21:20:02+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-01-07-post-modified</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-01-07-post-modified">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-01-07-post-modified</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-01-07-post-modified">
 		
   		
 	&lt;p&gt;1 min.&lt;/p&gt;
@@ -2624,11 +2624,11 @@ Stairs? Were we’re going we don’t need no stairs.
 		<category term="Post Formats"/><category term="readability"/><category term="standard"/>
 	</entry><entry>
 		<title>Suspicio? Bene ... tunc ibimus? Quis uh ... CONEXUS locus his diebus? Quisque semper aliquid videtur, in volutpat mauris. Nolo enim dicere. Vobis neque ab aliis. Ego feci memetipsum explicans. Gus mortuus est. Lorem opus habeo. Jackson Isai? Tu quoque ... A te quidem a ante. Vos scitis quod blinking res Ive &#39;been vocans super vos? Et conteram illud, et conteram hoc. Maledicant druggie excors. Iam hoc tu facere conatus sum ad te in omni tempore? Ludum mutavit. Verbum est ex. Et ... sunt occid</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-10-05-edge-case-very-long-title" rel="alternate" type="text/html" title="Suspicio? Bene ... tunc ibimus? Quis uh ... CONEXUS locus his diebus? Quisque semper aliquid videtur, in volutpat mauris. Nolo enim dicere. Vobis neque ab aliis. Ego feci memetipsum explicans. Gus mortuus est. Lorem opus habeo. Jackson Isai? Tu quoque ... A te quidem a ante. Vos scitis quod blinking res Ive &#39;been vocans super vos? Et conteram illud, et conteram hoc. Maledicant druggie excors. Iam hoc tu facere conatus sum ad te in omni tempore? Ludum mutavit. Verbum est ex. Et ... sunt occid"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2009-10-05-edge-case-very-long-title" rel="alternate" type="text/html" title="Suspicio? Bene ... tunc ibimus? Quis uh ... CONEXUS locus his diebus? Quisque semper aliquid videtur, in volutpat mauris. Nolo enim dicere. Vobis neque ab aliis. Ego feci memetipsum explicans. Gus mortuus est. Lorem opus habeo. Jackson Isai? Tu quoque ... A te quidem a ante. Vos scitis quod blinking res Ive &#39;been vocans super vos? Et conteram illud, et conteram hoc. Maledicant druggie excors. Iam hoc tu facere conatus sum ad te in omni tempore? Ludum mutavit. Verbum est ex. Et ... sunt occid"/>
 		<published>2009-10-05T00:00:00+00:00</published>
 		<updated>2009-10-05T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-10-05-edge-case-very-long-title</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-10-05-edge-case-very-long-title">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2009-10-05-edge-case-very-long-title</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2009-10-05-edge-case-very-long-title">
 		
   		
 	&lt;p&gt;1 min.&lt;/p&gt;
@@ -2644,11 +2644,11 @@ Stairs? Were we’re going we don’t need no stairs.
 		<category term="content"/><category term="css"/><category term="edge case"/><category term="html"/><category term="layout"/><category term="title"/>
 	</entry><entry>
 		<title>Antidisestablishmentarianism</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-10-05-edge-case-title-should-not-overflow-the-content-area" rel="alternate" type="text/html" title="Antidisestablishmentarianism"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2009-10-05-edge-case-title-should-not-overflow-the-content-area" rel="alternate" type="text/html" title="Antidisestablishmentarianism"/>
 		<published>2009-10-05T00:00:00+00:00</published>
 		<updated>2009-10-05T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-10-05-edge-case-title-should-not-overflow-the-content-area</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-10-05-edge-case-title-should-not-overflow-the-content-area">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2009-10-05-edge-case-title-should-not-overflow-the-content-area</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2009-10-05-edge-case-title-should-not-overflow-the-content-area">
 		
   		
 	&lt;p&gt;1 min.&lt;/p&gt;
@@ -2678,11 +2678,11 @@ Stairs? Were we’re going we don’t need no stairs.
 		<category term="content"/><category term="css"/><category term="edge case"/><category term="html"/><category term="layout"/><category term="title"/>
 	</entry><entry>
 		<title>Edge Case No Yaml Title</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-09-05-edge-case-no-yaml-title" rel="alternate" type="text/html" title="Edge Case No Yaml Title"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2009-09-05-edge-case-no-yaml-title" rel="alternate" type="text/html" title="Edge Case No Yaml Title"/>
 		<published>2009-09-05T00:00:00+00:00</published>
 		<updated>2009-09-05T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-09-05-edge-case-no-yaml-title</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-09-05-edge-case-no-yaml-title">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2009-09-05-edge-case-no-yaml-title</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2009-09-05-edge-case-no-yaml-title">
 		
   		
 	&lt;p&gt;1 min.&lt;/p&gt;
@@ -2698,11 +2698,11 @@ Stairs? Were we’re going we don’t need no stairs.
 		<category term="edge case"/><category term="layout"/><category term="title"/>
 	</entry><entry>
 		<title>Edge Case: No Body Content</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-08-06-edge-case-no-body-content" rel="alternate" type="text/html" title="Edge Case: No Body Content"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2009-08-06-edge-case-no-body-content" rel="alternate" type="text/html" title="Edge Case: No Body Content"/>
 		<published>2009-08-06T00:00:00+00:00</published>
 		<updated>2009-08-06T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-08-06-edge-case-no-body-content</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-08-06-edge-case-no-body-content">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2009-08-06-edge-case-no-body-content</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2009-08-06-edge-case-no-body-content">
 		
   		
 	&lt;p&gt;1 min.&lt;/p&gt;
@@ -2718,11 +2718,11 @@ Stairs? Were we’re going we don’t need no stairs.
 		<category term="content"/><category term="edge case"/><category term="layout"/>
 	</entry><entry>
 		<title>Edge Case: Many Categories</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-07-02-edge-case-many-categories" rel="alternate" type="text/html" title="Edge Case: Many Categories"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2009-07-02-edge-case-many-categories" rel="alternate" type="text/html" title="Edge Case: Many Categories"/>
 		<published>2009-07-02T00:00:00+00:00</published>
 		<updated>2009-07-02T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-07-02-edge-case-many-categories</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-07-02-edge-case-many-categories">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2009-07-02-edge-case-many-categories</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2009-07-02-edge-case-many-categories">
 		
   		
 	&lt;p&gt;1 min.&lt;/p&gt;
@@ -2738,11 +2738,11 @@ Stairs? Were we’re going we don’t need no stairs.
 		<category term="categories"/><category term="edge case"/>
 	</entry><entry>
 		<title>Edge Case: Many Tags</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-06-01-edge-case-many-tags" rel="alternate" type="text/html" title="Edge Case: Many Tags"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2009-06-01-edge-case-many-tags" rel="alternate" type="text/html" title="Edge Case: Many Tags"/>
 		<published>2009-06-01T00:00:00+00:00</published>
 		<updated>2009-06-01T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-06-01-edge-case-many-tags</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-06-01-edge-case-many-tags">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2009-06-01-edge-case-many-tags</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2009-06-01-edge-case-many-tags">
 		
   		
 	&lt;p&gt;1 min.&lt;/p&gt;
@@ -2758,11 +2758,11 @@ Stairs? Were we’re going we don’t need no stairs.
 		<category term="8BIT"/><category term="Articles"/><category term="FTW"/><category term="Fail"/><category term="Fun"/><category term="Jekyll"/><category term="Love"/><category term="Mothership"/><category term="Must Read"/><category term="Nailed It"/><category term="Pictures"/><category term="Post Formats"/><category term="Success"/><category term="Swagger"/><category term="Tags"/><category term="Unseen"/><category term="YouTube"/><category term="alignment"/><category term="captions"/><category term="categories"/><category term="chat"/><category term="comments"/><category term="content"/><category term="css"/><category term="dowork"/><category term="edge case"/><category term="embeds"/><category term="excerpt"/><category term="featured image"/><category term="gallery"/><category term="html"/><category term="image"/><category term="layout"/><category term="link"/><category term="markup"/><category term="quote"/><category term="standard"/><category term="template"/><category term="title"/><category term="twitter"/><category term="video"/>
 	</entry><entry>
 		<title>Edge Case: Nested and Mixed Lists</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-05-15-edge-case-nested-and-mixed-lists" rel="alternate" type="text/html" title="Edge Case: Nested and Mixed Lists"/>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2009-05-15-edge-case-nested-and-mixed-lists" rel="alternate" type="text/html" title="Edge Case: Nested and Mixed Lists"/>
 		<published>2009-05-15T00:00:00+00:00</published>
 		<updated>2009-05-15T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-05-15-edge-case-nested-and-mixed-lists</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-05-15-edge-case-nested-and-mixed-lists">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2009-05-15-edge-case-nested-and-mixed-lists</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2009-05-15-edge-case-nested-and-mixed-lists">
 		
   		
 	&lt;p&gt;1 min.&lt;/p&gt;

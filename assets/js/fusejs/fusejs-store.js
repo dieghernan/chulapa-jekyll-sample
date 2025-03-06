@@ -21,7 +21,7 @@ var store = [{
         "categories": ["Jekyll"],
         "date": "2025-03-06",
         "tags": ["edge case"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/post-draft",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/post-draft",
         "img": null
       },{
         "title": "Edge Case: Nested and Mixed Lists",
@@ -31,7 +31,7 @@ var store = [{
         "categories": ["Edge Case"],
         "date": "2009-05-15",
         "tags": ["content","css","edge case","lists","markup"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-05-15-edge-case-nested-and-mixed-lists",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2009-05-15-edge-case-nested-and-mixed-lists",
         "img": null
       },{
         "title": "Edge Case: Many Tags",
@@ -41,7 +41,7 @@ var store = [{
         "categories": ["Edge Case"],
         "date": "2009-06-01",
         "tags": ["8BIT","alignment","Articles","captions","categories","chat","comments","content","css","dowork","edge case","embeds","excerpt","Fail","featured image","FTW","Fun","gallery","html","image","Jekyll","layout","link","Love","markup","Mothership","Must Read","Nailed It","Pictures","Post Formats","quote","standard","Success","Swagger","Tags","template","title","twitter","Unseen","video","YouTube"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-06-01-edge-case-many-tags",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2009-06-01-edge-case-many-tags",
         "img": null
       },{
         "title": "Edge Case: Many Categories",
@@ -51,7 +51,7 @@ var store = [{
         "categories": ["aciform","antiquarianism","arrangement","asmodeus","broder","buying","championship","chastening","disinclination","disinfection","dispatch","echappee","enphagy","equipollent"],
         "date": "2009-07-02",
         "tags": ["categories","edge case"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-07-02-edge-case-many-categories",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2009-07-02-edge-case-many-categories",
         "img": null
       },{
         "title": "Edge Case: No Body Content",
@@ -61,7 +61,7 @@ var store = [{
         "categories": ["Edge Case"],
         "date": "2009-08-06",
         "tags": ["content","edge case","layout"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-08-06-edge-case-no-body-content",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2009-08-06-edge-case-no-body-content",
         "img": null
       },{
         "title": "Edge Case No Yaml Title",
@@ -71,7 +71,7 @@ var store = [{
         "categories": ["Edge Case"],
         "date": "2009-09-05",
         "tags": ["edge case","layout","title"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-09-05-edge-case-no-yaml-title",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2009-09-05-edge-case-no-yaml-title",
         "img": null
       },{
         "title": "Antidisestablishmentarianism",
@@ -81,7 +81,7 @@ var store = [{
         "categories": ["Edge Case"],
         "date": "2009-10-05",
         "tags": ["content","css","edge case","html","layout","title"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-10-05-edge-case-title-should-not-overflow-the-content-area",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2009-10-05-edge-case-title-should-not-overflow-the-content-area",
         "img": null
       },{
         "title": "Suspicio? Bene ... tunc ibimus? Quis uh ... CONEXUS locus his diebus? Quisque semper aliquid videtur, in volutpat mauris. Nolo enim dicere. Vobis neque ab aliis. Ego feci memetipsum explicans. Gus mortuus est. Lorem opus habeo. Jackson Isai? Tu quoque ... A te quidem a ante. Vos scitis quod blinking res Ive 'been vocans super vos? Et conteram illud, et conteram hoc. Maledicant druggie excors. Iam hoc tu facere conatus sum ad te in omni tempore? Ludum mutavit. Verbum est ex. Et ... sunt occid",
@@ -91,7 +91,7 @@ var store = [{
         "categories": ["Edge Case"],
         "date": "2009-10-05",
         "tags": ["content","css","edge case","html","layout","title"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2009-10-05-edge-case-very-long-title",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2009-10-05-edge-case-very-long-title",
         "img": null
       },{
         "title": "Post: Modified Date",
@@ -101,7 +101,7 @@ var store = [{
         "categories": ["Post Formats"],
         "date": "2010-01-07",
         "tags": ["Post Formats","readability","standard"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-01-07-post-modified",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-01-07-post-modified",
         "img": null
       },{
         "title": "Post: Standard",
@@ -111,7 +111,7 @@ var store = [{
         "categories": ["Post Formats"],
         "date": "2010-01-07",
         "tags": ["Post Formats","readability","standard"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-01-07-post-standard",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-01-07-post-standard",
         "img": null
       },{
         "title": "Post: Chat",
@@ -121,7 +121,7 @@ var store = [{
         "categories": ["Post Formats"],
         "date": "2010-01-08",
         "tags": ["chat","Post Formats"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-01-08-post-chat",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-01-08-post-chat",
         "img": null
       },{
         "title": "Post: Alert",
@@ -131,7 +131,7 @@ var store = [{
         "categories": ["Post Formats"],
         "date": "2010-02-05",
         "tags": ["Post Formats","alert"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-02-05-post-alert",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-02-05-post-alert",
         "img": null
       },{
         "title": "Post: Quote",
@@ -141,7 +141,7 @@ var store = [{
         "categories": ["Post Formats"],
         "date": "2010-02-05",
         "tags": ["Post Formats","quote"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-02-05-post-quote",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-02-05-post-quote",
         "img": null
       },{
         "title": "Post: Link",
@@ -151,7 +151,7 @@ var store = [{
         "categories": ["Post Formats"],
         "date": "2010-03-07",
         "tags": ["link","Post Formats"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-03-07-post-link",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-03-07-post-link",
         "img": null
       },{
         "title": "Post: Video (YouTube)",
@@ -161,7 +161,7 @@ var store = [{
         "categories": ["Post Formats"],
         "date": "2010-06-02",
         "tags": ["Post Formats"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-06-02-post-video-youtube",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-06-02-post-video-youtube",
         "img": null
       },{
         "title": "Post: Image (with Link)",
@@ -171,7 +171,7 @@ var store = [{
         "categories": ["Post Formats"],
         "date": "2010-08-05",
         "tags": ["image","Post Formats"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-08-05-post-image-linked",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-08-05-post-image-linked",
         "img": null
       },{
         "title": "Post: Image (Standard)",
@@ -181,7 +181,7 @@ var store = [{
         "categories": ["Post Formats"],
         "date": "2010-08-05",
         "tags": ["image","Post Formats"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-08-05-post-image-standard",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-08-05-post-image-standard",
         "img": null
       },{
         "title": "Post: Image (Linked with Caption)",
@@ -191,7 +191,7 @@ var store = [{
         "categories": ["Post Formats"],
         "date": "2010-08-06",
         "tags": ["image","Post Formats"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-08-06-post-image-linked-caption",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-08-06-post-image-linked-caption",
         "img": null
       },{
         "title": "Post: Image (Caption)",
@@ -201,7 +201,7 @@ var store = [{
         "categories": ["Post Formats"],
         "date": "2010-08-07",
         "tags": ["image","Post Formats"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-08-07-post-image-caption",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-08-07-post-image-caption",
         "img": null
       },{
         "title": "Post: Gallery",
@@ -211,7 +211,7 @@ var store = [{
         "categories": ["Post Formats"],
         "date": "2010-09-09",
         "tags": ["gallery","Post Formats","tiled"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-09-09-post-gallery",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-09-09-post-gallery",
         "img": null
       },{
         "title": "Post: Twitter Embed",
@@ -221,7 +221,7 @@ var store = [{
         "categories": ["Media"],
         "date": "2010-09-10",
         "tags": ["content","embeds","media","twitter"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-09-10-post-twitter-embeds",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-09-10-post-twitter-embeds",
         "img": null
       },{
         "title": "Layout: Comments Disabled",
@@ -231,7 +231,7 @@ var store = [{
         "categories": ["Layout","Uncategorized"],
         "date": "2012-01-02",
         "tags": ["comments","layout"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-02-layout-comments-disabled",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-01-02-layout-comments-disabled",
         "img": null
       },{
         "title": "Layout: Comments Enabled",
@@ -241,7 +241,7 @@ var store = [{
         "categories": ["Layout","Uncategorized"],
         "date": "2012-01-02",
         "tags": ["comments","layout"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-02-layout-comments",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-01-02-layout-comments",
         "img": null
       },{
         "title": "Layout: Related Posts Disabled",
@@ -251,7 +251,7 @@ var store = [{
         "categories": ["Layout","Uncategorized"],
         "date": "2012-01-02",
         "tags": ["related posts","layout"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-02-layout-related-posts-disabled",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-01-02-layout-related-posts-disabled",
         "img": null
       },{
         "title": "Layout: Related Posts Enabled",
@@ -261,7 +261,7 @@ var store = [{
         "categories": ["Layout","Uncategorized"],
         "date": "2012-01-02",
         "tags": ["related posts","layout"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-02-layout-related-posts",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-01-02-layout-related-posts",
         "img": null
       },{
         "title": "Layout: Social Sharing Links Disabled",
@@ -271,7 +271,7 @@ var store = [{
         "categories": ["Layout","Uncategorized"],
         "date": "2012-01-02",
         "tags": ["social","layout"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-02-layout-sharing-disabled",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-01-02-layout-sharing-disabled",
         "img": null
       },{
         "title": "Layout: Social Sharing Links Enabled",
@@ -281,7 +281,7 @@ var store = [{
         "categories": ["Layout","Uncategorized"],
         "date": "2012-01-02",
         "tags": ["social","layout"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-02-layout-sharing",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-01-02-layout-sharing",
         "img": null
       },{
         "title": "Layout: Comments, Social Sharing Links, and Related Posts Disabled",
@@ -291,7 +291,7 @@ var store = [{
         "categories": ["Layout","Uncategorized"],
         "date": "2012-01-03",
         "tags": ["related posts","social","comments","layout"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-03-layout-read-time-comments-sharing-related-posts-disabled",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-01-03-layout-read-time-comments-sharing-related-posts-disabled",
         "img": null
       },{
         "title": "Layout: Post with Table Of Contents",
@@ -301,7 +301,7 @@ var store = [{
         "categories": [],
         "date": "2012-01-03",
         "tags": ["table of contents"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-01-03-layout-table-of-contents-post",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-01-03-layout-table-of-contents-post",
         "img": null
       },{
         "title": "Layout: Code Excerpt (Generated)",
@@ -311,7 +311,7 @@ var store = [{
         "categories": ["Layout","Uncategorized"],
         "date": "2012-03-14",
         "tags": ["content","excerpt","layout"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-14-layout-code-excerpt-generated",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-14-layout-code-excerpt-generated",
         "img": null
       },{
         "title": "Layout: Excerpt (Defined)",
@@ -321,7 +321,7 @@ var store = [{
         "categories": ["Layout","Uncategorized"],
         "date": "2012-03-14",
         "tags": ["content","excerpt","layout"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-14-layout-excerpt-defined",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-14-layout-excerpt-defined",
         "img": null
       },{
         "title": "Layout: Excerpt (Generated)",
@@ -331,7 +331,7 @@ var store = [{
         "categories": ["Layout","Uncategorized"],
         "date": "2012-03-14",
         "tags": ["content","excerpt","layout"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-14-layout-excerpt-generated",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-14-layout-excerpt-generated",
         "img": null
       },{
         "title": "Layout: Author Override",
@@ -341,7 +341,7 @@ var store = [{
         "categories": [],
         "date": "2012-03-15",
         "tags": [],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-author-override",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-author-override",
         "img": null
       },{
         "title": "Layout: Author Sidebar Disabled",
@@ -351,7 +351,7 @@ var store = [{
         "categories": [],
         "date": "2012-03-15",
         "tags": [],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-author-sidebar-disabled",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-author-sidebar-disabled",
         "img": null
       },{
         "title": "Layout: Header Image (External URL)",
@@ -361,7 +361,7 @@ var store = [{
         "categories": ["Layout","Uncategorized"],
         "date": "2012-03-15",
         "tags": ["edge case","featured image","image","layout"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-image-external",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-header-image-external",
         "img": "https://picsum.photos/seed/70/700/500"
       },{
         "title": "Layout: Hero",
@@ -371,7 +371,7 @@ var store = [{
         "categories": ["Layout","Uncategorized"],
         "date": "2012-03-15",
         "tags": ["edge case","featured image","image","layout"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-image-horizontal",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-header-image-horizontal",
         "img": "https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-image-1.jpg"
       },{
         "title": "Layout: Header Image and Text Readability",
@@ -381,7 +381,7 @@ var store = [{
         "categories": [],
         "date": "2012-03-15",
         "tags": ["sample post","readability","test"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-image-text-readability",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-header-image-text-readability",
         "img": "https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-image-4.jpg"
       },{
         "title": "Layout: Header Image (Vertical)",
@@ -391,7 +391,7 @@ var store = [{
         "categories": ["Layout","Uncategorized"],
         "date": "2012-03-15",
         "tags": ["edge case","featured image","image","layout"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-image-vertical",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-header-image-vertical",
         "img": "https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-image-6.jpg"
       },{
         "title": "Layout: Header Overlay with Background Fill",
@@ -401,7 +401,7 @@ var store = [{
         "categories": ["Layout","Uncategorized"],
         "date": "2012-03-15",
         "tags": ["edge case","image","layout"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-overlay-color",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-header-overlay-color",
         "img": null
       },{
         "title": "Layout: Header Splash",
@@ -411,7 +411,7 @@ var store = [{
         "categories": ["Layout","Uncategorized"],
         "date": "2012-03-15",
         "tags": ["edge case","image","layout"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-header-overlay-image",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-header-overlay-image",
         "img": "https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-image-1.jpg"
       },{
         "title": "Layout: More Tag",
@@ -421,7 +421,7 @@ var store = [{
         "categories": ["Layout","Uncategorized"],
         "date": "2012-03-15",
         "tags": ["content","read more","layout"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-more-tag",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-more-tag",
         "img": null
       },{
         "title": "Layout: Sidebar Custom",
@@ -431,7 +431,7 @@ var store = [{
         "categories": [],
         "date": "2012-03-15",
         "tags": [],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-03-15-layout-sidebar-custom",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-sidebar-custom",
         "img": null
       },{
         "title": "Markup: Text Readability Test",
@@ -441,7 +441,7 @@ var store = [{
         "categories": [],
         "date": "2012-05-22",
         "tags": ["sample post","readability","test"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2012-05-22-markup-text-readability",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-05-22-markup-text-readability",
         "img": null
       },{
         "title": "Markup: Title <em>with</em> <strong>HTML</strong>",
@@ -451,7 +451,7 @@ var store = [{
         "categories": ["Markdown"],
         "date": "2013-01-05",
         "tags": ["css","html","title"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2013-01-05-markup-title-with-markup",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-05-markup-title-with-markup",
         "img": null
       },{
         "title": "Markup: Title with Special&nbsp;---&nbsp;Characters",
@@ -461,7 +461,7 @@ var store = [{
         "categories": ["Markup"],
         "date": "2013-01-05",
         "tags": ["html","markup","post","title"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2013-01-05-markup-title-with-special-characters",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-05-markup-title-with-special-characters",
         "img": null
       },{
         "title": "Markup: Text Alignment",
@@ -471,7 +471,7 @@ var store = [{
         "categories": ["Markup"],
         "date": "2013-01-09",
         "tags": ["alignment","content","css","markup"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2013-01-09-markup-text-alignment",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-09-markup-text-alignment",
         "img": null
       },{
         "title": "Markup: Image Alignment",
@@ -481,7 +481,7 @@ var store = [{
         "categories": ["Markup"],
         "date": "2013-01-10",
         "tags": ["alignment","captions","content","css","image","markup"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2013-01-10-markup-image-alignment",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-10-markup-image-alignment",
         "img": null
       },{
         "title": "Markup: HTML Tags and Formatting",
@@ -491,7 +491,7 @@ var store = [{
         "categories": ["Markup"],
         "date": "2013-01-11",
         "tags": ["content","css","formatting","html","markup"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2013-01-11-markup-html-tags-and-formatting",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-11-markup-html-tags-and-formatting",
         "img": null
       },{
         "title": "Markup: Another Post with Images",
@@ -501,8 +501,8 @@ var store = [{
         "categories": [],
         "date": "2013-05-22",
         "tags": ["sample post","images","test"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2013-05-22-markup-more-images",
-        "img": null
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-05-22-markup-more-images",
+        "img": "http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_b.jpg"
       },{
         "title": "Markup: Syntax Highlighting",
         "subtitle": "",
@@ -511,7 +511,7 @@ var store = [{
         "categories": [],
         "date": "2013-08-16",
         "tags": ["code","syntax highlighting"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2013-08-16-markup-syntax-highlighting",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-08-16-markup-syntax-highlighting",
         "img": null
       },{
         "title": "Post: Future Date",
@@ -521,7 +521,7 @@ var store = [{
         "categories": ["Post"],
         "date": "9999-12-31",
         "tags": [],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/2010-10-25-post-future-date",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-10-25-post-future-date",
         "img": null
       },{
         "title": "Lhasa Apso",

@@ -22,6 +22,6 @@ https://picsum.photos/seed/70/700/500" %}
 And a carousel
 
 
-{% include_cached snippets/carousel.html external="externalgallery" interval=1000 random="true" controls="true" indicators="true" %}
+{% include_cached snippets/carousel.html external=externalgallery interval=1000 random="true" controls="true" indicators="true" %}
 
 

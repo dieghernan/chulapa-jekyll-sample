@@ -76,4 +76,4 @@ Indentation matters. Be sure the indent of the code block aligns with the first 
 
 An example of a Gist embed below.
 
-<script src="https://gist.github.com/mmistakes/6589546.js"></script>
+<script src="https://gist.github.com/dieghernan/2ea67063a08a674514bc55e74fb30bf8.js"></script>

@@ -221,7 +221,7 @@ defaults:
       show_categories   : true
       show_author       : true
       show_breadcrumb   : true
-      permalink: /portfolio/:name
+      permalink: /blog/:name
       breadcrumb_list   :
         - label: Blog
           url: /blog/
@@ -281,7 +281,7 @@ markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
-incremental: true
+incremental: false
 future: true
 show_drafts: true
 

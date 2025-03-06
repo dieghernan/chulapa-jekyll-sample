@@ -111,39 +111,37 @@ Make any link standout more when applying the `.btn` class.
 ```
 
 [Primary Button](#){: .btn}
-[Success Button](#){: .btn .btn--success}
-[Warning Button](#){: .btn .btn--warning}
-[Danger Button](#){: .btn .btn--danger}
-[Info Button](#){: .btn .btn--info}
-[Inverse Button](#){: .btn .btn--inverse}
-[Light Outline Button](#){: .btn .btn--light-outline}
+[Success Button](#){: .btn .btn-success}
+[Warning Button](#){: .btn .btn-warning}
+[Danger Button](#){: .btn .btn-danger}
+[Info Button](#){: .btn .btn-info}
+[Inverse Button](#){: .btn .btn-outline-dark}
+[Light Outline Button](#){: .btn .btn-outline-light}
 
 ```markdown
 [Primary Button Text](#link){: .btn}
-[Success Button Text](#link){: .btn .btn--success}
-[Warning Button Text](#link){: .btn .btn--warning}
-[Danger Button Text](#link){: .btn .btn--danger}
-[Info Button Text](#link){: .btn .btn--info}
-[Inverse Button](#link){: .btn .btn--inverse}
-[Light Outline Button](#link){: .btn .btn--light-outline}
+[Success Button Text](#link){: .btn .btn-success}
+[Warning Button Text](#link){: .btn .btn-warning}
+[Danger Button Text](#link){: .btn .btn-danger}
+[Info Button Text](#link){: .btn .btn-info}
+[Inverse Button](#link){: .btn .btn-outline-dark}
+[Light Outline Button](#link){: .btn .btn-outline-light}
 ```
 
-[X-Large Button](#){: .btn .btn--x-large}
-[Large Button](#){: .btn .btn--large}
-[Default Button](#){: .btn}
-[Small Button](#){: .btn .btn--small}
+[Large Button](#){: .btn .btn-lg .btn-outline-info}
+[Default Button](#){: .btn .btn-outline-info}
+[Small Button](#){: .btn .btn-sm .btn-outline-info}
 
 ```markdown
-[X-Large Button](#link){: .btn .btn--x-large}
-[Large Button](#link){: .btn .btn--large}
-[Default Button](#link){: .btn}
-[Small Button](#link){: .btn .btn--small}
+[Large Button](#link){: .btn .btn-lg .btn-outline-info}
+[Default Button](#link){: .btn .btn-outline-info}
+[Small Button](#link){: .btn .btn-sm .btn-outline-info}
 ```
 
-## Notices
+## Alerts
 
-**Watch out!** You can also add notices by appending `{: .notice}` to a paragraph.
-{: .notice}
+**Watch out!** You can also add notices by appending `{: .alert}` to a paragraph.
+{: .alert .alert-info}
 
 ## HTML Tags
 

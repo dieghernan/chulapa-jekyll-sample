@@ -1,6 +1,6 @@
 ---
 title: "Layout: Social Sharing Links Disabled"
-share: false
+show_sociallinks: false
 categories:
   - Layout
   - Uncategorized

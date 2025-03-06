@@ -1,9 +1,9 @@
 ---
 title: "Layout: Author Sidebar Disabled"
 excerpt: "A post to test disabling author sidebar."
-author_profile: false
+show_author: false
 ---
 
 This post has the author sidebar disabled.
 
-To disable add `author_profile: false` to YAML Front Matter.
+To disable add `show_author: false` to YAML Front Matter.

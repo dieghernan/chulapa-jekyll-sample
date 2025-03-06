@@ -1,5 +1,4 @@
 github: [metadata]
-
 remote_theme: dieghernan/chulapa
 
 # Find errors on this file with http://www.yamllint.com/
@@ -9,33 +8,41 @@ remote_theme: dieghernan/chulapa
 # A. Site Settings /SEO options
 # Overall options for your site, would affect your site SEO
 # Default values are explained
-locale                  :     #default["en-US"] format language-TERRITORY , e.g fr, en-GB, es-MX, pt-BR
-title                   : Chulapa Jekyll Sample    #default["repository_name"]
-title_separator         :     #default [" | "]
-subtitle                : A test    #default [your-repository-tagline]  
-description             : Chulapa Jekyll Theme starter pack #default [your-repository-tagline]
-url                     :     #See baseurl - On Github Pages you may leave it blank - If you use CNAME use your domain
-baseurl                 :     #On Github Pages you may leave it blank. Have a look to: https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/
-repository              :     dieghernan/chulapa-101 # Needs to be set (e.g. dieghernan/chulapa)
-words_per_minute        :     #default[200]
-timezone                :     #"Europe/Madrid ,see https://jekyllrb.com/docs/configuration/options/ and https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+locale: #default["en-US"] format language-TERRITORY , e.g fr, en-GB, es-MX, pt-BR
+title: Chulapa Jekyll Sample #default["repository_name"]
+title_separator: #default [" | "]
+subtitle: A test #default [your-repository-tagline]
+description: Chulapa Jekyll Theme starter pack #default [your-repository-tagline]
+url: #See baseurl - On Github Pages you may leave it blank - If you use CNAME use your domain
+baseurl: #On Github Pages you may leave it blank. Have a look to: https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/
+repository: dieghernan/chulapa-101 # Needs to be set (e.g. dieghernan/chulapa)
+words_per_minute: #default[200]
+timezone: #"Europe/Madrid ,see https://jekyllrb.com/docs/configuration/options/ and https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # SEO
-og_image                :     #default[author.avatar (see below)] or [github-avatar]
-twitter_site            :     #Avoid @
+og_image: #default[author.avatar (see below)] or [github-avatar]
+twitter_site: #Avoid @
 author:
-  name                  :  Your Name   # Name Surname Company
-  avatar                :     # Try a square file. Info: Your github avatar on https://github.com/[USERNAME].png
-  location              :  "Madrid, Spain"   # New York, USA 
-#  links:                
-#    - url:  #A link or email: https://twitter.com/jack, mail@example.com
-#      icon: # A Fontawesome 5 code: fab fa-twitter - see https://fontawesome.com/
-#    - url:  # Another link
-#      icon: # Anothet FontAwesome code
+  name: Octocat
+  avatar: https://github.com/octocat.png
+  location: San Francisco, CA 94107, United States
+  links:                
+    - url: https://github.com/github/
+      icon: "fab fa-github"
+      label: GitHub
+    - url: https://twitter.com/github
+      icon: fab fa-twitter
+      label: Twitter
+    - url: https://github.com/facebook
+      icon: "fab fa-facebook"
+      label: Facebook
+    - url: https://www.linkedin.com
+      icon: "fab fa-linkedin"
+      label: LinkedIn
 
 fa_version: #default ["6"] Use 6 or 5
-fa_kit_code: # Your FontAwesome kit code. If not provided a free hosted version (slower) will be loaded:  https://fontawesome.com/ 
-fa_v4_support: #Bool Add FontAwesome 4 support 
+fa_kit_code: # Your FontAwesome kit code. If not provided a free hosted version (slower) will be loaded:  https://fontawesome.com/
+fa_v4_support: #Bool Add FontAwesome 4 support
 # Web tracking - Google services https://analytics.google.com/analytics/web/
 # gtag_id is the preferred option, see https://developers.google.com/analytics/devguides/collection/gtagjs/migration?hl=en
 # analytics provided for backwards compatibility
@@ -106,6 +113,14 @@ navbar:
   nav:
   - title   : Blog # Label
     url     : /blog/ # url	
+  - title   : Collections
+    child:
+      - title : Pets
+        url     : /pets/ # url	
+      - title: Recipes
+        url     : /recipes/ # url
+      - title: Portfolio
+        url     : /portfolio/foo-bar-website
   - title   : Extras
     child   :
       - title : Tags
@@ -114,6 +129,8 @@ navbar:
         url   : /categories
       - title : Archive
         url   : /archive
+  - title: Sitemap
+    url: /sitemap/
 #  - title   : # Label submenu
 #    child:		
 #    - title: # Child label		
@@ -147,15 +164,32 @@ chulapa-skin:
 # D. Jekyll Defaults and collections: see https://jekyllrb.com/
 
 # Blog pagination: on this site /blog/index.html. https://jekyllrb.com/docs/pagination/
-paginate: 4
+paginate: 10
 paginate_path: "/blog/page:num/"
-paginator_maxnum: 3  #default[3] Custom: max of number to be displayed on the paginator
+paginator_maxnum: 10  #default[3] Custom: max of number to be displayed on the paginator
 
 # Collections https://jekyllrb.com/docs/step-by-step/09-collections/
 collections:
   pets:
     output: true
     permalink: /pets/:name
+    include_on_search   : true
+    show_related      : true
+    show_bottomnavs   : true
+    show_breadcrumb   : true
+
+  recipes:
+    output: true
+    permalink: /recipes/:name
+    include_on_search   : true
+    show_related      : true
+    show_bottomnavs   : true
+    show_breadcrumb   : true
+  portfolio:
+    output: true
+    permalink: /portfolio/:name
+    include_on_search   : true
+
 collections_dir     : 
 permalink           : /:title/
 
@@ -169,6 +203,7 @@ defaults:
       layout: "default"
       header_type: "base"
       include_on_search   : false
+      show_sidetoc        : true  
       cloudtag_url        : /tags #This is where the link on tags would redirect
       cloudcategory_url   : /categories #This is where the link on categories would redirect
   -
@@ -180,18 +215,40 @@ defaults:
       include_on_search : true
       include_on_feed   : true
       show_date         : true
-      show_related      : true
       show_bottomnavs   : true
-      show_sociallinks  : true
-      show_comments     : true
+      show_sociallinks  : false
       show_tags         : true
       show_categories   : true
       show_author       : true
       show_breadcrumb   : true
+      permalink: /portfolio/:name
       breadcrumb_list   :
         - label: Blog
           url: /blog/
-
+  -
+    scope:
+      path: ""
+      type: "pets"
+    values:
+      include_on_search : true
+      include_on_feed   : true
+      show_bottomnavs   : true
+      show_tags         : true
+      show_categories   : true
+      show_breadcrumb   : true
+      breadcrumb_list   :
+        - label: Pets
+          url: /pets/
+  -
+    scope:
+      path: "images"
+    values:
+      image_col: images
+  -
+    scope:
+      path: "images/portfolio"
+    values:
+      image_col: portfolio
 
 # XX. Other settings - no need to modify
 # HTML Compression
@@ -224,7 +281,9 @@ markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
-incremental: false
+incremental: true
+future: true
+show_drafts: true
 
 # Markdown Processing
 kramdown:

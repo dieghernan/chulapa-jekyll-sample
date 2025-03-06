@@ -1,8 +1,7 @@
 ---
-title: "Layout: Header Image (Horizontal)"
-header:
-  image: unsplash-image-1.jpg
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+title: "Layout: Hero"
+header_img: images/unsplash-image-1.jpg
+header_type: hero
 categories:
   - Layout
   - Uncategorized
@@ -15,6 +14,6 @@ tags:
 
 This post should display a **header image**, if the theme supports it.
 
-Non-square images can provide some unique styling issues.
+Hero images can provide some unique styling issues.
 
-This post tests a horizontal header image.
+This post tests a hero header image.

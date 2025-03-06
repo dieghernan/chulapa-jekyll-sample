@@ -1,7 +1,6 @@
 ---
 title: "Layout: Header Overlay with Background Fill"
-header:
-  overlay_color: "#333"
+header_type: hero
 categories:
   - Layout
   - Uncategorized

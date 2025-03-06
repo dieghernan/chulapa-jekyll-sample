@@ -25,20 +25,3 @@ Standard image with no width modifier classes applied.
 
 ![Unsplash image 9]({{ site.url }}{{ site.baseurl }}/images/unsplash-image-9.jpg)
 
-Image that fills page content container by adding the `.full` class with:
-
-**HTML:**
-
-```html
-{% raw %}<img src="{{ site.url }}{{ site.baseurl }}/images/filename.jpg" alt="" class="full">{% endraw %}
-```
-
-**or Kramdown:**
-
-```markdown
-{% raw %}![alt]({{ site.url }}{{ site.baseurl }}/images/filename.jpg)
-{: .full}{% endraw %}
-```
-
-![Unsplash image 10]({{ site.url }}{{ site.baseurl }}/images/unsplash-image-10.jpg)
-{: .full}

@@ -10,7 +10,7 @@ tags:
 {% include base_path %}
 
 {% capture fig_img %}
-![Foo]({{ base_path }}/images/unsplash-gallery-image-3.jpg)
+![Foo]({{ base_path }}/images/portfolio/unsplash-gallery-image-3.jpg)
 {% endcapture %}
 
 <figure>

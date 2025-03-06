@@ -1,6 +1,6 @@
 ---
 title: "Layout: Comments Disabled"
-comments: false
+show_comments: false
 categories:
   - Layout
   - Uncategorized

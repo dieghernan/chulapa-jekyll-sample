@@ -8,7 +8,7 @@ tags:
 ---
 
 {% capture fig_img %}
-[![Foo](https://farm5.staticflickr.com/4134/4940462712_7c28420b27_b.jpg)](https://flic.kr/p/8wzarA)
+[![Foo](https://picsum.photos/seed/10/600/300)](https://picsum.photos/seed/10/600/300)
 {% endcapture %}
 
 {% capture fig_caption %}

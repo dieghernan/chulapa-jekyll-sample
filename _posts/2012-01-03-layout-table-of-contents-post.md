@@ -1,5 +1,7 @@
 ---
 title: "Layout: Post with Table Of Contents"
+show_toc: true
+show_sidetoc: true
 header:
   image: unsplash-image-9.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
@@ -7,13 +9,9 @@ tags:
   - table of contents
 ---
 
-{% include toc title="Unique Title" icon="file-text" %}
 
 Testing Kramdown auto-generated table of contents with unique title and icon assigned in the include like so:
 
-```liquid
-{% raw %}{% include toc title="Unique Title" icon="file-text" %}{% endraw %}
-```
 
 ## HTML Elements
 
@@ -89,12 +87,12 @@ Make any link standout more when applying the `.btn` class.
 ```
 
 <div markdown="0"><a href="#" class="btn">Primary Button</a></div>
-<div markdown="0"><a href="#" class="btn btn--success">Success Button</a></div>
-<div markdown="0"><a href="#" class="btn btn--warning">Warning Button</a></div>
-<div markdown="0"><a href="#" class="btn btn--danger">Danger Button</a></div>
-<div markdown="0"><a href="#" class="btn btn--info">Info Button</a></div>
+<div markdown="0"><a href="#" class="btn btn-success">Success Button</a></div>
+<div markdown="0"><a href="#" class="btn btn-warning">Warning Button</a></div>
+<div markdown="0"><a href="#" class="btn btn-danger">Danger Button</a></div>
+<div markdown="0"><a href="#" class="btn btn-info">Info Button</a></div>
 
-## Notices
+## Alerts
 
-**Watch out!** You can also add notices by appending `{: .notice}` to a paragraph.
-{: .notice}
+**Watch out!** You can also add alerts by appending `{: .alert}` to a paragraph.
+{: .alert .alert-info}

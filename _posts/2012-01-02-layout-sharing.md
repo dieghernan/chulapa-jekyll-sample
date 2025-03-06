@@ -1,6 +1,6 @@
 ---
 title: "Layout: Social Sharing Links Enabled"
-share: true
+show_sociallinks: true
 categories:
   - Layout
   - Uncategorized

@@ -1,9 +1,8 @@
 ---
-title: "Layout: Reading Time, Comments, Social Sharing Links, and Related Posts Disabled"
-read_time: false
-comments: false
-share: false
-related: false
+title: "Layout: Comments, Social Sharing Links, and Related Posts Disabled"
+show_comments: false
+show_sociallinks: false
+show_related: false
 categories:
   - Layout
   - Uncategorized

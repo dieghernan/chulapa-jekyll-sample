@@ -1,5 +1,6 @@
 ---
-title: "Markup: Title *with* **Markdown**"
+title: "Markup: Title <em>with</em> <strong>HTML</strong>"
+header_type: hero
 categories:
   - Markdown
 tags:
@@ -10,5 +11,5 @@ tags:
 
 Verify that:
 
-* The post title renders the word "with" in *italics* and the word "Markdown" in **bold**.
+* The post title renders the word "with" in *italics* and the word "HTML" in **bold**.
 * The post title markup should be removed from the browser window / tab.

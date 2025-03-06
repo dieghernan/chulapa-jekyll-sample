@@ -1,6 +1,6 @@
 ---
 title: "Layout: Related Posts Disabled"
-related: false
+show_related: false
 categories:
   - Layout
   - Uncategorized

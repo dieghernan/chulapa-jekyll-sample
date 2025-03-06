@@ -1,7 +1,6 @@
 ---
 title: "Layout: Header Image (External URL)"
-header:
-  image: https://farm5.staticflickr.com/4140/4939863887_84705982fd_b.jpg
+header_img: https://picsum.photos/seed/70/700/500
 categories:
   - Layout
   - Uncategorized

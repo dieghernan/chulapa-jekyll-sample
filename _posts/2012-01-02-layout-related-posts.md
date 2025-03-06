@@ -1,6 +1,6 @@
 ---
 title: "Layout: Related Posts Enabled"
-related: true
+show_related: true
 categories:
   - Layout
   - Uncategorized

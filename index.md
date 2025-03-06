@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: splash
 title: Samples
-header_type: hero
-subtitle: Starter pack
+header_type: splash
+subtitle: Forked from mmistakes 
 ---
 
 Jekyll samples and corner cases

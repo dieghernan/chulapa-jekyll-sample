@@ -203,6 +203,7 @@ defaults:
       layout: "default"
       header_type: "base"
       include_on_search   : false
+      show_bottomnavs   : true
       show_sidetoc        : true  
       cloudtag_url        : /tags #This is where the link on tags would redirect
       cloudcategory_url   : /categories #This is where the link on categories would redirect

@@ -3,7 +3,7 @@
 	<generator uri="https://dieghernan.github.io/chulapa" version="1.0.0">Chulapa</generator>
 	<link href="https://dieghernan.github.io/chulapa-jekyll-sample/atom.xml" rel="self" type="application/atom+xml" />
 	<link href="https://dieghernan.github.io/chulapa-jekyll-sample" rel="alternate" type="text/html" />
-	<updated>2025-03-06T18:03:10+00:00</updated>
+	<updated>2025-03-06T19:08:53+00:00</updated>
 	<id>https://dieghernan.github.io/chulapa-jekyll-sample/atom.xml</id>
 	<title>Chulapa Jekyll Sample | A test</title>
 	<subtitle>A test</subtitle>
@@ -36,8 +36,8 @@
 	</entry><entry>
 		<title>Tabby</title>
 		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/pets/tabby" rel="alternate" type="text/html" title="Tabby"/>
-		<published>2025-03-06T18:03:10+00:00</published>
-		<updated>2025-03-06T18:03:10+00:00</updated>
+		<published>2025-03-06T19:08:53+00:00</published>
+		<updated>2025-03-06T19:08:53+00:00</updated>
 		<id>https://dieghernan.github.io/chulapa-jekyll-sample/pets/tabby</id>
 		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/pets/tabby">
 		
@@ -61,8 +61,8 @@
 	</entry><entry>
 		<title>Lhasa Apso</title>
 		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/pets/lhasa-apso" rel="alternate" type="text/html" title="Lhasa Apso"/>
-		<published>2025-03-06T18:03:10+00:00</published>
-		<updated>2025-03-06T18:03:10+00:00</updated>
+		<published>2025-03-06T19:08:53+00:00</published>
+		<updated>2025-03-06T19:08:53+00:00</updated>
 		<id>https://dieghernan.github.io/chulapa-jekyll-sample/pets/lhasa-apso</id>
 		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/pets/lhasa-apso">
 		
@@ -86,8 +86,8 @@
 	</entry><entry>
 		<title>Draft Post</title>
 		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/post-draft" rel="alternate" type="text/html" title="Draft Post"/>
-		<published>2025-03-06T18:03:04+00:00</published>
-		<updated>2025-03-06T18:03:04+00:00</updated>
+		<published>2025-03-06T19:08:47+00:00</published>
+		<updated>2025-03-06T19:08:47+00:00</updated>
 		<id>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/post-draft</id>
 		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/post-draft">
 		
@@ -231,8 +231,8 @@
 &lt;p&gt;Apply the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;half&lt;/code&gt; class like so to display two images side by side that share the same caption.&lt;/p&gt;
 
 &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;figure&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;half&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/images/image-filename-1-large.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/images/image-filename-1.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/images/image-filename-2-large.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/images/image-filename-2.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/images/portfolio/image-filename-1-large.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/images/image-filename-1.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/images/portfolio/image-filename-2-large.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/images/image-filename-2.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
     &lt;span class=&quot;nt&quot;&gt;&amp;lt;figcaption&amp;gt;&lt;/span&gt;Caption describing these two images.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figcaption&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/figure&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -250,9 +250,9 @@
 &lt;p&gt;Apply the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;third&lt;/code&gt; class like so to display three images side by side that share the same caption.&lt;/p&gt;
 
 &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;figure&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;third&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/images/image-filename-1.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/images/image-filename-2.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/images/image-filename-3.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+	&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/images/portfolio/image-filename-1.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+	&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/images/portfolio/image-filename-2.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+	&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/images/portfolio/image-filename-3.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
 	&lt;span class=&quot;nt&quot;&gt;&amp;lt;figcaption&amp;gt;&lt;/span&gt;Caption describing these three images.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figcaption&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/figure&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -584,7 +584,7 @@
 
 &lt;p&gt;The image above happens to be &lt;strong&gt;centered&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://dieghernan.github.io/chulapa-jekyll-sample/images/image-alignment-150x150.jpg&quot; alt=&quot;image-left&quot; class=&quot;float-left&quot; /&gt; The rest of this paragraph is filler for the sake of seeing the text wrap around the 150×150 image, which is &lt;strong&gt;left aligned&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://dieghernan.github.io/chulapa-jekyll-sample/images/image-alignment-150x150.jpg&quot; alt=&quot;image-left&quot; class=&quot;float-left mx-1&quot; /&gt; The rest of this paragraph is filler for the sake of seeing the text wrap around the 150×150 image, which is &lt;strong&gt;left aligned&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;As you can see the should be some space above, below, and to the right of the image. The text should not be creeping on the image. Creeping is just not right. Images need breathing room too. Let them speak like you words. Let them do their jobs without any hassle from the text. In about one more sentence here, we’ll see that the text moves from the right of the image down below the image in seamless transition. Again, letting the do it’s thing. Mission accomplished!&lt;/p&gt;
 
@@ -594,7 +594,7 @@
 
 &lt;p&gt;The image above, though 1200px wide, should not overflow the content area. It should remain contained with no visible disruption to the flow of content.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://dieghernan.github.io/chulapa-jekyll-sample/images/image-alignment-300x200.jpg&quot; alt=&quot;image-right&quot; class=&quot;float-right&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://dieghernan.github.io/chulapa-jekyll-sample/images/image-alignment-300x200.jpg&quot; alt=&quot;image-right&quot; class=&quot;float-right mx-1&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;And now we’re going to shift things to the &lt;strong&gt;right align&lt;/strong&gt;. Again, there should be plenty of room above, below, and to the left of the image. Just look at him there — Hey guy! Way to rock that right side. I don’t care what the left aligned image says, you look great. Don’t let anyone else tell you differently.&lt;/p&gt;
 
@@ -609,7 +609,7 @@
 
 &lt;p&gt;The figure above happens to be &lt;strong&gt;centered&lt;/strong&gt;. The caption also has a link in it, just to see if it does anything funky.&lt;/p&gt;
 
-&lt;figure style=&quot;width: 150px&quot; class=&quot;align-left&quot;&gt;
+&lt;figure style=&quot;width: 150px&quot; class=&quot;align-left float-left mx-1&quot;&gt;
   &lt;img src=&quot;https://dieghernan.github.io/chulapa-jekyll-sample/images/image-alignment-150x150.jpg&quot; alt=&quot;&quot; /&gt;
   &lt;figcaption&gt;Itty-bitty caption.&lt;/figcaption&gt;
 &lt;/figure&gt;
@@ -627,7 +627,7 @@
 
 &lt;p&gt;The image above, though 1200px wide, should not overflow the content area. It should remain contained with no visible disruption to the flow of content.&lt;/p&gt;
 
-&lt;figure style=&quot;width: 300px&quot; class=&quot;text-right&quot;&gt;
+&lt;figure style=&quot;width: 300px&quot; class=&quot;text-right float-right mx-1&quot;&gt;
   &lt;img src=&quot;https://dieghernan.github.io/chulapa-jekyll-sample/images/image-alignment-300x200.jpg&quot; alt=&quot;&quot; /&gt;
   &lt;figcaption&gt;Feels good to be right all the time.&lt;/figcaption&gt;
 &lt;/figure&gt;

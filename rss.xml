@@ -7,8 +7,8 @@
 		<description>Chulapa Jekyll Theme starter pack</description>
 		<language>en-US</language>
 		<copyright>(c) 2025, Octocat</copyright>	
-		<pubDate>Thu, 06 Mar 2025 18:03:10 +0000</pubDate>
-		<lastBuildDate>Thu, 06 Mar 2025 18:03:10 +0000</lastBuildDate>
+		<pubDate>Thu, 06 Mar 2025 19:08:53 +0000</pubDate>
+		<lastBuildDate>Thu, 06 Mar 2025 19:08:53 +0000</lastBuildDate>
 		<category>blog</category>
 		<ttl>60</ttl>
 		<atom:link href="https://dieghernan.github.io/chulapa-jekyll-sample/rss.xml" rel="self" type="application/rss+xml" />
@@ -50,7 +50,7 @@
 			<link>https://dieghernan.github.io/chulapa-jekyll-sample/pets/tabby</link>
 			<category>pets</category>
 		    <guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/pets/tabby</guid>
-      <pubDate>Thu, 06 Mar 2025 18:03:10 +0000</pubDate>
+      <pubDate>Thu, 06 Mar 2025 19:08:53 +0000</pubDate>
 		</item><item>
 			<title>Lhasa Apso</title>
 			<description>
@@ -70,7 +70,7 @@
 			<link>https://dieghernan.github.io/chulapa-jekyll-sample/pets/lhasa-apso</link>
 			<category>pets</category>
 		    <guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/pets/lhasa-apso</guid>
-      <pubDate>Thu, 06 Mar 2025 18:03:10 +0000</pubDate>
+      <pubDate>Thu, 06 Mar 2025 19:08:53 +0000</pubDate>
 		</item><item>
 			<title>Draft Post</title>
 			<description>
@@ -92,7 +92,7 @@
 			<link>https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/post-draft</link>
 			<category>posts</category>
 		    <category>edge case</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/post-draft</guid>
-      <pubDate>Thu, 06 Mar 2025 18:03:04 +0000</pubDate>
+      <pubDate>Thu, 06 Mar 2025 19:08:47 +0000</pubDate>
 		</item><item>
 			<title>Markup: Syntax Highlighting</title>
 			<description>
@@ -204,8 +204,8 @@
 <p>Apply the <code class="language-plaintext highlighter-rouge">half</code> class like so to display two images side by side that share the same caption.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;figure</span> <span class="na">class=</span><span class="s">"half"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/images/image-filename-1-large.jpg"</span><span class="nt">&gt;&lt;img</span> <span class="na">src=</span><span class="s">"/images/image-filename-1.jpg"</span><span class="nt">&gt;&lt;/a&gt;</span>
-    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/images/image-filename-2-large.jpg"</span><span class="nt">&gt;&lt;img</span> <span class="na">src=</span><span class="s">"/images/image-filename-2.jpg"</span><span class="nt">&gt;&lt;/a&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/images/portfolio/image-filename-1-large.jpg"</span><span class="nt">&gt;&lt;img</span> <span class="na">src=</span><span class="s">"/images/image-filename-1.jpg"</span><span class="nt">&gt;&lt;/a&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/images/portfolio/image-filename-2-large.jpg"</span><span class="nt">&gt;&lt;img</span> <span class="na">src=</span><span class="s">"/images/image-filename-2.jpg"</span><span class="nt">&gt;&lt;/a&gt;</span>
     <span class="nt">&lt;figcaption&gt;</span>Caption describing these two images.<span class="nt">&lt;/figcaption&gt;</span>
 <span class="nt">&lt;/figure&gt;</span>
 </code></pre></div></div>
@@ -223,9 +223,9 @@
 <p>Apply the <code class="language-plaintext highlighter-rouge">third</code> class like so to display three images side by side that share the same caption.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;figure</span> <span class="na">class=</span><span class="s">"third"</span><span class="nt">&gt;</span>
-	<span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/images/image-filename-1.jpg"</span><span class="nt">&gt;</span>
-	<span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/images/image-filename-2.jpg"</span><span class="nt">&gt;</span>
-	<span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/images/image-filename-3.jpg"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/images/portfolio/image-filename-1.jpg"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/images/portfolio/image-filename-2.jpg"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/images/portfolio/image-filename-3.jpg"</span><span class="nt">&gt;</span>
 	<span class="nt">&lt;figcaption&gt;</span>Caption describing these three images.<span class="nt">&lt;/figcaption&gt;</span>
 <span class="nt">&lt;/figure&gt;</span>
 </code></pre></div></div>
@@ -546,7 +546,7 @@
 
 <p>The image above happens to be <strong>centered</strong>.</p>
 
-<p><img src="https://dieghernan.github.io/chulapa-jekyll-sample/images/image-alignment-150x150.jpg" alt="image-left" class="float-left" /> The rest of this paragraph is filler for the sake of seeing the text wrap around the 150×150 image, which is <strong>left aligned</strong>.</p>
+<p><img src="https://dieghernan.github.io/chulapa-jekyll-sample/images/image-alignment-150x150.jpg" alt="image-left" class="float-left mx-1" /> The rest of this paragraph is filler for the sake of seeing the text wrap around the 150×150 image, which is <strong>left aligned</strong>.</p>
 
 <p>As you can see the should be some space above, below, and to the right of the image. The text should not be creeping on the image. Creeping is just not right. Images need breathing room too. Let them speak like you words. Let them do their jobs without any hassle from the text. In about one more sentence here, we’ll see that the text moves from the right of the image down below the image in seamless transition. Again, letting the do it’s thing. Mission accomplished!</p>
 
@@ -556,7 +556,7 @@
 
 <p>The image above, though 1200px wide, should not overflow the content area. It should remain contained with no visible disruption to the flow of content.</p>
 
-<p><img src="https://dieghernan.github.io/chulapa-jekyll-sample/images/image-alignment-300x200.jpg" alt="image-right" class="float-right" /></p>
+<p><img src="https://dieghernan.github.io/chulapa-jekyll-sample/images/image-alignment-300x200.jpg" alt="image-right" class="float-right mx-1" /></p>
 
 <p>And now we’re going to shift things to the <strong>right align</strong>. Again, there should be plenty of room above, below, and to the left of the image. Just look at him there — Hey guy! Way to rock that right side. I don’t care what the left aligned image says, you look great. Don’t let anyone else tell you differently.</p>
 
@@ -571,7 +571,7 @@
 
 <p>The figure above happens to be <strong>centered</strong>. The caption also has a link in it, just to see if it does anything funky.</p>
 
-<figure style="width: 150px" class="align-left">
+<figure style="width: 150px" class="align-left float-left mx-1">
   <img src="https://dieghernan.github.io/chulapa-jekyll-sample/images/image-alignment-150x150.jpg" alt="" />
   <figcaption>Itty-bitty caption.</figcaption>
 </figure>
@@ -589,7 +589,7 @@
 
 <p>The image above, though 1200px wide, should not overflow the content area. It should remain contained with no visible disruption to the flow of content.</p>
 
-<figure style="width: 300px" class="text-right">
+<figure style="width: 300px" class="text-right float-right mx-1">
   <img src="https://dieghernan.github.io/chulapa-jekyll-sample/images/image-alignment-300x200.jpg" alt="" />
   <figcaption>Feels good to be right all the time.</figcaption>
 </figure>

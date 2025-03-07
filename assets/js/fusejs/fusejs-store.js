@@ -450,17 +450,17 @@ var store = [{
         "content": "Verify that:      The post title renders the word “with” in italics and the word “HTML” in bold.   The post title markup should be removed from the browser window / tab.",
         "categories": ["Markdown"],
         "date": "2013-01-05",
-        "tags": ["css","html","title"],
+        "tags": ["html","title","break-layout"],
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-05-markup-title-with-html",
         "img": null
       },{
         "title": "Markup: Title *with* **Markdown**",
-        "subtitle": "",
+        "subtitle": "Subtitle *too* and this is longer",
         "excerpt": "Verify that:",
         "content": "Verify that:      The post title renders the word “with” in italics and the word “Markdown” in bold.   The post title markup should be removed from the browser window / tab.",
         "categories": ["Markdown"],
         "date": "2013-01-05",
-        "tags": ["css","html","title"],
+        "tags": ["html","title","break-layout"],
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-05-markup-title-with-markdown",
         "img": null
       },{
@@ -654,8 +654,8 @@ var store = [{
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/foo-bar-website",
         "img": "https://dieghernan.github.io/chulapa-jekyll-sample/images/portfolio/unsplash-gallery-image-1.jpg"
       },{
-        "title": "Layout default base image",
-        "subtitle": "Base header with image",
+        "title": "Layout default *base* image",
+        "subtitle": "Base header *with* image",
         "excerpt": "Layout test, header base with image",
         "content": "Layout test, header base with image",
         "categories": ["layout"],

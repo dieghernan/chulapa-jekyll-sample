@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Layout default
+title: Layout default post image
 subtitle: Post header with image
 header_type: post
 header_img: https://picsum.photos/seed/50/750/325

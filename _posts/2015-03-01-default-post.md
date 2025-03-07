@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Layout default
+title: Layout default post
 subtitle: Post header with no image
 header_type: post
 categories: [layout]

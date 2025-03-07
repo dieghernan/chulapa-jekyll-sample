@@ -1,13 +1,15 @@
 ---
 title: "Markup: Title *with* **Markdown**"
+subtitle: "Subtitle *too* and this is longer"
 header_type: hero
 categories:
   - Markdown
 tags:
-  - css
   - html
   - title
+  - break-layout
 show_related: true
+show_sociallinks: true
 ---
 
 Verify that:

@@ -164,7 +164,6 @@ chulapa-skin:
   autothemer    :   # Bool: Use autotheming
   vars          :    
     primary     : #default ["#007bff"] - Bootstrap blue
-    yiq-contrasted-threshold: 50
     
 # D. Jekyll Defaults and collections: see https://jekyllrb.com/
 

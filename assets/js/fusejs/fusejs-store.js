@@ -451,7 +451,17 @@ var store = [{
         "categories": ["Markdown"],
         "date": "2013-01-05",
         "tags": ["css","html","title"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-05-markup-title-with-markup",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-05-markup-title-with-html-2",
+        "img": null
+      },{
+        "title": "Markup: Title *with* **Markdown**",
+        "subtitle": "",
+        "excerpt": "Verify that:",
+        "content": "Verify that:      The post title renders the word “with” in italics and the word “Markdown” in bold.   The post title markup should be removed from the browser window / tab.",
+        "categories": ["Markdown"],
+        "date": "2013-01-05",
+        "tags": ["css","html","title"],
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-05-markup-title-with-markdown",
         "img": null
       },{
         "title": "Markup: Title with Special&nbsp;---&nbsp;Characters",

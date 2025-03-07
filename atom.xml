@@ -3,7 +3,7 @@
 	<generator uri="https://dieghernan.github.io/chulapa" version="1.0.0">Chulapa</generator>
 	<link href="https://dieghernan.github.io/chulapa-jekyll-sample/atom.xml" rel="self" type="application/atom+xml" />
 	<link href="https://dieghernan.github.io/chulapa-jekyll-sample" rel="alternate" type="text/html" />
-	<updated>2025-03-07T04:52:12+00:00</updated>
+	<updated>2025-03-07T04:58:12+00:00</updated>
 	<id>https://dieghernan.github.io/chulapa-jekyll-sample/atom.xml</id>
 	<title>Chulapa Jekyll Sample | A test</title>
 	<subtitle>A test</subtitle>
@@ -36,8 +36,8 @@
 	</entry><entry>
 		<title>Tabby</title>
 		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/pets/tabby" rel="alternate" type="text/html" title="Tabby"/>
-		<published>2025-03-07T04:52:12+00:00</published>
-		<updated>2025-03-07T04:52:12+00:00</updated>
+		<published>2025-03-07T04:58:12+00:00</published>
+		<updated>2025-03-07T04:58:12+00:00</updated>
 		<id>https://dieghernan.github.io/chulapa-jekyll-sample/pets/tabby</id>
 		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/pets/tabby">
 		
@@ -61,8 +61,8 @@
 	</entry><entry>
 		<title>Lhasa Apso</title>
 		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/pets/lhasa-apso" rel="alternate" type="text/html" title="Lhasa Apso"/>
-		<published>2025-03-07T04:52:12+00:00</published>
-		<updated>2025-03-07T04:52:12+00:00</updated>
+		<published>2025-03-07T04:58:12+00:00</published>
+		<updated>2025-03-07T04:58:12+00:00</updated>
 		<id>https://dieghernan.github.io/chulapa-jekyll-sample/pets/lhasa-apso</id>
 		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/pets/lhasa-apso">
 		
@@ -86,8 +86,8 @@
 	</entry><entry>
 		<title>Draft Post</title>
 		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/post-draft" rel="alternate" type="text/html" title="Draft Post"/>
-		<published>2025-03-07T04:52:05+00:00</published>
-		<updated>2025-03-07T04:52:05+00:00</updated>
+		<published>2025-03-07T04:58:06+00:00</published>
+		<updated>2025-03-07T04:58:06+00:00</updated>
 		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/post-draft</id>
 		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/post-draft">
 		
@@ -303,27 +303,27 @@ comments, mathjax and a modified date.&lt;/p&gt;
   &lt;div class=&quot;carousel-inner&quot;&gt;
         &lt;div class=&quot;carousel-item active&quot; itemscope=&quot;&quot; itemtype=&quot;https://schema.org/ImageObject&quot;&gt;
     
-	&lt;img class=&quot;d-block mw-100 chulapa-carousel&quot; src=&quot;https://picsum.photos/seed/30/900/1200&quot; alt=&quot;Carousel Item #1&quot; itemprop=&quot;contentUrl&quot; /&gt;
+	&lt;img class=&quot;d-block mw-100 chulapa-carousel&quot; src=&quot;https://picsum.photos/seed/50/750/325&quot; alt=&quot;Carousel Item #1&quot; itemprop=&quot;contentUrl&quot; /&gt;
 	&lt;/div&gt;
         &lt;div class=&quot;carousel-item&quot; itemscope=&quot;&quot; itemtype=&quot;https://schema.org/ImageObject&quot;&gt;
     
-	&lt;img class=&quot;d-block mw-100 chulapa-carousel&quot; src=&quot;https://picsum.photos/seed/70/700/500&quot; alt=&quot;Carousel Item #2&quot; itemprop=&quot;contentUrl&quot; /&gt;
+	&lt;img class=&quot;d-block mw-100 chulapa-carousel&quot; src=&quot;https://picsum.photos/seed/60/600&quot; alt=&quot;Carousel Item #2&quot; itemprop=&quot;contentUrl&quot; /&gt;
 	&lt;/div&gt;
         &lt;div class=&quot;carousel-item&quot; itemscope=&quot;&quot; itemtype=&quot;https://schema.org/ImageObject&quot;&gt;
     
-	&lt;img class=&quot;d-block mw-100 chulapa-carousel&quot; src=&quot;https://picsum.photos/seed/60/600&quot; alt=&quot;Carousel Item #3&quot; itemprop=&quot;contentUrl&quot; /&gt;
+	&lt;img class=&quot;d-block mw-100 chulapa-carousel&quot; src=&quot;https://picsum.photos/seed/10/600/1200&quot; alt=&quot;Carousel Item #3&quot; itemprop=&quot;contentUrl&quot; /&gt;
 	&lt;/div&gt;
         &lt;div class=&quot;carousel-item&quot; itemscope=&quot;&quot; itemtype=&quot;https://schema.org/ImageObject&quot;&gt;
     
-	&lt;img class=&quot;d-block mw-100 chulapa-carousel&quot; src=&quot;https://picsum.photos/seed/40/900/1300&quot; alt=&quot;Carousel Item #4&quot; itemprop=&quot;contentUrl&quot; /&gt;
+	&lt;img class=&quot;d-block mw-100 chulapa-carousel&quot; src=&quot;https://picsum.photos/seed/70/700/500&quot; alt=&quot;Carousel Item #4&quot; itemprop=&quot;contentUrl&quot; /&gt;
 	&lt;/div&gt;
         &lt;div class=&quot;carousel-item&quot; itemscope=&quot;&quot; itemtype=&quot;https://schema.org/ImageObject&quot;&gt;
     
-	&lt;img class=&quot;d-block mw-100 chulapa-carousel&quot; src=&quot;https://picsum.photos/seed/50/750/325&quot; alt=&quot;Carousel Item #5&quot; itemprop=&quot;contentUrl&quot; /&gt;
+	&lt;img class=&quot;d-block mw-100 chulapa-carousel&quot; src=&quot;https://picsum.photos/seed/30/900/1200&quot; alt=&quot;Carousel Item #5&quot; itemprop=&quot;contentUrl&quot; /&gt;
 	&lt;/div&gt;
         &lt;div class=&quot;carousel-item&quot; itemscope=&quot;&quot; itemtype=&quot;https://schema.org/ImageObject&quot;&gt;
     
-	&lt;img class=&quot;d-block mw-100 chulapa-carousel&quot; src=&quot;https://picsum.photos/seed/10/600/1200&quot; alt=&quot;Carousel Item #6&quot; itemprop=&quot;contentUrl&quot; /&gt;
+	&lt;img class=&quot;d-block mw-100 chulapa-carousel&quot; src=&quot;https://picsum.photos/seed/40/900/1300&quot; alt=&quot;Carousel Item #6&quot; itemprop=&quot;contentUrl&quot; /&gt;
 	&lt;/div&gt;
         &lt;div class=&quot;carousel-item&quot; itemscope=&quot;&quot; itemtype=&quot;https://schema.org/ImageObject&quot;&gt;
     
@@ -1362,12 +1362,37 @@ comments, mathjax and a modified date.&lt;/p&gt;
 		<category term="posts"/>
 		<category term="html"/><category term="markup"/><category term="post"/><category term="title"/>
 	</entry><entry>
-		<title>Markup: Title with HTML</title>
-		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-05-markup-title-with-markup" rel="alternate" type="text/html" title="Markup: Title with HTML"/>
+		<title>Markup: Title *with* **Markdown**</title>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-05-markup-title-with-markdown" rel="alternate" type="text/html" title="Markup: Title *with* **Markdown**"/>
 		<published>2013-01-05T00:00:00+00:00</published>
 		<updated>2013-01-05T00:00:00+00:00</updated>
-		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-05-markup-title-with-markup</id>
-		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-05-markup-title-with-markup">
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-05-markup-title-with-markdown</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-05-markup-title-with-markdown">
+		
+  		
+	&lt;p&gt;1 min.&lt;/p&gt;
+			&lt;p&gt;Verify that:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The post title renders the word “with” in &lt;em&gt;italics&lt;/em&gt; and the word “Markdown” in &lt;strong&gt;bold&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;The post title markup should be removed from the browser window / tab.&lt;/li&gt;
+&lt;/ul&gt;
+
+		</content>
+		
+		<author>
+			<name>Octocat</name><uri>https://github.com/github/</uri></author>
+		<summary type="html">&lt;p&gt;Verify that:&lt;/p&gt;
+</summary>
+		<category term="posts"/>
+		<category term="css"/><category term="html"/><category term="title"/>
+	</entry><entry>
+		<title>Markup: Title with HTML</title>
+		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-05-markup-title-with-html-2" rel="alternate" type="text/html" title="Markup: Title with HTML"/>
+		<published>2013-01-05T00:00:00+00:00</published>
+		<updated>2013-01-05T00:00:00+00:00</updated>
+		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-05-markup-title-with-html-2</id>
+		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-05-markup-title-with-html-2">
 		
   		
 	&lt;p&gt;1 min.&lt;/p&gt;
@@ -1798,7 +1823,7 @@ use this post yaml:&lt;/p&gt;
 		
   		
 	&lt;p&gt;1 min.&lt;/p&gt;
-			&lt;p&gt;This is the post content with inline code, (e.g. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;span style=&quot;color: red;&quot;&amp;gt;red&amp;lt;/span&amp;gt;&lt;/code&gt;. It should be displayed in place of the auto-generated excerpt in single-page views. Archive-index pages should display an auto-generated excerpt of this content.&lt;/p&gt;
+			&lt;p&gt;This is the post content with &lt;span style=&quot;color:red&quot;&gt;inline code&lt;/span&gt;, (e.g. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;span style=&quot;color: red;&quot;&amp;gt;red&amp;lt;/span&amp;gt;&lt;/code&gt;. It should be displayed in place of the auto-generated excerpt in single-page views. Archive-index pages should display an auto-generated excerpt of this content.&lt;/p&gt;
 
 &lt;p&gt;Be sure to test the formatting of the auto-generated excerpt, to ensure that it doesn’t create any layout problems.&lt;/p&gt;
 
@@ -1806,7 +1831,7 @@ use this post yaml:&lt;/p&gt;
 		
 		<author>
 			<name>Octocat</name><uri>https://github.com/github/</uri></author>
-		<summary type="html">&lt;p&gt;This is the post content with inline code, (e.g. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;span style=&quot;color: red;&quot;&amp;gt;red&amp;lt;/span&amp;gt;&lt;/code&gt;. It should be displayed in place of the auto-generated excerpt in single-page views. Archive-index pages should display an auto-generated excerpt of this content.&lt;/p&gt;
+		<summary type="html">&lt;p&gt;This is the post content with &lt;span style=&quot;color:red&quot;&gt;inline code&lt;/span&gt;, (e.g. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;span style=&quot;color: red;&quot;&amp;gt;red&amp;lt;/span&amp;gt;&lt;/code&gt;. It should be displayed in place of the auto-generated excerpt in single-page views. Archive-index pages should display an auto-generated excerpt of this content.&lt;/p&gt;
 </summary>
 		<category term="posts"/>
 		<category term="content"/><category term="excerpt"/><category term="layout"/>

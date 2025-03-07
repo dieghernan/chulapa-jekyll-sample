@@ -7,8 +7,8 @@
 		<description>Chulapa Jekyll Theme starter pack</description>
 		<language>en-US</language>
 		<copyright>(c) 2025, Octocat</copyright>	
-		<pubDate>Fri, 07 Mar 2025 04:52:12 +0000</pubDate>
-		<lastBuildDate>Fri, 07 Mar 2025 04:52:12 +0000</lastBuildDate>
+		<pubDate>Fri, 07 Mar 2025 04:58:12 +0000</pubDate>
+		<lastBuildDate>Fri, 07 Mar 2025 04:58:12 +0000</lastBuildDate>
 		<category>blog</category>
 		<ttl>60</ttl>
 		<atom:link href="https://dieghernan.github.io/chulapa-jekyll-sample/rss.xml" rel="self" type="application/rss+xml" />
@@ -50,7 +50,7 @@
 			<link>https://dieghernan.github.io/chulapa-jekyll-sample/pets/tabby</link>
 			<category>pets</category>
 		    <guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/pets/tabby</guid>
-      <pubDate>Fri, 07 Mar 2025 04:52:12 +0000</pubDate>
+      <pubDate>Fri, 07 Mar 2025 04:58:12 +0000</pubDate>
 		</item><item>
 			<title>Lhasa Apso</title>
 			<description>
@@ -70,7 +70,7 @@
 			<link>https://dieghernan.github.io/chulapa-jekyll-sample/pets/lhasa-apso</link>
 			<category>pets</category>
 		    <guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/pets/lhasa-apso</guid>
-      <pubDate>Fri, 07 Mar 2025 04:52:12 +0000</pubDate>
+      <pubDate>Fri, 07 Mar 2025 04:58:12 +0000</pubDate>
 		</item><item>
 			<title>Draft Post</title>
 			<description>
@@ -92,7 +92,7 @@
 			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/post-draft</link>
 			<category>posts</category>
 		    <category>edge case</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/post-draft</guid>
-      <pubDate>Fri, 07 Mar 2025 04:52:05 +0000</pubDate>
+      <pubDate>Fri, 07 Mar 2025 04:58:06 +0000</pubDate>
 		</item><item>
 			<title>No MathJax</title>
 			<description>
@@ -246,27 +246,27 @@ comments, mathjax and a modified date.</p>
   <div class="carousel-inner">
         <div class="carousel-item active" itemscope="" itemtype="https://schema.org/ImageObject">
     
-	<img class="d-block mw-100 chulapa-carousel" src="https://picsum.photos/seed/30/900/1200" alt="Carousel Item #1" itemprop="contentUrl" />
+	<img class="d-block mw-100 chulapa-carousel" src="https://picsum.photos/seed/50/750/325" alt="Carousel Item #1" itemprop="contentUrl" />
 	</div>
         <div class="carousel-item" itemscope="" itemtype="https://schema.org/ImageObject">
     
-	<img class="d-block mw-100 chulapa-carousel" src="https://picsum.photos/seed/70/700/500" alt="Carousel Item #2" itemprop="contentUrl" />
+	<img class="d-block mw-100 chulapa-carousel" src="https://picsum.photos/seed/60/600" alt="Carousel Item #2" itemprop="contentUrl" />
 	</div>
         <div class="carousel-item" itemscope="" itemtype="https://schema.org/ImageObject">
     
-	<img class="d-block mw-100 chulapa-carousel" src="https://picsum.photos/seed/60/600" alt="Carousel Item #3" itemprop="contentUrl" />
+	<img class="d-block mw-100 chulapa-carousel" src="https://picsum.photos/seed/10/600/1200" alt="Carousel Item #3" itemprop="contentUrl" />
 	</div>
         <div class="carousel-item" itemscope="" itemtype="https://schema.org/ImageObject">
     
-	<img class="d-block mw-100 chulapa-carousel" src="https://picsum.photos/seed/40/900/1300" alt="Carousel Item #4" itemprop="contentUrl" />
+	<img class="d-block mw-100 chulapa-carousel" src="https://picsum.photos/seed/70/700/500" alt="Carousel Item #4" itemprop="contentUrl" />
 	</div>
         <div class="carousel-item" itemscope="" itemtype="https://schema.org/ImageObject">
     
-	<img class="d-block mw-100 chulapa-carousel" src="https://picsum.photos/seed/50/750/325" alt="Carousel Item #5" itemprop="contentUrl" />
+	<img class="d-block mw-100 chulapa-carousel" src="https://picsum.photos/seed/30/900/1200" alt="Carousel Item #5" itemprop="contentUrl" />
 	</div>
         <div class="carousel-item" itemscope="" itemtype="https://schema.org/ImageObject">
     
-	<img class="d-block mw-100 chulapa-carousel" src="https://picsum.photos/seed/10/600/1200" alt="Carousel Item #6" itemprop="contentUrl" />
+	<img class="d-block mw-100 chulapa-carousel" src="https://picsum.photos/seed/40/900/1300" alt="Carousel Item #6" itemprop="contentUrl" />
 	</div>
         <div class="carousel-item" itemscope="" itemtype="https://schema.org/ImageObject">
     
@@ -1269,6 +1269,25 @@ comments, mathjax and a modified date.</p>
 		    <category>html</category><category>markup</category><category>post</category><category>title</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-05-markup-title-with-special-characters</guid>
       <pubDate>Sat, 05 Jan 2013 00:00:00 +0000</pubDate>
 		</item><item>
+			<title>Markup: Title *with* **Markdown**</title>
+			<description>
+				<![CDATA[	
+ 				
+    		<p>1 min.</p>
+				<div><p>Verify that:</p>
+
+<ul>
+  <li>The post title renders the word “with” in <em>italics</em> and the word “Markdown” in <strong>bold</strong>.</li>
+  <li>The post title markup should be removed from the browser window / tab.</li>
+</ul>
+</div>
+				]]>
+			</description>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-05-markup-title-with-markdown</link>
+			<category>posts</category>
+		    <category>css</category><category>html</category><category>title</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-05-markup-title-with-markdown</guid>
+      <pubDate>Sat, 05 Jan 2013 00:00:00 +0000</pubDate>
+		</item><item>
 			<title>Markup: Title with HTML</title>
 			<description>
 				<![CDATA[	
@@ -1283,9 +1302,9 @@ comments, mathjax and a modified date.</p>
 </div>
 				]]>
 			</description>
-			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-05-markup-title-with-markup</link>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-05-markup-title-with-html-2</link>
 			<category>posts</category>
-		    <category>css</category><category>html</category><category>title</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-05-markup-title-with-markup</guid>
+		    <category>css</category><category>html</category><category>title</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-05-markup-title-with-html-2</guid>
       <pubDate>Sat, 05 Jan 2013 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Markup: Text Readability Test</title>
@@ -1621,7 +1640,7 @@ use this post yaml:</p>
 				<![CDATA[	
  				
     		<p>1 min.</p>
-				<div><p>This is the post content with inline code, (e.g. <code class="language-plaintext highlighter-rouge">&lt;span style="color: red;"&gt;red&lt;/span&gt;</code>. It should be displayed in place of the auto-generated excerpt in single-page views. Archive-index pages should display an auto-generated excerpt of this content.</p>
+				<div><p>This is the post content with <span style="color:red">inline code</span>, (e.g. <code class="language-plaintext highlighter-rouge">&lt;span style="color: red;"&gt;red&lt;/span&gt;</code>. It should be displayed in place of the auto-generated excerpt in single-page views. Archive-index pages should display an auto-generated excerpt of this content.</p>
 
 <p>Be sure to test the formatting of the auto-generated excerpt, to ensure that it doesn’t create any layout problems.</p>
 </div>

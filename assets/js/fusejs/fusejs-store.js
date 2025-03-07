@@ -584,7 +584,7 @@ var store = [{
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2015-01-15-nomathjax",
         "img": null
       },{
-        "title": "Layout default",
+        "title": "Layout default base image",
         "subtitle": "Base header with image",
         "excerpt": "Layout test, header base with image",
         "content": "Layout test, header base with image",
@@ -594,7 +594,7 @@ var store = [{
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2015-03-01-default-base-img",
         "img": "https://picsum.photos/seed/50/750/325"
       },{
-        "title": "Layout default",
+        "title": "Layout default base",
         "subtitle": "Base header with no image",
         "excerpt": "Layout test, header base with no image",
         "content": "Layout test, header base with no image",
@@ -604,7 +604,7 @@ var store = [{
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2015-03-01-default-base",
         "img": null
       },{
-        "title": "Layout default",
+        "title": "Layout default post image",
         "subtitle": "Post header with image",
         "excerpt": "Layout test, header post with image",
         "content": "Layout test, header post with image",
@@ -614,7 +614,7 @@ var store = [{
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2015-03-01-default-post-img",
         "img": "https://picsum.photos/seed/50/750/325"
       },{
-        "title": "Layout default",
+        "title": "Layout default post",
         "subtitle": "Post header with no image",
         "excerpt": "Layout test, header post with no image",
         "content": "Layout test, header post with no image",
@@ -623,6 +623,46 @@ var store = [{
         "tags": ["post-header"],
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2015-03-01-default-post",
         "img": null
+      },{
+        "title": "Layout default hero image",
+        "subtitle": "Hero header with image",
+        "excerpt": "Layout test, header hero with image",
+        "content": "Layout test, header hero with image",
+        "categories": ["layout"],
+        "date": "2015-03-02",
+        "tags": ["hero-header","images"],
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2015-03-02-default-hero-img",
+        "img": "https://picsum.photos/seed/50/750/325"
+      },{
+        "title": "Layout default hero",
+        "subtitle": "Hero header with image",
+        "excerpt": "Layout test, header hero",
+        "content": "Layout test, header hero",
+        "categories": ["layout"],
+        "date": "2015-03-02",
+        "tags": ["hero-header","images"],
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2015-03-02-default-hero",
+        "img": "https://picsum.photos/seed/50/750/325"
+      },{
+        "title": "Layout default image image",
+        "subtitle": "Image header with image",
+        "excerpt": "Layout test, header image with image",
+        "content": "Layout test, header image with image",
+        "categories": ["layout"],
+        "date": "2015-03-02",
+        "tags": ["image-header","images"],
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2015-03-02-default-image-img",
+        "img": "https://picsum.photos/seed/50/750/325"
+      },{
+        "title": "Layout default image",
+        "subtitle": "Image header",
+        "excerpt": "Layout test, header image",
+        "content": "Layout test, header image",
+        "categories": ["layout"],
+        "date": "2015-03-02",
+        "tags": ["image-header","images"],
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2015-03-02-default-image",
+        "img": "https://picsum.photos/seed/50/750/325"
       },{
         "title": "Post: Future Date",
         "subtitle": "",

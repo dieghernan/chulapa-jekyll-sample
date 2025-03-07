@@ -203,6 +203,7 @@ collections:
     show_bottomnavs   : true
     show_breadcrumb   : true
     show_tags         : true
+    show_categories   : true
 
 collections_dir     : 
 permalink           : /:title/

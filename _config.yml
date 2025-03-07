@@ -57,7 +57,7 @@ analytics_id            :
 # - Simple Jekyll Search https://github.com/christian-fei/Simple-Jekyll-Search 
 # - Fuse.js https://fusejs.io/
 search:
-  provider              : fusejs #Select a provider for enable search: lunr, algolia, simplesearch, fusejs
+  provider              : lunr #Select a provider for enable search: lunr, algolia, simplesearch, fusejs
   label                 :  #default ["Search"] Text on navbar when search is enabled 
   landing_page          :  #default ["/search"] Link on navbar 
   lunr_maxwords         :  #DEPRECATED, use maxwords

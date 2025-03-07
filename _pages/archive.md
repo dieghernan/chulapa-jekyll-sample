@@ -1,8 +1,8 @@
 ---
 layout: archive
-title: Archive
+title: Full Archive
 permalink: /archive
 include_on_search: true
 show_breadcrumb: true
-include_collection: posts
+include_missdates: true
 ---

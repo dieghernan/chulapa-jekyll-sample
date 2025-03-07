@@ -216,8 +216,8 @@ var store = [{
       },{
         "title": "Post: Twitter Embed",
         "subtitle": "",
-        "excerpt": "🎨 Finally got around to adding all my @procreateapp creations with time lapse videos https://t.co/1nNbkefC3L pic.twitter.com/gcNLJoJ0Gn&mdash; Michael Rose (@mmistakes) November 6, 2015",
-        "content": "🎨 Finally got around to adding all my @procreateapp creations with time lapse videos https://t.co/1nNbkefC3L pic.twitter.com/gcNLJoJ0Gn &mdash; Michael Rose (@mmistakes) November 6, 2015   This post tests Twitter Embeds.",
+        "excerpt": "Actualización de Infografía de Grandes Incendios Forestales en España con datos de 2010 a 2023. Código disponible en https://t.co/G43A4mWxLQ #rstats #rspatial https://t.co/wfZnk4o09i pic.twitter.com/93cHkDEfvq&mdash; dieghernan ن (@dhernangomez) February 21, 2025",
+        "content": "Actualización de Infografía de Grandes Incendios Forestales en España con datos de 2010 a 2023. Código disponible en https://t.co/G43A4mWxLQ #rstats #rspatial https://t.co/wfZnk4o09i pic.twitter.com/93cHkDEfvq &mdash; dieghernan ن (@dhernangomez) February 21, 2025   This post tests Twitter Embeds.   Tweets by mmistakes",
         "categories": ["Media"],
         "date": "2010-09-10",
         "tags": ["content","embeds","media","twitter"],

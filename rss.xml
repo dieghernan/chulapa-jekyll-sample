@@ -7,8 +7,8 @@
 		<description>Chulapa Jekyll Theme starter pack</description>
 		<language>en-US</language>
 		<copyright>(c) 2025, Octocat</copyright>	
-		<pubDate>Fri, 07 Mar 2025 04:58:12 +0000</pubDate>
-		<lastBuildDate>Fri, 07 Mar 2025 04:58:12 +0000</lastBuildDate>
+		<pubDate>Fri, 07 Mar 2025 05:08:20 +0000</pubDate>
+		<lastBuildDate>Fri, 07 Mar 2025 05:08:20 +0000</lastBuildDate>
 		<category>blog</category>
 		<ttl>60</ttl>
 		<atom:link href="https://dieghernan.github.io/chulapa-jekyll-sample/rss.xml" rel="self" type="application/rss+xml" />
@@ -50,7 +50,7 @@
 			<link>https://dieghernan.github.io/chulapa-jekyll-sample/pets/tabby</link>
 			<category>pets</category>
 		    <guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/pets/tabby</guid>
-      <pubDate>Fri, 07 Mar 2025 04:58:12 +0000</pubDate>
+      <pubDate>Fri, 07 Mar 2025 05:08:20 +0000</pubDate>
 		</item><item>
 			<title>Lhasa Apso</title>
 			<description>
@@ -70,7 +70,7 @@
 			<link>https://dieghernan.github.io/chulapa-jekyll-sample/pets/lhasa-apso</link>
 			<category>pets</category>
 		    <guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/pets/lhasa-apso</guid>
-      <pubDate>Fri, 07 Mar 2025 04:58:12 +0000</pubDate>
+      <pubDate>Fri, 07 Mar 2025 05:08:20 +0000</pubDate>
 		</item><item>
 			<title>Draft Post</title>
 			<description>
@@ -92,7 +92,7 @@
 			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/post-draft</link>
 			<category>posts</category>
 		    <category>edge case</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/post-draft</guid>
-      <pubDate>Fri, 07 Mar 2025 04:58:06 +0000</pubDate>
+      <pubDate>Fri, 07 Mar 2025 05:08:14 +0000</pubDate>
 		</item><item>
 			<title>No MathJax</title>
 			<description>
@@ -246,7 +246,7 @@ comments, mathjax and a modified date.</p>
   <div class="carousel-inner">
         <div class="carousel-item active" itemscope="" itemtype="https://schema.org/ImageObject">
     
-	<img class="d-block mw-100 chulapa-carousel" src="https://picsum.photos/seed/50/750/325" alt="Carousel Item #1" itemprop="contentUrl" />
+	<img class="d-block mw-100 chulapa-carousel" src="https://picsum.photos/seed/10/600/1200" alt="Carousel Item #1" itemprop="contentUrl" />
 	</div>
         <div class="carousel-item" itemscope="" itemtype="https://schema.org/ImageObject">
     
@@ -254,15 +254,15 @@ comments, mathjax and a modified date.</p>
 	</div>
         <div class="carousel-item" itemscope="" itemtype="https://schema.org/ImageObject">
     
-	<img class="d-block mw-100 chulapa-carousel" src="https://picsum.photos/seed/10/600/1200" alt="Carousel Item #3" itemprop="contentUrl" />
+	<img class="d-block mw-100 chulapa-carousel" src="https://picsum.photos/seed/30/900/1200" alt="Carousel Item #3" itemprop="contentUrl" />
 	</div>
         <div class="carousel-item" itemscope="" itemtype="https://schema.org/ImageObject">
     
-	<img class="d-block mw-100 chulapa-carousel" src="https://picsum.photos/seed/70/700/500" alt="Carousel Item #4" itemprop="contentUrl" />
+	<img class="d-block mw-100 chulapa-carousel" src="https://picsum.photos/seed/50/750/325" alt="Carousel Item #4" itemprop="contentUrl" />
 	</div>
         <div class="carousel-item" itemscope="" itemtype="https://schema.org/ImageObject">
     
-	<img class="d-block mw-100 chulapa-carousel" src="https://picsum.photos/seed/30/900/1200" alt="Carousel Item #5" itemprop="contentUrl" />
+	<img class="d-block mw-100 chulapa-carousel" src="https://picsum.photos/seed/70/700/500" alt="Carousel Item #5" itemprop="contentUrl" />
 	</div>
         <div class="carousel-item" itemscope="" itemtype="https://schema.org/ImageObject">
     
@@ -1624,7 +1624,7 @@ use this post yaml:</p>
 				<![CDATA[	
  				
     		<p>1 min.</p>
-				<div><p>This is the post content. It should be displayed in place of the user-defined excerpt in archive-index pages.</p>
+				<div><p>This is the post content.</p>
 
 <p>This paragraph should be absent from an archive-index page where <code class="language-plaintext highlighter-rouge">post.excerpt</code> is shown.</p>
 </div>
@@ -1640,7 +1640,7 @@ use this post yaml:</p>
 				<![CDATA[	
  				
     		<p>1 min.</p>
-				<div><p>This is the post content with <span style="color:red">inline code</span>, (e.g. <code class="language-plaintext highlighter-rouge">&lt;span style="color: red;"&gt;red&lt;/span&gt;</code>. It should be displayed in place of the auto-generated excerpt in single-page views. Archive-index pages should display an auto-generated excerpt of this content.</p>
+				<div><p>This is the post content with <span style="color: blue;font-weight:bold">inline code</span>, (e.g. <code class="language-plaintext highlighter-rouge">&lt;span style="color: red;"&gt;red&lt;/span&gt;</code>. It should be displayed in place of the auto-generated excerpt in single-page views. Archive-index pages should display an auto-generated excerpt of this content.</p>
 
 <p>Be sure to test the formatting of the auto-generated excerpt, to ensure that it doesn’t create any layout problems.</p>
 </div>

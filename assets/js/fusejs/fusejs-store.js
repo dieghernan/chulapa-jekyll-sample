@@ -371,7 +371,7 @@ var store = [{
         "categories": ["Layout","Uncategorized"],
         "date": "2012-03-15",
         "tags": ["edge case","featured image","image","layout"],
-        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-header-image-horizontal",
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2012-03-15-layout-header-image-hero",
         "img": "https://dieghernan.github.io/chulapa-jekyll-sample/images/unsplash-image-1.jpg"
       },{
         "title": "Layout: Header Image and Text Readability",

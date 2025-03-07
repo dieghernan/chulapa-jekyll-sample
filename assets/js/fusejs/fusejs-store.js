@@ -642,7 +642,7 @@ var store = [{
         "date": "2015-03-02",
         "tags": ["hero-header","images"],
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2015-03-02-default-hero",
-        "img": "https://picsum.photos/seed/50/750/325"
+        "img": null
       },{
         "title": "Layout default image image",
         "subtitle": "Image header with image",
@@ -662,7 +662,7 @@ var store = [{
         "date": "2015-03-02",
         "tags": ["image-header","images"],
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2015-03-02-default-image",
-        "img": "https://picsum.photos/seed/50/750/325"
+        "img": null
       },{
         "title": "Post: Future Date",
         "subtitle": "",

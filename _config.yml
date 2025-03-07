@@ -177,33 +177,18 @@ collections:
   pets:
     output: true
     permalink: /pets/:name
-    include_on_search   : true
-    show_related      : true
-    show_bottomnavs   : true
-    show_breadcrumb   : true
 
   recipes:
     output: true
     permalink: /recipes/:name
-    include_on_search   : true
-    show_related      : true
-    show_bottomnavs   : true
-    show_breadcrumb   : true
     
   portfolio:
     output: true
     permalink: /portfolio/:name
-    include_on_search   : true
 
   headers:
     output: true
     permalink: /headers/:name
-    include_on_search   : true
-    show_related      : true
-    show_bottomnavs   : true
-    show_breadcrumb   : true
-    show_tags         : true
-    show_categories   : true
 
 collections_dir     : 
 permalink           : /:title/
@@ -255,6 +240,33 @@ defaults:
       breadcrumb_list   :
         - label: Pets
           url: /pets/
+  -
+    scope:
+      path: ""
+      type: "headers"
+    values:
+      include_on_search : true
+      include_on_feed   : true
+      show_bottomnavs   : true
+      show_tags         : true
+      show_categories   : true
+      show_related      : true
+      show_breadcrumb   : true
+      breadcrumb_list   :
+        - label: Headers
+          url: /headers/
+  -
+    scope:
+      path: ""
+      type: "recipes"
+    values:
+      include_on_search : true
+  -
+    scope:
+      path: ""
+      type: "portfolio"
+    values:
+      include_on_search : true
   -
     scope:
       path: "images"

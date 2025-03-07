@@ -640,7 +640,7 @@ var store = [{
         "content": "Layout test, header hero",
         "categories": ["layout"],
         "date": "2015-03-02",
-        "tags": ["hero-header","images"],
+        "tags": ["hero-header"],
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2015-03-02-default-hero",
         "img": null
       },{
@@ -660,8 +660,28 @@ var store = [{
         "content": "Layout test, header image",
         "categories": ["layout"],
         "date": "2015-03-02",
-        "tags": ["image-header","images"],
+        "tags": ["image-header"],
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2015-03-02-default-image",
+        "img": null
+      },{
+        "title": "Layout default splash image",
+        "subtitle": "Splash header with image",
+        "excerpt": "Layout test, header splash with image",
+        "content": "Layout test, header splash with image",
+        "categories": ["layout"],
+        "date": "2015-03-02",
+        "tags": ["splash-header","images"],
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2015-03-02-default-splash-img",
+        "img": "https://picsum.photos/seed/50/750/325"
+      },{
+        "title": "Layout default splash",
+        "subtitle": "Splash header",
+        "excerpt": "Layout test, header splash",
+        "content": "Layout test, header splash",
+        "categories": ["layout"],
+        "date": "2015-03-02",
+        "tags": ["splash-header"],
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2015-03-02-default-splash",
         "img": null
       },{
         "title": "Post: Future Date",

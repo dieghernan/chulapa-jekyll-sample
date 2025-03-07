@@ -1,7 +1,7 @@
 ---
 title: "Layout: Hero"
 header_img: images/unsplash-image-1.jpg
-header_type: image
+header_type: hero
 categories:
   - Layout
   - Uncategorized

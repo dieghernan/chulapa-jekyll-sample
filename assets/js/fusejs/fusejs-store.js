@@ -664,6 +664,16 @@ var store = [{
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2015-03-02-default-image",
         "img": null
       },{
+        "title": "Layout default none",
+        "subtitle": "This should appear in archive-like widgets",
+        "excerpt": "I appear always",
+        "content": "I appear always",
+        "categories": ["layout"],
+        "date": "2015-03-02",
+        "tags": ["none-header","images"],
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2015-03-02-default-none-img",
+        "img": "https://picsum.photos/seed/50/750/325"
+      },{
         "title": "Layout default splash image",
         "subtitle": "Splash header with image",
         "excerpt": "Layout test, header splash with image",

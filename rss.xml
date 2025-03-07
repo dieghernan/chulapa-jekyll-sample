@@ -7,8 +7,8 @@
 		<description>Chulapa Jekyll Theme starter pack</description>
 		<language>en-US</language>
 		<copyright>(c) 2025, Octocat</copyright>	
-		<pubDate>Fri, 07 Mar 2025 13:43:32 +0000</pubDate>
-		<lastBuildDate>Fri, 07 Mar 2025 13:43:32 +0000</lastBuildDate>
+		<pubDate>Fri, 07 Mar 2025 13:46:22 +0000</pubDate>
+		<lastBuildDate>Fri, 07 Mar 2025 13:46:22 +0000</lastBuildDate>
 		<category>blog</category>
 		<ttl>60</ttl>
 		<atom:link href="https://dieghernan.github.io/chulapa-jekyll-sample/rss.xml" rel="self" type="application/rss+xml" />
@@ -50,7 +50,7 @@
 			<link>https://dieghernan.github.io/chulapa-jekyll-sample/pets/tabby</link>
 			<category>pets</category>
 		    <guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/pets/tabby</guid>
-      <pubDate>Fri, 07 Mar 2025 13:43:32 +0000</pubDate>
+      <pubDate>Fri, 07 Mar 2025 13:46:22 +0000</pubDate>
 		</item><item>
 			<title>Lhasa Apso</title>
 			<description>
@@ -70,7 +70,7 @@
 			<link>https://dieghernan.github.io/chulapa-jekyll-sample/pets/lhasa-apso</link>
 			<category>pets</category>
 		    <guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/pets/lhasa-apso</guid>
-      <pubDate>Fri, 07 Mar 2025 13:43:32 +0000</pubDate>
+      <pubDate>Fri, 07 Mar 2025 13:46:22 +0000</pubDate>
 		</item><item>
 			<title>Draft Post</title>
 			<description>
@@ -92,7 +92,7 @@
 			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/post-draft</link>
 			<category>posts</category>
 		    <category>edge case</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/post-draft</guid>
-      <pubDate>Fri, 07 Mar 2025 13:43:24 +0000</pubDate>
+      <pubDate>Fri, 07 Mar 2025 13:46:14 +0000</pubDate>
 		</item><item>
 			<title>Layout default splash</title>
 			<description>
@@ -124,6 +124,23 @@
 		    <category>images</category><category>splash-header</category><media:title type="html"><![CDATA[Layout default splash image ]]></media:title>
       <media:content url="https://picsum.photos/seed/50/750/325" medium="image"/>
       <media:thumbnail url="https://picsum.photos/seed/50/750/325" /><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2015-03-02-default-splash-img</guid>
+      <pubDate>Mon, 02 Mar 2015 00:00:00 +0000</pubDate>
+		</item><item>
+			<title>Layout default none</title>
+			<description>
+				<![CDATA[	
+ 				<h3><p>This should appear in archive-like widgets</p>
+</h3>
+    		<p>1 min.</p>
+				<div><p>I appear always</p>
+</div>
+				]]>
+			</description>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/2015-03-02-default-none-img</link>
+			<category>posts</category>
+		    <category>images</category><category>none-header</category><media:title type="html"><![CDATA[Layout default none ]]></media:title>
+      <media:content url="https://picsum.photos/seed/50/750/325" medium="image"/>
+      <media:thumbnail url="https://picsum.photos/seed/50/750/325" /><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2015-03-02-default-none-img</guid>
       <pubDate>Mon, 02 Mar 2015 00:00:00 +0000</pubDate>
 		</item><item>
 			<title>Layout default image</title>
@@ -410,27 +427,27 @@ comments, mathjax and a modified date.</p>
 	</div>
         <div class="carousel-item" itemscope="" itemtype="https://schema.org/ImageObject">
     
-	<img class="d-block mw-100 chulapa-carousel" src="https://picsum.photos/seed/20/800/500" alt="Carousel Item #2" itemprop="contentUrl" />
+	<img class="d-block mw-100 chulapa-carousel" src="https://picsum.photos/seed/70/700/500" alt="Carousel Item #2" itemprop="contentUrl" />
 	</div>
         <div class="carousel-item" itemscope="" itemtype="https://schema.org/ImageObject">
     
-	<img class="d-block mw-100 chulapa-carousel" src="https://picsum.photos/seed/70/700/500" alt="Carousel Item #3" itemprop="contentUrl" />
+	<img class="d-block mw-100 chulapa-carousel" src="https://picsum.photos/seed/40/900/1300" alt="Carousel Item #3" itemprop="contentUrl" />
 	</div>
         <div class="carousel-item" itemscope="" itemtype="https://schema.org/ImageObject">
     
-	<img class="d-block mw-100 chulapa-carousel" src="https://picsum.photos/seed/50/750/325" alt="Carousel Item #4" itemprop="contentUrl" />
+	<img class="d-block mw-100 chulapa-carousel" src="https://picsum.photos/seed/20/800/500" alt="Carousel Item #4" itemprop="contentUrl" />
 	</div>
         <div class="carousel-item" itemscope="" itemtype="https://schema.org/ImageObject">
     
-	<img class="d-block mw-100 chulapa-carousel" src="https://picsum.photos/seed/40/900/1300" alt="Carousel Item #5" itemprop="contentUrl" />
+	<img class="d-block mw-100 chulapa-carousel" src="https://picsum.photos/seed/60/600" alt="Carousel Item #5" itemprop="contentUrl" />
 	</div>
         <div class="carousel-item" itemscope="" itemtype="https://schema.org/ImageObject">
     
-	<img class="d-block mw-100 chulapa-carousel" src="https://picsum.photos/seed/30/900/1200" alt="Carousel Item #6" itemprop="contentUrl" />
+	<img class="d-block mw-100 chulapa-carousel" src="https://picsum.photos/seed/50/750/325" alt="Carousel Item #6" itemprop="contentUrl" />
 	</div>
         <div class="carousel-item" itemscope="" itemtype="https://schema.org/ImageObject">
     
-	<img class="d-block mw-100 chulapa-carousel" src="https://picsum.photos/seed/60/600" alt="Carousel Item #7" itemprop="contentUrl" />
+	<img class="d-block mw-100 chulapa-carousel" src="https://picsum.photos/seed/30/900/1200" alt="Carousel Item #7" itemprop="contentUrl" />
 	</div></div>
   
   <a class="carousel-control-prev" href="#Carousel5418" role="button" data-slide="prev">

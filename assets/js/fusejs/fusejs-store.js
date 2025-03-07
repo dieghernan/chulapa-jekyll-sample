@@ -4,7 +4,7 @@ MIT License
 From minimal-mistakes: https://github.com/mmistakes/minimal-mistakes/
 */
 var store = [{
-        "title": "Archive",
+        "title": "Full Archive",
         "subtitle": "",
         "excerpt": "",
         "content": "",

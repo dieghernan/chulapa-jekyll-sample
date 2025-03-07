@@ -115,6 +115,8 @@ navbar:
     url     : /blog/ # url	
   - title   : Collections
     child:
+      - title : All Posts
+        url: /allposts
       - title : Pets
         url     : /pets # url	
       - title: Recipes

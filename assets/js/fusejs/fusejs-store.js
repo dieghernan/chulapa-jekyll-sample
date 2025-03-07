@@ -763,4 +763,114 @@ var store = [{
         "tags": ["splash-header"],
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-splash",
         "img": null
+      },{
+        "title": "Layout landing page base image",
+        "subtitle": "Base header with image",
+        "excerpt": "Layout test, header base with image",
+        "content": "Layout test, header base with image",
+        "categories": ["layout"],
+        "date": "2025-03-07",
+        "tags": ["base-header","images"],
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-base-img",
+        "img": "https://picsum.photos/seed/50/750/325"
+      },{
+        "title": "Layout landing page base",
+        "subtitle": "Base header with no image",
+        "excerpt": "Layout test, header base with no image",
+        "content": "Layout test, header base with no image",
+        "categories": ["layout"],
+        "date": "2025-03-07",
+        "tags": ["base-header"],
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-base",
+        "img": null
+      },{
+        "title": "Layout landing page hero image",
+        "subtitle": "Hero header with image",
+        "excerpt": "Layout test, header hero with image",
+        "content": "Layout test, header hero with image",
+        "categories": ["layout"],
+        "date": "2025-03-07",
+        "tags": ["hero-header","images"],
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-hero-img",
+        "img": "https://picsum.photos/seed/50/750/325"
+      },{
+        "title": "Layout landing page hero",
+        "subtitle": "Hero header with image",
+        "excerpt": "Layout test, header hero",
+        "content": "Layout test, header hero",
+        "categories": ["layout"],
+        "date": "2025-03-07",
+        "tags": ["hero-header"],
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-hero",
+        "img": null
+      },{
+        "title": "Layout landing page image image",
+        "subtitle": "Image header with image",
+        "excerpt": "Layout test, header image with image",
+        "content": "Layout test, header image with image",
+        "categories": ["layout"],
+        "date": "2025-03-07",
+        "tags": ["image-header","images"],
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-image-img",
+        "img": "https://picsum.photos/seed/50/750/325"
+      },{
+        "title": "Layout landing page image",
+        "subtitle": "Image header",
+        "excerpt": "Layout test, header image",
+        "content": "Layout test, header image",
+        "categories": ["layout"],
+        "date": "2025-03-07",
+        "tags": ["image-header"],
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-image",
+        "img": null
+      },{
+        "title": "Layout landing page none",
+        "subtitle": "This should appear in archive-like widgets",
+        "excerpt": "I appear always",
+        "content": "I appear always",
+        "categories": ["layout"],
+        "date": "2025-03-07",
+        "tags": ["none-header","images"],
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-none-img",
+        "img": "https://picsum.photos/seed/50/750/325"
+      },{
+        "title": "Layout landing page post image",
+        "subtitle": "Post header with image",
+        "excerpt": "Layout test, header post with image",
+        "content": "Layout test, header post with image",
+        "categories": ["layout"],
+        "date": "2025-03-07",
+        "tags": ["post-header","images"],
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-post-img",
+        "img": "https://picsum.photos/seed/50/750/325"
+      },{
+        "title": "Layout landing page post",
+        "subtitle": "Post header with no image",
+        "excerpt": "Layout test, header post with no image",
+        "content": "Layout test, header post with no image",
+        "categories": ["layout"],
+        "date": "2025-03-07",
+        "tags": ["post-header"],
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-post",
+        "img": null
+      },{
+        "title": "Layout landing page splash image",
+        "subtitle": "Splash header with image",
+        "excerpt": "Layout test, header splash with image",
+        "content": "Layout test, header splash with image",
+        "categories": ["layout"],
+        "date": "2025-03-07",
+        "tags": ["splash-header","images"],
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-splash-img",
+        "img": "https://picsum.photos/seed/50/750/325"
+      },{
+        "title": "Layout landing page splash",
+        "subtitle": "Splash header",
+        "excerpt": "Layout test, header splash",
+        "content": "Layout test, header splash",
+        "categories": ["layout"],
+        "date": "2025-03-07",
+        "tags": ["splash-header"],
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-splash",
+        "img": null
       }]

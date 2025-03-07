@@ -7,8 +7,8 @@
 		<description>Chulapa Jekyll Theme starter pack</description>
 		<language>en-US</language>
 		<copyright>(c) 2025, Octocat</copyright>	
-		<pubDate>Fri, 07 Mar 2025 14:08:25 +0000</pubDate>
-		<lastBuildDate>Fri, 07 Mar 2025 14:08:25 +0000</lastBuildDate>
+		<pubDate>Fri, 07 Mar 2025 15:12:10 +0000</pubDate>
+		<lastBuildDate>Fri, 07 Mar 2025 15:12:10 +0000</lastBuildDate>
 		<category>blog</category>
 		<ttl>60</ttl>
 		<atom:link href="https://dieghernan.github.io/chulapa-jekyll-sample/rss.xml" rel="self" type="application/rss+xml" />
@@ -32,6 +32,183 @@
 		    <guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/2010-10-25-post-future-date</guid>
       <pubDate>Fri, 31 Dec 9999 00:00:00 +0000</pubDate>
 		</item><item>
+			<title>Layout landing page splash</title>
+			<description>
+				<![CDATA[	
+ 				<h3><p>Splash header</p>
+</h3>
+    		<p>1 min.</p>
+				<div><p>Layout test, header splash</p>
+</div>
+				]]>
+			</description>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-splash</link>
+			<category>headers</category>
+		    <category>splash-header</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-splash</guid>
+      <pubDate>Fri, 07 Mar 2025 15:12:10 +0000</pubDate>
+		</item><item>
+			<title>Layout landing page splash image</title>
+			<description>
+				<![CDATA[	
+ 				<h3><p>Splash header with image</p>
+</h3>
+    		<p>1 min.</p>
+				<div><p>Layout test, header splash with image</p>
+</div>
+				]]>
+			</description>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-splash-img</link>
+			<category>headers</category>
+		    <category>images</category><category>splash-header</category><media:title type="html"><![CDATA[Layout landing page splash image ]]></media:title>
+      <media:content url="https://picsum.photos/seed/50/750/325" medium="image"/>
+      <media:thumbnail url="https://picsum.photos/seed/50/750/325" /><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-splash-img</guid>
+      <pubDate>Fri, 07 Mar 2025 15:12:10 +0000</pubDate>
+		</item><item>
+			<title>Layout landing page post</title>
+			<description>
+				<![CDATA[	
+ 				<h3><p>Post header with no image</p>
+</h3>
+    		<p>1 min.</p>
+				<div><p>Layout test, header post with no image</p>
+</div>
+				]]>
+			</description>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-post</link>
+			<category>headers</category>
+		    <category>post-header</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-post</guid>
+      <pubDate>Fri, 07 Mar 2025 15:12:10 +0000</pubDate>
+		</item><item>
+			<title>Layout landing page post image</title>
+			<description>
+				<![CDATA[	
+ 				<h3><p>Post header with image</p>
+</h3>
+    		<p>1 min.</p>
+				<div><p>Layout test, header post with image</p>
+</div>
+				]]>
+			</description>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-post-img</link>
+			<category>headers</category>
+		    <category>images</category><category>post-header</category><media:title type="html"><![CDATA[Layout landing page post image ]]></media:title>
+      <media:content url="https://picsum.photos/seed/50/750/325" medium="image"/>
+      <media:thumbnail url="https://picsum.photos/seed/50/750/325" /><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-post-img</guid>
+      <pubDate>Fri, 07 Mar 2025 15:12:10 +0000</pubDate>
+		</item><item>
+			<title>Layout landing page none</title>
+			<description>
+				<![CDATA[	
+ 				<h3><p>This should appear in archive-like widgets</p>
+</h3>
+    		<p>1 min.</p>
+				<div><p>I appear always</p>
+</div>
+				]]>
+			</description>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-none-img</link>
+			<category>headers</category>
+		    <category>images</category><category>none-header</category><media:title type="html"><![CDATA[Layout landing page none ]]></media:title>
+      <media:content url="https://picsum.photos/seed/50/750/325" medium="image"/>
+      <media:thumbnail url="https://picsum.photos/seed/50/750/325" /><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-none-img</guid>
+      <pubDate>Fri, 07 Mar 2025 15:12:10 +0000</pubDate>
+		</item><item>
+			<title>Layout landing page image</title>
+			<description>
+				<![CDATA[	
+ 				<h3><p>Image header</p>
+</h3>
+    		<p>1 min.</p>
+				<div><p>Layout test, header image</p>
+</div>
+				]]>
+			</description>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-image</link>
+			<category>headers</category>
+		    <category>image-header</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-image</guid>
+      <pubDate>Fri, 07 Mar 2025 15:12:10 +0000</pubDate>
+		</item><item>
+			<title>Layout landing page image image</title>
+			<description>
+				<![CDATA[	
+ 				<h3><p>Image header with image</p>
+</h3>
+    		<p>1 min.</p>
+				<div><p>Layout test, header image with image</p>
+</div>
+				]]>
+			</description>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-image-img</link>
+			<category>headers</category>
+		    <category>image-header</category><category>images</category><media:title type="html"><![CDATA[Layout landing page image image ]]></media:title>
+      <media:content url="https://picsum.photos/seed/50/750/325" medium="image"/>
+      <media:thumbnail url="https://picsum.photos/seed/50/750/325" /><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-image-img</guid>
+      <pubDate>Fri, 07 Mar 2025 15:12:10 +0000</pubDate>
+		</item><item>
+			<title>Layout landing page hero</title>
+			<description>
+				<![CDATA[	
+ 				<h3><p>Hero header with image</p>
+</h3>
+    		<p>1 min.</p>
+				<div><p>Layout test, header hero</p>
+</div>
+				]]>
+			</description>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-hero</link>
+			<category>headers</category>
+		    <category>hero-header</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-hero</guid>
+      <pubDate>Fri, 07 Mar 2025 15:12:10 +0000</pubDate>
+		</item><item>
+			<title>Layout landing page hero image</title>
+			<description>
+				<![CDATA[	
+ 				<h3><p>Hero header with image</p>
+</h3>
+    		<p>1 min.</p>
+				<div><p>Layout test, header hero with image</p>
+</div>
+				]]>
+			</description>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-hero-img</link>
+			<category>headers</category>
+		    <category>hero-header</category><category>images</category><media:title type="html"><![CDATA[Layout landing page hero image ]]></media:title>
+      <media:content url="https://picsum.photos/seed/50/750/325" medium="image"/>
+      <media:thumbnail url="https://picsum.photos/seed/50/750/325" /><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-hero-img</guid>
+      <pubDate>Fri, 07 Mar 2025 15:12:10 +0000</pubDate>
+		</item><item>
+			<title>Layout landing page base</title>
+			<description>
+				<![CDATA[	
+ 				<h3><p>Base header with no image</p>
+</h3>
+    		<p>1 min.</p>
+				<div><p>Layout test, header base with no image</p>
+</div>
+				]]>
+			</description>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-base</link>
+			<category>headers</category>
+		    <category>base-header</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-base</guid>
+      <pubDate>Fri, 07 Mar 2025 15:12:10 +0000</pubDate>
+		</item><item>
+			<title>Layout landing page base image</title>
+			<description>
+				<![CDATA[	
+ 				<h3><p>Base header with image</p>
+</h3>
+    		<p>1 min.</p>
+				<div><p>Layout test, header base with image</p>
+</div>
+				]]>
+			</description>
+			<link>https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-base-img</link>
+			<category>headers</category>
+		    <category>base-header</category><category>images</category><media:title type="html"><![CDATA[Layout landing page base image ]]></media:title>
+      <media:content url="https://picsum.photos/seed/50/750/325" medium="image"/>
+      <media:thumbnail url="https://picsum.photos/seed/50/750/325" /><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-base-img</guid>
+      <pubDate>Fri, 07 Mar 2025 15:12:10 +0000</pubDate>
+		</item><item>
 			<title>Layout default splash</title>
 			<description>
 				<![CDATA[	
@@ -45,7 +222,7 @@
 			<link>https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-splash</link>
 			<category>headers</category>
 		    <category>splash-header</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-splash</guid>
-      <pubDate>Fri, 07 Mar 2025 14:08:25 +0000</pubDate>
+      <pubDate>Fri, 07 Mar 2025 15:12:10 +0000</pubDate>
 		</item><item>
 			<title>Layout default splash image</title>
 			<description>
@@ -62,7 +239,7 @@
 		    <category>images</category><category>splash-header</category><media:title type="html"><![CDATA[Layout default splash image ]]></media:title>
       <media:content url="https://picsum.photos/seed/50/750/325" medium="image"/>
       <media:thumbnail url="https://picsum.photos/seed/50/750/325" /><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-splash-img</guid>
-      <pubDate>Fri, 07 Mar 2025 14:08:25 +0000</pubDate>
+      <pubDate>Fri, 07 Mar 2025 15:12:10 +0000</pubDate>
 		</item><item>
 			<title>Layout default post</title>
 			<description>
@@ -77,7 +254,7 @@
 			<link>https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-post</link>
 			<category>headers</category>
 		    <category>post-header</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-post</guid>
-      <pubDate>Fri, 07 Mar 2025 14:08:25 +0000</pubDate>
+      <pubDate>Fri, 07 Mar 2025 15:12:10 +0000</pubDate>
 		</item><item>
 			<title>Layout default post image</title>
 			<description>
@@ -94,7 +271,7 @@
 		    <category>images</category><category>post-header</category><media:title type="html"><![CDATA[Layout default post image ]]></media:title>
       <media:content url="https://picsum.photos/seed/50/750/325" medium="image"/>
       <media:thumbnail url="https://picsum.photos/seed/50/750/325" /><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-post-img</guid>
-      <pubDate>Fri, 07 Mar 2025 14:08:25 +0000</pubDate>
+      <pubDate>Fri, 07 Mar 2025 15:12:10 +0000</pubDate>
 		</item><item>
 			<title>Layout default none</title>
 			<description>
@@ -111,7 +288,7 @@
 		    <category>images</category><category>none-header</category><media:title type="html"><![CDATA[Layout default none ]]></media:title>
       <media:content url="https://picsum.photos/seed/50/750/325" medium="image"/>
       <media:thumbnail url="https://picsum.photos/seed/50/750/325" /><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-none-img</guid>
-      <pubDate>Fri, 07 Mar 2025 14:08:25 +0000</pubDate>
+      <pubDate>Fri, 07 Mar 2025 15:12:10 +0000</pubDate>
 		</item><item>
 			<title>Layout default image</title>
 			<description>
@@ -126,7 +303,7 @@
 			<link>https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-image</link>
 			<category>headers</category>
 		    <category>image-header</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-image</guid>
-      <pubDate>Fri, 07 Mar 2025 14:08:25 +0000</pubDate>
+      <pubDate>Fri, 07 Mar 2025 15:12:10 +0000</pubDate>
 		</item><item>
 			<title>Layout default image image</title>
 			<description>
@@ -143,7 +320,7 @@
 		    <category>image-header</category><category>images</category><media:title type="html"><![CDATA[Layout default image image ]]></media:title>
       <media:content url="https://picsum.photos/seed/50/750/325" medium="image"/>
       <media:thumbnail url="https://picsum.photos/seed/50/750/325" /><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-image-img</guid>
-      <pubDate>Fri, 07 Mar 2025 14:08:25 +0000</pubDate>
+      <pubDate>Fri, 07 Mar 2025 15:12:10 +0000</pubDate>
 		</item><item>
 			<title>Layout default hero</title>
 			<description>
@@ -158,7 +335,7 @@
 			<link>https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-hero</link>
 			<category>headers</category>
 		    <category>hero-header</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-hero</guid>
-      <pubDate>Fri, 07 Mar 2025 14:08:25 +0000</pubDate>
+      <pubDate>Fri, 07 Mar 2025 15:12:10 +0000</pubDate>
 		</item><item>
 			<title>Layout default hero image</title>
 			<description>
@@ -175,7 +352,7 @@
 		    <category>hero-header</category><category>images</category><media:title type="html"><![CDATA[Layout default hero image ]]></media:title>
       <media:content url="https://picsum.photos/seed/50/750/325" medium="image"/>
       <media:thumbnail url="https://picsum.photos/seed/50/750/325" /><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-hero-img</guid>
-      <pubDate>Fri, 07 Mar 2025 14:08:25 +0000</pubDate>
+      <pubDate>Fri, 07 Mar 2025 15:12:10 +0000</pubDate>
 		</item><item>
 			<title>Layout default base</title>
 			<description>
@@ -190,7 +367,7 @@
 			<link>https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-base</link>
 			<category>headers</category>
 		    <category>base-header</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-base</guid>
-      <pubDate>Fri, 07 Mar 2025 14:08:25 +0000</pubDate>
+      <pubDate>Fri, 07 Mar 2025 15:12:10 +0000</pubDate>
 		</item><item>
 			<title>Layout default base image</title>
 			<description>
@@ -207,7 +384,7 @@
 		    <category>base-header</category><category>images</category><media:title type="html"><![CDATA[Layout default base image ]]></media:title>
       <media:content url="https://picsum.photos/seed/50/750/325" medium="image"/>
       <media:thumbnail url="https://picsum.photos/seed/50/750/325" /><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-base-img</guid>
-      <pubDate>Fri, 07 Mar 2025 14:08:25 +0000</pubDate>
+      <pubDate>Fri, 07 Mar 2025 15:12:10 +0000</pubDate>
 		</item><item>
 			<title>Tabby</title>
 			<description>
@@ -227,7 +404,7 @@
 			<link>https://dieghernan.github.io/chulapa-jekyll-sample/pets/tabby</link>
 			<category>pets</category>
 		    <guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/pets/tabby</guid>
-      <pubDate>Fri, 07 Mar 2025 14:08:25 +0000</pubDate>
+      <pubDate>Fri, 07 Mar 2025 15:12:10 +0000</pubDate>
 		</item><item>
 			<title>Lhasa Apso</title>
 			<description>
@@ -247,7 +424,7 @@
 			<link>https://dieghernan.github.io/chulapa-jekyll-sample/pets/lhasa-apso</link>
 			<category>pets</category>
 		    <guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/pets/lhasa-apso</guid>
-      <pubDate>Fri, 07 Mar 2025 14:08:25 +0000</pubDate>
+      <pubDate>Fri, 07 Mar 2025 15:12:10 +0000</pubDate>
 		</item><item>
 			<title>Draft Post</title>
 			<description>
@@ -269,7 +446,7 @@
 			<link>https://dieghernan.github.io/chulapa-jekyll-sample/blog/post-draft</link>
 			<category>posts</category>
 		    <category>edge case</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-jekyll-sample/blog/post-draft</guid>
-      <pubDate>Fri, 07 Mar 2025 14:08:19 +0000</pubDate>
+      <pubDate>Fri, 07 Mar 2025 15:12:03 +0000</pubDate>
 		</item><item>
 			<title>No MathJax</title>
 			<description>
@@ -423,27 +600,27 @@ comments, mathjax and a modified date.</p>
   <div class="carousel-inner">
         <div class="carousel-item active" itemscope="" itemtype="https://schema.org/ImageObject">
     
-	<img class="d-block mw-100 chulapa-carousel" src="https://picsum.photos/seed/60/600" alt="Carousel Item #1" itemprop="contentUrl" />
+	<img class="d-block mw-100 chulapa-carousel" src="https://picsum.photos/seed/20/800/500" alt="Carousel Item #1" itemprop="contentUrl" />
 	</div>
         <div class="carousel-item" itemscope="" itemtype="https://schema.org/ImageObject">
     
-	<img class="d-block mw-100 chulapa-carousel" src="https://picsum.photos/seed/20/800/500" alt="Carousel Item #2" itemprop="contentUrl" />
+	<img class="d-block mw-100 chulapa-carousel" src="https://picsum.photos/seed/40/900/1300" alt="Carousel Item #2" itemprop="contentUrl" />
 	</div>
         <div class="carousel-item" itemscope="" itemtype="https://schema.org/ImageObject">
     
-	<img class="d-block mw-100 chulapa-carousel" src="https://picsum.photos/seed/10/600/1200" alt="Carousel Item #3" itemprop="contentUrl" />
+	<img class="d-block mw-100 chulapa-carousel" src="https://picsum.photos/seed/50/750/325" alt="Carousel Item #3" itemprop="contentUrl" />
 	</div>
         <div class="carousel-item" itemscope="" itemtype="https://schema.org/ImageObject">
     
-	<img class="d-block mw-100 chulapa-carousel" src="https://picsum.photos/seed/70/700/500" alt="Carousel Item #4" itemprop="contentUrl" />
+	<img class="d-block mw-100 chulapa-carousel" src="https://picsum.photos/seed/10/600/1200" alt="Carousel Item #4" itemprop="contentUrl" />
 	</div>
         <div class="carousel-item" itemscope="" itemtype="https://schema.org/ImageObject">
     
-	<img class="d-block mw-100 chulapa-carousel" src="https://picsum.photos/seed/50/750/325" alt="Carousel Item #5" itemprop="contentUrl" />
+	<img class="d-block mw-100 chulapa-carousel" src="https://picsum.photos/seed/60/600" alt="Carousel Item #5" itemprop="contentUrl" />
 	</div>
         <div class="carousel-item" itemscope="" itemtype="https://schema.org/ImageObject">
     
-	<img class="d-block mw-100 chulapa-carousel" src="https://picsum.photos/seed/40/900/1300" alt="Carousel Item #6" itemprop="contentUrl" />
+	<img class="d-block mw-100 chulapa-carousel" src="https://picsum.photos/seed/70/700/500" alt="Carousel Item #6" itemprop="contentUrl" />
 	</div>
         <div class="carousel-item" itemscope="" itemtype="https://schema.org/ImageObject">
     

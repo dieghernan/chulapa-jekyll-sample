@@ -8,6 +8,7 @@ tags:
   - html
   - title
   - break-layout
+  - atom
 show_related: true
 show_sociallinks: true
 ---

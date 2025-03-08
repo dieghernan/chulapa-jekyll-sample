@@ -7,6 +7,7 @@ tags:
   - markup
   - post
   - title
+  - atom
 ---
 
 Putting special characters in the title should have no adverse effect on the layout or functionality.

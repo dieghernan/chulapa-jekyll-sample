@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" >
 	<generator uri="https://dieghernan.github.io/chulapa" version="1.0.0">Chulapa</generator>
-	<link href="https://dieghernan.github.io/chulapa-jekyll-sample/atomtest.xml" rel="self" type="application/atom+xml" />
+	<link href="https://dieghernan.github.io/chulapa-jekyll-sample/atomtest2.xml" rel="self" type="application/atom+xml" />
 	<link href="https://dieghernan.github.io/chulapa-jekyll-sample" rel="alternate" type="text/html" />
-	<updated>2025-03-08T08:32:33+00:00</updated>
-	<id>https://dieghernan.github.io/chulapa-jekyll-sample/atomtest.xml</id>
+	<updated>2025-03-08T08:38:57+00:00</updated>
+	<id>https://dieghernan.github.io/chulapa-jekyll-sample/atomtest2.xml</id>
 	<title>Chulapa Jekyll Sample | A test</title>
 	<subtitle>A test</subtitle>
 	<author>
@@ -476,7 +476,7 @@
 		<category term="posts"/>
 		<category term="atom"/><category term="html"/><category term="markup"/><category term="post"/><category term="title"/>
 	</entry><entry>
-		<title type="html">Markup: Title with Markdown</title>
+		<title type="html">Markup: Title &lt;em&gt;with&lt;/em&gt; &lt;strong&gt;Markdown&lt;/strong&gt;</title>
 		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-05-markup-title-with-markdown" rel="alternate" type="text/html" title="Markup: Title with Markdown"/>
 		<published>2013-01-05T00:00:00+00:00</published>
 		<updated>2013-01-05T00:00:00+00:00</updated>
@@ -504,7 +504,7 @@
 		<category term="posts"/>
 		<category term="atom"/><category term="break-layout"/><category term="html"/><category term="title"/>
 	</entry><entry>
-		<title type="html">Markup: Title with HTML</title>
+		<title type="html">Markup: Title &lt;em&gt;with&lt;/em&gt; &lt;strong&gt;HTML&lt;/strong&gt;</title>
 		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-05-markup-title-with-html" rel="alternate" type="text/html" title="Markup: Title with HTML"/>
 		<published>2013-01-05T00:00:00+00:00</published>
 		<updated>2013-01-05T00:00:00+00:00</updated>
@@ -527,5 +527,5 @@
 		<summary type="html">&lt;p&gt;Verify that:&lt;/p&gt;
 </summary>
 		<category term="posts"/>
-		<category term=""/><category term="atom"/><category term="break-layout"/><category term="html"/><category term="title"/>
+		<category term="atom"/><category term="break-layout"/><category term="html"/><category term="title"/>
 	</entry></feed>

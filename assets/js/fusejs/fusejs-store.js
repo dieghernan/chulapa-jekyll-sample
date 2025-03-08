@@ -450,7 +450,7 @@ var store = [{
         "content": "Verify that:      The post title renders the word “with” in italics and the word “HTML” in bold.   The post title markup should be removed from the browser window / tab.",
         "categories": ["Markdown"],
         "date": "2013-01-05",
-        "tags": ["html","title","break-layout,","atom"],
+        "tags": ["html","title","break-layout","atom"],
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/2013-01-05-markup-title-with-html",
         "img": null
       },{

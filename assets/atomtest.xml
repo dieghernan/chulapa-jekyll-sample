@@ -1,6 +1,6 @@
 ---
 layout: null
-permalink: ./atomtest.xml
+permalink: ./atomtest2.xml
 ---
 {%- assign og_image = site.og_image | default: site.author.avatar | default: site.github.owner_gravatar_url | absolute_url -%}
 <?xml version="1.0" encoding="utf-8"?>
@@ -37,7 +37,7 @@ permalink: ./atomtest.xml
 	{%- assign words = document.content | strip_html | number_of_words -%}   	
 		{%- assign minutes = words | divided_by: wpm | ceil | at_least: 1 -%}
 	<entry>
-		<title type="html">{{ document.title | markdownify | strip_html | strip_newlines | strip | escape }}</title>
+		<title type="html">{{ document.title | markdownify | remove: "<p>" | remove: "</p>" | strip_newlines | strip | escape }}</title>
 		<link href="{{ document.url | replace: "index.html", "" | absolute_url | uri_escape }}" rel="alternate" type="text/html" title="{{ document.title | markdownify | strip_html | strip_newlines | strip | escape | xml_escape | escape }}"/>
 		<published>{{ document.date | date_to_xmlschema }}</published>
 		<updated>{{ document.last_modified_at | default: document.date | date_to_xmlschema }}</updated>

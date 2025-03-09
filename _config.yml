@@ -113,6 +113,8 @@ navbar:
   nav:
   - title   : Blog # Label
     url     : /blog/ # url	
+  - title   : Bootstrap 4 Demo
+    url     : /bootstrap4 # url 
   - title   : Collections
     child:
       - title : All Posts
@@ -160,7 +162,7 @@ googlefonts:
 # Theme and colors
 chulapa-skin: 
   highlight     :  # default["default"]
-  skin         :  gitdev # Optional predefined skins
+  skin         :  cyborg # Optional predefined skins
   autothemer    :   # Bool: Use autotheming
   vars          :    
     primary     : #default ["#007bff"] - Bootstrap blue

@@ -162,7 +162,7 @@ googlefonts:
 # Theme and colors
 chulapa-skin: 
   highlight     :  # default["default"]
-  skin         :  cyborg # Optional predefined skins
+  skin         :  yeti # Optional predefined skins
   autothemer    :   # Bool: Use autotheming
   vars          :    
     primary     : #default ["#007bff"] - Bootstrap blue
@@ -191,7 +191,10 @@ collections:
   headers:
     output: true
     permalink: /headers/:name
-
+  pages:
+    output: true
+    permalink: /:name
+    
 collections_dir     : 
 permalink           : /:title/
 

@@ -10,7 +10,21 @@ categories: [skins]
 show_bottomnavs: true
 show_tags: true
 show_categories: true
+show_toc: true
 permalink: /bootstrap4
+show_breadcrumb: true
+show_date         : true
+show_sociallinks  : true
+show_comments     : true
+show_related      : true
+show_author       : true
+show_sidetoc      : true
+show_seo          : true
+breadcrumb_list:
+  - label: Home
+    url: /
+  - label: Sitemap
+    url: /sitemap/#pages
 ---
 
 

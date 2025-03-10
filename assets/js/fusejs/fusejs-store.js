@@ -8,9 +8,9 @@ var store = [{
         "subtitle": "",
         "excerpt": "",
         "content": "",
-        "categories": null,
-        "date": null,
-        "tags": null,
+        "categories": [],
+        "date": "2025-03-10",
+        "tags": [],
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/archive",
         "img": null
       },{
@@ -872,5 +872,15 @@ var store = [{
         "date": "2025-03-10",
         "tags": ["splash-header"],
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-splash",
+        "img": null
+      },{
+        "title": "Full Archive",
+        "subtitle": "",
+        "excerpt": "",
+        "content": "",
+        "categories": [],
+        "date": "2025-03-10",
+        "tags": [],
+        "url": "https://dieghernan.github.io/chulapa-jekyll-sample/archive",
         "img": null
       }]

@@ -162,7 +162,7 @@ googlefonts:
 # Theme and colors
 chulapa-skin: 
   highlight     :  monokai # default["default"]
-  skin         :  butterfly-dark # Optional predefined skins
+  skin         :  factory # Optional predefined skins
   autothemer    :   # Bool: Use autotheming
   vars          :    
     primary     : #default ["#007bff"] - Bootstrap blue
@@ -256,6 +256,7 @@ defaults:
       show_tags         : true
       show_categories   : true
       show_related      : true
+      show_random       : true
       show_breadcrumb   : true
       breadcrumb_list   :
         - label: Headers

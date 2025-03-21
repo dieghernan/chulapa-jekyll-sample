@@ -11,7 +11,7 @@ show_bottomnavs: true
 show_tags: true
 show_categories: true
 show_toc: true
-permalink: /bootstrap4
+permalink: /bootstrap4_landing
 show_breadcrumb: true
 show_date         : true
 show_sociallinks  : true

@@ -113,8 +113,12 @@ navbar:
   nav:
   - title   : Blog # Label
     url     : /blog/ # url	
-  - title   : Bootstrap 4 Demo
-    url     : /bootstrap4 # url 
+  - title   : Bootstrap Demos
+    child:
+      - title   : Bootstrap 4 Demo
+        url     : /bootstrap4 # url 
+      - title   : Bootstrap 4 Demo Landing
+        url     : /bootstrap4_landing
   - title   : Collections
     child:
       - title : All Posts

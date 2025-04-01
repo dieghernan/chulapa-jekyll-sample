@@ -165,8 +165,8 @@ googlefonts:
 
 # Theme and colors
 chulapa-skin: 
-  highlight     :  gruvbox.light # default["default"]
-  skin         :  factory # Optional predefined skins
+  highlight     :  solarized-dark # default["default"]
+  skin         :  solarized # Optional predefined skins
   autothemer    :   # Bool: Use autotheming
   vars          :    
     primary     : #default ["#007bff"] - Bootstrap blue

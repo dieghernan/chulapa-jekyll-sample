@@ -1,4 +1,4 @@
-// Solarized Dark
+// Solarized
 // by dieghernan
 
 // Import Google Fonts
@@ -23,19 +23,22 @@ $cyan:      #2aa198;
 $green:     #859900;
 
 // Theme Colors
-$body-bg: $base03;
-$body-color: $base0;
+$body-bg: $base3;
+$body-color: $base00;
 $primary: $yellow;
-$secondary: $base01;
+$secondary: $base1;
 $success: $cyan;
 $info: $violet;
 $warning: $orange;
 $danger: $red;
-$dark: black;
-$light: $base02;
+$dark: $base03;
+$light: $base2;
 
-$black: $base1;
-$gray-900: $base1;
+$landingpage-chulapa-bg-color: $base03;
+$landingpage-chulapa-text-color: $base0;
+
+$black: $base01;
+$gray-900: $base01;
 $white: mix(white, $body-color, 90%);
 
 // Navbar and Table Colors

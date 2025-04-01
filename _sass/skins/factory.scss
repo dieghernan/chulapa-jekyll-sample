@@ -1,26 +1,37 @@
-// Butterfly
 
-@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
-
-$headings-font-family: 'Sora', 'Roboto' !default;
-$font-family-base: 'Sora', 'Roboto' !default;
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
 
-$primary: #457AFF !default;
-$secondary: #000033 !default;
-$success: #00a648 !default;
-$info: #6d3fa1 !default;
-$warning: #f7df1e !default;
-$danger: #b52e31 !default;
-$dark: #23263b !default;
-$light: #d6d6e7 !default;
-$white: #ffffff !default;
+$base03:    #002b36;
+$base02:    #073642;
+$base01:    #586e75;
+$base00:    #657b83;
+$base0:     #839496;
+$base1:     #93a1a1;
+$base2:     #eee8d5;
+$base3:     #fdf6e3;
+$yellow:    #b58900;
+$orange:    #cb4b16;
+$red:       #dc322f;
+$magenta:   #d33682;
+$violet:    #6c71c4;
+$blue:      #268bd2;
+$cyan:      #2aa198;
+$green:     #859900;
 
-$body-color: $dark !default;
 
-$navbar-chulapa-bg-color: $secondary !default;
-$thead-chulapa-bg-color: $secondary !default;
+$body-bg: $base3;
+$body-color: $base01;
+$primary: $yellow;
+$secondary: $base2;
+$success: $green;
+$info: $violet;
+$warning: $orange;
+$danger: $red;
+$dark: $base02;
+$light: $base2;
+$navbar-chulapa-bg-color: $body-bg;
+$thead-chulapa-bg-color: $navbar-chulapa-bg-color;
+$headings-color: $base02;
 
-.card.bg-primary, .card.bg-secondary {
-  color: $white;
-}
+$font-family-sans-serif:      "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;

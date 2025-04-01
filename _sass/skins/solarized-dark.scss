@@ -33,6 +33,7 @@ $warning: $orange;
 $danger: $red;
 $dark: black;
 $light: $base02;
+$border-width: 1px !default;
 
 $landingpage-chulapa-bg-color: $base3;
 $landingpage-chulapa-text-color: $base00;
@@ -68,7 +69,7 @@ $breadcrumb-bg: $light;
 }
 
 pre {
-  border-width: 1px;
-      border-style: solid;
-      border-color: $light;
+  border-width: $border-width;
+  border-style: solid;
+  border-color: $light;
 }

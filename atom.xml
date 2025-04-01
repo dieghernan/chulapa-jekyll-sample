@@ -3,7 +3,7 @@
 	<generator uri="https://dieghernan.github.io/chulapa" version="1.0.0">Chulapa</generator>
 	<link href="https://dieghernan.github.io/chulapa-jekyll-sample/atom.xml" rel="self" type="application/atom+xml" />
 	<link href="https://dieghernan.github.io/chulapa-jekyll-sample" rel="alternate" type="text/html" />
-	<updated>2025-04-01T19:44:37+00:00</updated>
+	<updated>2025-04-01T22:07:45+00:00</updated>
 	<id>https://dieghernan.github.io/chulapa-jekyll-sample/atom.xml</id>
 	<title>Chulapa Jekyll Sample | A test</title>
 	<subtitle>A test</subtitle>
@@ -36,8 +36,8 @@
 	</entry><entry>
 		<title type="html">Layout landing page splash</title>
 		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-splash" rel="alternate" type="text/html" title="Layout landing page splash"/>
-		<published>2025-04-01T19:44:37+00:00</published>
-		<updated>2025-04-01T19:44:37+00:00</updated>
+		<published>2025-04-01T22:07:45+00:00</published>
+		<updated>2025-04-01T22:07:45+00:00</updated>
 		<id>https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-splash</id>
 		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-splash">
 		
@@ -59,8 +59,8 @@
 	</entry><entry>
 		<title type="html">Layout landing page splash image</title>
 		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-splash-img" rel="alternate" type="text/html" title="Layout landing page splash image"/>
-		<published>2025-04-01T19:44:37+00:00</published>
-		<updated>2025-04-01T19:44:37+00:00</updated>
+		<published>2025-04-01T22:07:45+00:00</published>
+		<updated>2025-04-01T22:07:45+00:00</updated>
 		<id>https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-splash-img</id>
 		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-splash-img">
 		
@@ -84,8 +84,8 @@
 	</entry><entry>
 		<title type="html">Layout landing page post</title>
 		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-post" rel="alternate" type="text/html" title="Layout landing page post"/>
-		<published>2025-04-01T19:44:37+00:00</published>
-		<updated>2025-04-01T19:44:37+00:00</updated>
+		<published>2025-04-01T22:07:45+00:00</published>
+		<updated>2025-04-01T22:07:45+00:00</updated>
 		<id>https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-post</id>
 		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-post">
 		
@@ -107,8 +107,8 @@
 	</entry><entry>
 		<title type="html">Layout landing page post image</title>
 		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-post-img" rel="alternate" type="text/html" title="Layout landing page post image"/>
-		<published>2025-04-01T19:44:37+00:00</published>
-		<updated>2025-04-01T19:44:37+00:00</updated>
+		<published>2025-04-01T22:07:45+00:00</published>
+		<updated>2025-04-01T22:07:45+00:00</updated>
 		<id>https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-post-img</id>
 		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-post-img">
 		
@@ -132,8 +132,8 @@
 	</entry><entry>
 		<title type="html">Layout landing page none</title>
 		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-none-img" rel="alternate" type="text/html" title="Layout landing page none"/>
-		<published>2025-04-01T19:44:37+00:00</published>
-		<updated>2025-04-01T19:44:37+00:00</updated>
+		<published>2025-04-01T22:07:45+00:00</published>
+		<updated>2025-04-01T22:07:45+00:00</updated>
 		<id>https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-none-img</id>
 		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-none-img">
 		
@@ -157,8 +157,8 @@
 	</entry><entry>
 		<title type="html">Layout landing page image</title>
 		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-image" rel="alternate" type="text/html" title="Layout landing page image"/>
-		<published>2025-04-01T19:44:37+00:00</published>
-		<updated>2025-04-01T19:44:37+00:00</updated>
+		<published>2025-04-01T22:07:45+00:00</published>
+		<updated>2025-04-01T22:07:45+00:00</updated>
 		<id>https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-image</id>
 		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-image">
 		
@@ -180,8 +180,8 @@
 	</entry><entry>
 		<title type="html">Layout landing page image image</title>
 		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-image-img" rel="alternate" type="text/html" title="Layout landing page image image"/>
-		<published>2025-04-01T19:44:37+00:00</published>
-		<updated>2025-04-01T19:44:37+00:00</updated>
+		<published>2025-04-01T22:07:45+00:00</published>
+		<updated>2025-04-01T22:07:45+00:00</updated>
 		<id>https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-image-img</id>
 		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-image-img">
 		
@@ -205,8 +205,8 @@
 	</entry><entry>
 		<title type="html">Layout landing page hero</title>
 		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-hero" rel="alternate" type="text/html" title="Layout landing page hero"/>
-		<published>2025-04-01T19:44:37+00:00</published>
-		<updated>2025-04-01T19:44:37+00:00</updated>
+		<published>2025-04-01T22:07:45+00:00</published>
+		<updated>2025-04-01T22:07:45+00:00</updated>
 		<id>https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-hero</id>
 		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-hero">
 		
@@ -228,8 +228,8 @@
 	</entry><entry>
 		<title type="html">Layout landing page hero image</title>
 		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-hero-img" rel="alternate" type="text/html" title="Layout landing page hero image"/>
-		<published>2025-04-01T19:44:37+00:00</published>
-		<updated>2025-04-01T19:44:37+00:00</updated>
+		<published>2025-04-01T22:07:45+00:00</published>
+		<updated>2025-04-01T22:07:45+00:00</updated>
 		<id>https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-hero-img</id>
 		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-hero-img">
 		
@@ -253,8 +253,8 @@
 	</entry><entry>
 		<title type="html">Layout landing page base</title>
 		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-base" rel="alternate" type="text/html" title="Layout landing page base"/>
-		<published>2025-04-01T19:44:37+00:00</published>
-		<updated>2025-04-01T19:44:37+00:00</updated>
+		<published>2025-04-01T22:07:45+00:00</published>
+		<updated>2025-04-01T22:07:45+00:00</updated>
 		<id>https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-base</id>
 		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-base">
 		
@@ -276,8 +276,8 @@
 	</entry><entry>
 		<title type="html">Layout landing page base image</title>
 		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-base-img" rel="alternate" type="text/html" title="Layout landing page base image"/>
-		<published>2025-04-01T19:44:37+00:00</published>
-		<updated>2025-04-01T19:44:37+00:00</updated>
+		<published>2025-04-01T22:07:45+00:00</published>
+		<updated>2025-04-01T22:07:45+00:00</updated>
 		<id>https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-base-img</id>
 		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-base-img">
 		
@@ -301,8 +301,8 @@
 	</entry><entry>
 		<title type="html">Layout default splash</title>
 		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-splash" rel="alternate" type="text/html" title="Layout default splash"/>
-		<published>2025-04-01T19:44:37+00:00</published>
-		<updated>2025-04-01T19:44:37+00:00</updated>
+		<published>2025-04-01T22:07:45+00:00</published>
+		<updated>2025-04-01T22:07:45+00:00</updated>
 		<id>https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-splash</id>
 		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-splash">
 		
@@ -324,8 +324,8 @@
 	</entry><entry>
 		<title type="html">Layout default splash image</title>
 		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-splash-img" rel="alternate" type="text/html" title="Layout default splash image"/>
-		<published>2025-04-01T19:44:37+00:00</published>
-		<updated>2025-04-01T19:44:37+00:00</updated>
+		<published>2025-04-01T22:07:45+00:00</published>
+		<updated>2025-04-01T22:07:45+00:00</updated>
 		<id>https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-splash-img</id>
 		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-splash-img">
 		
@@ -349,8 +349,8 @@
 	</entry><entry>
 		<title type="html">Layout default post</title>
 		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-post" rel="alternate" type="text/html" title="Layout default post"/>
-		<published>2025-04-01T19:44:37+00:00</published>
-		<updated>2025-04-01T19:44:37+00:00</updated>
+		<published>2025-04-01T22:07:45+00:00</published>
+		<updated>2025-04-01T22:07:45+00:00</updated>
 		<id>https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-post</id>
 		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-post">
 		
@@ -372,8 +372,8 @@
 	</entry><entry>
 		<title type="html">Layout default post image</title>
 		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-post-img" rel="alternate" type="text/html" title="Layout default post image"/>
-		<published>2025-04-01T19:44:37+00:00</published>
-		<updated>2025-04-01T19:44:37+00:00</updated>
+		<published>2025-04-01T22:07:45+00:00</published>
+		<updated>2025-04-01T22:07:45+00:00</updated>
 		<id>https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-post-img</id>
 		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-post-img">
 		
@@ -397,8 +397,8 @@
 	</entry><entry>
 		<title type="html">Layout default none</title>
 		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-none-img" rel="alternate" type="text/html" title="Layout default none"/>
-		<published>2025-04-01T19:44:37+00:00</published>
-		<updated>2025-04-01T19:44:37+00:00</updated>
+		<published>2025-04-01T22:07:45+00:00</published>
+		<updated>2025-04-01T22:07:45+00:00</updated>
 		<id>https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-none-img</id>
 		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-none-img">
 		
@@ -422,8 +422,8 @@
 	</entry><entry>
 		<title type="html">Layout default image</title>
 		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-image" rel="alternate" type="text/html" title="Layout default image"/>
-		<published>2025-04-01T19:44:37+00:00</published>
-		<updated>2025-04-01T19:44:37+00:00</updated>
+		<published>2025-04-01T22:07:45+00:00</published>
+		<updated>2025-04-01T22:07:45+00:00</updated>
 		<id>https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-image</id>
 		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-image">
 		
@@ -445,8 +445,8 @@
 	</entry><entry>
 		<title type="html">Layout default image image</title>
 		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-image-img" rel="alternate" type="text/html" title="Layout default image image"/>
-		<published>2025-04-01T19:44:37+00:00</published>
-		<updated>2025-04-01T19:44:37+00:00</updated>
+		<published>2025-04-01T22:07:45+00:00</published>
+		<updated>2025-04-01T22:07:45+00:00</updated>
 		<id>https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-image-img</id>
 		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-image-img">
 		
@@ -470,8 +470,8 @@
 	</entry><entry>
 		<title type="html">Layout default hero</title>
 		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-hero" rel="alternate" type="text/html" title="Layout default hero"/>
-		<published>2025-04-01T19:44:37+00:00</published>
-		<updated>2025-04-01T19:44:37+00:00</updated>
+		<published>2025-04-01T22:07:45+00:00</published>
+		<updated>2025-04-01T22:07:45+00:00</updated>
 		<id>https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-hero</id>
 		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-hero">
 		
@@ -493,8 +493,8 @@
 	</entry><entry>
 		<title type="html">Layout default hero image</title>
 		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-hero-img" rel="alternate" type="text/html" title="Layout default hero image"/>
-		<published>2025-04-01T19:44:37+00:00</published>
-		<updated>2025-04-01T19:44:37+00:00</updated>
+		<published>2025-04-01T22:07:45+00:00</published>
+		<updated>2025-04-01T22:07:45+00:00</updated>
 		<id>https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-hero-img</id>
 		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-hero-img">
 		
@@ -518,8 +518,8 @@
 	</entry><entry>
 		<title type="html">Layout default base</title>
 		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-base" rel="alternate" type="text/html" title="Layout default base"/>
-		<published>2025-04-01T19:44:37+00:00</published>
-		<updated>2025-04-01T19:44:37+00:00</updated>
+		<published>2025-04-01T22:07:45+00:00</published>
+		<updated>2025-04-01T22:07:45+00:00</updated>
 		<id>https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-base</id>
 		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-base">
 		
@@ -541,8 +541,8 @@
 	</entry><entry>
 		<title type="html">Layout default &lt;em&gt;base&lt;/em&gt; image</title>
 		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-base-img" rel="alternate" type="text/html" title="Layout default base image"/>
-		<published>2025-04-01T19:44:37+00:00</published>
-		<updated>2025-04-01T19:44:37+00:00</updated>
+		<published>2025-04-01T22:07:45+00:00</published>
+		<updated>2025-04-01T22:07:45+00:00</updated>
 		<id>https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-base-img</id>
 		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-base-img">
 		
@@ -566,8 +566,8 @@
 	</entry><entry>
 		<title type="html">Tabby</title>
 		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/pets/tabby" rel="alternate" type="text/html" title="Tabby"/>
-		<published>2025-04-01T19:44:37+00:00</published>
-		<updated>2025-04-01T19:44:37+00:00</updated>
+		<published>2025-04-01T22:07:45+00:00</published>
+		<updated>2025-04-01T22:07:45+00:00</updated>
 		<id>https://dieghernan.github.io/chulapa-jekyll-sample/pets/tabby</id>
 		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/pets/tabby">
 		
@@ -591,8 +591,8 @@
 	</entry><entry>
 		<title type="html">Lhasa Apso</title>
 		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/pets/lhasa-apso" rel="alternate" type="text/html" title="Lhasa Apso"/>
-		<published>2025-04-01T19:44:37+00:00</published>
-		<updated>2025-04-01T19:44:37+00:00</updated>
+		<published>2025-04-01T22:07:45+00:00</published>
+		<updated>2025-04-01T22:07:45+00:00</updated>
 		<id>https://dieghernan.github.io/chulapa-jekyll-sample/pets/lhasa-apso</id>
 		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/pets/lhasa-apso">
 		
@@ -616,8 +616,8 @@
 	</entry><entry>
 		<title type="html">Draft Post</title>
 		<link href="https://dieghernan.github.io/chulapa-jekyll-sample/blog/post-draft" rel="alternate" type="text/html" title="Draft Post"/>
-		<published>2025-04-01T19:44:30+00:00</published>
-		<updated>2025-04-01T19:44:30+00:00</updated>
+		<published>2025-04-01T22:07:39+00:00</published>
+		<updated>2025-04-01T22:07:39+00:00</updated>
 		<id>https://dieghernan.github.io/chulapa-jekyll-sample/blog/post-draft</id>
 		<content type="html" xml:base="https://dieghernan.github.io/chulapa-jekyll-sample/blog/post-draft">
 		
@@ -833,15 +833,15 @@ comments, mathjax and a modified date.&lt;/p&gt;
   &lt;div class=&quot;carousel-inner&quot;&gt;
         &lt;div class=&quot;carousel-item active&quot; itemscope=&quot;&quot; itemtype=&quot;https://schema.org/ImageObject&quot;&gt;
     
-	&lt;img class=&quot;d-block mw-100 chulapa-carousel&quot; src=&quot;https://picsum.photos/seed/50/750/325&quot; alt=&quot;Carousel Item #1&quot; itemprop=&quot;contentUrl&quot; /&gt;
+	&lt;img class=&quot;d-block mw-100 chulapa-carousel&quot; src=&quot;https://picsum.photos/seed/70/700/500&quot; alt=&quot;Carousel Item #1&quot; itemprop=&quot;contentUrl&quot; /&gt;
 	&lt;/div&gt;
         &lt;div class=&quot;carousel-item&quot; itemscope=&quot;&quot; itemtype=&quot;https://schema.org/ImageObject&quot;&gt;
     
-	&lt;img class=&quot;d-block mw-100 chulapa-carousel&quot; src=&quot;https://picsum.photos/seed/70/700/500&quot; alt=&quot;Carousel Item #2&quot; itemprop=&quot;contentUrl&quot; /&gt;
+	&lt;img class=&quot;d-block mw-100 chulapa-carousel&quot; src=&quot;https://picsum.photos/seed/60/600&quot; alt=&quot;Carousel Item #2&quot; itemprop=&quot;contentUrl&quot; /&gt;
 	&lt;/div&gt;
         &lt;div class=&quot;carousel-item&quot; itemscope=&quot;&quot; itemtype=&quot;https://schema.org/ImageObject&quot;&gt;
     
-	&lt;img class=&quot;d-block mw-100 chulapa-carousel&quot; src=&quot;https://picsum.photos/seed/30/900/1200&quot; alt=&quot;Carousel Item #3&quot; itemprop=&quot;contentUrl&quot; /&gt;
+	&lt;img class=&quot;d-block mw-100 chulapa-carousel&quot; src=&quot;https://picsum.photos/seed/50/750/325&quot; alt=&quot;Carousel Item #3&quot; itemprop=&quot;contentUrl&quot; /&gt;
 	&lt;/div&gt;
         &lt;div class=&quot;carousel-item&quot; itemscope=&quot;&quot; itemtype=&quot;https://schema.org/ImageObject&quot;&gt;
     
@@ -853,7 +853,7 @@ comments, mathjax and a modified date.&lt;/p&gt;
 	&lt;/div&gt;
         &lt;div class=&quot;carousel-item&quot; itemscope=&quot;&quot; itemtype=&quot;https://schema.org/ImageObject&quot;&gt;
     
-	&lt;img class=&quot;d-block mw-100 chulapa-carousel&quot; src=&quot;https://picsum.photos/seed/60/600&quot; alt=&quot;Carousel Item #6&quot; itemprop=&quot;contentUrl&quot; /&gt;
+	&lt;img class=&quot;d-block mw-100 chulapa-carousel&quot; src=&quot;https://picsum.photos/seed/30/900/1200&quot; alt=&quot;Carousel Item #6&quot; itemprop=&quot;contentUrl&quot; /&gt;
 	&lt;/div&gt;
         &lt;div class=&quot;carousel-item&quot; itemscope=&quot;&quot; itemtype=&quot;https://schema.org/ImageObject&quot;&gt;
     

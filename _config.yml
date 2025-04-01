@@ -119,6 +119,8 @@ navbar:
         url     : /bootstrap4 # url 
       - title   : Bootstrap 4 Demo Landing
         url     : /bootstrap4_landing
+      - title   : Highlighting
+        url     : /highlighting
   - title   : Collections
     child:
       - title : All Posts

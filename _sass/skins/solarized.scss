@@ -66,3 +66,9 @@ $breadcrumb-bg: $light;
 .card.bg-secondary {
   color: $white;
 }
+
+pre {
+  border-width: 1px;
+  border-style: solid;
+  border-color: $light;
+}

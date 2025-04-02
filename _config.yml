@@ -168,7 +168,7 @@ googlefonts:
 # Theme and colors
 chulapa-skin: 
   highlight     :  solarized # default["default"]
-  skin         :  solarized # Optional predefined skins
+  skin         :  oksolar # Optional predefined skins
   autothemer    :   # Bool: Use autotheming
   vars          :    
     primary     : #default ["#007bff"] - Bootstrap blue

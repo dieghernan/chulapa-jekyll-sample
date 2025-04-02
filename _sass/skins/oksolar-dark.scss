@@ -1,0 +1,83 @@
+// OKSolar Dark
+// by dieghernan
+// Based on https://github.com/gmifflen/OKSolar-Theme-Collection
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,100..125,100..900&display=swap');
+
+$font-family-sans-serif: "Archivo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$headings-font-weight:  750;
+
+h1, h2, h3, h4, h5, h6 {
+    font-stretch: 125%;
+}
+
+
+// Base Colors
+$base03:    #002d38;
+$base02:    #093946;
+$base01:    #5b7279;
+$base00:    #657377;
+$base0:     #98a8a8;
+$base1:     #8faaab;
+$base2:     #f1e9d2;
+$base3:     #fbf7ef;
+$yellow:    #ac8300;
+$orange:    #d56500;
+$red:       #f23749;
+$magenta:   #dd459d;
+$violet:    #7d80d1;
+$blue:      #2b90d8;
+$cyan:      #259d94;
+$green:     #819500;
+
+// Theme Colors
+$body-bg: $base03;
+$body-color: $base0;
+$primary: $yellow;
+$secondary: $base01;
+$success: $cyan;
+$info: $violet;
+$warning: $orange;
+$danger: $red;
+$dark: darken($base03, 5%);
+$light: $base02;
+$border-width: 1px !default;
+
+$landingpage-chulapa-bg-color: $base3;
+$landingpage-chulapa-text-color: $base00;
+
+$black: $base1;
+$gray-900: $base1;
+$white: mix(white, $body-color, 90%);
+
+// Navbar and Table Colors
+$navbar-chulapa-bg-color: $body-bg;
+$thead-chulapa-bg-color: $navbar-chulapa-bg-color;
+$thead-chulapa-text-color: $body-color;
+$table-border-color: $body-color;
+
+// Font Family
+$font-family-sans-serif: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+
+// Component Background Colors
+$pagination-bg: $light;
+$pagination-disabled-bg: $pagination-bg;
+$progress-bg: $light;
+$jumbotron-bg: $light;
+$list-group-bg: $light;
+$card-bg: $light;
+$toast-header-background-color: $light;
+$toast-background-color: $body-bg;
+$breadcrumb-bg: $light;
+
+// Card Colors
+.card.bg-primary, 
+.card.bg-secondary {
+  color: $white;
+}
+
+pre {
+  border-width: $border-width;
+  border-style: solid;
+  border-color: $light;
+}

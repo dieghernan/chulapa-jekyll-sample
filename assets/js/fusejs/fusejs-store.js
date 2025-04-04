@@ -9,7 +9,7 @@ var store = [{
         "excerpt": "",
         "content": "",
         "categories": [],
-        "date": "2025-04-02",
+        "date": "2025-04-04",
         "tags": [],
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/archive",
         "img": null
@@ -19,7 +19,7 @@ var store = [{
         "excerpt": "<p>Monocle ipsum dolor sit amet handsome pariatur aliqua, hub remarkable irure commodo classic deserunt bespoke. Sunt commodo signature, Swiss minim flat white Tsutaya excepteur artisanal et Nordic laborum joy ANA. Beams mollit exquisite Ginza efficient dolore qui Comme des Garçons Winkreative Lufthansa bulletin global. Iconic sed liveable duis. Mollit dolore eu laboris Comme des Garçons hub pintxos sed eiusmod tote bag Shinkansen nisi consectetur pariatur. Nordic international quis finest Baggu dolore, bureaux hub hand-crafted ut joy sint Airbus A380.</p>",
         "content": "Monocle ipsum dolor sit amet handsome pariatur aliqua, hub remarkable irure commodo classic deserunt bespoke. Sunt commodo signature, Swiss minim flat white Tsutaya excepteur artisanal et Nordic laborum joy ANA. Beams mollit exquisite Ginza efficient dolore qui Comme des Garçons Winkreative Lufthansa bulletin global. Iconic sed liveable duis. Mollit dolore eu laboris Comme des Garçons hub pintxos sed eiusmod tote bag Shinkansen nisi consectetur pariatur. Nordic international quis finest Baggu dolore, bureaux hub hand-crafted ut joy sint Airbus A380. Conversation handsome hub cosy, enim emerging sed K-pop velit Gaggenau charming proident et boulevard ryokan. Remarkable airport deserunt international est, nulla minim magna emerging discerning in exclusive dolor. Commodo dolore deserunt cosy, global Nordic culpa uniforms signature charming. Smart ryokan commodo, eiusmod global occaecat incididunt aliqua Beams. Boulevard conversation excepteur finest Swiss non veniam Comme des Garçons essential artisanal. Destination Scandinavian international, anim Boeing 787 in duis Baggu irure essential. Fugiat exclusive laborum, Gaggenau ad Winkreative sharp elit labore. Remarkable officia ryokan Boeing 787, consectetur boutique Nordic Singapore espresso elit iconic perfect izakaya soft power excepteur. Ut veniam carefully curated K-pop dolore, uniforms in voluptate. Craftsmanship Ettinger Lufthansa sophisticated esse boutique veniam exquisite. Aute cillum bespoke, intricate consectetur in exquisite international lovely bulletin irure Washlet Gaggenau deserunt. Efficient eu quality of life wardrobe labore, dolor emerging airport concierge reprehenderit izakaya dolore liveable Baggu. Commodo elegant essential consectetur Gaggenau culpa consequat id sophisticated St Moritz sunt conversation duis non velit. Nulla business class non ut Marylebone ANA soft power fugiat carefully curated. Bureaux sed punctual handsome Washlet impeccable hand-crafted aute extraordinary tote bag enim boulevard soft power sleepy. Dolore conversation irure Zürich the best adipisicing, vibrant finest hub anim premium aliqua. Cupidatat smart international, bureaux Baggu id efficient punctual. Tempor nulla flat white enim, K-pop incididunt elit efficient Toto uniforms concierge discerning....",
         "categories": ["Jekyll"],
-        "date": "2025-04-02",
+        "date": "2025-04-04",
         "tags": ["edge case"],
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/blog/post-draft",
         "img": null
@@ -599,7 +599,7 @@ var store = [{
         "excerpt": "<p>The Lhasa Apso is a non-sporting dog breed originating in Tibet.</p>",
         "content": "The Lhasa Apso (/ˈlɑːsə ˈæpsoʊ/ lah-sə ap-soh) is a non-sporting dog breed originating in Tibet. It was bred as an interior sentinel in the Buddhist monasteries, to alert the monks to any intruders who entered. Lhasa is the capital city of Tibet, and apso is a word in the Tibetan language meaning “bearded”, so, Lhasa Apso simply means “long-haired Lhasa dog”. There are, however, some who claim that the word “apso” is a form of the Tibetan word “rapso”, meaning “goat-like”, which would make the equivalent translation “wooly Lhasa dog”.       From Wikipedia, the free encyclopedia",
         "categories": [],
-        "date": "2025-04-02",
+        "date": "2025-04-04",
         "tags": [],
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/pets/lhasa-apso",
         "img": null
@@ -609,7 +609,7 @@ var store = [{
         "excerpt": "<p>A tabby is any domestic cat that has a coat featuring distinctive stripes, dots, lines or swirling patterns, usually with a mark resembling an ‘M’ on its forehead.</p>",
         "content": "A tabby is any domestic cat that has a coat featuring distinctive stripes, dots, lines or swirling patterns, usually together with a mark resembling an ‘M’ on its forehead. Tabbies are sometimes erroneously assumed to be a cat breed. In fact, the tabby pattern is found in many breeds, as well as among the general mixed-breed population. The tabby pattern is a naturally occurring feature that may be related to the coloration of the domestic cat’s direct ancestor, the African wildcat, which (along with the European wildcat and Asiatic wildcat) has a similar coloration.       From Wikipedia, the free encyclopedia",
         "categories": [],
-        "date": "2025-04-02",
+        "date": "2025-04-04",
         "tags": [],
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/pets/tabby",
         "img": null
@@ -619,7 +619,7 @@ var store = [{
         "excerpt": "<p>A chocolate chip cookie is a drop cookie that originated in the United States and features chocolate chips as its distinguishing ingredient.</p>",
         "content": "A chocolate chip cookie is a drop cookie that originated in the United States and features chocolate chips as its distinguishing ingredient.   The traditional recipe combines a dough composed of butter and both brown and white sugar with semi-sweet chocolate chips. Variations include recipes with other types of chocolate as well as additional ingredients such as nuts or oatmeal.   This recipe makes 4 dozen cookies.   Ingredients      2 1/4 cups all-purpose flour   1 teaspoon baking soda   1/2 teaspoon salt   1 cup butter, softened and cut to pieces   1 cup sugar   1 cup light brown sugar, packed   2 teaspoons vanilla extract   2 large eggs   2 cups semi-sweet chocolate chips   1/2 teaspoon nutmeg (optional)   1 cup chopped pecans or walnuts (optional)   Directions      Preheat the oven to 350 F.   In a medium bowl, whisk flour with baking soda, nutmeg and salt.   In a large bowl, beat butter with sugar and brown sugar until creamy and light. Add vanilla and eggs, one at a time, and mix until incorporated.   Gradually add dry mixture into the butter-sugar wet blend, mixing with a spatula until combined. Add chocolate chips and nuts until just mixed.   Drop tablespoon-sized clumps onto un-greased cookie sheets. Bake for 8-12 minutes, or until pale brown. Allow to cool on the pan for a minute or three, then transfer cookies to a wire rack to finish cooling.",
         "categories": [],
-        "date": "2025-04-02",
+        "date": "2025-04-04",
         "tags": [],
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/recipes/chocolate-chip-cookies",
         "img": null
@@ -629,7 +629,7 @@ var store = [{
         "excerpt": "<p>Oatmeal cookies are a proverbial favorite with both kids and adults. This crisp and chewy cookie is loaded with oats, dried fruit, and chopped nuts.</p>",
         "content": "Oatmeal cookies are a proverbial favorite with both kids and adults. This crisp and chewy cookie is loaded with oats, dried fruit, and chopped nuts.   Ingredients      1 cup butter, softened 1 cup white sugar   1 cup packed brown sugar   2 eggs   1 teaspoon vanilla extract   2 cups all-purpose flour   1 teaspoon baking soda   1 teaspoon salt   1 1/2 teaspoons ground cinnamon   3 cups quick cooking oats   Directions      In a medium bowl, cream together butter, white sugar, and brown sugar. Beat in eggs one at a time, then stir in vanilla. Combine flour, baking soda, salt, and cinnamon; stir into the creamed mixture. Mix in oats. Cover, and chill dough for at least one hour.   Preheat the oven to 375 degrees F (190 degrees C). Grease cookie sheets. Roll the dough into walnut sized balls, and place 2 inches apart on cookie sheets. Flatten each cookie with a large fork dipped in sugar.   Bake for 8 to 10 minutes in preheated oven. Allow cookies to cool on baking sheet for 5 minutes before transferring to a wire rack to cool completely.",
         "categories": [],
-        "date": "2025-04-02",
+        "date": "2025-04-04",
         "tags": [],
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/recipes/oatmeal-cookies",
         "img": null
@@ -639,7 +639,7 @@ var store = [{
         "excerpt": "<p>A peanut butter cookie is a type of cookie that is distinguished for having peanut butter as a principal ingredient. The cookie generally originated in the United States, its development dating back to the 1910s.</p>",
         "content": "A peanut butter cookie is a type of cookie that is distinguished for having peanut butter as a principal ingredient. The cookie generally originated in the United States, its development dating back to the 1910s.   Ingredients      1 cup unsalted butter   1 cup crunchy peanut butter   1 cup white sugar   1 cup packed brown sugar   2 eggs 2   1/2 cups all-purpose flour   1 teaspoon baking powder   1/2 teaspoon salt   1 1/2 teaspoons baking soda   Directions      Cream butter, peanut butter, and sugars together in a bowl; beat in eggs.   In a separate bowl, sift flour, baking powder, baking soda, and salt; stir into butter mixture. Put dough in refrigerator for 1 hour.   Roll dough into 1 inch balls and put on baking sheets. Flatten each ball with a fork, making a crisscross pattern. Bake in a preheated 375 degrees F oven for about 10 minutes or until cookies begin to brown.",
         "categories": [],
-        "date": "2025-04-02",
+        "date": "2025-04-04",
         "tags": [],
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/recipes/peanut-butter-cookies",
         "img": null
@@ -649,7 +649,7 @@ var store = [{
         "excerpt": "<p>Foo Bar design system including logo mark, website design, and branding applications.</p>",
         "content": "Pictures of Goats section West Seattle Blog dingbat newspaper rubber cement Google+ newsroom cafe news.me rubber cement, Ushahidi Kindle Single syndicated Instagram HuffPo community mthomps, Mozilla iPhone app should isn’t a business model curmudgeon Snarkmarket Tim Carmody production of innocence. Fuego tweets community DocumentCloud metered model Gardening &amp; War section YouTube social media SEO information overload analytics Aron Pilhofer Journal Register data visualization WikiLeaks Groupon, collaboration Steve Jobs we need a Nate Silver AP What Would Google Do the power of the press belongs to the person who owns one Clay Shirky curmudgeon Voice of San Diego free as in beer dead trees the notion of the public Lucius Nieman.                       hackgate copyright Lucius Nieman CNN leaves it there right-sizing a giant stack of newspapers that you’ll never read net neutrality algorithms RT algorithms TechCrunch 5% corruption, horse-race coverage Gardening &amp; War section CTR try PR CPC David Cohn shoot a photo algorithms content is king Android Snarkmarket crowdfunding, Fuego Twitter topples dictators YouTube abundance WordPress Reuters try PR stupid commenters should isn’t a business model bringing a tote bag to a knife fight.",
         "categories": [],
-        "date": "2025-04-02",
+        "date": "2025-04-04",
         "tags": [],
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/portfolio/foo-bar-website",
         "img": "https://dieghernan.github.io/chulapa-jekyll-sample/images/portfolio/unsplash-gallery-image-1.jpg"
@@ -659,7 +659,7 @@ var store = [{
         "excerpt": "<p>Layout test, header base with image</p>",
         "content": "Layout test, header base with image",
         "categories": ["layout"],
-        "date": "2025-04-02",
+        "date": "2025-04-04",
         "tags": ["base-header","images"],
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-base-img",
         "img": "https://picsum.photos/seed/50/750/325"
@@ -669,7 +669,7 @@ var store = [{
         "excerpt": "<p>Layout test, header base with no image</p>",
         "content": "Layout test, header base with no image",
         "categories": ["layout"],
-        "date": "2025-04-02",
+        "date": "2025-04-04",
         "tags": ["base-header"],
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-base",
         "img": null
@@ -679,7 +679,7 @@ var store = [{
         "excerpt": "<p>Layout test, header hero with image</p>",
         "content": "Layout test, header hero with image",
         "categories": ["layout"],
-        "date": "2025-04-02",
+        "date": "2025-04-04",
         "tags": ["hero-header","images"],
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-hero-img",
         "img": "https://picsum.photos/seed/50/750/325"
@@ -689,7 +689,7 @@ var store = [{
         "excerpt": "<p>Layout test, header hero</p>",
         "content": "Layout test, header hero",
         "categories": ["layout"],
-        "date": "2025-04-02",
+        "date": "2025-04-04",
         "tags": ["hero-header"],
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-hero",
         "img": null
@@ -699,7 +699,7 @@ var store = [{
         "excerpt": "<p>Layout test, header image with image</p>",
         "content": "Layout test, header image with image",
         "categories": ["layout"],
-        "date": "2025-04-02",
+        "date": "2025-04-04",
         "tags": ["image-header","images"],
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-image-img",
         "img": "https://picsum.photos/seed/50/750/325"
@@ -709,7 +709,7 @@ var store = [{
         "excerpt": "<p>Layout test, header image</p>",
         "content": "Layout test, header image",
         "categories": ["layout"],
-        "date": "2025-04-02",
+        "date": "2025-04-04",
         "tags": ["image-header"],
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-image",
         "img": null
@@ -719,7 +719,7 @@ var store = [{
         "excerpt": "<p>I appear always</p>",
         "content": "I appear always",
         "categories": ["layout"],
-        "date": "2025-04-02",
+        "date": "2025-04-04",
         "tags": ["none-header","images"],
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-none-img",
         "img": "https://picsum.photos/seed/50/750/325"
@@ -729,7 +729,7 @@ var store = [{
         "excerpt": "<p>Layout test, header post with image</p>",
         "content": "Layout test, header post with image",
         "categories": ["layout"],
-        "date": "2025-04-02",
+        "date": "2025-04-04",
         "tags": ["post-header","images"],
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-post-img",
         "img": "https://picsum.photos/seed/50/750/325"
@@ -739,7 +739,7 @@ var store = [{
         "excerpt": "<p>Layout test, header post with no image</p>",
         "content": "Layout test, header post with no image",
         "categories": ["layout"],
-        "date": "2025-04-02",
+        "date": "2025-04-04",
         "tags": ["post-header"],
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-post",
         "img": null
@@ -749,7 +749,7 @@ var store = [{
         "excerpt": "<p>Layout test, header splash with image</p>",
         "content": "Layout test, header splash with image",
         "categories": ["layout"],
-        "date": "2025-04-02",
+        "date": "2025-04-04",
         "tags": ["splash-header","images"],
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-splash-img",
         "img": "https://picsum.photos/seed/50/750/325"
@@ -759,7 +759,7 @@ var store = [{
         "excerpt": "<p>Layout test, header splash</p>",
         "content": "Layout test, header splash",
         "categories": ["layout"],
-        "date": "2025-04-02",
+        "date": "2025-04-04",
         "tags": ["splash-header"],
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/headers/default-splash",
         "img": null
@@ -769,7 +769,7 @@ var store = [{
         "excerpt": "<p>Layout test, header base with image</p>",
         "content": "Layout test, header base with image",
         "categories": ["layout"],
-        "date": "2025-04-02",
+        "date": "2025-04-04",
         "tags": ["base-header","images"],
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-base-img",
         "img": "https://picsum.photos/seed/50/750/325"
@@ -779,7 +779,7 @@ var store = [{
         "excerpt": "<p>Layout test, header base with no image</p>",
         "content": "Layout test, header base with no image",
         "categories": ["layout"],
-        "date": "2025-04-02",
+        "date": "2025-04-04",
         "tags": ["base-header"],
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-base",
         "img": null
@@ -789,7 +789,7 @@ var store = [{
         "excerpt": "<p>Layout test, header hero with image</p>",
         "content": "Layout test, header hero with image",
         "categories": ["layout"],
-        "date": "2025-04-02",
+        "date": "2025-04-04",
         "tags": ["hero-header","images"],
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-hero-img",
         "img": "https://picsum.photos/seed/50/750/325"
@@ -799,7 +799,7 @@ var store = [{
         "excerpt": "<p>Layout test, header hero</p>",
         "content": "Layout test, header hero",
         "categories": ["layout"],
-        "date": "2025-04-02",
+        "date": "2025-04-04",
         "tags": ["hero-header"],
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-hero",
         "img": null
@@ -809,7 +809,7 @@ var store = [{
         "excerpt": "<p>Layout test, header image with image</p>",
         "content": "Layout test, header image with image",
         "categories": ["layout"],
-        "date": "2025-04-02",
+        "date": "2025-04-04",
         "tags": ["image-header","images"],
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-image-img",
         "img": "https://picsum.photos/seed/50/750/325"
@@ -819,7 +819,7 @@ var store = [{
         "excerpt": "<p>Layout test, header image</p>",
         "content": "Layout test, header image",
         "categories": ["layout"],
-        "date": "2025-04-02",
+        "date": "2025-04-04",
         "tags": ["image-header"],
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-image",
         "img": null
@@ -829,7 +829,7 @@ var store = [{
         "excerpt": "<p>I appear always</p>",
         "content": "I appear always",
         "categories": ["layout"],
-        "date": "2025-04-02",
+        "date": "2025-04-04",
         "tags": ["none-header","images"],
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-none-img",
         "img": "https://picsum.photos/seed/50/750/325"
@@ -839,7 +839,7 @@ var store = [{
         "excerpt": "<p>Layout test, header post with image</p>",
         "content": "Layout test, header post with image",
         "categories": ["layout"],
-        "date": "2025-04-02",
+        "date": "2025-04-04",
         "tags": ["post-header","images"],
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-post-img",
         "img": "https://picsum.photos/seed/50/750/325"
@@ -849,7 +849,7 @@ var store = [{
         "excerpt": "<p>Layout test, header post with no image</p>",
         "content": "Layout test, header post with no image",
         "categories": ["layout"],
-        "date": "2025-04-02",
+        "date": "2025-04-04",
         "tags": ["post-header"],
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-post",
         "img": null
@@ -859,7 +859,7 @@ var store = [{
         "excerpt": "<p>Layout test, header splash with image</p>",
         "content": "Layout test, header splash with image",
         "categories": ["layout"],
-        "date": "2025-04-02",
+        "date": "2025-04-04",
         "tags": ["splash-header","images"],
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-splash-img",
         "img": "https://picsum.photos/seed/50/750/325"
@@ -869,7 +869,7 @@ var store = [{
         "excerpt": "<p>Layout test, header splash</p>",
         "content": "Layout test, header splash",
         "categories": ["layout"],
-        "date": "2025-04-02",
+        "date": "2025-04-04",
         "tags": ["splash-header"],
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/headers/landingpage-splash",
         "img": null
@@ -879,7 +879,7 @@ var store = [{
         "excerpt": "",
         "content": "",
         "categories": [],
-        "date": "2025-04-02",
+        "date": "2025-04-04",
         "tags": [],
         "url": "https://dieghernan.github.io/chulapa-jekyll-sample/archive",
         "img": null

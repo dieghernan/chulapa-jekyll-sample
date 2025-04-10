@@ -5,7 +5,7 @@
     <!--  MIT License-->
     <!-- Docs: https://dieghernan.github.io/chulapa -->
     <!-- Repo: https://github.com/dieghernan/chulapa -->
-    <!-- Page build 2025-04-04 -->
+    <!-- Page build 2025-04-10 -->
      <!-- Jekyll Version 4.4.1 -->
     <!--Google Structured Data-->
     <script type="application/ld+json">
@@ -18,8 +18,8 @@
       },
       "headline": "Syntax highlighting demo",
       "image": "https://github.com/octocat.png",
-      "datePublished": "2025-04-04T15:05:09+00:00",
-      "dateModified": "2025-04-04T15:05:09+00:00",
+      "datePublished": "2025-04-10T06:00:22+00:00",
+      "dateModified": "2025-04-10T06:00:22+00:00",
       "author": {
         "@type": "Person",
         "name": "Octocat"
@@ -185,6 +185,65 @@
 	</div>
 			<p>Demo of the different pieces of code for testing syntax highlighting.</p>
 <div>
+ <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">parseXML</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span> <span class="nx">data</span> <span class="p">)</span> <span class="p">{</span>
+  <span class="kd">var</span> <span class="nx">xml</span><span class="p">,</span> <span class="nx">tmp</span><span class="p">;</span>
+  <span class="k">if </span><span class="p">(</span> <span class="o">!</span><span class="nx">data</span> <span class="o">||</span> <span class="k">typeof</span> <span class="nx">data</span> <span class="o">!==</span> <span class="dl">"</span><span class="s2">string</span><span class="dl">"</span> <span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="kc">null</span><span class="p">;</span>
+  <span class="p">}</span>
+  <span class="k">try</span> <span class="p">{</span>
+    <span class="k">if </span><span class="p">(</span> <span class="nb">window</span><span class="p">.</span><span class="nx">DOMParser</span> <span class="p">)</span> <span class="p">{</span> <span class="c1">// Standard</span>
+      <span class="nx">tmp</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">DOMParser</span><span class="p">();</span>
+      <span class="nx">xml</span> <span class="o">=</span> <span class="nx">tmp</span><span class="p">.</span><span class="nf">parseFromString</span><span class="p">(</span> <span class="nx">data</span> <span class="p">,</span> <span class="dl">"</span><span class="s2">text/xml</span><span class="dl">"</span> <span class="p">);</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span> <span class="c1">// IE</span>
+      <span class="nx">xml</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">ActiveXObject</span><span class="p">(</span> <span class="dl">"</span><span class="s2">Microsoft.XMLDOM</span><span class="dl">"</span> <span class="p">);</span>
+      <span class="nx">xml</span><span class="p">.</span><span class="k">async</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span>
+      <span class="nx">xml</span><span class="p">.</span><span class="nf">loadXML</span><span class="p">(</span> <span class="nx">data</span> <span class="p">);</span>
+    <span class="p">}</span>
+  <span class="p">}</span> <span class="k">catch</span><span class="p">(</span> <span class="nx">e</span> <span class="p">)</span> <span class="p">{</span>
+    <span class="nx">xml</span> <span class="o">=</span> <span class="kc">undefined</span><span class="p">;</span>
+  <span class="p">}</span>
+  <span class="k">if </span><span class="p">(</span> <span class="o">!</span><span class="nx">xml</span> <span class="o">||</span> <span class="o">!</span><span class="nx">xml</span><span class="p">.</span><span class="nx">documentElement</span> <span class="o">||</span> <span class="nx">xml</span><span class="p">.</span><span class="nf">getElementsByTagName</span><span class="p">(</span> <span class="dl">"</span><span class="s2">parsererror</span><span class="dl">"</span> <span class="p">).</span><span class="nx">length</span> <span class="p">)</span> <span class="p">{</span>
+    <span class="nx">jQuery</span><span class="p">.</span><span class="nf">error</span><span class="p">(</span> <span class="dl">"</span><span class="s2">Invalid XML: </span><span class="dl">"</span> <span class="o">+</span> <span class="nx">data</span> <span class="p">);</span>
+  <span class="p">}</span>
+  <span class="k">return</span> <span class="nx">xml</span><span class="p">;</span>
+<span class="p">};</span>
+
+<span class="c1">// Bind a function to a context, optionally partially applying any arguments.</span>
+<span class="kd">var</span> <span class="nx">proxy</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span> <span class="nx">fn</span><span class="p">,</span> <span class="nx">context</span> <span class="p">)</span> <span class="p">{</span>
+  <span class="kd">var</span> <span class="nx">tmp</span><span class="p">,</span> <span class="nx">args</span><span class="p">,</span> <span class="nx">proxy</span><span class="p">;</span>
+
+  <span class="k">if </span><span class="p">(</span> <span class="k">typeof</span> <span class="nx">context</span> <span class="o">===</span> <span class="dl">"</span><span class="s2">string</span><span class="dl">"</span> <span class="p">)</span> <span class="p">{</span>
+    <span class="nx">tmp</span> <span class="o">=</span> <span class="nx">fn</span><span class="p">[</span> <span class="nx">context</span> <span class="p">];</span>
+    <span class="nx">context</span> <span class="o">=</span> <span class="nx">fn</span><span class="p">;</span>
+    <span class="nx">fn</span> <span class="o">=</span> <span class="nx">tmp</span><span class="p">;</span>
+  <span class="p">}</span>
+
+  <span class="c1">// Quick check to determine if target is callable, in the spec</span>
+  <span class="c1">// this throws a TypeError, but we will just return undefined.</span>
+  <span class="k">if </span><span class="p">(</span> <span class="o">!</span><span class="nx">jQuery</span><span class="p">.</span><span class="nf">isFunction</span><span class="p">(</span> <span class="nx">fn</span> <span class="p">)</span> <span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="kc">undefined</span><span class="p">;</span>
+  <span class="p">}</span>
+
+  <span class="c1">// Simulated bind</span>
+  <span class="nx">args</span> <span class="o">=</span> <span class="nx">core_slice</span><span class="p">.</span><span class="nf">call</span><span class="p">(</span> <span class="nx">arguments</span><span class="p">,</span> <span class="mi">2</span> <span class="p">);</span>
+  <span class="nx">proxy</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="nx">fn</span><span class="p">.</span><span class="nf">apply</span><span class="p">(</span> <span class="nx">context</span> <span class="o">||</span> <span class="k">this</span><span class="p">,</span> <span class="nx">args</span><span class="p">.</span><span class="nf">concat</span><span class="p">(</span> <span class="nx">core_slice</span><span class="p">.</span><span class="nf">call</span><span class="p">(</span> <span class="nx">arguments</span> <span class="p">)</span> <span class="p">)</span> <span class="p">);</span>
+  <span class="p">};</span>
+
+  <span class="c1">// Set the guid of unique handler to the same of original handler, so it can be removed</span>
+  <span class="nx">proxy</span><span class="p">.</span><span class="nx">guid</span> <span class="o">=</span> <span class="nx">fn</span><span class="p">.</span><span class="nx">guid</span> <span class="o">=</span> <span class="nx">fn</span><span class="p">.</span><span class="nx">guid</span> <span class="o">||</span> <span class="nx">jQuery</span><span class="p">.</span><span class="nx">guid</span><span class="o">++</span><span class="p">;</span>
+
+  <span class="k">return</span> <span class="nx">proxy</span><span class="p">;</span>
+<span class="p">};</span>
+
+<span class="nx">Sound</span><span class="p">.</span><span class="nx">play</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{}</span>
+<span class="nx">Sound</span><span class="p">.</span><span class="nx">prototype</span> <span class="o">=</span> <span class="p">{</span> <span class="nx">something</span><span class="p">;</span> <span class="p">}</span>
+<span class="nx">Sound</span><span class="p">.</span><span class="nx">prototype</span><span class="p">.</span><span class="nx">play</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{}</span>
+<span class="nx">Sound</span><span class="p">.</span><span class="nx">prototype</span><span class="p">.</span><span class="nx">play</span> <span class="o">=</span> <span class="nx">myfunc</span>
+<span class="kd">var</span> <span class="nx">parser</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nf">createElement</span><span class="p">(</span><span class="dl">'</span><span class="s1">a</span><span class="dl">'</span><span class="p">);</span>
+<span class="nx">parser</span><span class="p">.</span><span class="nx">href</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">http://example.com:3000/pathname/?search=test#hash</span><span class="dl">"</span><span class="p">;</span>
+<span class="nx">parser</span><span class="p">.</span><span class="nx">hostname</span><span class="p">;</span> <span class="c1">// =&gt; "example.com"</span>
+</code></pre></div></div>
  <h4 id="python">Python</h4>
  <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="n">typing</span> <span class="kn">import</span> <span class="n">Iterator</span>
 

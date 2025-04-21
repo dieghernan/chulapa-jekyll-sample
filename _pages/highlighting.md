@@ -77,7 +77,7 @@ parser.hostname; // => "example.com"
 
 ```
   
-#### Python
+## Python
 
 ```python
 
@@ -144,7 +144,63 @@ class NewCommand(SublimeTasksBase):
 
 ```
 
-#### Java
+## PHP
+
+```php
+
+<?php
+
+// base class with member properties and methods
+class Vegetable {
+
+   var $edible;
+   var $color;
+
+   function Vegetable($edible, $color="green")
+   {
+       $this->edible = $edible;
+       $this->color = $color;
+   }
+
+   function is_edible()
+   {
+       return $this->edible;
+   }
+
+   function what_color()
+   {
+       return $this->color;
+   }
+
+} // end of class Vegetable
+
+// extends the base class
+class Spinach extends Vegetable {
+
+   var $cooked = false;
+
+   function Spinach()
+   {
+       $this->Vegetable(true, "green");
+   }
+
+   function cook_it()
+   {
+       $this->cooked = true;
+   }
+
+   function is_cooked()
+   {
+       return $this->cooked;
+   }
+
+} // end of class Spinach
+
+?>
+
+```
+
+## Java
 
 ```java
 
@@ -233,7 +289,7 @@ public class Life {
 
 ```
 
-#### C#
+## C#
 
 ```csharp
 using System.Collections.Generic;
@@ -304,7 +360,7 @@ namespace Abp.MemoryDb.Repositories
 }
 ```
 
-#### HTML
+## HTML
 
 ```html
 <!DOCTYPE html>
@@ -381,7 +437,7 @@ namespace Abp.MemoryDb.Repositories
 
 ```
 
-#### R
+## R
 
 ```r
 geom_dotplot <- function (mapping = NULL, data = NULL, stat = "bindot", position = "identity",

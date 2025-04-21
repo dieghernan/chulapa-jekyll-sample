@@ -18,8 +18,8 @@
       },
       "headline": "Syntax highlighting demo",
       "image": "https://github.com/octocat.png",
-      "datePublished": "2025-04-21T12:13:09+00:00",
-      "dateModified": "2025-04-21T12:13:09+00:00",
+      "datePublished": "2025-04-21T12:23:25+00:00",
+      "dateModified": "2025-04-21T12:23:25+00:00",
       "author": {
         "@type": "Person",
         "name": "Octocat"
@@ -180,7 +180,7 @@
 			</button>
 		</p>
 		<nav class="navbar-nav px-3 my-auto">		  <p class="mb-2" ><a class="nav-link font-weight-bold lead" href="#">Syntax highlighting demo</a></p>		
-			<ul class="nav flex-column" id="sidetoc"><li class="nav-item nav d-block"><a href="#javascript" class="nav-link">Javascript</a></li><li class="nav-item nav d-block"><a href="#python" class="nav-link">Python</a></li><li class="nav-item nav d-block"><a href="#css" class="nav-link">CSS</a></li><li class="nav-item nav d-block"><a href="#php" class="nav-link">PHP</a></li><li class="nav-item nav d-block"><a href="#java" class="nav-link">Java</a></li><li class="nav-item nav d-block"><a href="#c" class="nav-link">C#</a></li><li class="nav-item nav d-block"><a href="#html" class="nav-link">HTML</a></li><li class="nav-item nav d-block"><a href="#r" class="nav-link">R</a></li><li class="nav-item nav d-block"><a href="#ruby" class="nav-link">Ruby</a></li></ul>
+			<ul class="nav flex-column" id="sidetoc"><li class="nav-item nav d-block"><a href="#javascript" class="nav-link">Javascript</a></li><li class="nav-item nav d-block"><a href="#python" class="nav-link">Python</a></li><li class="nav-item nav d-block"><a href="#css" class="nav-link">CSS</a></li><li class="nav-item nav d-block"><a href="#php" class="nav-link">PHP</a></li><li class="nav-item nav d-block"><a href="#java" class="nav-link">Java</a></li><li class="nav-item nav d-block"><a href="#c" class="nav-link">C#</a></li><li class="nav-item nav d-block"><a href="#html" class="nav-link">HTML</a></li><li class="nav-item nav d-block"><a href="#r" class="nav-link">R</a></li><li class="nav-item nav d-block"><a href="#ruby" class="nav-link">Ruby</a></li><li class="nav-item nav d-block"><a href="#perl" class="nav-link">Perl</a></li></ul>
 		</nav>   
 	</div>
 			<p>Demo of the different pieces of code for testing syntax highlighting.</p>
@@ -840,6 +840,56 @@
 
 <span class="nb">require</span> <span class="s1">'bundler/setup'</span> <span class="k">if</span> <span class="no">File</span><span class="p">.</span><span class="nf">exists?</span><span class="p">(</span><span class="no">ENV</span><span class="p">[</span><span class="s1">'BUNDLE_GEMFILE'</span><span class="p">])</span>
 
+
+</code></pre></div></div>
+ <h2 id="perl">Perl</h2>
+ <div class="language-perl highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="nv">Search</span> <span class="nv">Scopes</span>
+<span class="k">use</span> <span class="nv">strict</span><span class="p">;</span>
+
+<span class="c1">#</span>
+<span class="c1"># This script also prints the contents of all the listed files, but</span>
+<span class="c1"># it first scans through the list to check that each file exists and</span>
+<span class="c1"># is readable.  It will stop if there are any errors.</span>
+<span class="c1">#</span>
+
+<span class="k">my</span> <span class="nv">$bad</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+<span class="k">foreach</span> <span class="k">my</span> <span class="nv">$fn</span> <span class="p">(</span><span class="nv">@ARGV</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span><span class="p">(</span><span class="o">!</span> <span class="o">-</span><span class="nv">r</span> <span class="nv">$fn</span><span class="p">)</span> <span class="p">{</span>
+        <span class="c1"># File cannot be read.  See if it exists or not for a better</span>
+        <span class="c1"># error message.</span>
+        <span class="k">if</span><span class="p">(</span><span class="o">-</span><span class="nv">e</span> <span class="nv">$fn</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">print</span> <span class="bp">STDERR</span> <span class="p">"</span><span class="s2">You do not have permission to read </span><span class="si">$fn</span><span class="s2">.</span><span class="se">\n</span><span class="p">";</span>
+        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+            <span class="k">print</span> <span class="bp">STDERR</span> <span class="p">"</span><span class="s2">File </span><span class="si">$fn</span><span class="s2"> does not exist.</span><span class="se">\n</span><span class="p">";</span>
+        <span class="p">}</span>
+
+        <span class="c1"># One way or the other, it's bad.</span>
+        <span class="nv">$bad</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="c1"># If there was a problem, bail out.</span>
+<span class="k">if</span><span class="p">(</span><span class="nv">$bad</span><span class="p">)</span> <span class="p">{</span> <span class="nb">exit</span> <span class="mi">2</span><span class="p">;</span> <span class="p">}</span>
+
+<span class="c1"># Copy all the files.</span>
+<span class="k">while</span><span class="p">(</span><span class="k">my</span> <span class="nv">$fn</span> <span class="o">=</span> <span class="nb">shift</span> <span class="nv">@ARGV</span><span class="p">)</span> <span class="p">{</span>
+
+    <span class="c1"># Open the file.</span>
+    <span class="k">if</span><span class="p">(</span><span class="o">!</span><span class="nb">open</span><span class="p">(</span><span class="nv">INFILE</span><span class="p">,</span> <span class="nv">$fn</span><span class="p">))</span> <span class="p">{</span>
+        <span class="c1"># We know the file is readable, but sometimes something else goes</span>
+        <span class="c1"># wrong.  It's safer to check.</span>
+        <span class="k">print</span> <span class="bp">STDERR</span> <span class="p">"</span><span class="s2">Cannot open </span><span class="si">$fn</span><span class="s2">: $!</span><span class="se">\n</span><span class="p">";</span>
+        <span class="k">next</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="c1"># Copy it.</span>
+    <span class="k">while</span><span class="p">(</span><span class="k">my</span> <span class="nv">$l</span> <span class="o">=</span> <span class="o">&lt;</span><span class="nv">INFILE</span><span class="o">&gt;</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">print</span> <span class="nv">$l</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="nb">close</span> <span class="nv">INFILE</span><span class="p">;</span>
+<span class="p">}</span>
 
 </code></pre></div></div>
 </div>

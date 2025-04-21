@@ -5,7 +5,7 @@
     <!--  MIT License-->
     <!-- Docs: https://dieghernan.github.io/chulapa -->
     <!-- Repo: https://github.com/dieghernan/chulapa -->
-    <!-- Page build 2025-04-11 -->
+    <!-- Page build 2025-04-21 -->
      <!-- Jekyll Version 4.4.1 -->
     <!--Google Structured Data-->
     <script type="application/ld+json">
@@ -18,8 +18,8 @@
       },
       "headline": "Syntax highlighting demo",
       "image": "https://github.com/octocat.png",
-      "datePublished": "2025-04-11T12:44:15+00:00",
-      "dateModified": "2025-04-11T12:44:15+00:00",
+      "datePublished": "2025-04-21T10:16:55+00:00",
+      "dateModified": "2025-04-21T10:16:55+00:00",
       "author": {
         "@type": "Person",
         "name": "Octocat"
@@ -180,7 +180,7 @@
 			</button>
 		</p>
 		<nav class="navbar-nav px-3 my-auto">		  <p class="mb-2" ><a class="nav-link font-weight-bold lead" href="#">Syntax highlighting demo</a></p>		
-			<ul class="nav flex-column" id="sidetoc"><li class="nav-item nav d-block"><a href="#javascript" class="nav-link">Javascript</a><ul><li class="nav-item nav d-block"><a href="#python" class="nav-link">Python</a></li><li class="nav-item nav d-block"><a href="#java" class="nav-link">Java</a></li><li class="nav-item nav d-block"><a href="#c" class="nav-link">C#</a></li><li class="nav-item nav d-block"><a href="#html" class="nav-link">HTML</a></li><li class="nav-item nav d-block"><a href="#r" class="nav-link">R</a></li></ul></li></ul></li><li class="nav-item nav d-block"><a href="#ruby" class="nav-link">Ruby</a></li></ul>
+			<ul class="nav flex-column" id="sidetoc"><li class="nav-item nav d-block"><a href="#javascript" class="nav-link">Javascript</a></li><li class="nav-item nav d-block"><a href="#python" class="nav-link">Python</a></li><li class="nav-item nav d-block"><a href="#php" class="nav-link">PHP</a></li><li class="nav-item nav d-block"><a href="#java" class="nav-link">Java</a></li><li class="nav-item nav d-block"><a href="#c" class="nav-link">C#</a></li><li class="nav-item nav d-block"><a href="#html" class="nav-link">HTML</a></li><li class="nav-item nav d-block"><a href="#r" class="nav-link">R</a></li><li class="nav-item nav d-block"><a href="#ruby" class="nav-link">Ruby</a></li></ul>
 		</nav>   
 	</div>
 			<p>Demo of the different pieces of code for testing syntax highlighting.</p>
@@ -248,7 +248,7 @@
 
 
 </code></pre></div></div>
- <h4 id="python">Python</h4>
+ <h2 id="python">Python</h2>
  <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
 <span class="c1">#!/usr/bin/python
 # -*- coding: utf-8 -*-
@@ -312,7 +312,60 @@
 
 
 </code></pre></div></div>
- <h4 id="java">Java</h4>
+ <h2 id="php">PHP</h2>
+ <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="cp">&lt;?php</span>
+
+<span class="c1">// base class with member properties and methods</span>
+<span class="kd">class</span> <span class="nc">Vegetable</span> <span class="p">{</span>
+
+   <span class="k">var</span> <span class="nv">$edible</span><span class="p">;</span>
+   <span class="k">var</span> <span class="nv">$color</span><span class="p">;</span>
+
+   <span class="k">function</span> <span class="n">Vegetable</span><span class="p">(</span><span class="nv">$edible</span><span class="p">,</span> <span class="nv">$color</span><span class="o">=</span><span class="s2">"green"</span><span class="p">)</span>
+   <span class="p">{</span>
+       <span class="nv">$this</span><span class="o">-&gt;</span><span class="n">edible</span> <span class="o">=</span> <span class="nv">$edible</span><span class="p">;</span>
+       <span class="nv">$this</span><span class="o">-&gt;</span><span class="n">color</span> <span class="o">=</span> <span class="nv">$color</span><span class="p">;</span>
+   <span class="p">}</span>
+
+   <span class="k">function</span> <span class="n">is_edible</span><span class="p">()</span>
+   <span class="p">{</span>
+       <span class="k">return</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="n">edible</span><span class="p">;</span>
+   <span class="p">}</span>
+
+   <span class="k">function</span> <span class="n">what_color</span><span class="p">()</span>
+   <span class="p">{</span>
+       <span class="k">return</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="n">color</span><span class="p">;</span>
+   <span class="p">}</span>
+
+<span class="p">}</span> <span class="c1">// end of class Vegetable</span>
+
+<span class="c1">// extends the base class</span>
+<span class="kd">class</span> <span class="nc">Spinach</span> <span class="kd">extends</span> <span class="nc">Vegetable</span> <span class="p">{</span>
+
+   <span class="k">var</span> <span class="nv">$cooked</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span>
+
+   <span class="k">function</span> <span class="n">Spinach</span><span class="p">()</span>
+   <span class="p">{</span>
+       <span class="nv">$this</span><span class="o">-&gt;</span><span class="nf">Vegetable</span><span class="p">(</span><span class="kc">true</span><span class="p">,</span> <span class="s2">"green"</span><span class="p">);</span>
+   <span class="p">}</span>
+
+   <span class="k">function</span> <span class="n">cook_it</span><span class="p">()</span>
+   <span class="p">{</span>
+       <span class="nv">$this</span><span class="o">-&gt;</span><span class="n">cooked</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span>
+   <span class="p">}</span>
+
+   <span class="k">function</span> <span class="n">is_cooked</span><span class="p">()</span>
+   <span class="p">{</span>
+       <span class="k">return</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="n">cooked</span><span class="p">;</span>
+   <span class="p">}</span>
+
+<span class="p">}</span> <span class="c1">// end of class Spinach</span>
+
+<span class="cp">?&gt;</span>
+
+</code></pre></div></div>
+ <h2 id="java">Java</h2>
  <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
 <span class="kn">import</span> <span class="nn">java.util.Scanner</span><span class="o">;</span>
 
@@ -398,7 +451,7 @@
 
 
 </code></pre></div></div>
- <h4 id="c">C#</h4>
+ <h2 id="c">C#</h2>
  <div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">using</span> <span class="nn">System.Collections.Generic</span><span class="p">;</span>
 <span class="k">using</span> <span class="nn">System.Linq</span><span class="p">;</span>
 <span class="k">using</span> <span class="nn">Abp.Domain.Entities</span><span class="p">;</span>
@@ -466,7 +519,7 @@
     <span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div></div>
- <h4 id="html">HTML</h4>
+ <h2 id="html">HTML</h2>
  <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
 <span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;head&gt;</span>
@@ -540,7 +593,7 @@
 <span class="nt">&lt;/html&gt;</span>
 
 </code></pre></div></div>
- <h4 id="r">R</h4>
+ <h2 id="r">R</h2>
  <div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">geom_dotplot</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="k">function</span><span class="w"> </span><span class="p">(</span><span class="n">mapping</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">NULL</span><span class="p">,</span><span class="w"> </span><span class="n">data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">NULL</span><span class="p">,</span><span class="w"> </span><span class="n">stat</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"bindot"</span><span class="p">,</span><span class="w"> </span><span class="n">position</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"identity"</span><span class="p">,</span><span class="w">
 </span><span class="n">na.rm</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">FALSE</span><span class="p">,</span><span class="w"> </span><span class="n">binwidth</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">NULL</span><span class="p">,</span><span class="w"> </span><span class="n">binaxis</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"x"</span><span class="p">,</span><span class="w"> </span><span class="n">method</span><span class="o">=</span><span class="s2">"dotdensity"</span><span class="p">,</span><span class="w"> </span><span class="n">binpositions</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"bygroup"</span><span class="p">,</span><span class="w"> </span><span class="n">stackdir</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"up"</span><span class="p">,</span><span class="w">
 </span><span class="n">stackratio</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1</span><span class="p">,</span><span class="w"> </span><span class="n">dotsize</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1</span><span class="p">,</span><span class="w"> </span><span class="n">stackgroups</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">FALSE</span><span class="p">,</span><span class="w"> </span><span class="n">...</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">

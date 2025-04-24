@@ -210,7 +210,53 @@ h1, p, table {
     width: 595px;
 }
 
+p { color: red !important; }
+
+@media screen and (min-width: 100px) {}
+
+
+@main-color: red;
+
+.foo {
+	background: @main-color;
+}
+
 ```
+## SASS
+
+```sass
+
+
+@import "foo.scss";
+
+@media (min-width: 600px) {}
+.seriousError {
+    @extend .error;
+}
+
+@for $i from 1 through 3 {}
+
+
+@font-face {
+	font-family: "opensans";
+	src: font-url("opensans.ttf");
+}
+
+$width: 5em;
+
+#main {
+    width: $width;
+}
+
+p.#{$name} {
+    #{$attr}-color: blue;
+}
+
+
+
+
+```
+
 
 ## PHP
 

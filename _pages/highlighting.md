@@ -802,7 +802,7 @@ Title 1
 ==
 
 Title 2
--—-
+-------
 
 # Title 1
 ## Title 2
@@ -810,7 +810,6 @@ Title 2
 #### Title 4
 ##### Title 5
 ###### Title 6
-
 
 Normal text
 
@@ -862,9 +861,11 @@ Inline code between backticks `Paragraph`
 
 ## YAML
 
-```r
+```yaml
+
+
 %YAML 1.2
-— !<tag:clarkevans.com,2002:invoice>
+--- !<tag:clarkevans.com,2002:invoice>
 invoice: 34843
 date   : 2001-01-23
 bill-to: &id001
@@ -893,6 +894,8 @@ total: 4443.52
 comments:
     Late afternoon is best.
     Backup contact is Nancy
+
+
 ```
 
 

@@ -5,7 +5,7 @@
     <!--  MIT License-->
     <!-- Docs: https://dieghernan.github.io/chulapa -->
     <!-- Repo: https://github.com/dieghernan/chulapa -->
-    <!-- Page build 2025-04-22 -->
+    <!-- Page build 2025-04-24 -->
      <!-- Jekyll Version 4.4.1 -->
     <!--Google Structured Data-->
     <script type="application/ld+json">
@@ -18,8 +18,8 @@
       },
       "headline": "Syntax highlighting demo",
       "image": "https://github.com/octocat.png",
-      "datePublished": "2025-04-22T06:55:01+00:00",
-      "dateModified": "2025-04-22T06:55:01+00:00",
+      "datePublished": "2025-04-24T15:24:17+00:00",
+      "dateModified": "2025-04-24T15:24:17+00:00",
       "author": {
         "@type": "Person",
         "name": "Octocat"
@@ -180,7 +180,7 @@
 			</button>
 		</p>
 		<nav class="navbar-nav px-3 my-auto">		  <p class="mb-2" ><a class="nav-link font-weight-bold lead" href="#">Syntax highlighting demo</a></p>		
-			<ul class="nav flex-column" id="sidetoc"><li class="nav-item nav d-block"><a href="#javascript" class="nav-link">Javascript</a></li><li class="nav-item nav d-block"><a href="#python" class="nav-link">Python</a></li><li class="nav-item nav d-block"><a href="#css" class="nav-link">CSS</a></li><li class="nav-item nav d-block"><a href="#php" class="nav-link">PHP</a></li><li class="nav-item nav d-block"><a href="#java" class="nav-link">Java</a></li><li class="nav-item nav d-block"><a href="#c" class="nav-link">C#</a></li><li class="nav-item nav d-block"><a href="#html" class="nav-link">HTML</a></li><li class="nav-item nav d-block"><a href="#r" class="nav-link">R</a></li><li class="nav-item nav d-block"><a href="#ruby" class="nav-link">Ruby</a></li><li class="nav-item nav d-block"><a href="#perl" class="nav-link">Perl</a></li><li class="nav-item nav d-block"><a href="#r-cran" class="nav-link">R (CRAN)</a></li></ul>
+			<ul class="nav flex-column" id="sidetoc"><li class="nav-item nav d-block"><a href="#javascript" class="nav-link">Javascript</a></li><li class="nav-item nav d-block"><a href="#python" class="nav-link">Python</a></li><li class="nav-item nav d-block"><a href="#css" class="nav-link">CSS</a></li><li class="nav-item nav d-block"><a href="#php" class="nav-link">PHP</a></li><li class="nav-item nav d-block"><a href="#java" class="nav-link">Java</a></li><li class="nav-item nav d-block"><a href="#c" class="nav-link">C#</a></li><li class="nav-item nav d-block"><a href="#html" class="nav-link">HTML</a></li><li class="nav-item nav d-block"><a href="#r" class="nav-link">R</a></li><li class="nav-item nav d-block"><a href="#ruby" class="nav-link">Ruby</a></li><li class="nav-item nav d-block"><a href="#perl" class="nav-link">Perl</a></li><li class="nav-item nav d-block"><a href="#markdown" class="nav-link">Markdown</a></li><li class="nav-item nav d-block"><a href="#yaml" class="nav-link">YAML</a></li></ul>
 		</nav>   
 	</div>
 			<p>Demo of the different pieces of code for testing syntax highlighting.</p>
@@ -892,195 +892,99 @@
 <span class="p">}</span>
 
 </code></pre></div></div>
- <h2 id="r-cran">R (CRAN)</h2>
- <div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">library</span><span class="p">(</span><span class="n">tidyterra</span><span class="p">)</span><span class="w">
-</span><span class="n">library</span><span class="p">(</span><span class="n">dplyr</span><span class="p">)</span><span class="w">
-</span><span class="n">library</span><span class="p">(</span><span class="n">tidyr</span><span class="p">)</span><span class="w">
-</span><span class="n">library</span><span class="p">(</span><span class="n">terra</span><span class="p">)</span><span class="w">
+ <h2 id="markdown">Markdown</h2>
+ <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="gu">Title 1
+==
+</span>
+Title 2
+-—-
 
-</span><span class="n">f</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">system.file</span><span class="p">(</span><span class="s2">"extdata/cyl_temp.tif"</span><span class="p">,</span><span class="w"> </span><span class="n">package</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"tidyterra"</span><span class="p">)</span><span class="w">
-
-</span><span class="n">temp</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">rast</span><span class="p">(</span><span class="n">f</span><span class="p">)</span><span class="w">
-
-</span><span class="n">temp</span><span class="w">
-</span><span class="c1">#&gt; class       : SpatRaster </span><span class="w">
-</span><span class="c1">#&gt; dimensions  : 87, 118, 3  (nrow, ncol, nlyr)</span><span class="w">
-</span><span class="c1">#&gt; resolution  : 3881.255, 3881.255  (x, y)</span><span class="w">
-</span><span class="c1">#&gt; extent      : -612335.4, -154347.3, 4283018, 4620687  (xmin, xmax, ymin, ymax)</span><span class="w">
-</span><span class="c1">#&gt; coord. ref. : World_Robinson </span><span class="w">
-</span><span class="c1">#&gt; source      : cyl_temp.tif </span><span class="w">
-</span><span class="c1">#&gt; names       :   tavg_04,   tavg_05,  tavg_06 </span><span class="w">
-</span><span class="c1">#&gt; min values  :  1.885463,  5.817587, 10.46338 </span><span class="w">
-</span><span class="c1">#&gt; max values  : 13.283829, 16.740898, 21.11378</span><span class="w">
-
-</span><span class="n">mod</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">temp</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
-  </span><span class="n">select</span><span class="p">(</span><span class="m">-1</span><span class="p">)</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
-  </span><span class="n">mutate</span><span class="p">(</span><span class="n">newcol</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">tavg_06</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">tavg_05</span><span class="p">)</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
-  </span><span class="n">relocate</span><span class="p">(</span><span class="n">newcol</span><span class="p">,</span><span class="w"> </span><span class="n">.before</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1</span><span class="p">)</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
-  </span><span class="n">replace_na</span><span class="p">(</span><span class="nf">list</span><span class="p">(</span><span class="n">newcol</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">3</span><span class="p">))</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
-  </span><span class="n">rename</span><span class="p">(</span><span class="n">difference</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">newcol</span><span class="p">)</span><span class="w">
-
-</span><span class="n">mod</span><span class="w">
-</span><span class="c1">#&gt; class       : SpatRaster </span><span class="w">
-</span><span class="c1">#&gt; dimensions  : 87, 118, 3  (nrow, ncol, nlyr)</span><span class="w">
-</span><span class="c1">#&gt; resolution  : 3881.255, 3881.255  (x, y)</span><span class="w">
-</span><span class="c1">#&gt; extent      : -612335.4, -154347.3, 4283018, 4620687  (xmin, xmax, ymin, ymax)</span><span class="w">
-</span><span class="c1">#&gt; coord. ref. : World_Robinson </span><span class="w">
-</span><span class="c1">#&gt; source(s)   : memory</span><span class="w">
-</span><span class="c1">#&gt; names       : difference,   tavg_05,  tavg_06 </span><span class="w">
-</span><span class="c1">#&gt; min values  :   2.817647,  5.817587, 10.46338 </span><span class="w">
-</span><span class="c1">#&gt; max values  :   5.307511, 16.740898, 21.11378</span><span class="w">
-</span><span class="n">lux</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">system.file</span><span class="p">(</span><span class="s2">"ex/lux.shp"</span><span class="p">,</span><span class="w"> </span><span class="n">package</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"terra"</span><span class="p">)</span><span class="w">
-
-</span><span class="n">v_lux</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">vect</span><span class="p">(</span><span class="n">lux</span><span class="p">)</span><span class="w">
-
-</span><span class="n">v_lux</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
-  </span><span class="c1"># Create categories</span><span class="w">
-  </span><span class="n">mutate</span><span class="p">(</span><span class="n">gr</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">cut</span><span class="p">(</span><span class="n">POP</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="m">1000</span><span class="p">,</span><span class="w"> </span><span class="m">5</span><span class="p">))</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
-  </span><span class="n">group_by</span><span class="p">(</span><span class="n">gr</span><span class="p">)</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
-  </span><span class="c1"># Summary</span><span class="w">
-  </span><span class="n">summarise</span><span class="p">(</span><span class="w">
-    </span><span class="n">n</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">n</span><span class="p">(),</span><span class="w">
-    </span><span class="n">tot_pop</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">sum</span><span class="p">(</span><span class="n">POP</span><span class="p">),</span><span class="w">
-    </span><span class="n">mean_area</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mean</span><span class="p">(</span><span class="n">AREA</span><span class="p">)</span><span class="w">
-  </span><span class="p">)</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
-  </span><span class="c1"># Arrange</span><span class="w">
-  </span><span class="n">arrange</span><span class="p">(</span><span class="n">desc</span><span class="p">(</span><span class="n">gr</span><span class="p">))</span><span class="w">
-</span><span class="c1">#&gt;  class       : SpatVector </span><span class="w">
-</span><span class="c1">#&gt;  geometry    : polygons </span><span class="w">
-</span><span class="c1">#&gt;  dimensions  : 3, 4  (geometries, attributes)</span><span class="w">
-</span><span class="c1">#&gt;  extent      : 5.74414, 6.528252, 49.44781, 50.18162  (xmin, xmax, ymin, ymax)</span><span class="w">
-</span><span class="c1">#&gt;  coord. ref. : lon/lat WGS 84 (EPSG:4326) </span><span class="w">
-</span><span class="c1">#&gt;  names       :          gr     n   tot_pop mean_area</span><span class="w">
-</span><span class="c1">#&gt;  type        :      &lt;fact&gt; &lt;int&gt;     &lt;num&gt;     &lt;num&gt;</span><span class="w">
-</span><span class="c1">#&gt;  values      :   (147,183]     2 3.594e+05       244</span><span class="w">
-</span><span class="c1">#&gt;                (40.7,76.1]     1 4.819e+04       185</span><span class="w">
-</span><span class="c1">#&gt;                (4.99,40.7]     9 1.944e+05     209.8</span><span class="w">
-
-</span><span class="n">library</span><span class="p">(</span><span class="n">ggplot2</span><span class="p">)</span><span class="w">
-
-</span><span class="c1"># A faceted SpatRaster</span><span class="w">
-
-</span><span class="n">ggplot</span><span class="p">()</span><span class="w"> </span><span class="o">+</span><span class="w">
-  </span><span class="n">geom_spatraster</span><span class="p">(</span><span class="n">data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">temp</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w">
-  </span><span class="n">facet_wrap</span><span class="p">(</span><span class="o">~</span><span class="n">lyr</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w">
-  </span><span class="n">scale_fill_whitebox_c</span><span class="p">(</span><span class="w">
-    </span><span class="n">palette</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"muted"</span><span class="p">,</span><span class="w">
-    </span><span class="n">na.value</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"white"</span><span class="w">
-  </span><span class="p">)</span><span class="w">
-
-</span><span class="c1"># Contour lines for a specific layer</span><span class="w">
-
-</span><span class="n">f_volcano</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">system.file</span><span class="p">(</span><span class="s2">"extdata/volcano2.tif"</span><span class="p">,</span><span class="w"> </span><span class="n">package</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"tidyterra"</span><span class="p">)</span><span class="w">
-</span><span class="n">volcano2</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">rast</span><span class="p">(</span><span class="n">f_volcano</span><span class="p">)</span><span class="w">
-
-</span><span class="n">ggplot</span><span class="p">()</span><span class="w"> </span><span class="o">+</span><span class="w">
-  </span><span class="n">geom_spatraster</span><span class="p">(</span><span class="n">data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">volcano2</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w">
-  </span><span class="n">geom_spatraster_contour</span><span class="p">(</span><span class="n">data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">volcano2</span><span class="p">,</span><span class="w"> </span><span class="n">breaks</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">seq</span><span class="p">(</span><span class="m">80</span><span class="p">,</span><span class="w"> </span><span class="m">200</span><span class="p">,</span><span class="w"> </span><span class="m">5</span><span class="p">))</span><span class="w"> </span><span class="o">+</span><span class="w">
-  </span><span class="n">scale_fill_whitebox_c</span><span class="p">()</span><span class="w"> </span><span class="o">+</span><span class="w">
-  </span><span class="n">coord_sf</span><span class="p">(</span><span class="n">expand</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">FALSE</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w">
-  </span><span class="n">labs</span><span class="p">(</span><span class="n">fill</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"elevation"</span><span class="p">)</span><span class="w">
-
-</span><span class="c1"># Contour filled</span><span class="w">
-
-</span><span class="n">ggplot</span><span class="p">()</span><span class="w"> </span><span class="o">+</span><span class="w">
-  </span><span class="n">geom_spatraster_contour_filled</span><span class="p">(</span><span class="n">data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">volcano2</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w">
-  </span><span class="n">scale_fill_whitebox_d</span><span class="p">(</span><span class="n">palette</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"atlas"</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w">
-  </span><span class="n">labs</span><span class="p">(</span><span class="n">fill</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"elevation"</span><span class="p">)</span><span class="w">
-
-</span><span class="c1"># Read a vector</span><span class="w">
-
-</span><span class="n">f_v</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">system.file</span><span class="p">(</span><span class="s2">"extdata/cyl.gpkg"</span><span class="p">,</span><span class="w"> </span><span class="n">package</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"tidyterra"</span><span class="p">)</span><span class="w">
-</span><span class="n">v</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">vect</span><span class="p">(</span><span class="n">f_v</span><span class="p">)</span><span class="w">
-
-</span><span class="c1"># Read a tile</span><span class="w">
-</span><span class="n">f_rgb</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">system.file</span><span class="p">(</span><span class="s2">"extdata/cyl_tile.tif"</span><span class="p">,</span><span class="w"> </span><span class="n">package</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"tidyterra"</span><span class="p">)</span><span class="w">
-
-</span><span class="n">r_rgb</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">rast</span><span class="p">(</span><span class="n">f_rgb</span><span class="p">)</span><span class="w">
-
-</span><span class="n">rgb_plot</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">ggplot</span><span class="p">(</span><span class="n">v</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w">
-  </span><span class="n">geom_spatraster_rgb</span><span class="p">(</span><span class="n">data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">r_rgb</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w">
-  </span><span class="n">geom_spatvector</span><span class="p">(</span><span class="n">fill</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">NA</span><span class="p">,</span><span class="w"> </span><span class="n">size</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1</span><span class="p">)</span><span class="w">
-
-</span><span class="n">rgb_plot</span><span class="w">
-
-</span><span class="n">asia</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">rast</span><span class="p">(</span><span class="n">system.file</span><span class="p">(</span><span class="s2">"extdata/asia.tif"</span><span class="p">,</span><span class="w"> </span><span class="n">package</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"tidyterra"</span><span class="p">))</span><span class="w">
-
-</span><span class="n">asia</span><span class="w">
-</span><span class="c1">#&gt; class       : SpatRaster </span><span class="w">
-</span><span class="c1">#&gt; dimensions  : 164, 306, 1  (nrow, ncol, nlyr)</span><span class="w">
-</span><span class="c1">#&gt; resolution  : 31836.23, 31847.57  (x, y)</span><span class="w">
-</span><span class="c1">#&gt; extent      : 7619120, 17361007, -1304745, 3918256  (xmin, xmax, ymin, ymax)</span><span class="w">
-</span><span class="c1">#&gt; coord. ref. : WGS 84 / Pseudo-Mercator (EPSG:3857) </span><span class="w">
-</span><span class="c1">#&gt; source      : asia.tif </span><span class="w">
-</span><span class="c1">#&gt; name        : file44bc291153f2 </span><span class="w">
-</span><span class="c1">#&gt; min value   :        -9558.468 </span><span class="w">
-</span><span class="c1">#&gt; max value   :         5801.927</span><span class="w">
-
-</span><span class="n">ggplot</span><span class="p">()</span><span class="w"> </span><span class="o">+</span><span class="w">
-  </span><span class="n">geom_spatraster</span><span class="p">(</span><span class="n">data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">asia</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w">
-  </span><span class="n">scale_fill_hypso_tint_c</span><span class="p">(</span><span class="w">
-    </span><span class="n">palette</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"gmt_globe"</span><span class="p">,</span><span class="w">
-    </span><span class="n">labels</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">scales</span><span class="o">::</span><span class="n">label_number</span><span class="p">(),</span><span class="w">
-    </span><span class="c1"># Further refinements</span><span class="w">
-    </span><span class="n">breaks</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">c</span><span class="p">(</span><span class="m">-10000</span><span class="p">,</span><span class="w"> </span><span class="m">-5000</span><span class="p">,</span><span class="w"> </span><span class="m">0</span><span class="p">,</span><span class="w"> </span><span class="m">2000</span><span class="p">,</span><span class="w"> </span><span class="m">5000</span><span class="p">,</span><span class="w"> </span><span class="m">8000</span><span class="p">),</span><span class="w">
-    </span><span class="n">guide</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">guide_colorbar</span><span class="p">(</span><span class="n">reverse</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">TRUE</span><span class="p">)</span><span class="w">
-  </span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w">
-  </span><span class="n">labs</span><span class="p">(</span><span class="w">
-    </span><span class="n">fill</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"elevation (m)"</span><span class="p">,</span><span class="w">
-    </span><span class="n">title</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"Hypsometric map of Asia"</span><span class="w">
-  </span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w">
-  </span><span class="n">theme</span><span class="p">(</span><span class="w">
-    </span><span class="n">legend.position</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"bottom"</span><span class="p">,</span><span class="w">
-    </span><span class="n">legend.title.position</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"top"</span><span class="p">,</span><span class="w">
-    </span><span class="n">legend.key.width</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">rel</span><span class="p">(</span><span class="m">3</span><span class="p">),</span><span class="w">
-    </span><span class="n">legend.ticks</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">element_line</span><span class="p">(</span><span class="n">colour</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"black"</span><span class="p">,</span><span class="w"> </span><span class="n">linewidth</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0.3</span><span class="p">),</span><span class="w">
-    </span><span class="n">legend.direction</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"horizontal"</span><span class="w">
-  </span><span class="p">)</span><span class="w">
-
-</span><span class="n">lux</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">system.file</span><span class="p">(</span><span class="s2">"ex/lux.shp"</span><span class="p">,</span><span class="w"> </span><span class="n">package</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"terra"</span><span class="p">)</span><span class="w">
-
-</span><span class="n">v_lux</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">terra</span><span class="o">::</span><span class="n">vect</span><span class="p">(</span><span class="n">lux</span><span class="p">)</span><span class="w">
-
-</span><span class="n">ggplot</span><span class="p">(</span><span class="n">v_lux</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w">
-  </span><span class="n">geom_spatvector</span><span class="p">(</span><span class="n">aes</span><span class="p">(</span><span class="n">fill</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">POP</span><span class="p">),</span><span class="w"> </span><span class="n">color</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"white"</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w">
-  </span><span class="n">geom_spatvector_text</span><span class="p">(</span><span class="n">aes</span><span class="p">(</span><span class="n">label</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">NAME_2</span><span class="p">),</span><span class="w"> </span><span class="n">color</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"grey90"</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w">
-  </span><span class="n">scale_fill_binned</span><span class="p">(</span><span class="n">labels</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">scales</span><span class="o">::</span><span class="n">number_format</span><span class="p">())</span><span class="w"> </span><span class="o">+</span><span class="w">
-  </span><span class="n">coord_sf</span><span class="p">(</span><span class="n">crs</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">3857</span><span class="p">)</span><span class="w">
-
-</span><span class="c1"># Dissolving</span><span class="w">
-</span><span class="n">v_lux</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
-  </span><span class="c1"># Create categories</span><span class="w">
-  </span><span class="n">mutate</span><span class="p">(</span><span class="n">gr</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">cut</span><span class="p">(</span><span class="n">POP</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="m">1000</span><span class="p">,</span><span class="w"> </span><span class="m">5</span><span class="p">))</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
-  </span><span class="n">group_by</span><span class="p">(</span><span class="n">gr</span><span class="p">)</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
-  </span><span class="c1"># Summary</span><span class="w">
-  </span><span class="n">summarise</span><span class="p">(</span><span class="w">
-    </span><span class="n">n</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">n</span><span class="p">(),</span><span class="w">
-    </span><span class="n">tot_pop</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">sum</span><span class="p">(</span><span class="n">POP</span><span class="p">),</span><span class="w">
-    </span><span class="n">mean_area</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mean</span><span class="p">(</span><span class="n">AREA</span><span class="p">)</span><span class="w">
-  </span><span class="p">)</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
-  </span><span class="n">ggplot</span><span class="p">()</span><span class="w"> </span><span class="o">+</span><span class="w">
-  </span><span class="n">geom_spatvector</span><span class="p">(</span><span class="n">aes</span><span class="p">(</span><span class="n">fill</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">tot_pop</span><span class="p">),</span><span class="w"> </span><span class="n">color</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"black"</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w">
-  </span><span class="n">geom_spatvector_label</span><span class="p">(</span><span class="n">aes</span><span class="p">(</span><span class="n">label</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">gr</span><span class="p">))</span><span class="w"> </span><span class="o">+</span><span class="w">
-  </span><span class="n">coord_sf</span><span class="p">(</span><span class="n">crs</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">3857</span><span class="p">)</span><span class="w">
+<span class="gh"># Title 1</span>
+<span class="gu">## Title 2</span>
+<span class="gu">### Title 3</span>
+<span class="gu">#### Title 4</span>
+<span class="gu">##### Title 5</span>
+<span class="gu">###### Title 6</span><span class="sb">
 
 
-</span><span class="c1"># Same but keeping internal boundaries</span><span class="w">
-</span><span class="n">v_lux</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
-  </span><span class="c1"># Create categories</span><span class="w">
-  </span><span class="n">mutate</span><span class="p">(</span><span class="n">gr</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">cut</span><span class="p">(</span><span class="n">POP</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="m">1000</span><span class="p">,</span><span class="w"> </span><span class="m">5</span><span class="p">))</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
-  </span><span class="n">group_by</span><span class="p">(</span><span class="n">gr</span><span class="p">)</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
-  </span><span class="c1"># Summary without dissolving</span><span class="w">
-  </span><span class="n">summarise</span><span class="p">(</span><span class="w">
-    </span><span class="n">n</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">n</span><span class="p">(),</span><span class="w">
-    </span><span class="n">tot_pop</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">sum</span><span class="p">(</span><span class="n">POP</span><span class="p">),</span><span class="w">
-    </span><span class="n">mean_area</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mean</span><span class="p">(</span><span class="n">AREA</span><span class="p">),</span><span class="w">
-    </span><span class="n">.dissolve</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">FALSE</span><span class="w">
-  </span><span class="p">)</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
-  </span><span class="n">ggplot</span><span class="p">()</span><span class="w"> </span><span class="o">+</span><span class="w">
-  </span><span class="n">geom_spatvector</span><span class="p">(</span><span class="n">aes</span><span class="p">(</span><span class="n">fill</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">tot_pop</span><span class="p">),</span><span class="w"> </span><span class="n">color</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"black"</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w">
-  </span><span class="n">geom_spatvector_label</span><span class="p">(</span><span class="n">aes</span><span class="p">(</span><span class="n">label</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">gr</span><span class="p">))</span><span class="w"> </span><span class="o">+</span><span class="w">
-  </span><span class="n">coord_sf</span><span class="p">(</span><span class="n">crs</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">3857</span><span class="p">)</span><span class="w">
+</span>Normal text
+
+<span class="ge">*Italic*</span>
+<span class="ge">**</span>Bold on
+multiple lines<span class="ge">**</span>
+<span class="err">*</span>Italic on
+multiple lines too<span class="err">*</span>
+<span class="gs">__It also works with underscores__</span>
+<span class="ge">_It also works with underscores_</span>
+
+<span class="ge">__</span>An empty line
+
+is not allowed__
+
+<span class="p">[</span><span class="nv">Prism</span><span class="p">](</span><span class="sx">http://www.prismjs.com</span><span class="p">)</span>
+<span class="p">[</span><span class="nv">Prism</span><span class="p">](</span><span class="sx">http://www.prismjs.com</span> “Prism”)
+
+<span class="p">[</span><span class="ss">prism link</span><span class="p">]:</span> <span class="sx">http://www.prismjs.com</span> <span class="nn">(Prism)</span>
+[Prism] [prism link]
+<span class="p">
+*</span> This is
+<span class="p">*</span> an unordered list
+<span class="p">
+1.</span> This is an
+<span class="p">2.</span> ordered list
+<span class="p">
+*</span> <span class="ge">*List item in italic*</span>
+<span class="p">*</span> <span class="gs">**List item in bold**</span>
+<span class="p">*</span> <span class="p">[</span><span class="nv">List item as a link</span><span class="p">](</span><span class="sx">http://example.com</span> “This is an example”)
+<span class="gt">
+&gt; This is a quotation</span>
+<span class="gt">&gt;&gt; With another quotation inside</span>
+<span class="gt">&gt; _italic here_, __bold there__</span>
+<span class="gt">&gt; And a [link](http://example.com)</span><span class="sb">
+
+
+</span>Inline code between backticks <span class="sb">`Paragraph`
+
+    some_code(); /* Indented
+    with four spaces */
+
+	some_code(); /* Indented
+	with a tab */
+
+
+</span></code></pre></div></div>
+ <h2 id="yaml">YAML</h2>
+ <div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">%</span><span class="n">YAML</span><span class="w"> </span><span class="m">1.2</span><span class="w">
+</span><span class="err">—</span><span class="w"> </span><span class="o">!&lt;</span><span class="n">tag</span><span class="o">:</span><span class="n">clarkevans.com</span><span class="p">,</span><span class="m">2002</span><span class="o">:</span><span class="n">invoice</span><span class="o">&gt;</span><span class="w">
+</span><span class="n">invoice</span><span class="o">:</span><span class="w"> </span><span class="m">34843</span><span class="w">
+</span><span class="n">date</span><span class="w">   </span><span class="o">:</span><span class="w"> </span><span class="m">2001-01-23</span><span class="w">
+</span><span class="n">bill</span><span class="o">-</span><span class="n">to</span><span class="o">:</span><span class="w"> </span><span class="o">&amp;</span><span class="n">id001</span><span class="w">
+  </span><span class="n">given</span><span class="w">  </span><span class="o">:</span><span class="w"> </span><span class="n">Chris</span><span class="w">
+  </span><span class="n">family</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="n">Dumars</span><span class="w">
+  </span><span class="n">address</span><span class="o">:</span><span class="w">
+    </span><span class="n">lines</span><span class="o">:</span><span class="w"> </span><span class="o">|</span><span class="w">
+      </span><span class="m">458</span><span class="w"> </span><span class="n">Walkman</span><span class="w"> </span><span class="n">Dr.</span><span class="w">
+      </span><span class="n">Suite</span><span class="w"> </span><span class="c1">#292</span><span class="w">
+    </span><span class="n">city</span><span class="w">    </span><span class="o">:</span><span class="w"> </span><span class="n">Royal</span><span class="w"> </span><span class="n">Oak</span><span class="w">
+    </span><span class="n">state</span><span class="w">   </span><span class="o">:</span><span class="w"> </span><span class="n">MI</span><span class="w">
+    </span><span class="n">postal</span><span class="w">  </span><span class="o">:</span><span class="w"> </span><span class="m">48046</span><span class="w">
+</span><span class="n">ship</span><span class="o">-</span><span class="n">to</span><span class="o">:</span><span class="w">
+  </span><span class="o">&lt;&lt;:</span><span class="w"> </span><span class="o">*</span><span class="n">id001</span><span class="w">
+  </span><span class="n">product</span><span class="o">:</span><span class="w">
+    </span><span class="o">-</span><span class="w"> </span><span class="n">sku</span><span class="w">         </span><span class="o">:</span><span class="w"> </span><span class="n">BL394D</span><span class="w">
+      </span><span class="n">quantity</span><span class="w">    </span><span class="o">:</span><span class="w"> </span><span class="m">4</span><span class="w">
+      </span><span class="n">description</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="n">Basketball</span><span class="w">
+      </span><span class="n">price</span><span class="w">       </span><span class="o">:</span><span class="w"> </span><span class="m">450.00</span><span class="w">
+    </span><span class="o">-</span><span class="w"> </span><span class="n">sku</span><span class="w">         </span><span class="o">:</span><span class="w"> </span><span class="n">BL4438H</span><span class="w">
+      </span><span class="n">quantity</span><span class="w">    </span><span class="o">:</span><span class="w"> </span><span class="m">1</span><span class="w">
+      </span><span class="n">description</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="n">Super</span><span class="w"> </span><span class="n">Hoop</span><span class="w">
+      </span><span class="n">price</span><span class="w">       </span><span class="o">:</span><span class="w"> </span><span class="m">2392.00</span><span class="w">
+</span><span class="n">tax</span><span class="w">  </span><span class="o">:</span><span class="w"> </span><span class="m">251.42</span><span class="w">
+</span><span class="n">total</span><span class="o">:</span><span class="w"> </span><span class="m">4443.52</span><span class="w">
+</span><span class="n">comments</span><span class="o">:</span><span class="w">
+    </span><span class="n">Late</span><span class="w"> </span><span class="n">afternoon</span><span class="w"> </span><span class="n">is</span><span class="w"> </span><span class="n">best.</span><span class="w">
+    </span><span class="n">Backup</span><span class="w"> </span><span class="n">contact</span><span class="w"> </span><span class="n">is</span><span class="w"> </span><span class="n">Nancy</span><span class="w">
 </span></code></pre></div></div>
 </div>
 </article>

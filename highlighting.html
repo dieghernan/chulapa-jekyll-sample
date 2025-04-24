@@ -18,8 +18,8 @@
       },
       "headline": "Syntax highlighting demo",
       "image": "https://github.com/octocat.png",
-      "datePublished": "2025-04-24T15:42:45+00:00",
-      "dateModified": "2025-04-24T15:42:45+00:00",
+      "datePublished": "2025-04-24T18:00:23+00:00",
+      "dateModified": "2025-04-24T18:00:23+00:00",
       "author": {
         "@type": "Person",
         "name": "Octocat"
@@ -940,18 +940,17 @@
 <span class="gu">Title 1
 ==
 </span>
-Title 2
--—-
-
+<span class="gh">Title 2
+-------
+</span>
 <span class="gh"># Title 1</span>
 <span class="gu">## Title 2</span>
 <span class="gu">### Title 3</span>
 <span class="gu">#### Title 4</span>
 <span class="gu">##### Title 5</span>
-<span class="gu">###### Title 6</span><span class="sb">
+<span class="gu">###### Title 6</span>
 
-
-</span>Normal text
+Normal text
 
 <span class="ge">*Italic*</span>
 <span class="ge">**</span>Bold on
@@ -998,37 +997,41 @@ is not allowed__
 
 </span></code></pre></div></div>
  <h2 id="yaml">YAML</h2>
- <div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">%</span><span class="n">YAML</span><span class="w"> </span><span class="m">1.2</span><span class="w">
-</span><span class="err">—</span><span class="w"> </span><span class="o">!&lt;</span><span class="n">tag</span><span class="o">:</span><span class="n">clarkevans.com</span><span class="p">,</span><span class="m">2002</span><span class="o">:</span><span class="n">invoice</span><span class="o">&gt;</span><span class="w">
-</span><span class="n">invoice</span><span class="o">:</span><span class="w"> </span><span class="m">34843</span><span class="w">
-</span><span class="n">date</span><span class="w">   </span><span class="o">:</span><span class="w"> </span><span class="m">2001-01-23</span><span class="w">
-</span><span class="n">bill</span><span class="o">-</span><span class="n">to</span><span class="o">:</span><span class="w"> </span><span class="o">&amp;</span><span class="n">id001</span><span class="w">
-  </span><span class="n">given</span><span class="w">  </span><span class="o">:</span><span class="w"> </span><span class="n">Chris</span><span class="w">
-  </span><span class="n">family</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="n">Dumars</span><span class="w">
-  </span><span class="n">address</span><span class="o">:</span><span class="w">
-    </span><span class="n">lines</span><span class="o">:</span><span class="w"> </span><span class="o">|</span><span class="w">
-      </span><span class="m">458</span><span class="w"> </span><span class="n">Walkman</span><span class="w"> </span><span class="n">Dr.</span><span class="w">
-      </span><span class="n">Suite</span><span class="w"> </span><span class="c1">#292</span><span class="w">
-    </span><span class="n">city</span><span class="w">    </span><span class="o">:</span><span class="w"> </span><span class="n">Royal</span><span class="w"> </span><span class="n">Oak</span><span class="w">
-    </span><span class="n">state</span><span class="w">   </span><span class="o">:</span><span class="w"> </span><span class="n">MI</span><span class="w">
-    </span><span class="n">postal</span><span class="w">  </span><span class="o">:</span><span class="w"> </span><span class="m">48046</span><span class="w">
-</span><span class="n">ship</span><span class="o">-</span><span class="n">to</span><span class="o">:</span><span class="w">
-  </span><span class="o">&lt;&lt;:</span><span class="w"> </span><span class="o">*</span><span class="n">id001</span><span class="w">
-  </span><span class="n">product</span><span class="o">:</span><span class="w">
-    </span><span class="o">-</span><span class="w"> </span><span class="n">sku</span><span class="w">         </span><span class="o">:</span><span class="w"> </span><span class="n">BL394D</span><span class="w">
-      </span><span class="n">quantity</span><span class="w">    </span><span class="o">:</span><span class="w"> </span><span class="m">4</span><span class="w">
-      </span><span class="n">description</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="n">Basketball</span><span class="w">
-      </span><span class="n">price</span><span class="w">       </span><span class="o">:</span><span class="w"> </span><span class="m">450.00</span><span class="w">
-    </span><span class="o">-</span><span class="w"> </span><span class="n">sku</span><span class="w">         </span><span class="o">:</span><span class="w"> </span><span class="n">BL4438H</span><span class="w">
-      </span><span class="n">quantity</span><span class="w">    </span><span class="o">:</span><span class="w"> </span><span class="m">1</span><span class="w">
-      </span><span class="n">description</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="n">Super</span><span class="w"> </span><span class="n">Hoop</span><span class="w">
-      </span><span class="n">price</span><span class="w">       </span><span class="o">:</span><span class="w"> </span><span class="m">2392.00</span><span class="w">
-</span><span class="n">tax</span><span class="w">  </span><span class="o">:</span><span class="w"> </span><span class="m">251.42</span><span class="w">
-</span><span class="n">total</span><span class="o">:</span><span class="w"> </span><span class="m">4443.52</span><span class="w">
-</span><span class="n">comments</span><span class="o">:</span><span class="w">
-    </span><span class="n">Late</span><span class="w"> </span><span class="n">afternoon</span><span class="w"> </span><span class="n">is</span><span class="w"> </span><span class="n">best.</span><span class="w">
-    </span><span class="n">Backup</span><span class="w"> </span><span class="n">contact</span><span class="w"> </span><span class="n">is</span><span class="w"> </span><span class="n">Nancy</span><span class="w">
-</span></code></pre></div></div>
+ <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+
+<span class="nt">%YAML</span> <span class="m">1.2</span>
+<span class="nn">---</span> <span class="kt">!&lt;tag:clarkevans.com,2002:invoice&gt;</span>
+<span class="na">invoice</span><span class="pi">:</span> <span class="m">34843</span>
+<span class="na">date   </span><span class="pi">:</span> <span class="s">2001-01-23</span>
+<span class="na">bill-to</span><span class="pi">:</span> <span class="nl">&amp;id001</span>
+  <span class="na">given  </span><span class="pi">:</span> <span class="s">Chris</span>
+  <span class="na">family </span><span class="pi">:</span> <span class="s">Dumars</span>
+  <span class="na">address</span><span class="pi">:</span>
+    <span class="na">lines</span><span class="pi">:</span> <span class="pi">|</span>
+      <span class="s">458 Walkman Dr.</span>
+      <span class="s">Suite #292</span>
+    <span class="na">city    </span><span class="pi">:</span> <span class="s">Royal Oak</span>
+    <span class="na">state   </span><span class="pi">:</span> <span class="s">MI</span>
+    <span class="na">postal  </span><span class="pi">:</span> <span class="m">48046</span>
+<span class="na">ship-to</span><span class="pi">:</span>
+  <span class="na">&lt;&lt;</span><span class="pi">:</span> <span class="nv">*id001</span>
+  <span class="na">product</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">sku         </span><span class="pi">:</span> <span class="s">BL394D</span>
+      <span class="na">quantity    </span><span class="pi">:</span> <span class="m">4</span>
+      <span class="na">description </span><span class="pi">:</span> <span class="s">Basketball</span>
+      <span class="na">price       </span><span class="pi">:</span> <span class="m">450.00</span>
+    <span class="pi">-</span> <span class="na">sku         </span><span class="pi">:</span> <span class="s">BL4438H</span>
+      <span class="na">quantity    </span><span class="pi">:</span> <span class="m">1</span>
+      <span class="na">description </span><span class="pi">:</span> <span class="s">Super Hoop</span>
+      <span class="na">price       </span><span class="pi">:</span> <span class="m">2392.00</span>
+<span class="na">tax  </span><span class="pi">:</span> <span class="m">251.42</span>
+<span class="na">total</span><span class="pi">:</span> <span class="m">4443.52</span>
+<span class="na">comments</span><span class="pi">:</span>
+    <span class="s">Late afternoon is best.</span>
+    <span class="s">Backup contact is Nancy</span>
+
+
+</code></pre></div></div>
 </div>
 </article>
 		</div>

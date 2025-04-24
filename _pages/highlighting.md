@@ -748,199 +748,107 @@ while(my $fn = shift @ARGV) {
 }
 
 ```
+## Markdown
 
-## R (CRAN)
+```markdown
+
+Title 1
+==
+
+Title 2
+-—-
+
+# Title 1
+## Title 2
+### Title 3
+#### Title 4
+##### Title 5
+###### Title 6
+
+
+Normal text
+
+*Italic*
+**Bold on
+multiple lines**
+*Italic on
+multiple lines too*
+__It also works with underscores__
+_It also works with underscores_
+
+__An empty line
+
+is not allowed__
+
+[Prism](http://www.prismjs.com)
+[Prism](http://www.prismjs.com “Prism”)
+
+[prism link]: http://www.prismjs.com (Prism)
+[Prism] [prism link]
+
+* This is
+* an unordered list
+
+1. This is an
+2. ordered list
+
+* *List item in italic*
+* **List item in bold**
+* [List item as a link](http://example.com “This is an example”)
+
+> This is a quotation
+>> With another quotation inside
+> _italic here_, __bold there__
+> And a [link](http://example.com)
+
+
+Inline code between backticks `Paragraph`
+
+    some_code(); /* Indented
+    with four spaces */
+
+	some_code(); /* Indented
+	with a tab */
+
+
+```
+
+
+## YAML
 
 ```r
-library(tidyterra)
-library(dplyr)
-library(tidyr)
-library(terra)
-
-f <- system.file("extdata/cyl_temp.tif", package = "tidyterra")
-
-temp <- rast(f)
-
-temp
-#> class       : SpatRaster 
-#> dimensions  : 87, 118, 3  (nrow, ncol, nlyr)
-#> resolution  : 3881.255, 3881.255  (x, y)
-#> extent      : -612335.4, -154347.3, 4283018, 4620687  (xmin, xmax, ymin, ymax)
-#> coord. ref. : World_Robinson 
-#> source      : cyl_temp.tif 
-#> names       :   tavg_04,   tavg_05,  tavg_06 
-#> min values  :  1.885463,  5.817587, 10.46338 
-#> max values  : 13.283829, 16.740898, 21.11378
-
-mod <- temp %>%
-  select(-1) %>%
-  mutate(newcol = tavg_06 - tavg_05) %>%
-  relocate(newcol, .before = 1) %>%
-  replace_na(list(newcol = 3)) %>%
-  rename(difference = newcol)
-
-mod
-#> class       : SpatRaster 
-#> dimensions  : 87, 118, 3  (nrow, ncol, nlyr)
-#> resolution  : 3881.255, 3881.255  (x, y)
-#> extent      : -612335.4, -154347.3, 4283018, 4620687  (xmin, xmax, ymin, ymax)
-#> coord. ref. : World_Robinson 
-#> source(s)   : memory
-#> names       : difference,   tavg_05,  tavg_06 
-#> min values  :   2.817647,  5.817587, 10.46338 
-#> max values  :   5.307511, 16.740898, 21.11378
-lux <- system.file("ex/lux.shp", package = "terra")
-
-v_lux <- vect(lux)
-
-v_lux %>%
-  # Create categories
-  mutate(gr = cut(POP / 1000, 5)) %>%
-  group_by(gr) %>%
-  # Summary
-  summarise(
-    n = n(),
-    tot_pop = sum(POP),
-    mean_area = mean(AREA)
-  ) %>%
-  # Arrange
-  arrange(desc(gr))
-#>  class       : SpatVector 
-#>  geometry    : polygons 
-#>  dimensions  : 3, 4  (geometries, attributes)
-#>  extent      : 5.74414, 6.528252, 49.44781, 50.18162  (xmin, xmax, ymin, ymax)
-#>  coord. ref. : lon/lat WGS 84 (EPSG:4326) 
-#>  names       :          gr     n   tot_pop mean_area
-#>  type        :      <fact> <int>     <num>     <num>
-#>  values      :   (147,183]     2 3.594e+05       244
-#>                (40.7,76.1]     1 4.819e+04       185
-#>                (4.99,40.7]     9 1.944e+05     209.8
-
-library(ggplot2)
-
-# A faceted SpatRaster
-
-ggplot() +
-  geom_spatraster(data = temp) +
-  facet_wrap(~lyr) +
-  scale_fill_whitebox_c(
-    palette = "muted",
-    na.value = "white"
-  )
-
-# Contour lines for a specific layer
-
-f_volcano <- system.file("extdata/volcano2.tif", package = "tidyterra")
-volcano2 <- rast(f_volcano)
-
-ggplot() +
-  geom_spatraster(data = volcano2) +
-  geom_spatraster_contour(data = volcano2, breaks = seq(80, 200, 5)) +
-  scale_fill_whitebox_c() +
-  coord_sf(expand = FALSE) +
-  labs(fill = "elevation")
-
-# Contour filled
-
-ggplot() +
-  geom_spatraster_contour_filled(data = volcano2) +
-  scale_fill_whitebox_d(palette = "atlas") +
-  labs(fill = "elevation")
-
-# Read a vector
-
-f_v <- system.file("extdata/cyl.gpkg", package = "tidyterra")
-v <- vect(f_v)
-
-# Read a tile
-f_rgb <- system.file("extdata/cyl_tile.tif", package = "tidyterra")
-
-r_rgb <- rast(f_rgb)
-
-rgb_plot <- ggplot(v) +
-  geom_spatraster_rgb(data = r_rgb) +
-  geom_spatvector(fill = NA, size = 1)
-
-rgb_plot
-
-asia <- rast(system.file("extdata/asia.tif", package = "tidyterra"))
-
-asia
-#> class       : SpatRaster 
-#> dimensions  : 164, 306, 1  (nrow, ncol, nlyr)
-#> resolution  : 31836.23, 31847.57  (x, y)
-#> extent      : 7619120, 17361007, -1304745, 3918256  (xmin, xmax, ymin, ymax)
-#> coord. ref. : WGS 84 / Pseudo-Mercator (EPSG:3857) 
-#> source      : asia.tif 
-#> name        : file44bc291153f2 
-#> min value   :        -9558.468 
-#> max value   :         5801.927
-
-ggplot() +
-  geom_spatraster(data = asia) +
-  scale_fill_hypso_tint_c(
-    palette = "gmt_globe",
-    labels = scales::label_number(),
-    # Further refinements
-    breaks = c(-10000, -5000, 0, 2000, 5000, 8000),
-    guide = guide_colorbar(reverse = TRUE)
-  ) +
-  labs(
-    fill = "elevation (m)",
-    title = "Hypsometric map of Asia"
-  ) +
-  theme(
-    legend.position = "bottom",
-    legend.title.position = "top",
-    legend.key.width = rel(3),
-    legend.ticks = element_line(colour = "black", linewidth = 0.3),
-    legend.direction = "horizontal"
-  )
-
-lux <- system.file("ex/lux.shp", package = "terra")
-
-v_lux <- terra::vect(lux)
-
-ggplot(v_lux) +
-  geom_spatvector(aes(fill = POP), color = "white") +
-  geom_spatvector_text(aes(label = NAME_2), color = "grey90") +
-  scale_fill_binned(labels = scales::number_format()) +
-  coord_sf(crs = 3857)
-
-# Dissolving
-v_lux %>%
-  # Create categories
-  mutate(gr = cut(POP / 1000, 5)) %>%
-  group_by(gr) %>%
-  # Summary
-  summarise(
-    n = n(),
-    tot_pop = sum(POP),
-    mean_area = mean(AREA)
-  ) %>%
-  ggplot() +
-  geom_spatvector(aes(fill = tot_pop), color = "black") +
-  geom_spatvector_label(aes(label = gr)) +
-  coord_sf(crs = 3857)
-
-
-# Same but keeping internal boundaries
-v_lux %>%
-  # Create categories
-  mutate(gr = cut(POP / 1000, 5)) %>%
-  group_by(gr) %>%
-  # Summary without dissolving
-  summarise(
-    n = n(),
-    tot_pop = sum(POP),
-    mean_area = mean(AREA),
-    .dissolve = FALSE
-  ) %>%
-  ggplot() +
-  geom_spatvector(aes(fill = tot_pop), color = "black") +
-  geom_spatvector_label(aes(label = gr)) +
-  coord_sf(crs = 3857)
+%YAML 1.2
+— !<tag:clarkevans.com,2002:invoice>
+invoice: 34843
+date   : 2001-01-23
+bill-to: &id001
+  given  : Chris
+  family : Dumars
+  address:
+    lines: |
+      458 Walkman Dr.
+      Suite #292
+    city    : Royal Oak
+    state   : MI
+    postal  : 48046
+ship-to:
+  <<: *id001
+  product:
+    - sku         : BL394D
+      quantity    : 4
+      description : Basketball
+      price       : 450.00
+    - sku         : BL4438H
+      quantity    : 1
+      description : Super Hoop
+      price       : 2392.00
+tax  : 251.42
+total: 4443.52
+comments:
+    Late afternoon is best.
+    Backup contact is Nancy
 ```
+
 
 
 </div>

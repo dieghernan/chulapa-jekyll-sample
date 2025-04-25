@@ -222,9 +222,9 @@ p { color: red !important; }
 }
 
 ```
-## SASS
+## SCSS
 
-```sass
+```scss
 
 
 @import "foo.scss";

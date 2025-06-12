@@ -1,5 +1,5 @@
 github: [metadata]
-remote_theme: dieghernan/chulapa
+remote_theme: StefanoTrv/chulapa
 
 # Find errors on this file with http://www.yamllint.com/
 
@@ -168,7 +168,7 @@ googlefonts:
 # Theme and colors
 chulapa-skin: 
   highlight     :  skeletor # default["default"]
-  skin         :  oksolar-dark # Optional predefined skins
+  skin         :  listen # Optional predefined skins
   autothemer    :   # Bool: Use autotheming
   vars          :    
     primary     : #default ["#007bff"] - Bootstrap blue
